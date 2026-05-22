@@ -138,7 +138,6 @@
   .hero {
     padding: 64px 0 40px;
     text-align: center;
-    border-bottom: 1px solid var(--rule);
   }
 
   h1.title {
@@ -228,6 +227,36 @@
   .btn.secondary:hover { background: var(--ink); color: var(--bg); }
 
   /* ============ DEMO EXPLORER ============ */
+  /* Demo video section */
+  .demo {
+    padding: 0px 0 56px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .demo-header { text-align: center; margin-bottom: 24px; }
+  .demo-title {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 30px; font-weight: 500; letter-spacing: -0.01em;
+    margin: 0 0 8px;
+  }
+  .demo-sub {
+    font-family: 'Google Sans', sans-serif;
+    color: var(--ink-soft); font-size: 16px; margin: 0;
+  }
+  .demo-frame {
+    max-width: 960px;
+    margin: 0 auto;
+    background: var(--bg-elev);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .demo-frame video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
   .explorer {
     padding: 56px 0;
     border-bottom: 1px solid var(--rule);
@@ -1088,7 +1117,6 @@
       <sup>1 </sup>Sungkyunkwan University ·
       <sup>2 </sup>Yonsei University
     </div>
-    <div class="affiliations"><sup>†</sup>Corresponding author</div>
 
     <div class="actions">
       <!-- <a href="#" class="btn"><i class="fa-solid fa-file-pdf"></i> Paper</a> -->
@@ -1099,6 +1127,19 @@
     </div>
   </div>
 </header>
+
+<!-- ============ DEMO VIDEO ============ -->
+<section class="demo" id="demo">
+  <div class="container">
+    <div class="demo-header">
+      <!-- <h2 class="demo-title">Demo</h2> -->
+      <!-- <p class="demo-sub">A walkthrough of VGenST-Bench.</p> -->
+    </div>
+    <div class="demo-frame">
+      <video src="static/videos/demo.mp4" controls autoplay muted loop playsinline preload="auto"></video>
+    </div>
+  </div>
+</section>
 
 <!-- ============ DEMO EXPLORER ============ -->
 <section class="explorer" id="explorer">
