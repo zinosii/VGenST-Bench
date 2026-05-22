@@ -41,7 +41,7 @@ The pipeline jointly synthesizes scene graphs, scenarios, videos, and QA sets th
 ## Installation
 
 ```bash
-git clone https://github.com/NeurIPS2026-VGenST-Bench/VGenST-Bench.git
+git clone https://github.com/zinosii/VGenST-Bench.git
 cd VGenST-Bench
 pip install -r requirements.txt
 ```
