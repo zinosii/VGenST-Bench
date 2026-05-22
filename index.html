@@ -1,0 +1,2324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VGenST-Bench</title>
+<meta name="description" content="VGenST-Bench is the first video benchmark constructed entirely from generative models for evaluating spatio-temporal reasoning in MLLMs.">
+
+<meta property="og:title" content="VGenST-Bench: A Benchmark for Spatio-Temporal Reasoning via Active Video Synthesis">
+<meta property="og:description" content="A video benchmark that uses video generative models to evaluate spatio-temporal reasoning in MLLMs.">
+<meta property="og:type" content="website">
+
+<link rel="icon" type="image/png" href="static/images/logo.png">
+<link rel="apple-touch-icon" href="static/images/logo.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Google+Sans:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+  :root {
+    --bg: #F7FAFC;
+    --bg-alt: #eff1f3;
+    --bg-elev: #FFFFFF;
+    --ink: #0D1B2A;
+    --ink-soft: #3B4A5A;
+    --ink-mute: #6B7A8A;
+    --rule: #DCE6EE;
+    --rule-strong: #B6C7D6;
+    --accent: #0072B2;
+    --accent-soft: #E8F2FA;
+    --accent-ink: #00466F;
+    --accent-light: #7CC3EE;
+    --link: #0072B2;
+    --link-hover: #00466F;
+    --code-bg: #EEF3F8;
+    --highlight: #CDE0EF;
+    --correct: #2E7D32;
+    --correct-soft: #E8F5E9;
+
+    /* axis accent colors */
+    --ax-scale: #0072B2;
+    --ax-persp: #5E81AC;
+    --ax-dyn:   #BF616A;
+  }
+
+  * { box-sizing: border-box; }
+
+  /* Alternating section backgrounds */
+  .explorer,
+  #pipeline { background: var(--bg-alt); }
+  html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+
+  /* ============ TOP NAV ============ */
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--bg);
+    border-bottom: 1px solid var(--rule);
+  }
+  .topbar-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+  }
+  .brand img { width: 26px; height: 26px; display: block; }
+  .brand:hover { color: var(--accent); }
+  .topbar-links {
+    display: inline-flex;
+    align-items: center;
+    gap: 22px;
+  }
+  .topbar-links a {
+    font-size: 14px;
+    color: var(--ink-soft);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.15s ease;
+  }
+  .topbar-links a:hover { color: var(--accent); }
+  @media (max-width: 640px) {
+    .topbar-inner { padding: 10px 16px; }
+    .brand span { display: none; }
+    .topbar-links { gap: 14px; }
+    .topbar-links a { font-size: 12.5px; }
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Google Sans', -apple-system, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body::before {
+    content: '';
+    position: fixed; inset: 0; pointer-events: none;
+    background-image:
+      radial-gradient(circle at 25% 30%, rgba(0, 114, 178, 0.018) 0%, transparent 40%),
+      radial-gradient(circle at 75% 70%, rgba(124, 195, 238, 0.025) 0%, transparent 40%);
+    z-index: 0;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .container-narrow {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ============ HERO ============ */
+  .hero {
+    padding: 64px 0 40px;
+    text-align: center;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  h1.title {
+    font-family: 'Google Sans', sans-serif;
+    font-weight: 600;
+    font-size: clamp(34px, 5.5vw, 60px);
+    line-height: 1.05;
+    letter-spacing: -0.035em;
+    margin: 0 0 18px;
+  }
+
+  h1.title .line-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    font-weight: 700;
+  }
+
+  h1.title .line-1 img {
+    width: 1em;
+    height: auto;
+    display: block;
+    flex: 0 0 auto;
+    transition: transform 0.3s ease;
+  }
+
+  h1.title .line-1 img:hover {
+    transform: scale(1.06) rotate(-2deg);
+  }
+
+  h1.title .line-2 {
+    display: block;
+    color: var(--accent);
+    font-weight: 500;
+    font-size: 0.78em;
+    letter-spacing: -0.025em;
+    margin-top: 10px;
+  }
+  h1.title .line-3 {
+    display: block;
+    color: var(--ink-soft);
+    font-weight: 400;
+    font-size: 0.68em;
+    letter-spacing: -0.015em;
+    margin-top: 2px;
+  }
+
+  .subtitle {
+    font-family: 'Google Sans', sans-serif;
+    font-weight: 400;
+    font-size: clamp(15px, 1.6vw, 17px);
+    color: var(--ink-soft);
+    margin: 0 auto 30px;
+    max-width: 680px;
+    line-height: 1.55;
+    letter-spacing: 0.005em;
+  }
+
+  .authors { margin: 28px 0 8px; font-size: 15.5px; line-height: 1.9; }
+  .authors .author { display: inline-block; margin: 0 6px; }
+  .authors .author sup { color: var(--accent); font-weight: 500; font-size: 0.7em; margin-left: 1px; }
+  .affiliations { color: var(--ink-mute); font-size: 13.5px; margin-bottom: 6px; }
+  .affiliations sup { color: var(--accent); font-weight: 500; }
+  .anon-note { font-size: 12.5px; color: var(--ink-mute); font-style: italic; }
+
+  .actions {
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;
+    margin: 32px auto 0; max-width: 720px;
+  }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 9px 18px;
+    background: var(--ink);
+    color: #FAF8F3;
+    border: 1px solid var(--ink);
+    border-radius: 999px;
+    font-family: 'Google Sans', sans-serif;
+    font-size: 13.5px; font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .btn:hover { background: var(--accent); border-color: var(--accent); transform: translateY(-1px); }
+  .btn.secondary { background: transparent; color: var(--ink); }
+  .btn.secondary:hover { background: var(--ink); color: var(--bg); }
+
+  /* ============ DEMO EXPLORER ============ */
+  .explorer {
+    padding: 56px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .explorer-header { text-align: center; margin-bottom: 28px; }
+
+  .eyebrow {
+    font-size: 11.5px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--accent); font-weight: 500; margin-bottom: 10px;
+  }
+
+  .explorer-title {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 30px; font-weight: 500; letter-spacing: -0.01em;
+    margin: 0 0 10px;
+  }
+
+  .explorer-sub {
+    font-family: 'Google Sans', sans-serif;
+    color: var(--ink-soft); font-size: 16px; margin: 0;
+    letter-spacing: 0.005em;
+  }
+
+  /* Axis selector — three rows of segmented chips */
+  .axis-panel {
+    margin: 32px auto 0;
+    max-width: 860px;
+    background: var(--bg-elev);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .axis-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .axis-row:last-child { border-bottom: none; }
+
+  .axis-label {
+    min-width: 150px;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .axis-label .axis-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex: 0 0 auto;
+  }
+
+  .axis-row[data-axis="scale"] .axis-dot { background: var(--ax-scale); }
+  .axis-row[data-axis="persp"] .axis-dot { background: var(--ax-persp); }
+  .axis-row[data-axis="dyn"]   .axis-dot { background: var(--ax-dyn);   }
+
+  .segmented {
+    display: inline-flex;
+    background: var(--code-bg);
+    border-radius: 999px;
+    padding: 3px;
+    gap: 2px;
+    flex-wrap: wrap;
+  }
+
+  .seg-btn {
+    background: transparent;
+    border: none;
+    color: var(--ink-soft);
+    font-family: 'Google Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 6px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .seg-btn:hover { color: var(--ink); }
+
+  .seg-btn.active {
+    background: var(--ink);
+    color: var(--bg);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+  }
+
+  /* Selected task pill (auto-derived from 3 axes) */
+  .selected-bar {
+    margin: 22px auto 0;
+    max-width: 860px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 18px;
+    background: var(--accent-soft);
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    font-size: 13.5px;
+    color: var(--accent-ink);
+    flex-wrap: wrap;
+  }
+
+  .selected-bar .pill-label {
+    font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--accent); font-weight: 600;
+  }
+
+  .selected-bar .task-code {
+    font-family: 'JetBrains Mono', monospace;
+    background: white;
+    color: var(--accent);
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  .selected-bar .task-name {
+    font-family: 'Google Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--accent-ink);
+  }
+
+  /* Task description card (below selected-bar) */
+  .task-desc {
+    margin: 10px auto 0;
+    max-width: 860px;
+    padding: 14px 18px;
+    background: var(--bg-elev);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--ink-soft);
+  }
+  .task-desc .td-label {
+    font-size: 10.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    font-weight: 600;
+    margin-right: 8px;
+  }
+
+  /* Stage: main video + QA + theme thumbnails */
+  .stage {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 28px;
+    align-items: start;
+  }
+
+  .stage-video {
+    background: var(--bg-elev);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .video-frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: linear-gradient(135deg, #1f1d18 0%, #2a2722 100%);
+    overflow: hidden;
+  }
+
+  .video-frame video,
+  .video-frame img {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .video-placeholder {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    color: rgba(255,255,255,0.4);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .video-meta {
+    padding: 14px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    border-top: 1px solid var(--rule);
+    background: var(--bg);
+    gap: 12px;
+  }
+
+  .video-meta .v-task-name {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 16px;
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  .video-meta .v-theme-name {
+    color: var(--ink-mute);
+    font-size: 12.5px;
+    text-align: right;
+  }
+
+  /* QA panel */
+  .qa-panel {
+    background: var(--bg-elev);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 22px 24px;
+    align-self: start;
+  }
+
+  /* Hierarchical level cards (3 horizontal cards) — paper-style QA type selector */
+  .qa-levels {
+    margin: 18px auto 0;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr 1.6fr 1fr;
+    gap: 14px;
+  }
+  .qa-level {
+    margin-top: 24px;
+    background: var(--bg-elev);
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--ql-accent);
+    border-radius: 6px;
+    padding: 14px 16px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .qa-level[data-level="L1"] { --ql-accent: #2A9D8F; --ql-soft: #E6F4F1; }
+  .qa-level[data-level="L2"] { --ql-accent: #E9A23B; --ql-soft: #FBF1DE; }
+  .qa-level[data-level="L3"] { --ql-accent: #9C6AB8; --ql-soft: #F0E7F5; }
+  .qa-level .ql-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ql-accent);
+    font-weight: 600;
+  }
+  .qa-level .ql-name {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink);
+    line-height: 1.3;
+    margin-bottom: 2px;
+  }
+  .qa-level .ql-types {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .ql-type {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 4px 8px;
+    margin: 0 -8px;
+    font-family: 'Google Sans', sans-serif;
+    font-size: 13px;
+    color: var(--ink-soft);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+    line-height: 1.4;
+  }
+  .ql-type:hover:not(.disabled) {
+    background: var(--ql-soft);
+    color: var(--ink);
+  }
+  .ql-type.active {
+    background: var(--ql-accent);
+    color: white;
+    font-weight: 500;
+  }
+  .ql-type.disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+  }
+  @media (max-width: 720px) {
+    .qa-levels { grid-template-columns: 1fr; }
+  }
+
+  /* QA type description */
+  .qa-type-desc {
+    margin: 0 0 14px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--ink-soft);
+  }
+  .qa-type-desc .qtd-name {
+    font-family: 'Google Sans', sans-serif;
+    font-weight: 500;
+    color: var(--ink);
+    font-size: 14px;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .qa-tag {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+  }
+
+  .qa-question {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.45;
+    color: var(--ink);
+    margin: 0 0 16px;
+    font-weight: 500;
+  }
+
+  .qa-options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .qa-options li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background: var(--code-bg);
+    font-size: 14px;
+    line-height: 1.45;
+    color: var(--ink);
+    transition: background 0.2s ease;
+  }
+
+  .qa-options li.correct {
+    background: var(--correct-soft);
+    color: var(--correct);
+    font-weight: 500;
+  }
+
+  .qa-options li.correct::after {
+    content: '\f00c';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    margin-left: auto;
+    font-size: 11px;
+    color: var(--correct);
+  }
+
+  .qa-options .letter {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-mute);
+    font-weight: 500;
+    min-width: 14px;
+  }
+
+  .qa-options li.correct .letter { color: var(--correct); }
+
+  /* Theme thumbnails (4 per task) */
+  .theme-strip {
+    margin-top: 24px;
+  }
+
+  .theme-strip-label {
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .theme-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+
+  .theme-card {
+    background: var(--bg-elev);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .theme-card:hover {
+    border-color: var(--rule-strong);
+    transform: translateY(-1px);
+  }
+
+  .theme-card.active {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px var(--accent-soft);
+  }
+
+  .theme-thumb {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/10;
+    background: linear-gradient(135deg, #EFEADC 0%, #DDD5BD 100%);
+    overflow: hidden;
+  }
+
+  .theme-thumb img {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .theme-thumb .placeholder-tiny {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--ink-mute);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .theme-info {
+    padding: 9px 11px 11px;
+    font-size: 12px;
+  }
+
+  .theme-info .theme-title {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 12.5px;
+    line-height: 1.25;
+    color: var(--ink);
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  /* Taxonomy at a glance (compact summary in Method) */
+  .glance-intro {
+    margin-top: 56px;
+    margin-bottom: 20px;
+  }
+  .glance-intro h3 {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin: 0 0 8px;
+  }
+  .glance-intro p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin: 0;
+    max-width: 760px;
+  }
+  .glance {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .glance-block {
+    background: var(--bg-elev);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 18px 20px;
+  }
+  .glance-block h3 {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+    margin: 0 0 4px;
+  }
+  .glance-block .gb-sub {
+    font-size: 12px;
+    color: var(--ink-mute);
+    margin-bottom: 14px;
+  }
+  table.glance-tasks {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    table-layout: fixed;
+  }
+  table.glance-tasks th,
+  table.glance-tasks td {
+    padding: 7px 6px;
+    text-align: left;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: middle;
+  }
+  table.glance-tasks th {
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    font-weight: 600;
+    background: var(--bg);
+    text-align: center;
+  }
+  table.glance-tasks th.grp-ego,
+  table.glance-tasks th.grp-exo {
+    color: var(--ink);
+    font-size: 10.5px;
+    border-bottom: 1px solid var(--rule-strong);
+  }
+  table.glance-tasks th.grp-exo { border-left: 1px solid var(--rule); }
+  table.glance-tasks th.sub {
+    font-size: 9.5px;
+    color: var(--ink-mute);
+    font-weight: 500;
+  }
+  table.glance-tasks td.scale {
+    font-weight: 500;
+    color: var(--ink);
+    background: var(--bg);
+    font-size: 12.5px;
+    width: 18%;
+  }
+  table.glance-tasks tbody td:nth-child(4) { border-left: 1px solid var(--rule); }
+  table.glance-tasks code {
+    font-family: 'JetBrains Mono', monospace;
+    background: var(--accent-soft);
+    color: var(--accent);
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    align-self: flex-start;
+  }
+  table.glance-tasks .task-pair {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    font-size: 12px;
+    line-height: 1.35;
+  }
+  table.glance-tasks .tname {
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .glance-qa { display: flex; flex-direction: column; gap: 10px; }
+  .glance-qa .gq-row {
+    border-left: 3px solid var(--gq-color);
+    padding: 6px 12px;
+    background: var(--bg);
+    border-radius: 0 4px 4px 0;
+  }
+  .glance-qa .gq-row[data-level="L1"] { --gq-color: #2A9D8F; }
+  .glance-qa .gq-row[data-level="L2"] { --gq-color: #E9A23B; }
+  .glance-qa .gq-row[data-level="L3"] { --gq-color: #9C6AB8; }
+  .glance-qa .gq-level {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.1em;
+    color: var(--gq-color);
+    font-weight: 600;
+    margin-right: 6px;
+  }
+  .glance-qa .gq-name {
+    font-size: 12.5px;
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .glance-qa .gq-types {
+    margin-top: 4px;
+    font-size: 12px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+  .glance-note {
+    grid-column: 1 / -1;
+    font-size: 12px;
+    color: var(--ink-mute);
+    line-height: 1.5;
+    text-align: center;
+  }
+  @media (max-width: 720px) {
+    .glance { grid-template-columns: 1fr; }
+  }
+
+  /* ============ STANDARD SECTIONS ============ */
+  section.standard {
+    padding: 64px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  section.standard:last-of-type { border-bottom: none; }
+
+  .section-eyebrow {
+    font-size: 11.5px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--accent); font-weight: 500; margin-bottom: 12px;
+  }
+
+  h2.section-title {
+    font-family: 'Google Sans', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: -0.01em;
+    margin: 0 0 16px;
+  }
+
+  .section-lead {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 19px; line-height: 1.6;
+    color: var(--ink-soft);
+    margin: 0 0 32px;
+  }
+
+  .abstract-body { font-size: 16.5px; line-height: 1.8; }
+  .abstract-body p { margin: 0 0 16px; }
+
+  .tldr {
+    background: var(--bg-elev);
+    border-left: 3px solid var(--accent);
+    padding: 18px 22px;
+    margin: 24px 0 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .tldr-label {
+    font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--accent); font-weight: 600; margin-bottom: 6px;
+  }
+  .tldr p { margin: 0; font-size: 15.5px; line-height: 1.65; }
+
+  .overview-figure, .pipeline-figure {
+    background: var(--bg-elev);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 24px;
+    text-align: center;
+    margin: 40px 0 0;
+  }
+  .pipeline-figure { margin-top: 0; }
+  .overview-figure img, .pipeline-figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .figure-placeholder {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: linear-gradient(135deg, #F0EBDD 0%, #E5DFCC 100%);
+    border: 1px dashed var(--rule-strong);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--ink-mute);
+    font-size: 13px;
+    border-radius: 2px;
+  }
+
+  .figure-placeholder .icon {
+    font-size: 32px; color: var(--rule-strong);
+    display: block; margin-bottom: 12px;
+  }
+
+  .figure-placeholder code {
+    font-family: 'JetBrains Mono', monospace;
+    background: white;
+    padding: 1px 6px;
+    border-radius: 3px;
+    color: var(--accent-ink);
+  }
+
+  .figure-caption {
+    font-size: 14px;
+    color: var(--ink-soft);
+    margin-top: 16px;
+    text-align: left;
+    line-height: 1.6;
+  }
+  .figure-caption strong { color: var(--ink); font-weight: 500; }
+
+  /* BibTeX */
+  .bibtex-wrap {
+    background: var(--code-bg);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 16px;
+  }
+  .bibtex-header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 10px 16px;
+    background: var(--bg);
+    border-bottom: 1px solid var(--rule);
+    font-size: 12px;
+    color: var(--ink-mute);
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .copy-btn {
+    background: transparent;
+    border: 1px solid var(--rule-strong);
+    color: var(--ink-soft);
+    font-family: 'Google Sans', sans-serif;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.15s ease;
+  }
+  .copy-btn:hover { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  pre.bibtex {
+    margin: 0;
+    padding: 18px 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    line-height: 1.65;
+    overflow-x: auto;
+  }
+
+  footer {
+    padding: 40px 0 60px;
+    border-top: 1px solid var(--rule);
+    text-align: center;
+    font-size: 13px;
+    color: var(--ink-mute);
+    line-height: 1.7;
+  }
+  footer a { color: var(--ink-soft); text-decoration: underline; text-decoration-color: var(--rule-strong); }
+  footer a:hover { color: var(--accent); }
+
+  a { color: var(--link); text-decoration: none; }
+  a:hover { color: var(--link-hover); text-decoration: underline; }
+
+  code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.88em;
+    background: var(--code-bg);
+    padding: 1px 6px;
+    border-radius: 3px;
+    color: var(--accent-ink);
+  }
+
+  .hl {
+    background: linear-gradient(180deg, transparent 60%, var(--highlight) 60%);
+    padding: 0 2px;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .hero > * { animation: fadeUp 0.7s ease backwards; }
+  .hero h1 { animation-delay: 0.10s; }
+  .hero .subtitle { animation-delay: 0.25s; }
+  .hero .authors { animation-delay: 0.40s; }
+  .hero .affiliations { animation-delay: 0.45s; }
+  .hero .actions { animation-delay: 0.55s; }
+
+  @keyframes panelFade {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .stage.swap-anim, .theme-strip.swap-anim, .selected-bar.swap-anim {
+    animation: panelFade 0.35s ease;
+  }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .stage { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 640px) {
+    .theme-grid { grid-template-columns: repeat(2, 1fr); }
+    .axis-row { flex-direction: column; align-items: flex-start; gap: 8px; }
+    .axis-label { min-width: 0; }
+    .hero { padding: 48px 0 32px; }
+    section.standard, .explorer { padding: 48px 0; }
+    h1.title .line-1 { gap: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ TOP NAV ============ -->
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a href="#top" class="brand">
+      <img src="static/images/logo.png" alt="">
+      <span>VGenST-Bench</span>
+    </a>
+    <div class="topbar-links">
+      <a href="#explorer">Explorer</a>
+      <a href="#abstract">Abstract</a>
+      <a href="#pipeline">Method</a>
+      <a href="#bibtex">BibTeX</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="container">
+
+    <h1 class="title">
+      <span class="line-1">
+        <img src="static/images/logo.png" alt="VGenST-Bench logo">
+        <span>VGenST-Bench</span>
+      </span>
+      <span class="line-2">A Benchmark for Spatio-Temporal Reasoning</span>
+      <span class="line-3">via Active Video Synthesis</span>
+    </h1>
+
+    <!-- <p class="subtitle">
+      The first video benchmark constructed entirely from generative models —
+      shifting the paradigm from passive curation to active synthesis.
+    </p> -->
+
+    <div class="authors">
+      <span class="author">Jinho Park<sup>1</sup></span>·
+      <span class="author">Youbin Kim<sup>1</sup></span>·
+      <span class="author">Hogun Park<sup>1</sup></span>·
+      <span class="author">Eunbyung Park<sup>2†</sup></span>
+    </div>
+    <div class="affiliations">
+      <sup>1 </sup>Sungkyunkwan University ·
+      <sup>2 </sup>Yonsei University
+    </div>
+    <div class="affiliations"><sup>†</sup>Corresponding author</div>
+
+    <div class="actions">
+      <!-- <a href="#" class="btn"><i class="fa-solid fa-file-pdf"></i> Paper</a> -->
+      <a href="https://arxiv.org/abs/2605.22570" target="_blank" rel="noopener noreferrer" class="btn secondary"><i class="fa-solid fa-file-lines"></i> Paper</a>
+      <a href="#" target="_blank" rel="noopener noreferrer" class="btn secondary"><i class="fa-brands fa-github"></i> Code</a>
+      <a href="#" target="_blank" rel="noopener noreferrer" class="btn secondary"><i class="fa-solid fa-database"></i> Dataset</a>
+      <!-- <a href="#bibtex" class="btn secondary"><i class="fa-solid fa-quote-right"></i> BibTeX</a> -->
+    </div>
+  </div>
+</header>
+
+<!-- ============ DEMO EXPLORER ============ -->
+<section class="explorer" id="explorer">
+  <div class="container">
+
+    <div class="explorer-header">
+      <div class="eyebrow">Explore the benchmark</div>
+      <h2 class="explorer-title">Pick a taxonomy, see a task</h2>
+      <p class="explorer-sub">Each combination of <em>Spatial scale × Perspective × Scene dynamics</em> maps to one task. 12 tasks × 4 themes shown.</p>
+    </div>
+
+    <!-- Three-axis taxonomy selector -->
+    <div class="axis-panel">
+      <div class="axis-row" data-axis="scale">
+        <div class="axis-label"><span class="axis-dot"></span>Spatial scale</div>
+        <div class="segmented" data-axis="scale">
+          <button class="seg-btn active" data-val="figural">Figural</button>
+          <button class="seg-btn" data-val="vista">Vista</button>
+          <button class="seg-btn" data-val="environmental">Environmental</button>
+        </div>
+      </div>
+      <div class="axis-row" data-axis="persp">
+        <div class="axis-label"><span class="axis-dot"></span>Perspective</div>
+        <div class="segmented" data-axis="persp">
+          <button class="seg-btn active" data-val="ego">Egocentric</button>
+          <button class="seg-btn" data-val="exo">Exocentric</button>
+        </div>
+      </div>
+      <div class="axis-row" data-axis="dyn">
+        <div class="axis-label"><span class="axis-dot"></span>Scene dynamics</div>
+        <div class="segmented" data-axis="dyn">
+          <button class="seg-btn active" data-val="static">Static</button>
+          <button class="seg-btn" data-val="dynamic">Dynamic</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Selected task pill -->
+    <div class="selected-bar" id="selected-bar">
+      <span class="pill-label">Selected task</span>
+      <span class="task-code" id="selected-code">MC</span>
+      <span class="task-name" id="selected-name">Multi-Container Attribute Mapping</span>
+    </div>
+
+    <!-- Task description card -->
+    <div class="task-desc" id="task-desc">
+      <span class="td-label">Task Description</span>
+      <span id="task-desc-text">[Task description placeholder]</span>
+    </div>
+
+    <!-- Hierarchical Level Design: 3 cards (paper-style) -->
+    <div class="qa-levels" id="qa-levels">
+      <div class="qa-level" data-level="L1">
+        <span class="ql-num">Level 1</span>
+        <span class="ql-name">Visual Perception</span>
+        <div class="ql-types">
+          <button class="ql-type" data-type="OE">Object Existence</button>
+          <button class="ql-type" data-type="OA">Object Attribute Recognition</button>
+          <button class="ql-type" data-type="FL">2D Frame Localization</button>
+        </div>
+      </div>
+      <div class="qa-level" data-level="L2">
+        <span class="ql-num">Level 2</span>
+        <span class="ql-name">Scene Understanding</span>
+        <div class="ql-types">
+          <button class="ql-type" data-type="IT">Identity Tracking</button>
+          <button class="ql-type" data-type="AR">Action Recognition</button>
+          <button class="ql-type" data-type="OC">Object Counting</button>
+          <button class="ql-type" data-type="TO">Temporal Ordering</button>
+          <button class="ql-type" data-type="CM">Camera Motion Recognition</button>
+          <button class="ql-type" data-type="SL">Spatial Layout Understanding</button>
+        </div>
+      </div>
+      <div class="qa-level" data-level="L3">
+        <span class="ql-num">Level 3</span>
+        <span class="ql-name">Spatio-Temporal Reasoning</span>
+        <div class="ql-types">
+          <button class="ql-type" data-type="PT">Perspective-Taking</button>
+          <button class="ql-type" data-type="CR">Counterfactual Reasoning</button>
+          <button class="ql-type" data-type="PR">Predictive Reasoning</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stage: main video + QA -->
+    <div class="stage" id="stage">
+
+      <div class="stage-video">
+        <div class="video-frame">
+          <div class="video-placeholder" id="video-placeholder">
+            Replace <code>static/videos/&lt;TASK&gt;_theme&lt;N&gt;.mp4</code>
+          </div>
+        </div>
+        <div class="video-meta">
+          <span class="v-task-name" id="meta-task-name">Multi-Container Attribute Mapping</span>
+          <span class="v-theme-name" id="meta-theme-name">Theme 1 of 4</span>
+        </div>
+      </div>
+
+      <aside class="qa-panel">
+        <!-- QA type description -->
+        <div class="qa-type-desc" id="qa-type-desc">
+          <span class="qtd-name" id="qtd-name">[QA type name]</span>
+          <span id="qtd-text">[QA type description placeholder]</span>
+        </div>
+
+        <span class="qa-tag" id="qa-tag">QA · L1 — Object Attribute</span>
+        <p class="qa-question" id="qa-question">Loading question…</p>
+        <ul class="qa-options" id="qa-options"></ul>
+      </aside>
+
+    </div>
+
+    <!-- Theme thumbnails (4 per task) -->
+    <div class="theme-strip" id="theme-strip">
+      <div class="theme-strip-label">Themes</div>
+      <div class="theme-grid" id="theme-grid"></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ ABSTRACT + OVERVIEW ============ -->
+<section class="standard" id="abstract">
+  <div class="container-narrow">
+    <div class="section-eyebrow">Abstract</div>
+    <h2 class="section-title">A new paradigm for benchmark construction</h2>
+
+    <div class="abstract-body">
+      <p>
+        Spatio-temporal reasoning is a core capability for Multimodal Large Language Models (MLLMs) operating in the real world. However, existing spatio-temporal reasoning benchmarks primarily rely on static image sets or <em>passively curated</em> video data, which limits the evaluation of fine-grained reasoning capabilities.
+      </p>
+      <p>
+        In this paper, we introduce <strong>VGenST-Bench</strong>, a video benchmark that employs generative models to <span class="hl">actively synthesize highly controlled and diverse evaluation scenarios</span>. To construct it, we propose a multi-agent pipeline incorporating a human quality control stage, ensuring the quality of all generated videos and QA pairs.
+      </p>
+      <p>
+        We establish a comprehensive 3 × 2 × 2 video taxonomy, encompassing <em>Spatial Scale</em>, <em>Perspective</em>, and <em>Scene Dynamics</em>, paired with a hierarchical task suite that decouples low-level visual perception from high-level spatio-temporal reasoning. By shifting the paradigm from passive curation to active synthesis, VGenST-Bench enables fine-grained diagnosis of spatio-temporal understanding in MLLMs.
+      </p>
+    </div>
+
+    <div class="tldr">
+      <div class="tldr-label">TL;DR</div>
+      <p>VGenST-Bench is a video benchmark that uses video generative models to actively synthesize controlled scenarios for evaluating spatio-temporal reasoning in MLLMs.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <figure class="overview-figure">
+      <img src="static/images/overview.png" alt="Overview of VGenST-Bench">
+      <figcaption class="figure-caption">
+        <strong>Overview of VGenST-Bench.</strong> (A) Dataset generation: given input themes, our multi-agent pipeline jointly synthesizes videos paired with scene graphs, scenarios, and QA sets. (B) Task &amp; level design: videos are organized along a 3 × 2 × 2 taxonomy with one spatio-temporal task assigned per cell, and QA pairs follow a three-level hierarchy. (C) Benchmark statistics: 1,200 videos and 33K QA pairs spanning 12 task types and 12 QA types.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ PIPELINE ============ -->
+<section class="standard" id="pipeline">
+  <div class="container">
+    <div class="section-eyebrow">Method</div>
+    <h2 class="section-title">A multi-agent construction pipeline</h2>
+    <p class="section-lead">
+      Starting from a theme, four agents operate in sequence — Scene Graph, Scenario, Video, and QA — followed by a two-stage human quality-control review.
+    </p>
+
+    <figure class="pipeline-figure">
+      <img src="static/images/pipeline.png" alt="VGenST-Bench construction pipeline">
+      <figcaption class="figure-caption">
+        
+        <strong>VGenST-Bench construction pipeline.</strong> Starting from a theme, four agents operate in
+sequence. The Scene Graph Agent produces a structured scene graph specifying objects and spatial
+composition; the Scenario Agent expands it into a temporally grounded scenario with reasoning goal
+and timeline; the Video Agent synthesizes the corresponding image and video through generative
+models; and the QA Agent generates base MCQs from a task–QA applicability matrix and reformats
+each into three variants.
+      </figcaption>
+    </figure>
+
+    <!-- Taxonomy at a glance -->
+    <div class="glance-intro">
+      <h3>Tasks &amp; QA Types</h3>
+      <p>
+        VGenST-Bench organizes <strong>12 reasoning tasks</strong> under a 3 × 2 × 2 video taxonomy
+        (<em>spatial scale</em> × <em>perspective</em> × <em>scene dynamics</em>), paired with
+        <strong>12 QA types</strong> in a three-level cognitive hierarchy that progresses from
+        low-level perception to high-level spatio-temporal reasoning.
+      </p>
+    </div>
+    <div class="glance">
+      <div class="glance-block">
+        <h3>12 Tasks</h3>
+        <div class="gb-sub">Organized under a 3 × 2 × 2 taxonomy: spatial scale × perspective × scene dynamics.</div>
+        <table class="glance-tasks">
+          <thead>
+            <tr>
+              <th rowspan="2"></th>
+              <th colspan="2" class="grp-ego">Egocentric</th>
+              <th colspan="2" class="grp-exo">Exocentric</th>
+            </tr>
+            <tr>
+              <th class="sub">Static</th><th class="sub">Dynamic</th>
+              <th class="sub">Static</th><th class="sub">Dynamic</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="scale">Figural</td>
+              <td><span class="task-pair"><code>MC</code><span class="tname">Multi-Container Attribute Mapping</span></span></td>
+              <td><span class="task-pair"><code>QC</code><span class="tname">Quantity Change Tracking</span></span></td>
+              <td><span class="task-pair"><code>CI</code><span class="tname">Container Intersection Inference</span></span></td>
+              <td><span class="task-pair"><code>CM</code><span class="tname">Causal Mapping</span></span></td>
+            </tr>
+            <tr>
+              <td class="scale">Vista</td>
+              <td><span class="task-pair"><code>DE</code><span class="tname">Direction Estimation</span></span></td>
+              <td><span class="task-pair"><code>IO</code><span class="tname">Interacted Object Identification</span></span></td>
+              <td><span class="task-pair"><code>HO</code><span class="tname">Height Ordering</span></span></td>
+              <td><span class="task-pair"><code>VI</code><span class="tname">Visibility Identification</span></span></td>
+            </tr>
+            <tr>
+              <td class="scale">Environmental</td>
+              <td><span class="task-pair"><code>DS</code><span class="tname">Directional Signage Grounding</span></span></td>
+              <td><span class="task-pair"><code>RV</code><span class="tname">Relative Velocity Identification</span></span></td>
+              <td><span class="task-pair"><code>LS</code><span class="tname">Landmark Spatial Composition</span></span></td>
+              <td><span class="task-pair"><code>BT</code><span class="tname">Behavioral Trigger Identification</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glance-block">
+        <h3>12 QA Types</h3>
+        <div class="gb-sub">Organized along a three-level cognitive hierarchy (3 + 6 + 3).</div>
+        <div class="glance-qa">
+          <div class="gq-row" data-level="L1">
+            <span class="gq-level">L1</span><span class="gq-name">Visual Perception</span>
+            <div class="gq-types">Object Existence · Object Attribute Recognition · 2D Frame Localization</div>
+          </div>
+          <div class="gq-row" data-level="L2">
+            <span class="gq-level">L2</span><span class="gq-name">Scene Understanding</span>
+            <div class="gq-types">Identity Tracking · Action Recognition · Object Counting · Temporal Ordering · Camera Motion · Spatial Layout</div>
+          </div>
+          <div class="gq-row" data-level="L3">
+            <span class="gq-level">L3</span><span class="gq-name">Spatio-Temporal Reasoning</span>
+            <div class="gq-types">Perspective-Taking · Counterfactual Reasoning · Predictive Reasoning</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="glance-note">
+        Each task uses a subset of QA types — see the task–QA applicability matrix in the paper appendix.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BIBTEX ============ -->
+<section class="standard" id="bibtex">
+  <div class="container">
+    <div class="section-eyebrow">Citation</div>
+    <h2 class="section-title">BibTeX</h2>
+
+    <div class="bibtex-wrap">
+      <div class="bibtex-header">
+        <span>vgenst-bench.bib</span>
+        <button class="copy-btn" onclick="copyBibtex(this)">
+          <i class="fa-regular fa-copy"></i>
+          <span>Copy</span>
+        </button>
+      </div>
+      <pre class="bibtex" id="bibtex-content">@misc{park2026vgenstbenchbenchmarkspatiotemporalreasoning,
+  title         = {VGenST-Bench: A Benchmark for Spatio-Temporal Reasoning via Active Video Synthesis},
+  author        = {Jinho Park and Youbin Kim and Hogun Park and Eunbyung Park},
+  year          = {2026},
+  eprint        = {2605.22570},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2605.22570},
+}</pre>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<!-- <footer>
+  <div class="container">
+    <p>
+      Page template adapted from the <a href="https://nerfies.github.io/" target="_blank" rel="noopener">Nerfies</a> project page.<br>
+      Licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.
+    </p>
+  </div>
+</footer> -->
+
+<script>
+  /* ===================================================================
+     TASK LOOKUP: 3-axis key → task code
+     Maps (scale, persp, dyn) → one of 12 task codes.
+     =================================================================== */
+  const TASK_MAP = {
+    'figural|ego|static':         'MC',
+    'figural|ego|dynamic':        'QC',
+    'figural|exo|static':         'CI',
+    'figural|exo|dynamic':        'CM',
+    'vista|ego|static':           'DE',
+    'vista|ego|dynamic':          'IO',
+    'vista|exo|static':           'HO',
+    'vista|exo|dynamic':          'VI',
+    'environmental|ego|static':   'DS',
+    'environmental|ego|dynamic':  'RV',
+    'environmental|exo|static':   'LS',
+    'environmental|exo|dynamic':  'BT',
+  };
+
+  /* ===================================================================
+     TASK_DESC: task code → definition (from sysprompt/scene_graph_agent/*.py)
+     =================================================================== */
+  const TASK_DESC = {
+    MC: "The ability to map the 'Container Identity' (seen from the front) to the 'Content Identity' (seen from the top) by integrating information visible only at a specific camera angle.",
+    QC: "The ability to determine the final number of objects inside an opaque container by tracking a sequential series of add (insert) and remove (extract) actions performed by an agent, whose cumulative net effect cannot be read from any single frame.",
+    CI: "The ability to identify the objects shared by both of two opaque open-top containers, by integrating two sequential overhead-peek observations — each fully revealing all three contents of one container — and finding the intersection of the two revealed sets.",
+    CM: "The ability to infer the causal mapping between two triggers and two potential effectors, specifically identifying which triggers function correctly and which are 'inert' (broken/dummy) by observing sequential interactions.",
+    DE: "The ability to integrate visual cues from a complex ego-centric navigation path to estimate the direction back to the starting position within a static single-room environment.",
+    IO: "The ability to identify which specific object a third-party agent physically interacted with (picked up and relocated), observed from a stationary first-person viewpoint among multiple visible distractor objects.",
+    HO: "The ability to determine the vertical height ordering of three objects placed at different elevations within a space, by observing a vertically tilting camera that reveals each object sequentially.",
+    VI: "The ability to identify the dynamic change in visibility status between an Observer agent and a Target agent within a Vista environment. The model must recognize the visibility shift ('Visible' to 'Occluded' or vice versa) relative to the Observer's perspective, caused by the physical movement of either agent around a central environmental obstacle.",
+    DS: "The ability to interpret directional signage (text and arrows) within a large-scale environment to deduce the destination corresponding to the ego-agent's current heading.",
+    RV: "The ability to identify the relative velocities of multiple moving agents observed from an ego-centric viewpoint. The model must compare each non-ego agent's apparent motion to the ego's reference frame and classify each agent as Slower-than-Ego or Faster-than-Ego based on visual cues.",
+    LS: "The ability to deduce the spatial position of Landmark 3 relative to Landmark 1 by combining two sequential camera movements: (1) a crane-up that reveals Landmark 2's position relative to Landmark 1, and (2) a directional flight that travels from the Landmark 1–2 area to Landmark 3. The model must compose both movements to infer the final spatial relationship.",
+    BT: "The ability to identify the specific environmental stimulus that caused a sudden change in an agent's locomotion behavior. The model must distinguish the dynamic causal trigger from a static side distractor, and causally link the observed reaction to the correct trigger.",
+  };
+
+  /* ===================================================================
+     QA_TYPE_META: code → { level, name, desc }
+     From sysprompt/qa_agent/applicability_matrix.py
+     =================================================================== */
+  const QA_TYPE_META = {
+    OE: { level: 'L1', name: 'Object Existence',            desc: 'Determine whether a specific object or entity appears in any frame in the video.' },
+    OA: { level: 'L1', name: 'Object Attribute Recognition',desc: 'Identify the visual attributes of a specific object in the video, such as color, material.' },
+    FL: { level: 'L1', name: '2D Frame Localization',       desc: "Identify the 2D position of an object within the frame, in the camera's screen space." },
+    IT: { level: 'L2', name: 'Identity Tracking',           desc: 'Determine whether two instances observed across different temporal frames, viewpoints, or environmental conditions correspond to the same underlying entity.' },
+    AR: { level: 'L2', name: 'Action Recognition',          desc: 'Identify and categorize the specific types of actions or events occurring within the video sequence.' },
+    OC: { level: 'L2', name: 'Object Counting',             desc: 'Quantify the exact number of objects that satisfy specific categorical or attribute-based criteria.' },
+    TO: { level: 'L2', name: 'Temporal Ordering',           desc: 'Determine the correct chronological sequence of multiple distinct events within the video.' },
+    CM: { level: 'L2', name: 'Camera Motion Recognition',   desc: "Recognize the camera's motion (e.g., pan, tilt, dolly, boom, zoom)." },
+    SL: { level: 'L2', name: 'Spatial Layout Understanding',desc: 'Understand spatial relationships and the relative arrangement of objects in the video.' },
+    PT: { level: 'L3', name: 'Perspective-Taking',          desc: 'Infer the visual representation of a scene from an unobserved, novel viewpoint or perspective not explicitly captured in the video.' },
+    CR: { level: 'L3', name: 'Counterfactual Reasoning',    desc: 'Deduce alternative outcomes or states by hypothetically altering specific factual elements or physical conditions within the video.' },
+    PR: { level: 'L3', name: 'Predictive Reasoning',        desc: 'Predict the most probable subsequent events or states following the observed video, including how future scenarios will unfold under specific given conditions.' },
+  };
+
+  /* TASK_QA_APPLICABLE: applicability matrix — aligned with paper Tab. (App. Task-QA Applicability Matrix) and parquet data. */
+  const TASK_QA_APPLICABLE = {
+    MC: ['OE','OA','FL','IT','OC','CM','SL','CR'],
+    QC: ['OE','OA','IT','AR','OC','TO','SL','CR','PR'],
+    CI: ['OE','OA','FL','OC','TO','CM','SL','CR'],
+    CM: ['OE','OA','FL','AR','TO','SL','PT','CR'],
+    DE: ['OE','OA','TO','CM','SL','PT','CR'],
+    IO: ['OE','OA','FL','IT','AR','OC','SL','CR'],
+    HO: ['OE','OA','FL','TO','CM','SL','CR'],
+    VI: ['OE','OA','FL','IT','AR','SL','PT'],
+    DS: ['OE','OA','FL','OC','CM','SL','PT','CR'],
+    RV: ['OE','OA','FL','IT','AR','OC','TO','CM','SL','PT','CR','PR'],
+    LS: ['OE','OA','TO','CM','SL','PT','CR','PR'],
+    BT: ['OE','OA','IT','AR','TO','CM','PT','CR'],
+  };
+
+  /* ===================================================================
+     DATA: 12 tasks × 4 themes each. Edit here to update the page.
+     =================================================================== */
+  const DATA = {
+    MC: {
+      name: 'Multi-Container Attribute Mapping',
+      themes: [
+        { title: "Living Room Table", idx: 0,
+          mp4: 'static/videos/MC/0.mp4', jpg: 'static/thumbs/MC/0.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the Blue Ceramic Mug located in the frame?', options: ['Left', 'Center', 'Right'], correct: 1 },
+            'OA': { question: 'What is the color of the rightmost container on the surface?', options: ['Red', 'Blue', 'Green', 'Yellow'], correct: 2 },
+            'OE': { question: 'Which object appears in the video?', options: ['Red Ceramic Mug', 'Yellow Plastic Bowl', 'Black Glass Tumbler', 'Brown Wooden Cup'], correct: 0 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['Boom Up (rising vertically)', 'Boom Down (descending vertically)', 'Pan Left (rotating horizontally)', 'Zoom In (moving closer)'], correct: 0 },
+            'IT': { question: 'What is the content inside the Blue Ceramic Mug?', options: ['Black Coffee', 'White Milk', 'Green Tea', 'Empty'], correct: 1 },
+            'OC': { question: 'How many containers hold a liquid content?', options: ['0', '1', '2', '3'], correct: 2 },
+            'SL': { question: "From the camera's perspective, what is the left-to-right color order of the containers on the surface?", options: ['Red, Blue, Green', 'Blue, Red, Green', 'Green, Blue, Red', 'Red, Green, Blue'], correct: 0 },
+            'CR': { question: 'If the left and right containers had been swapped in position, where would the container holding Black Coffee be located?', options: ['Left', 'Center', 'Right'], correct: 2 },
+          } },
+        { title: "Sci-Fi Cantina Bar Counter", idx: 33,
+          mp4: 'static/videos/MC/33.mp4', jpg: 'static/thumbs/MC/33.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the Ivory Hexagonal Ceramic Mug located in the frame?', options: ['Left', 'Center', 'Right'], correct: 1 },
+            'OA': { question: 'What is the material of the surface holding the containers?', options: ['Metal', 'Cardboard', 'Steel', 'Fabric'], correct: 0 },
+            'OE': { question: 'Which object appears in the video?', options: ['Crimson Matte Cylindrical Canister', 'Yellow Plastic Bowl', 'Black Glass Vase', 'White Marble Cup'], correct: 0 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['Boom Up (rising vertically)', 'Boom Down (descending vertically)', 'Pan Left (rotating horizontally)', 'Zoom In (moving closer)'], correct: 1 },
+            'IT': { question: 'What is the content inside the Crimson Matte Cylindrical Canister?', options: ['Glowing Blue Liquid', 'Silver Metallic Beads', 'Green Viscous Gel', 'Empty'], correct: 0 },
+            'OC': { question: 'How many containers hold a liquid?', options: ['0', '1', '2', '3'], correct: 2 },
+            'SL': { question: "From the camera's perspective, what is the left-to-right color order of the containers on the surface?", options: ['Crimson, Ivory, Navy', 'Ivory, Crimson, Navy', 'Navy, Ivory, Crimson', 'Crimson, Navy, Ivory'], correct: 0 },
+            'CR': { question: 'If the left and right containers had been swapped in position, where would the container holding Green Viscous Gel be located?', options: ['Left', 'Center', 'Right'], correct: 0 },
+          } },
+        { title: "Music Producer's Studio Desk", idx: 72,
+          mp4: 'static/videos/MC/72.mp4', jpg: 'static/thumbs/MC/72.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the Teal container located in the frame?', options: ['Left', 'Center', 'Right'], correct: 2 },
+            'OA': { question: 'What is the color of the rightmost container on the surface?', options: ['Purple', 'Orange', 'Teal', 'Magenta'], correct: 2 },
+            'OE': { question: 'Which object appears in the video?', options: ['Purple Matte Metal Tin', 'Pink Steel Tin', 'Maroon Wooden Box', 'Yellow Plastic Bowl'], correct: 0 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['Boom Up (rising vertically)', 'Boom Down (descending vertically)', 'Pan Left (rotating horizontally)', 'Zoom In (moving closer)'], correct: 0 },
+            'IT': { question: 'What is the content inside the Center Container?', options: ['Guitar Picks', 'Coiled Audio Cables', 'Black Coffee', 'Empty'], correct: 1 },
+            'OC': { question: 'How many containers hold a liquid?', options: ['0', '1', '2', '3'], correct: 1 },
+            'SL': { question: "From the camera's perspective, what is the spatial relationship between the Orange Opaque Plastic Box and the Purple Matte Metal Tin?", options: ['Orange is to the left of Purple', 'Orange is to the right of Purple', 'Orange is in front of Purple', 'Orange is behind Purple'], correct: 1 },
+            'CR': { question: 'If the left and right containers had been swapped in position, where would the container holding Black Coffee be located?', options: ['Left', 'Center', 'Right'], correct: 0 },
+          } },
+        { title: "Tennis Player's Courtside Bench", idx: 81,
+          mp4: 'static/videos/MC/81.mp4', jpg: 'static/thumbs/MC/81.jpg',
+          qas: {
+            'FL': { question: 'In the final view, where is the Copper container located in the frame?', options: ['Left', 'Center', 'Right'], correct: 1 },
+            'OA': { question: 'What is the material of the surface holding the containers?', options: ['Wood', 'Glass', 'Metal', 'Plastic'], correct: 0 },
+            'OE': { question: 'Which object does NOT appear in the video?', options: ['Cobalt Matte Box', 'Copper Metal Tin', 'Sage Ceramic Mug', 'Magenta Glass Vase'], correct: 3 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['Boom Up (rising vertically)', 'Boom Down (descending vertically)', 'Pan Left (rotating horizontally)', 'Zoom In (moving closer)'], correct: 1 },
+            'IT': { question: 'Which container holds the Yellow Tennis Balls?', options: ['Cobalt Matte Box', 'Copper Metal Tin', 'Sage Ceramic Mug', 'Lavender Cardboard Box'], correct: 1 },
+            'OC': { question: 'How many containers are empty?', options: ['0', '1', '2', '3'], correct: 0 },
+            'SL': { question: "From the camera's perspective, what is the spatial relationship between the Cobalt Matte Box and the Sage Ceramic Mug?", options: ['Cobalt is to the left of Sage', 'Cobalt is to the right of Sage', 'Cobalt is in front of Sage', 'Cobalt is behind Sage'], correct: 0 },
+            'CR': { question: 'If the container holding White Towels and the container holding Orange Energy Gels had been swapped in position, what content would the center container hold in the end?', options: ['White Towels', 'Yellow Tennis Balls', 'Orange Energy Gels', 'Empty'], correct: 1 },
+          } },
+      ]
+    },
+    QC: {
+      name: 'Quantity Change Tracking',
+      themes: [
+        { title: "Retail Checkout Counter", idx: 14,
+          mp4: 'static/videos/QC/14.mp4', jpg: 'static/thumbs/QC/14.jpg',
+          qas: {
+            'OA': { question: 'What is the material of the container?', options: ['Ceramic', 'Felt', 'Metal', 'Leather'], correct: 2 },
+            'OE': { question: 'Which object appears as the surface in the video?', options: ['Dark Mahogany Billiard Side Table', 'Mahogany Victorian Detective Desk', 'Gray Speckled Retail Counter', 'Heavy Stone Dwarven Forge Bench'], correct: 2 },
+            'AR': { question: 'What action does the hand perform in the second step?', options: ['Places an item into the container', 'Takes an item out of the container', 'Moves an item on the surface to the other location of the surface'], correct: 0 },
+            'IT': { question: 'Suppose the container was empty at the start of the video — at the end of the video, are the items on the surface same physical objects that were on the surface at the start?', options: ['Yes, they are the same items', 'No, they are different items', 'Some are the same and some are different'], correct: 0 },
+            'OC': { question: 'Suppose the container was empty at the start of the video — how many identical items are in container at the end of the video?', options: ['0', '1', '2', '3'], correct: 1 },
+            'SL': { question: "From the camera's perspective, where are the items placed relative to the container?", options: ['Inside the container', 'Beside the container on the surface', 'On top of the container', 'Underneath the container'], correct: 1 },
+            'TO': { question: 'In what order does the hand perform the actions?', options: ['ADD, ADD', 'ADD, ADD, ADD', 'ADD, ADD, REMOVE', 'ADD, REMOVE'], correct: 2 },
+            'CR': { question: 'If the hand had performed only the first action (and then stopped), how many items would be inside the container at the end?', options: ['0', '1', '2', '3'], correct: 1 },
+            'PR': { question: 'If the hand were to perform one additional ADD action after the video ends, how many items would be inside the container?', options: ['0', '1', '2', '3'], correct: 2 },
+          } },
+        { title: "Bar Counter", idx: 16,
+          mp4: 'static/videos/QC/16.mp4', jpg: 'static/thumbs/QC/16.jpg',
+          qas: {
+            'OA': { question: 'What is the material of the container?', options: ['Copper', 'Terracotta', 'Woven Palm', 'Leather'], correct: 0 },
+            'OE': { question: 'Which object does NOT appear in the video?', options: ['Tall White Ceramic Jar', 'Small Red Cherries', 'Tall Copper Ice Bucket', 'Dark Wood Bar Counter'], correct: 0 },
+            'AR': { question: 'How many times does the hand place an item into the container?', options: ['0', '1', '2', '3'], correct: 2 },
+            'IT': { question: 'Suppose the container was empty at the start of the video — at the end of the video, are the items inside the container the same physical objects that were on the surface at the start?', options: ['Yes, they are the same items', 'No, they are different items', 'Some are the same and some are different'], correct: 0 },
+            'OC': { question: 'Suppose the container was empty at the start of the video — how many identical items are in container at the end of the video?', options: ['0', '1', '2', '3'], correct: 2 },
+            'SL': { question: "From the camera's perspective, where are the items placed relative to the container?", options: ['Inside the container', 'Beside the container on the surface', 'On top of the container', 'Underneath the container'], correct: 1 },
+            'TO': { question: 'In what order does the hand perform the actions?', options: ['ADD, ADD', 'ADD, ADD, ADD', 'ADD, ADD, REMOVE', 'ADD, REMOVE'], correct: 0 },
+            'CR': { question: 'If the second action had been REMOVE instead of ADD, how many items would be inside the container at the end?', options: ['0', '1', '2', '3'], correct: 0 },
+            'PR': { question: 'If the hand were to perform one additional REMOVE action after the video ends, how many items would be inside the container?', options: ['0', '1', '2', '3'], correct: 1 },
+          } },
+        { title: "Luxury Yacht Sun Deck Table", idx: 53,
+          mp4: 'static/videos/QC/53.mp4', jpg: 'static/thumbs/QC/53.jpg',
+          qas: {
+            'OA': { question: 'What is the color of the surface?', options: ['Silver', 'Golden Teak', 'Matte Black', 'Green Grid'], correct: 1 },
+            'OE': { question: 'Which object appears as the surface in the video?', options: ['Brass Steampunk Airship Desk', 'Teak Yacht Sun Deck Table', 'Festival Ticket Booth Counter', 'Weathered Lakeside Tackle Station'], correct: 1 },
+            'AR': { question: 'How many times does the hand place an item into the container?', options: ['0', '1', '2', '3'], correct: 3 },
+            'IT': { question: 'Suppose the container was empty at the start of the video — at the end of the video, are the items inside the container the same physical objects that were on the surface at the start?', options: ['Yes, they are the same items', 'No, they are different items', 'Some are the same and some are different'], correct: 0 },
+            'OC': { question: 'Suppose the container was empty at the start of the video — how many identical items are in container at the end of the video?', options: ['0', '1', '2', '3'], correct: 3 },
+            'SL': { question: "From the camera's perspective, where are the items placed relative to the container?", options: ['Inside the container', 'Beside the container on the surface', 'On top of the container', 'Underneath the container'], correct: 1 },
+            'TO': { question: 'In what order does the hand perform the actions?', options: ['ADD, ADD', 'ADD, ADD, ADD', 'ADD, ADD, REMOVE', 'ADD, REMOVE'], correct: 1 },
+            'CR': { question: 'If the second action had been REMOVE instead of ADD, how many items would be inside the container at the end?', options: ['0', '1', '2', '3'], correct: 1 },
+            'PR': { question: 'If the hand were to perform two additional REMOVE actions after the video ends, how many items would be inside the container?', options: ['0', '1', '2', '3'], correct: 1 },
+          } },
+        { title: "Ski Lodge Apres-Ski Table", idx: 83,
+          mp4: 'static/videos/QC/83.mp4', jpg: 'static/thumbs/QC/83.jpg',
+          qas: {
+            'OA': { question: 'What is the color of the surface?', options: ['Smoked Glass', 'Ivory Satin', 'Weathered Green', 'Rustic Pine'], correct: 3 },
+            'OE': { question: 'Which object appears as the surface in the video?', options: ['Rustic Greenhouse Potting Bench', 'Steel-Frame Captain Desk', 'Gray Steel Garage Workbench', 'Rustic Ski Lodge Table'], correct: 3 },
+            'AR': { question: 'What action does the hand perform in the second step?', options: ['Places an item into the container', 'Takes an item out of the container', 'Moves an item on the surface to the other location of the surface'], correct: 1 },
+            'IT': { question: 'Suppose the container was empty at the start of the video — at the end of the video, are the items on the surface same physical objects that were on the surface at the start?', options: ['Yes, they are the same items', 'No, they are different items', 'Some are the same and some are different'], correct: 0 },
+            'OC': { question: 'Suppose the container was empty at the start of the video — how many identical items are in container at the end of the video?', options: ['0', '1', '2', '3'], correct: 0 },
+            'SL': { question: "From the camera's perspective, where are the items placed relative to the container?", options: ['Inside the container', 'Beside the container on the surface', 'On top of the container', 'Underneath the container'], correct: 1 },
+            'TO': { question: 'In what order does the hand perform the actions?', options: ['ADD, ADD', 'ADD, ADD, ADD', 'ADD, ADD, REMOVE', 'ADD, REMOVE'], correct: 3 },
+            'CR': { question: 'If the hand had performed only the first action (and then stopped), how many items would be inside the container at the end?', options: ['0', '1', '2', '3'], correct: 1 },
+            'PR': { question: 'If the hand were to perform one additional ADD action after the video ends, how many items would be inside the container?', options: ['0', '1', '2', '3'], correct: 1 },
+          } },
+      ]
+    },
+    CI: {
+      name: 'Container Intersection Inference',
+      themes: [
+        { title: "Professional Kitchen Prep Station", idx: 22,
+          mp4: 'static/videos/CI/22.mp4', jpg: 'static/thumbs/CI/22.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the Wide Round Stainless Steel Mixing Bowl located in the frame?', options: ['Left', 'Center', 'Right'], correct: 0 },
+            'OA': { question: 'What is the color of Left Container?', options: ['Red', 'Olive', 'Steel Silver', 'Dark Blue'], correct: 2 },
+            'OE': { question: 'Which object appears in the video?', options: ['Wide Red Galvanized Metal Bucket', 'Deep Tan Leather Valet Box', 'Wide Round Stainless Steel Mixing Bowl', 'Wide Terracotta Clay Pot'], correct: 2 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['It stays fixed at side view', 'It alternates between side view and overhead peeks on each container', 'It rotates 360 degrees around the table', 'It zooms in and out on a single container'], correct: 1 },
+            'OC': { question: 'How many object types appear in both containers (i.e., the number of shared object types)?', options: ['0', '1', '2', '3'], correct: 2 },
+            'SL': { question: 'Where is the Red Cherry Tomato located?', options: ['Inside the Wide Round Stainless Steel Mixing Bowl', 'Inside the Wide Rectangular White Ceramic Prep Tray', 'Revealed in both containers', 'Not revealed in either container'], correct: 2 },
+            'TO': { question: 'Which container does the camera reveal first from overhead?', options: ['The Wide Round Stainless Steel Mixing Bowl', 'The Wide Rectangular White Ceramic Prep Tray', 'Both simultaneously'], correct: 0 },
+            'CR': { question: 'If the Yellow Lemon Wedge in Wide Round Stainless Steel Mixing Bowl had been replaced by a Purple Shallot, how many shared object types would the two containers have?', options: ['0', '1', '2', '3'], correct: 3 },
+          } },
+        { title: "Jeweler's Workbench", idx: 26,
+          mp4: 'static/videos/CI/26.mp4', jpg: 'static/thumbs/CI/26.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the Wide Deep Black Velvet Tray located in the frame?', options: ['Left', 'Center', 'Right'], correct: 0 },
+            'OA': { question: 'What is the color of Left Container?', options: ['Tan', 'Blue', 'Black', 'Olive'], correct: 2 },
+            'OE': { question: 'Which object appears in the video?', options: ['Deep Tan Cardboard Sorting Box', 'Deep Olive Canvas Field Satchel', 'Wide Deep Black Velvet Tray', 'Wide Gray Galvanized Metal Planter'], correct: 2 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['It stays fixed at side view', 'It alternates between side view and overhead peeks on each container', 'It rotates 360 degrees around the table', 'It zooms in and out on a single container'], correct: 1 },
+            'OC': { question: 'How many object types appear in both containers (i.e., the number of shared object types)?', options: ['0', '1', '2', '3'], correct: 2 },
+            'SL': { question: 'Where is the Round Blue Sapphire Gemstone located?', options: ['Inside the Wide Deep Black Velvet Tray', 'Inside the Wide Round Ceramic Gem Bowl', 'Revealed in both containers', 'Not revealed in either container'], correct: 2 },
+            'TO': { question: 'Which container does the camera reveal first from overhead?', options: ['The Wide Deep Black Velvet Tray', 'The Wide Round Ceramic Gem Bowl', 'Both simultaneously'], correct: 0 },
+            'CR': { question: 'If the Gold Ring Blank in Wide Deep Black Velvet Tray had been replaced by a Red Ruby Cabochon, how many shared object types would the two containers have?', options: ['0', '1', '2', '3'], correct: 3 },
+          } },
+        { title: "Victorian Detective's Cluttered Desk", idx: 47,
+          mp4: 'static/videos/CI/47.mp4', jpg: 'static/thumbs/CI/47.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the Deep Brass-Rimmed Wooden Evidence Box located in the frame?', options: ['Left', 'Center', 'Right'], correct: 2 },
+            'OA': { question: 'What is the color of Right Container?', options: ['Birch White', 'Green', 'Black', 'Wood Brown'], correct: 3 },
+            'OE': { question: 'Which object does NOT appear in the video?', options: ['Gold Pocket Watch', 'Brown Tobacco Pipe', 'Silver Magnifying Glass', 'Brown Pine Cone'], correct: 3 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['It stays fixed at side view', 'It alternates between side view and overhead peeks on each container', 'It rotates 360 degrees around the table', 'It zooms in and out on a single container'], correct: 1 },
+            'OC': { question: 'How many object types appear in both containers (i.e., the number of shared object types)?', options: ['0', '1', '2', '3'], correct: 3 },
+            'SL': { question: 'Where is the White Champagne Bottle Miniature located?', options: ['Inside the Deep Open-Top Leather Letter Box', 'Inside the Deep Brass-Rimmed Wooden Evidence Box', 'Revealed in both containers', 'Not revealed in either container'], correct: 3 },
+            'TO': { question: 'In what order are the containers revealed from overhead?', options: ['Deep Open-Top Leather Letter Box, then Deep Brass-Rimmed Wooden Evidence Box', 'Deep Brass-Rimmed Wooden Evidence Box, then Deep Open-Top Leather Letter Box', 'Both at the same time', 'Only one container is revealed'], correct: 0 },
+            'CR': { question: 'If the Gold Pocket Watch in Deep Open-Top Leather Letter Box had been replaced by a Brown Pine Cone, how many shared object types would the two containers have?', options: ['0', '1', '2', '3'], correct: 2 },
+          } },
+        { title: "Children's Birthday Party Table", idx: 91,
+          mp4: 'static/videos/CI/91.mp4', jpg: 'static/thumbs/CI/91.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the Wide Purple Wicker Gift Basket located in the frame?', options: ['Left', 'Center', 'Right'], correct: 2 },
+            'OA': { question: 'What is the color of Right Container?', options: ['Grey', 'White', 'Olive', 'Purple'], correct: 3 },
+            'OE': { question: 'Which object does NOT appear in the video?', options: ['Yellow Rubber Duck', 'Blue Balloon', 'Pink Striped Party Hat', 'Pink Blush Brush'], correct: 3 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['It stays fixed at side view', 'It alternates between side view and overhead peeks on each container', 'It rotates 360 degrees around the table', 'It zooms in and out on a single container'], correct: 1 },
+            'OC': { question: 'How many object types appear in both containers (i.e., the number of shared object types)?', options: ['0', '1', '2', '3'], correct: 3 },
+            'SL': { question: 'Where is the White Envelope located?', options: ['Inside the Wide Red Plastic Party Bucket', 'Inside the Wide Purple Wicker Gift Basket', 'Revealed in both containers', 'Not revealed in either container'], correct: 3 },
+            'TO': { question: 'In what order are the containers revealed from overhead?', options: ['Wide Red Plastic Party Bucket, then Wide Purple Wicker Gift Basket', 'Wide Purple Wicker Gift Basket, then Wide Red Plastic Party Bucket', 'Both at the same time', 'Only one container is revealed'], correct: 0 },
+            'CR': { question: 'If the Yellow Rubber Duck in Wide Red Plastic Party Bucket had been replaced by a Pink Blush Brush, how many shared object types would the two containers have?', options: ['0', '1', '2', '3'], correct: 2 },
+          } },
+      ]
+    },
+    CM: {
+      name: 'Causal Mapping',
+      themes: [
+        { title: "Haunted Castle Dungeon Control Table", idx: 17,
+          mp4: 'static/videos/CM/17.mp4', jpg: 'static/thumbs/CM/17.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the agent located in the frame?', options: ['Left', 'Center', 'Right'], correct: 1 },
+            'OA': { question: 'What is the appearance of the agent?', options: ['Video Editor wearing dark clothing', 'Hooded figure standing behind stone table', 'Meteorologist wearing a white lab coat and headset', 'Ice Cream Server wearing white uniform and apron'], correct: 1 },
+            'OE': { question: 'Which object appears in the video?', options: ['Amber Alert Light', 'Green Flame Brazier', 'Status Lamp', 'Miniature Marionette'], correct: 1 },
+            'AR': { question: 'What happens to the Green Flame Brazier on the right after the Skull Lever on the right is pulled?', options: ['It activates — Right Orb glows bright red', 'It remains completely still', 'It activates: green LEDs illuminate brightly and propellers begin to spin', 'It illuminates green, synchronous with the lever press'], correct: 1 },
+            'SL': { question: "From the camera's perspective, where is the agent located relative to the skull levers?", options: ['In front of the skull levers', 'Behind the skull levers', 'Between the two skull levers', 'Above the skull levers'], correct: 1 },
+            'TO': { question: 'Which skull lever does the agent activate first?', options: ['The skull lever on the left', 'Both simultaneously', 'The skull lever on the right'], correct: 2 },
+            'CR': { question: 'If the agent had activated the skull lever on the left first instead of the one on the right, which green flame brazier would activate first?', options: ['The green flame brazier on the left', 'The green flame brazier on the right', 'Both simultaneously'], correct: 0 },
+            'PT': { question: "From the agent's perspective, which green flame brazier activates first?", options: ["The green flame brazier on the agent's left", "The green flame brazier on the agent's right", 'Both simultaneously'], correct: 1 },
+          } },
+        { title: "Wizard's Enchantment Altar", idx: 10,
+          mp4: 'static/videos/CM/10.mp4', jpg: 'static/thumbs/CM/10.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the agent located in the frame?', options: ['Left', 'Center', 'Right'], correct: 1 },
+            'OA': { question: 'What is the appearance of the agent?', options: ['Music Producer wearing a dark long-sleeve shirt', 'Human Operator', 'Human figure in dark mystical robes', 'Human officer in uniform'], correct: 2 },
+            'OE': { question: 'Which object appears in the video?', options: ['Activation Button', 'Signal Indicator Light', 'Crystal Orb', 'VU Meter Needle'], correct: 2 },
+            'AR': { question: 'What action does the agent perform in the video?', options: ['Presses the Control Buttons on the console', 'Presses the Combo Buttons on the console', 'Activates the Azure Rune Stones on the console', 'Stands still and watches'], correct: 2 },
+            'SL': { question: "From the camera's perspective, where is the agent located relative to the rune stones?", options: ['In front of the rune stones', 'Behind the rune stones', 'Between the two rune stones', 'Above the rune stones'], correct: 1 },
+            'TO': { question: 'Which rune stone does the agent activate first?', options: ['The rune stone on the right', 'The rune stone on the left', 'Both simultaneously'], correct: 1 },
+            'CR': { question: 'If the agent had activated the rune stone on the right first instead of the one on the left, which crystal orb would activate first?', options: ['The crystal orb on the left', 'The crystal orb on the right', 'Both simultaneously'], correct: 1 },
+            'PT': { question: "From the agent's perspective, which crystal orb activates first?", options: ["The crystal orb on the agent's left", "The crystal orb on the agent's right", 'Both simultaneously'], correct: 0 },
+          } },
+        { title: "DJ's Neon Mixing Console", idx: 30,
+          mp4: 'static/videos/CM/30.mp4', jpg: 'static/thumbs/CM/30.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the agent located in the frame?', options: ['Left', 'Center', 'Right'], correct: 1 },
+            'OA': { question: 'What is the appearance of the agent?', options: ['Ice Cream Server wearing white uniform and apron', 'Dispatch Operator wearing uniform sleeves', 'DJ (Human Hands/Arms) wearing dark sleeves', 'Fortune Teller wearing deep purple velvet robes'], correct: 2 },
+            'OE': { question: 'Which object appears in the video?', options: ['Brass Knob', 'RC Car Chassis', 'Vertical VU Meter', 'Cue Button'], correct: 2 },
+            'AR': { question: 'What happens to the Vertical VU Meter on the left after the Neon Pad on the left is pressed?', options: ['Its needle moves immediately to indicate pressure', 'It lights up immediately', 'It lights up and rises', 'It turns on — the indicator illuminates with a steady bright green glow'], correct: 2 },
+            'SL': { question: "From the camera's perspective, where is the agent located relative to the neon pads?", options: ['In front of the neon pads', 'Behind the neon pads', 'Between the two neon pads', 'Above the neon pads'], correct: 1 },
+            'TO': { question: 'Which neon pad does the agent press first?', options: ['The neon pad on the left', 'The neon pad on the right', 'Both simultaneously'], correct: 0 },
+            'CR': { question: 'If the agent had pressed the neon pad on the right first instead of the one on the left, which vertical vu meter would activate first?', options: ['The vertical vu meter on the left', 'The vertical vu meter on the right', 'Both simultaneously'], correct: 1 },
+            'PT': { question: "From the agent's perspective, which vertical vu meter activates first?", options: ["The vertical vu meter on the agent's left", "The vertical vu meter on the agent's right", 'Both simultaneously'], correct: 1 },
+          } },
+        { title: "Magician's Illusion Prop Table", idx: 34,
+          mp4: 'static/videos/CM/34.mp4', jpg: 'static/thumbs/CM/34.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the agent located in the frame?', options: ['Left', 'Center', 'Right'], correct: 1 },
+            'OA': { question: 'What is the appearance of the agent?', options: ['Fortune Teller wearing deep purple velvet robes', 'Optometrist wearing white lab coat and blue nitrile gloves', 'Magician wearing black formal suit and white gloves', 'Cyber-Cafe Technician wearing a dark uniform with neon trim'], correct: 2 },
+            'OE': { question: 'Which object appears in the video?', options: ['Vacuum Tube', 'Blue Haptic Button', 'Velvet Box', 'Blue Neon Push Button'], correct: 2 },
+            'AR': { question: 'What happens to the Velvet Box on the right after the Brass Button on the right is pressed?', options: ['It needle immediately swings from zero to high pressure', 'It begins to glow with blue internal light and rotate slowly', 'It opens its lid synchronously with the press', 'It illuminates with red light and extends slightly upwards'], correct: 2 },
+            'SL': { question: "From the camera's perspective, where is the agent located relative to the brass buttons?", options: ['In front of the brass buttons', 'Behind the brass buttons', 'Between the two brass buttons', 'Above the brass buttons'], correct: 1 },
+            'TO': { question: 'Which brass button does the agent press first?', options: ['The brass button on the right', 'The brass button on the left', 'Both simultaneously'], correct: 1 },
+            'CR': { question: 'If the agent had pressed the brass button on the right first instead of the one on the left, which velvet box would activate first?', options: ['The velvet box on the left', 'The velvet box on the right', 'Both simultaneously'], correct: 1 },
+            'PT': { question: "From the agent's perspective, which velvet box activates first?", options: ["The velvet box on the agent's left", "The velvet box on the agent's right", 'Both simultaneously'], correct: 0 },
+          } },
+      ]
+    },
+    DE: {
+      name: 'Direction Estimation',
+      themes: [
+        { title: "Natural History Museum Dinosaur Wing", idx: 2,
+          mp4: 'static/videos/DE/2.mp4', jpg: 'static/thumbs/DE/2.jpg',
+          qas: {
+            'OA': { question: 'What are the dominant colors of the Tyrannosaurus Rex Skeleton?', options: ['Bone White', 'Dark Polished Oak', 'Bright Pink and Blue Neon', 'Safety Blue Mesh'], correct: 0 },
+            'OE': { question: 'Which object appears in the video?', options: ['Antique Glass Display Case', 'Promotional End-Cap Display', 'Tyrannosaurus Rex Skeleton', 'Dairy Section Overhead Sign'], correct: 2 },
+            'CM': { question: 'In which direction does the camera turn at the corner?', options: ['Left', 'Right', 'It does not turn', 'It makes a U-turn (180 degrees)'], correct: 1 },
+            'SL': { question: 'What is the overall shape of the space that the camera walks through?', options: ['Straight line', 'L-shape (90-degree corner)', 'U-shape (180-degree curve)', 'Circular loop'], correct: 1 },
+            'TO': { question: 'Which object does the camera observe first during the walk?', options: ['Tyrannosaurus Rex Skeleton', 'Stegosaurus Skeleton', 'Both at the same time', 'Neither is observed'], correct: 0 },
+            'CR': { question: 'If the camera had turned Left instead of Right, in which direction would the second landmark be from the final position?', options: ['4-5 o\'clock (back-right)', '7-8 o\'clock (back-left)', '12 o\'clock (directly ahead)', '6 o\'clock (directly behind)'], correct: 3 },
+            'PT': { question: 'At the final position, in which direction (using clock positions where 12 o\'clock is straight ahead) is the starting point located?', options: ['12 o\'clock (directly ahead)', '4-5 o\'clock (back-right)', '7-8 o\'clock (back-left)', '6 o\'clock (directly behind)'], correct: 1 },
+          } },
+        { title: "Las Vegas Casino Carpeted Hallway", idx: 30,
+          mp4: 'static/videos/DE/30.mp4', jpg: 'static/thumbs/DE/30.jpg',
+          qas: {
+            'OA': { question: 'What are the dominant colors of the Golden Lion Statue?', options: ['Gold', 'Black screen with silver frame', 'Yellow metal frame with white paper stacks', 'White'], correct: 0 },
+            'OE': { question: 'Which object appears in the video?', options: ['High-Contrast Calibration Panel', 'Large Wall-Mounted TV', 'Golden Lion Statue', 'Red Calibration Target Wall'], correct: 2 },
+            'CM': { question: 'In which direction does the camera turn at the corner?', options: ['Left', 'Right', 'It does not turn', 'It makes a U-turn (180 degrees)'], correct: 1 },
+            'SL': { question: 'What is the overall shape of the space that the camera walks through?', options: ['Straight line', 'L-shape (90-degree corner)', 'U-shape (180-degree curve)', 'Circular loop'], correct: 1 },
+            'TO': { question: 'Which object does the camera observe first during the walk?', options: ['Golden Lion Statue', 'Neon Poker Chip Sign', 'Both at the same time', 'Neither is observed'], correct: 0 },
+            'CR': { question: 'If the camera had turned Left instead of Right, in which direction would the second landmark be from the final position?', options: ['4-5 o\'clock (back-right)', '7-8 o\'clock (back-left)', '12 o\'clock (directly ahead)', '6 o\'clock (directly behind)'], correct: 3 },
+            'PT': { question: 'At the final position, in which direction (using clock positions where 12 o\'clock is straight ahead) is the starting point located?', options: ['12 o\'clock (directly ahead)', '4-5 o\'clock (back-right)', '7-8 o\'clock (back-left)', '6 o\'clock (directly behind)'], correct: 1 },
+          } },
+        { title: "Castle Stone Corridor", idx: 90,
+          mp4: 'static/videos/DE/90.mp4', jpg: 'static/thumbs/DE/90.jpg',
+          qas: {
+            'OA': { question: 'What are the dominant colors of the Large Red Royal Tapestry?', options: ['Deep Red with Gold Crest', 'Green felt with wood frame', 'Polished Steel', 'Deep Emerald Green'], correct: 0 },
+            'OE': { question: 'Which object appears in the video?', options: ['Crimson Velvet Armchair', 'Ornate Wooden Bar Counter', 'Large Red Royal Tapestry', 'Red Industrial Tool Cabinet'], correct: 2 },
+            'CM': { question: 'In which direction does the camera turn at the corner?', options: ['Left', 'Right', 'It does not turn', 'It makes a U-turn (180 degrees)'], correct: 1 },
+            'SL': { question: 'What is the overall shape of the space that the camera walks through?', options: ['Straight line', 'L-shape (90-degree corner)', 'U-shape (180-degree curve)', 'Circular loop'], correct: 1 },
+            'TO': { question: 'Which object does the camera observe first during the walk?', options: ['Large Red Royal Tapestry', 'Ancient Armor Stand', 'Both at the same time', 'Neither is observed'], correct: 0 },
+            'CR': { question: 'If the camera had turned Left instead of Right, in which direction would the second landmark be from the final position?', options: ['4-5 o\'clock (back-right)', '7-8 o\'clock (back-left)', '12 o\'clock (directly ahead)', '6 o\'clock (directly behind)'], correct: 3 },
+            'PT': { question: 'At the final position, in which direction (using clock positions where 12 o\'clock is straight ahead) is the starting point located?', options: ['12 o\'clock (directly ahead)', '4-5 o\'clock (back-right)', '7-8 o\'clock (back-left)', '6 o\'clock (directly behind)'], correct: 1 },
+          } },
+        { title: "Elven Forest Treehouse L-Corridor", idx: 97,
+          mp4: 'static/videos/DE/97.mp4', jpg: 'static/thumbs/DE/97.jpg',
+          qas: {
+            'OA': { question: 'What are the dominant colors of the Bioluminescent Flora Arrangement?', options: ['Dark Grey Velvet', 'Glowing Blue and Green', 'Earth tones with red contour lines', 'Gold and dark wood'], correct: 1 },
+            'OE': { question: 'Which object appears in the video?', options: ['Copper Mash Tun Kettle', 'Bioluminescent Flora Arrangement', 'Celestial Astrolabe Globe', 'Tyrannosaurus Rex Skeleton'], correct: 1 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['It stays fixed at the starting position', 'It walks straight forward without turning', 'It walks forward, makes a turn', 'It rotates in place without moving'], correct: 2 },
+            'SL': { question: 'What is the overall shape of the space that the camera walks through?', options: ['Straight line', 'L-shape (90-degree corner)', 'U-shape (180-degree curve)', 'Circular loop'], correct: 1 },
+            'TO': { question: 'Which object does the camera observe first during the walk?', options: ['Ornate Elven Gate', 'Bioluminescent Flora Arrangement', 'Both at the same time', 'Neither is observed'], correct: 0 },
+            'CR': { question: 'If the camera had turned Right instead of Left, in which direction would the second landmark be from the final position?', options: ['4-5 o\'clock (back-right)', '7-8 o\'clock (back-left)', '12 o\'clock (directly ahead)', '6 o\'clock (directly behind)'], correct: 3 },
+            'PT': { question: 'At the final position, in which direction (using clock positions where 12 o\'clock is straight ahead) is the starting point located?', options: ['12 o\'clock (directly ahead)', '4-5 o\'clock (back-right)', '7-8 o\'clock (back-left)', '6 o\'clock (directly behind)'], correct: 2 },
+          } },
+      ]
+    },
+        IO: {
+      name: 'Interacted Object Identification',
+      themes: [
+        { title: "Modern Kitchen with Island Counter and Breakfast Bar", idx: 30,
+          mp4: 'static/videos/IO/30.mp4', jpg: 'static/thumbs/IO/30.jpg',
+          qas: {
+            'FL': { question: 'In the view right after agent appears, where is the agent located in the frame?', options: ['Left', 'Center', 'Right'], correct: 0 },
+            'OA': { question: 'What is the color of the Breakfast Bar?', options: ['Iron-Banded Wood', 'Galvanized Grey Metal', 'Stainless Steel', 'Aged Pine Shelving'], correct: 2 },
+            'OE': { question: 'Which object appears in the video?', options: ['Brown Sugar Caddy', 'Black Camera Lens Cap', 'Red Tomato', 'White Glaze Jar'], correct: 2 },
+            'AR': { question: 'Which object does the agent pick up?', options: ['Red Tomato', 'Yellow Lemon', 'Wooden Spatula'], correct: 0 },
+            'IT': { question: 'The object placed on the Breakfast Bar at the end - which object is it?', options: ['Red Tomato', 'Yellow Lemon', 'Wooden Spatula', 'A different object not seen before'], correct: 0 },
+            'OC': { question: 'How many objects are initially placed on the Island Counter?', options: ['1', '2', '3', '4'], correct: 2 },
+            'SL': { question: 'From the camera\'s perspective, what is the left-to-right order of objects on the Island Counter?', options: ['Red Tomato, Yellow Lemon, Wooden Spatula', 'Yellow Lemon, Red Tomato, Wooden Spatula', 'Wooden Spatula, Yellow Lemon, Red Tomato', 'Red Tomato, Wooden Spatula, Yellow Lemon'], correct: 0 },
+            'CR': { question: 'If the agent had picked up the object at the Right position instead, which object would be in the Breakfast Bar?', options: ['Red Tomato', 'Yellow Lemon', 'Wooden Spatula', 'The agent would have moved no object'], correct: 2 },
+          } },
+        { title: "Japanese Tatami Room with Low Table and Tokonoma Alcove", idx: 19,
+          mp4: 'static/videos/IO/19.mp4', jpg: 'static/thumbs/IO/19.jpg',
+          qas: {
+            'FL': { question: 'In the view right after agent appears, where is the agent located in the frame?', options: ['Left', 'Center', 'Right'], correct: 0 },
+            'OA': { question: 'What is the appearance of the agent?', options: ['Stocky adult in heavy leather apron, side view', 'Adult in tweed jacket, side view', 'Adult in soft cotton clothing, side view', 'Adult in a kimono, side view'], correct: 3 },
+            'OE': { question: 'Which agent appears in the video?', options: ['Dwarven Smith', 'Potter', 'Professor', 'Tatami Resident'], correct: 3 },
+            'AR': { question: 'What action does the agent perform on one of the objects?', options: ['Picks it up and places it on another surface', 'Pushes it off the table', 'Rearranges its position on the same surface', 'Breaks it into pieces'], correct: 0 },
+            'IT': { question: 'Is the object placed on the Tokonoma Alcove the same object that the agent picked up from the Low Table?', options: ['Yes, it is the same object', 'No, it is a different object', 'Cannot be determined', 'The agent did not place any object'], correct: 0 },
+            'OC': { question: 'How many objects does the agent pick up and move?', options: ['0', '1', '2', '3'], correct: 1 },
+            'SL': { question: 'From the camera\'s perspective, what is the left-to-right order of objects on the Low Table?', options: ['Black Tea Bowl, Bamboo Tea Whisk, Red Lacquer Box', 'Bamboo Tea Whisk, Black Tea Bowl, Red Lacquer Box', 'Red Lacquer Box, Bamboo Tea Whisk, Black Tea Bowl', 'Black Tea Bowl, Red Lacquer Box, Bamboo Tea Whisk'], correct: 0 },
+            'CR': { question: 'If the agent had picked up the Red Lacquer Box instead, from which position on the Low Table would it have been taken?', options: ['Left', 'Center', 'Right', 'It was not on the Low Table'], correct: 2 },
+          } },
+        { title: "Wizard's Tower with Alchemy Desk and Potion Shelf", idx: 91,
+          mp4: 'static/videos/IO/91.mp4', jpg: 'static/thumbs/IO/91.jpg',
+          qas: {
+            'FL': { question: 'In the view right after agent appears, where is the agent located in the frame?', options: ['Left', 'Center', 'Right'], correct: 0 },
+            'OA': { question: 'What is the appearance of the agent?', options: ['Adult in heavy apron and gloves, side view', 'Adult in scrubs, side view', 'Adult in a knit sweater, side view', 'Adult in deep blue robes, side view'], correct: 3 },
+            'OE': { question: 'Which agent appears in the video?', options: ['Taxidermist', 'Dental Hygienist', 'Studious Reader', 'Wizard'], correct: 3 },
+            'AR': { question: 'What action does the agent perform on one of the objects?', options: ['Picks it up and places it on another surface', 'Pushes it off the table', 'Rearranges its position on the same surface', 'Breaks it into pieces'], correct: 0 },
+            'IT': { question: 'Is the object placed on the Potion Shelf the same object that the agent picked up from the Alchemy Desk?', options: ['Yes, it is the same object', 'No, it is a different object', 'Cannot be determined', 'The agent did not place any object'], correct: 0 },
+            'OC': { question: 'How many objects does the agent pick up and move?', options: ['0', '1', '2', '3'], correct: 1 },
+            'SL': { question: 'From the camera\'s perspective, what is the left-to-right order of objects on the Alchemy Desk?', options: ['Green Glowing Potion Vial, Brown Spell Scroll, Silver Crescent Amulet', 'Brown Spell Scroll, Green Glowing Potion Vial, Silver Crescent Amulet', 'Silver Crescent Amulet, Brown Spell Scroll, Green Glowing Potion Vial', 'Green Glowing Potion Vial, Silver Crescent Amulet, Brown Spell Scroll'], correct: 0 },
+            'CR': { question: 'If the agent had picked up the Silver Crescent Amulet instead, from which position on the Alchemy Desk would it have been taken?', options: ['Left', 'Center', 'Right', 'It was not on the Alchemy Desk'], correct: 2 },
+          } },
+        { title: "Model Train Room with Hobby Table and Display Shelf", idx: 80,
+          mp4: 'static/videos/IO/80.mp4', jpg: 'static/thumbs/IO/80.jpg',
+          qas: {
+            'FL': { question: 'In the view right after agent appears, where is the agent located in the frame?', options: ['Left', 'Center', 'Right'], correct: 0 },
+            'OA': { question: 'What is the color of the Hobby Table?', options: ['Painted Green Tabletop', 'White Laminate', 'Stainless Steel', 'Walnut Veneer'], correct: 0 },
+            'OE': { question: 'Which object appears in the video?', options: ['Brown Wooden Tunnel Piece', 'Silver Wrench', 'White Mozzarella Ball', 'Black Computer Mouse'], correct: 0 },
+            'AR': { question: 'From which position on the Hobby Table does the agent pick up the object?', options: ['Left', 'Center', 'Right'], correct: 2 },
+            'IT': { question: 'The object placed on the Display Shelf at the end - which object is it?', options: ['Red Train Engine Model', 'Black Train Car Model', 'Brown Wooden Tunnel Piece', 'A different object not seen before'], correct: 2 },
+            'OC': { question: 'How many objects remain on the Hobby Table at the end of the video?', options: ['0', '1', '2', '3'], correct: 2 },
+            'SL': { question: 'From the camera\'s perspective, what is the left-to-right order of objects on the Hobby Table?', options: ['Red Train Engine Model, Black Train Car Model, Brown Wooden Tunnel Piece', 'Black Train Car Model, Red Train Engine Model, Brown Wooden Tunnel Piece', 'Brown Wooden Tunnel Piece, Black Train Car Model, Red Train Engine Model', 'Red Train Engine Model, Brown Wooden Tunnel Piece, Black Train Car Model'], correct: 0 },
+            'CR': { question: 'If the agent had picked up the object at the Center position instead, which object would be in the Display Shelf?', options: ['Red Train Engine Model', 'Black Train Car Model', 'Brown Wooden Tunnel Piece', 'The agent would have moved no object'], correct: 1 },
+          } },
+      ]
+    },
+        HO: {
+      name: 'Height Ordering',
+      themes: [
+        { title: "Minimalist Living Room", idx: 0,
+          mp4: 'static/videos/HO/0.mp4', jpg: 'static/thumbs/HO/0.jpg',
+          qas: {
+            'FL': { question: 'In the final view, where is the Potted Succulent located in the frame?', options: ['Left', 'Center', 'Right'], correct: 1 },
+            'OA': { question: 'What is the color of the Ceramic Floor Vase?', options: ['White', 'Black', 'Green', 'Grey'], correct: 0 },
+            'OE': { question: 'Which object appears in the video?', options: ['White Ceramic Floor Vase', 'Sage Sponge Bucket', 'Mint Porcelain Tea Canister', 'Gold Crown Prop'], correct: 0 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['It pans horizontally from left to right', 'It tilts vertically from bottom to top', 'It zooms in and out', 'It rotates around the room'], correct: 1 },
+            'SL': { question: 'Which object is placed at the highest position in the room?', options: ['Ceramic Floor Vase', 'Remote Control', 'Potted Succulent', 'Yoga Mat Roll'], correct: 2 },
+            'TO': { question: 'Which object becomes visible last in the video?', options: ['Ceramic Floor Vase', 'Remote Control', 'Potted Succulent', 'Yoga Mat Roll'], correct: 2 },
+            'CR': { question: 'If the Potted Succulent and the Ceramic Floor Vase had swapped positions, what is the height ranking of the objects from lowest to highest?', options: ['Ceramic Floor Vase, Remote Control, Potted Succulent', 'Remote Control, Ceramic Floor Vase, Potted Succulent', 'Potted Succulent, Remote Control, Ceramic Floor Vase', 'Ceramic Floor Vase, Potted Succulent, Remote Control'], correct: 2 },
+          } },
+        { title: "Modern Kitchen", idx: 30,
+          mp4: 'static/videos/HO/30.mp4', jpg: 'static/thumbs/HO/30.jpg',
+          qas: {
+            'FL': { question: 'In the final view, where is the Silicone Trivet located in the frame?', options: ['Left', 'Center', 'Right'], correct: 1 },
+            'OA': { question: 'What is the color of the Silicone Trivet?', options: ['Red', 'White', 'Olive', 'Navy'], correct: 0 },
+            'OE': { question: 'Which object appears in the video?', options: ['Yellow Lemon Bowl', 'Iron Steel War Shield', 'Black Inner Tube Bundle', 'Navy Ceramic Canister'], correct: 3 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['It pans horizontally from left to right', 'It tilts vertically from top to bottom', 'It zooms in and out', 'It rotates around the room'], correct: 1 },
+            'SL': { question: 'What is the height ranking of the objects from lowest to highest?', options: ['Silicone Trivet, Ceramic Mixing Bowl, Glass Spice Jar', 'Ceramic Mixing Bowl, Silicone Trivet, Glass Spice Jar', 'Glass Spice Jar, Ceramic Mixing Bowl, Silicone Trivet', 'Silicone Trivet, Glass Spice Jar, Ceramic Mixing Bowl'], correct: 0 },
+            'TO': { question: 'Which object becomes visible last in the video?', options: ['Silicone Trivet', 'Ceramic Mixing Bowl', 'Glass Spice Jar', 'Ceramic Canister'], correct: 0 },
+            'CR': { question: 'If the Glass Spice Jar and the Silicone Trivet had swapped positions, what is the height ranking of the objects from lowest to highest?', options: ['Silicone Trivet, Ceramic Mixing Bowl, Glass Spice Jar', 'Ceramic Mixing Bowl, Silicone Trivet, Glass Spice Jar', 'Glass Spice Jar, Ceramic Mixing Bowl, Silicone Trivet', 'Silicone Trivet, Glass Spice Jar, Ceramic Mixing Bowl'], correct: 2 },
+          } },
+        { title: "Music Recording Studio", idx: 80,
+          mp4: 'static/videos/HO/80.mp4', jpg: 'static/thumbs/HO/80.jpg',
+          qas: {
+            'FL': { question: 'In the final view, where is the Studio Headphones located in the frame?', options: ['Left', 'Center', 'Right'], correct: 1 },
+            'OA': { question: 'What is the color of the Guitar Pedal Board?', options: ['Black', 'Silver', 'Red', 'Brown'], correct: 0 },
+            'OE': { question: 'Which object appears in the video?', options: ['Black Guitar Pedal Board', 'Teal Backpack', 'Silver Coping Saw', 'Clear Graduated Cylinder'], correct: 0 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['It pans horizontally from left to right', 'It tilts vertically from bottom to top', 'It zooms in and out', 'It rotates around the room'], correct: 1 },
+            'SL': { question: 'Which object is placed at the highest position in the room?', options: ['Guitar Pedal Board', 'Condenser Microphone', 'Studio Headphones', 'Cable Coil'], correct: 2 },
+            'TO': { question: 'Which object becomes visible last in the video?', options: ['Guitar Pedal Board', 'Condenser Microphone', 'Studio Headphones', 'Cable Coil'], correct: 2 },
+            'CR': { question: 'If the Studio Headphones and the Guitar Pedal Board had swapped positions, what is the height ranking of the objects from lowest to highest?', options: ['Guitar Pedal Board, Condenser Microphone, Studio Headphones', 'Condenser Microphone, Guitar Pedal Board, Studio Headphones', 'Studio Headphones, Condenser Microphone, Guitar Pedal Board', 'Guitar Pedal Board, Studio Headphones, Condenser Microphone'], correct: 2 },
+          } },
+        { title: "Spaceship Bridge", idx: 90,
+          mp4: 'static/videos/HO/90.mp4', jpg: 'static/thumbs/HO/90.jpg',
+          qas: {
+            'FL': { question: 'In the final view, where is the Navigation Data Pad located in the frame?', options: ['Left', 'Center', 'Right'], correct: 1 },
+            'OA': { question: 'What is the color of the Navigation Data Pad?', options: ['Silver', 'Blue', 'Red', 'Orange'], correct: 0 },
+            'OE': { question: 'Which object appears in the video?', options: ['White X-Ray Viewer', 'Blue Holographic Star Chart', 'Red Card Deck Fan', 'Terracotta Watering Can'], correct: 1 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['It pans horizontally from left to right', 'It tilts vertically from top to bottom', 'It zooms in and out', 'It rotates around the room'], correct: 1 },
+            'SL': { question: 'What is the height ranking of the objects from lowest to highest?', options: ['Navigation Data Pad, Holographic Star Chart, Emergency Beacon Light', 'Holographic Star Chart, Navigation Data Pad, Emergency Beacon Light', 'Emergency Beacon Light, Holographic Star Chart, Navigation Data Pad', 'Navigation Data Pad, Emergency Beacon Light, Holographic Star Chart'], correct: 0 },
+            'TO': { question: 'Which object becomes visible last in the video?', options: ['Navigation Data Pad', 'Holographic Star Chart', 'Emergency Beacon Light', 'Plasma Coil Canister'], correct: 0 },
+            'CR': { question: 'If the Emergency Beacon Light and the Navigation Data Pad had swapped positions, what is the height ranking of the objects from lowest to highest?', options: ['Navigation Data Pad, Holographic Star Chart, Emergency Beacon Light', 'Holographic Star Chart, Navigation Data Pad, Emergency Beacon Light', 'Emergency Beacon Light, Holographic Star Chart, Navigation Data Pad', 'Navigation Data Pad, Emergency Beacon Light, Holographic Star Chart'], correct: 2 },
+          } },
+      ]
+    },
+        VI: {
+      name: 'Visibility Identification',
+      themes: [
+        { title: "Indoor Playground with Large Ball Pit Wall", idx: 16,
+          mp4: 'static/videos/VI/16.mp4', jpg: 'static/thumbs/VI/16.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where are the agents located in the frame?', options: ['Top and Left', 'Top and Right', 'Left and Right', 'Top and Bottom'], correct: 0 },
+            'OA': { question: 'Which combination of appearances is seen among the objects in the video?', options: ['A woman in a white T-shirt and leggings sitting on a bench and A young boy in an orange hoodie and sneakers waving his hands', 'Man in striped bowling shirt and A small black cat wandering near the bowling lanes', 'Man in all-black attire with headset and Woman in period costume', 'Elf in green woodland garb and Orc in crude hide armor'], correct: 0 },
+            'OE': { question: 'Which object appears in the video?', options: ['Large Ball Pit Wall', 'Tall Cubby Shelves', 'Heavy Ball Rack Stand', 'Large Prop Crate'], correct: 0 },
+            'AR': { question: 'What action does the agent located in top perform in the video?', options: ['Walks from one position to another', 'Stands completely still', 'Picks up an item', 'Exits the frame'], correct: 0 },
+            'IT': { question: 'Is the agent at the top of the initial view the same person as the agent at the right of the final view?', options: ['Yes, the same person', 'No, different people', 'There is no agent at the top of the initial view', 'There is no agent at the right of the final view'], correct: 0 },
+            'SL': { question: 'In the initial view, what is the spatial arrangement of the three entities?', options: ['The Large Ball Pit Wall is between the Parent and the Child on a diagonal', 'The Large Ball Pit Wall is directly between the Parent and the Child on the same horizontal line', 'All three are clustered together at one corner', 'The Parent is between the Large Ball Pit Wall and the Child'], correct: 0 },
+            'PT': { question: 'How did the visibility of the Child from the Parent\'s perspective change between the initial and final views?', options: ['Occluded to Visible', 'Visible to Occluded', 'Always visible', 'Always occluded'], correct: 1 },
+          } },
+        { title: "Open Plan Office with Solid Room Divider", idx: 30,
+          mp4: 'static/videos/VI/30.mp4', jpg: 'static/thumbs/VI/30.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where are the agents located in the frame?', options: ['Top and Left', 'Top and Right', 'Left and Right', 'Top and Bottom'], correct: 1 },
+            'OA': { question: 'Which combination of appearances is seen among the objects in the video?', options: ['Woman in gray blazer and Man in white button-down shirt', 'Lawman in tan duster and star badge and A small hound dog lying near the bar counter', 'A burly man in a yellow hard hat and steel-toed boots carrying a tape measure and A young man in an orange apron and work gloves pushing a flatbed cart', 'Officer in blue flight suit and Person in tattered space coveralls'], correct: 0 },
+            'OE': { question: 'Which object appears in the video?', options: ['Large Wooden Bar Counter', 'Towering Lumber Stacks', 'Solid Room Divider', 'Cargo Containers'], correct: 2 },
+            'AR': { question: 'What action does the agent located in top perform in the video?', options: ['Walks from one position to another', 'Stands completely still', 'Picks up an item', 'Exits the frame'], correct: 1 },
+            'IT': { question: 'Is the agent at the right of the initial view the same person as the agent at the bottom of the final view?', options: ['Yes, the same person', 'No, different people', 'There is no agent at the right of the initial view', 'There is no agent at the bottom of the final view'], correct: 0 },
+            'SL': { question: 'In the final view, what is the spatial arrangement of the three entities?', options: ['The Solid Room Divider is between the Office Manager and the New Employee on a diagonal', 'The Solid Room Divider is directly between the Office Manager and the New Employee on the same horizontal line', 'All three are clustered together at one corner', 'The Office Manager is between the Solid Room Divider and the New Employee'], correct: 1 },
+            'PT': { question: 'How did the visibility of the New Employee from the Office Manager\'s perspective change between the initial and final views?', options: ['Occluded to Visible', 'Visible to Occluded', 'Always visible', 'Always occluded'], correct: 1 },
+          } },
+        { title: "Arcade Center with Photo Booth Cabin", idx: 66,
+          mp4: 'static/videos/VI/66.mp4', jpg: 'static/thumbs/VI/66.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where are the agents located in the frame?', options: ['Top and Left', 'Top and Right', 'Left and Right', 'Top and Bottom'], correct: 1 },
+            'OA': { question: 'Which combination of appearances is seen among the objects in the video?', options: ['Staff in red polo shirt and Teen in neon green jacket', 'Man in yellow safety vest and Woman in red winter coat', 'Captain in red longcoat with tricorn hat and A small ginger cat crouching on the ship deck', 'A teenage girl in a crop top and high-waisted jeans carrying a tote bag and A man in a vest and dress shirt holding a shoe box'], correct: 0 },
+            'AR': { question: 'What action does the agent located in top perform in the video?', options: ['Walks from one position to another', 'Stands completely still', 'Picks up an item', 'Exits the frame'], correct: 0 },
+            'IT': { question: 'Is the agent at the top of the initial view the same person as the agent at the left of the final view?', options: ['Yes, the same person', 'No, different people', 'There is no agent at the top of the initial view', 'There is no agent at the left of the final view'], correct: 0 },
+            'SL': { question: 'In the final view, what is the spatial arrangement of the three entities?', options: ['The Photo Booth Cabin is between the Arcade Employee and the Teenage Gamer on a diagonal', 'The Photo Booth Cabin is directly between the Arcade Employee and the Teenage Gamer on the same horizontal line', 'All three are clustered together at one corner', 'The Arcade Employee is between the Photo Booth Cabin and the Teenage Gamer'], correct: 1 },
+            'PT': { question: 'How did the visibility of the Teenage Gamer from the Arcade Employee\'s perspective change between the initial and final views?', options: ['Occluded to Visible', 'Visible to Occluded', 'Always visible', 'Always occluded'], correct: 1 },
+          } },
+        { title: "Time Machine Chamber with Core Pedestal", idx: 89,
+          mp4: 'static/videos/VI/89.mp4', jpg: 'static/thumbs/VI/89.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where are the agents located in the frame?', options: ['Top and Left', 'Top and Right', 'Left and Right', 'Top and Bottom'], correct: 2 },
+            'OA': { question: 'Which combination of appearances is seen among the objects in the video?', options: ['Agent in silver chrono-suit and Figure in patched leather coat', 'Man in Hawaiian shirt and Teen in wetsuit', 'Officer in khaki uniform and Person in orange jumpsuit', 'Dwarf in heavy iron helmet and Small creature in ragged cloth'], correct: 0 },
+            'OE': { question: 'Which object appears in the video?', options: ['Large Wooden Beach Storage Shed', 'Temporal Engine Block', 'Concrete Pillar', 'Massive Stone Pillar'], correct: 1 },
+            'AR': { question: 'What action does the agent located in top perform in the video?', options: ['Walks from one position to another', 'Stands completely still', 'Picks up an item', 'Exits the frame'], correct: 0 },
+            'IT': { question: 'Is the agent at the left of the initial view the same person as the agent at the top of the final view?', options: ['Yes, the same person', 'No, different people', 'There is no agent at the left of the initial view', 'There is no agent at the top of the final view'], correct: 1 },
+            'SL': { question: 'In the initial view, what is the spatial arrangement of the three entities?', options: ['The Temporal Engine Block is between the Time Agent and the Temporal Fugitive on a diagonal', 'The Temporal Engine Block is directly between the Time Agent and the Temporal Fugitive on the same horizontal line', 'All three are clustered together at one corner', 'The Time Agent is between the Temporal Engine Block and the Temporal Fugitive'], correct: 1 },
+            'PT': { question: 'How did the visibility of the Temporal Fugitive from the Time Agent\'s perspective change between the initial and final views?', options: ['Occluded to Visible', 'Visible to Occluded', 'Always visible', 'Always occluded'], correct: 0 },
+          } },
+      ]
+    },
+        DS: {
+      name: 'Directional Signage Grounding',
+      themes: [
+        { title: "Zoo Primate House Enclosed Corridor", idx: 47,
+          mp4: 'static/videos/DS/47.mp4', jpg: 'static/thumbs/DS/47.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the directional sign located in the frame?', options: ['Top', 'Bottom', 'Left', 'Right'], correct: 0 },
+            'OA': { question: 'What direction does the arrow next to \'Orangutan Canopy\' point?', options: ['Straight', 'Left', 'Right', 'Backwards'], correct: 2 },
+            'OE': { question: 'Which destination text does NOT appear on the sign?', options: ['Gorilla Forest', 'Orangutan Canopy', 'Cloakroom & VIP Lounge'], correct: 2 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['It walks straight forward', 'It walks forward then turns left', 'It walks forward then turns right', 'It stays fixed in place'], correct: 2 },
+            'OC': { question: 'How many destination entries are listed on the sign?', options: ['1', '2', '3', '4'], correct: 1 },
+            'SL': { question: 'Which destination is at the right?', options: ['Gorilla Forest', 'Orangutan Canopy', 'Cloakroom & VIP Lounge'], correct: 1 },
+            'CR': { question: 'If the arrow for \'Orangutan Canopy\' had pointed straight instead of right, which destination would the agent be heading toward?', options: ['Orangutan Canopy', 'Gorilla Forest', 'Cloakroom & VIP Lounge', 'Could not determine'], correct: 3 },
+            'PT': { question: 'From the perspective of someone walking in the opposite direction (toward the sign from beyond it), which way does the arrow for \'Orangutan Canopy\' point?', options: ['Straight ahead', 'Backwards', 'Left', 'Right'], correct: 2 },
+          } },
+        { title: "Mega Data Center Server Aisle", idx: 52,
+          mp4: 'static/videos/DS/52.mp4', jpg: 'static/thumbs/DS/52.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the directional sign located in the frame?', options: ['Top', 'Bottom', 'Left', 'Right'], correct: 0 },
+            'OA': { question: 'What direction does the arrow next to \'Server Blocks A-M\' point?', options: ['Straight', 'Left', 'Right', 'Backwards'], correct: 2 },
+            'OE': { question: 'Which destination text appears on the sign?', options: ['Server Blocks A-M', 'Platforms 1-25', 'Transit Hub', 'Soundstage 12'], correct: 0 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['It walks straight forward', 'It walks forward then turns left', 'It walks forward then turns right', 'It stays fixed in place'], correct: 1 },
+            'OC': { question: 'How many destination entries are listed on the sign?', options: ['1', '2', '3', '4'], correct: 1 },
+            'SL': { question: 'Which destination is at the right?', options: ['Server Blocks A-M', 'Cooling & Power', 'Platforms 1-25'], correct: 0 },
+            'CR': { question: 'If the camera had turned right at the sign instead of going left, which destination would the agent be heading toward?', options: ['Server Blocks A-M', 'Cooling & Power', 'Platforms 1-25', 'Transit Hub'], correct: 0 },
+            'PT': { question: 'From the perspective of someone walking in the opposite direction (toward the sign from beyond it), which way does the arrow for \'Server Blocks A-M\' point?', options: ['Straight ahead', 'Backwards', 'Left', 'Right'], correct: 2 },
+          } },
+        { title: "Convention Center Glass Skybridge", idx: 76,
+          mp4: 'static/videos/DS/76.mp4', jpg: 'static/thumbs/DS/76.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the directional sign located in the frame?', options: ['Top', 'Bottom', 'Left', 'Right'], correct: 0 },
+            'OA': { question: 'What direction does the arrow next to \'Grand Ballroom\' point?', options: ['Straight', 'Left', 'Right', 'Backwards'], correct: 2 },
+            'OE': { question: 'Which destination text appears on the sign?', options: ['Grand Ballroom', 'General Treatment Rooms', 'Postpartum Ward', 'Platforms 1-25'], correct: 0 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['It walks straight forward', 'It walks forward then turns left', 'It walks forward then turns right', 'It stays fixed in place'], correct: 1 },
+            'OC': { question: 'How many destination entries are listed on the sign?', options: ['1', '2', '3', '4'], correct: 1 },
+            'SL': { question: 'Which destination is at the right?', options: ['Grand Ballroom', 'Registration & Check-in', 'General Treatment Rooms'], correct: 0 },
+            'CR': { question: 'If the camera had turned right at the sign instead of going left, which destination would the agent be heading toward?', options: ['Grand Ballroom', 'Registration & Check-in', 'General Treatment Rooms', 'Postpartum Ward'], correct: 0 },
+            'PT': { question: 'From the perspective of someone walking in the opposite direction (toward the sign from beyond it), which way does the arrow for \'Grand Ballroom\' point?', options: ['Straight ahead', 'Backwards', 'Left', 'Right'], correct: 2 },
+          } },
+        { title: "Mars Colony Hydroponics Wing", idx: 80,
+          mp4: 'static/videos/DS/80.mp4', jpg: 'static/thumbs/DS/80.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the directional sign located in the frame?', options: ['Top', 'Bottom', 'Left', 'Right'], correct: 0 },
+            'OA': { question: 'What direction does the arrow next to \'Central Airlock\' point?', options: ['Straight', 'Left', 'Right', 'Backwards'], correct: 1 },
+            'OE': { question: 'Which destination text appears on the sign?', options: ['Central Airlock', 'Science Domes', 'Checkout & Membership', 'Cafe & Restrooms'], correct: 0 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['It walks straight forward', 'It walks forward then turns left', 'It walks forward then turns right', 'It stays fixed in place'], correct: 2 },
+            'OC': { question: 'How many destination entries are listed on the sign?', options: ['1', '2', '3', '4'], correct: 1 },
+            'SL': { question: 'Which destination is at the left?', options: ['Central Airlock', 'Hydroponics Bay 4', 'Science Domes'], correct: 0 },
+            'CR': { question: 'If the camera had turned left at the sign instead of going right, which destination would the agent be heading toward?', options: ['Central Airlock', 'Hydroponics Bay 4', 'Science Domes', 'Checkout & Membership'], correct: 0 },
+            'PT': { question: 'From the perspective of someone walking in the opposite direction (toward the sign from beyond it), which way does the arrow for \'Central Airlock\' point?', options: ['Straight ahead', 'Backwards', 'Left', 'Right'], correct: 3 },
+          } },
+      ]
+    },
+        RV: {
+      name: 'Relative Velocity Identification',
+      themes: [
+        { title: "Desert Highway", idx: 0,
+          mp4: 'static/videos/RV/0.mp4', jpg: 'static/thumbs/RV/0.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the Construction Truck located in the frame?', options: ['Left side', 'Center', 'Right side'], correct: 2 },
+            'OA': { question: 'What is the color of the Construction Truck?', options: ['Orange', 'Green', 'White', 'Blue'], correct: 0 },
+            'OE': { question: 'Which object appears in the video?', options: ['Orange Construction Truck', 'Green Segway Rider', 'Red Stunt Biplane', 'Green Utility ATV'], correct: 0 },
+            'AR': { question: 'How does the Construction Truck appear to move relative to the camera?', options: ['Drifts backward', 'Streaks forward', 'Stays stationary at the same distance', 'Moves to the side and disappears'], correct: 0 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['Moves forward at a constant speed', 'Accelerates and decelerates repeatedly', 'Stays completely stationary', 'Changes lanes from right to left'], correct: 0 },
+            'IT': { question: 'The object that overtakes the camera from behind - which object is it?', options: ['Orange Construction Truck', 'Black Sports Car', 'A different object', 'No object overtakes'], correct: 1 },
+            'OC': { question: 'How many objects move slower than the camera?', options: ['0', '1', '2', '3'], correct: 1 },
+            'SL': { question: 'In which lane does the Orange Construction Truck travel?', options: ['Left lane', 'Same lane as the camera', 'Right lane', 'The Construction Truck switches lanes'], correct: 2 },
+            'TO': { question: 'Which object becomes visible last in the video?', options: ['Orange Construction Truck', 'Black Sports Car', 'Both at the same time'], correct: 1 },
+            'CR': { question: 'If the Construction Truck had been moving faster than the camera object, how would it appear to move in the video?', options: ['Drift backward and disappear behind', 'Streak forward and disappear ahead', 'Stay at the same distance', 'Move to the side'], correct: 1 },
+            'PR': { question: 'If all objects continue at their current speeds after the video ends, where will the Black Sports Car be relative to the camera?', options: ['Far ahead and out of sight', 'Right next to the camera', 'Far behind the camera', 'Stopped at the side'], correct: 0 },
+            'PT': { question: 'From the perspective of Construction Truck, how does the camera object appear to move?', options: ['Approaches from behind and passes on the left', 'Approaches from behind and passes on the right', 'Stays still at the same distance', 'Disappears into the distance ahead'], correct: 0 },
+          } },
+        { title: "Formula Track", idx: 10,
+          mp4: 'static/videos/RV/10.mp4', jpg: 'static/thumbs/RV/10.jpg',
+          qas: {
+            'FL': { question: 'When the Prototype Racer first enters the frame, where does it appear?', options: ['Left side', 'Center', 'Right side'], correct: 0 },
+            'OA': { question: 'What is the color of the Safety Car?', options: ['Brown', 'Matte Black', 'Yellow', 'Blue'], correct: 2 },
+            'OE': { question: 'Which object appears in the video?', options: ['Red Aerobatic Jet', 'Brown Yak', 'Yellow Safety Car', 'Brown Pack Mule'], correct: 2 },
+            'AR': { question: 'How does the Prototype Racer appear to move relative to the camera?', options: ['Drifts backward', 'Streaks forward', 'Stays stationary at the same distance', 'Moves to the side and disappears'], correct: 1 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['Moves forward at a constant speed', 'Accelerates and decelerates repeatedly', 'Stays completely stationary', 'Changes lanes from right to left'], correct: 0 },
+            'IT': { question: 'The object that overtakes the camera from behind - which object is it?', options: ['Yellow Safety Car', 'Silver Prototype Racer', 'A different object', 'No object overtakes'], correct: 1 },
+            'OC': { question: 'How many objects move slower than the camera?', options: ['0', '1', '2', '3'], correct: 1 },
+            'SL': { question: 'In which lane does the Yellow Safety Car travel?', options: ['Left lane', 'Same lane as the camera', 'Right lane', 'The Safety Car switches lanes'], correct: 2 },
+            'TO': { question: 'Which object becomes visible last in the video?', options: ['Yellow Safety Car', 'Silver Prototype Racer', 'Both at the same time'], correct: 1 },
+            'CR': { question: 'If the Prototype Racer had been moving slower than the camera object, what would happen in the video?', options: ['The camera would be overtaken by the Prototype Racer', 'The Prototype Racer would not appear', 'They would stay at the same distance', 'The Prototype Racer would move to the right lane'], correct: 1 },
+            'PR': { question: 'If all objects continue at their current speeds after the video ends, where will the Silver Prototype Racer be relative to the camera?', options: ['Far ahead and out of sight', 'Right next to the camera', 'Far behind the camera', 'Stopped at the side'], correct: 0 },
+            'PT': { question: 'From the perspective of Prototype Racer, how does the camera object appear to move?', options: ['Stays ahead and the gap stays the same', 'Falls behind and shrinks in the rearview', 'Approaches from behind', 'Moves sideways out of the lane'], correct: 1 },
+          } },
+        { title: "Maglev Tube", idx: 41,
+          mp4: 'static/videos/RV/41.mp4', jpg: 'static/thumbs/RV/41.jpg',
+          qas: {
+            'FL': { question: 'In the initial view, where is the Freight Capsule located in the frame?', options: ['Left side', 'Center', 'Right side'], correct: 0 },
+            'OA': { question: 'What is the color of the Quantum Glider?', options: ['Red', 'Purple', 'Neon Green', 'Gold'], correct: 1 },
+            'OE': { question: 'Which object appears in the video?', options: ['White Emergency Response Van', 'Purple Quantum Glider', 'Orange Jogger', 'Black Sports Car'], correct: 1 },
+            'AR': { question: 'Which object is moving slower than the camera?', options: ['Grey Freight Capsule', 'Purple Quantum Glider', 'Both move slower'], correct: 0 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['Moves forward at a constant speed', 'Accelerates and decelerates repeatedly', 'Stays completely stationary', 'Changes lanes from right to left'], correct: 0 },
+            'IT': { question: 'The object that overtakes the camera from behind - which object is it?', options: ['Grey Freight Capsule', 'Purple Quantum Glider', 'A different object', 'No object overtakes'], correct: 1 },
+            'OC': { question: 'How many objects move faster than the camera?', options: ['0', '1', '2', '3'], correct: 1 },
+            'SL': { question: 'In which lane does the Grey Freight Capsule travel?', options: ['Left lane', 'Same lane as the camera', 'Right lane', 'The Freight Capsule switches lanes'], correct: 0 },
+            'TO': { question: 'Which object becomes visible last in the video?', options: ['Grey Freight Capsule', 'Purple Quantum Glider', 'Both at the same time'], correct: 1 },
+            'CR': { question: 'If the Freight Capsule had been moving faster than the camera object, how would it appear to move in the video?', options: ['Drift backward and disappear behind', 'Streak forward and disappear ahead', 'Stay at the same distance', 'Move to the side'], correct: 1 },
+            'PR': { question: 'If all objects continue at their current speeds after the video ends, where will the Grey Freight Capsule be relative to the camera?', options: ['Far ahead and out of sight', 'Right next to the camera', 'Far behind the camera', 'Stopped at the side'], correct: 2 },
+            'PT': { question: 'From the perspective of Freight Capsule, how does the camera object appear to move?', options: ['Approaches from behind and passes on the left', 'Approaches from behind and passes on the right', 'Stays still at the same distance', 'Disappears into the distance ahead'], correct: 1 },
+          } },
+        { title: "Mars Speedway", idx: 42,
+          mp4: 'static/videos/RV/42.mp4', jpg: 'static/thumbs/RV/42.jpg',
+          qas: {
+            'FL': { question: 'When the Rocket Sled first enters the frame, where does it appear?', options: ['Left side', 'Center', 'Right side'], correct: 0 },
+            'OA': { question: 'What is the color of the Mining Crawler?', options: ['Green', 'Black', 'Orange', 'Blue'], correct: 2 },
+            'OE': { question: 'Which object appears in the video?', options: ['Brown Log Raft', 'Gold Racing Catamaran', 'Orange Mining Crawler', 'Brown Cable Reel Truck'], correct: 2 },
+            'AR': { question: 'How does the Mining Crawler appear to move relative to the camera?', options: ['Drifts backward', 'Streaks forward', 'Stays stationary at the same distance', 'Moves to the side and disappears'], correct: 0 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['Moves forward at a constant speed', 'Accelerates and decelerates repeatedly', 'Stays completely stationary', 'Changes lanes from right to left'], correct: 0 },
+            'IT': { question: 'The object that overtakes the camera from behind - which object is it?', options: ['Orange Mining Crawler', 'Silver Rocket Sled', 'A different object', 'No object overtakes'], correct: 1 },
+            'OC': { question: 'How many objects move slower than the camera?', options: ['0', '1', '2', '3'], correct: 1 },
+            'SL': { question: 'In which lane does the Orange Mining Crawler travel?', options: ['Left lane', 'Same lane as the camera', 'Right lane', 'The Mining Crawler switches lanes'], correct: 2 },
+            'TO': { question: 'Which object becomes visible last in the video?', options: ['Orange Mining Crawler', 'Silver Rocket Sled', 'Both at the same time'], correct: 1 },
+            'CR': { question: 'If the Rocket Sled had been moving slower than the camera object, what would happen in the video?', options: ['The camera would be overtaken by the Rocket Sled', 'The Rocket Sled would not appear', 'They would stay at the same distance', 'The Rocket Sled would move to the right lane'], correct: 1 },
+            'PR': { question: 'If all objects continue at their current speeds after the video ends, where will the Silver Rocket Sled be relative to the camera?', options: ['Far ahead and out of sight', 'Right next to the camera', 'Far behind the camera', 'Stopped at the side'], correct: 0 },
+            'PT': { question: 'From the perspective of Rocket Sled, how does the camera object appear to move?', options: ['Stays ahead and the gap stays the same', 'Falls behind and shrinks in the rearview', 'Approaches from behind', 'Moves sideways out of the lane'], correct: 1 },
+          } },
+      ]
+    },
+        LS: {
+      name: 'Landmark Spatial Composition',
+      themes: [
+        { title: "Downtown Skyline", idx: 0,
+          mp4: 'static/videos/LS/0.mp4', jpg: 'static/thumbs/LS/0.jpg',
+          qas: {
+            'OE': { question: 'Which structure appears in the video?', options: ['Red Brick Clock Tower', 'Coral Beachfront Restaurant', 'Bronze-Domed Temple of Jupiter', 'Emerald Green Ice Chapel'], correct: 0 },
+            'CM': { question: 'In which compass direction does the camera fly horizontally?', options: ['North', 'East', 'South', 'West'], correct: 0 },
+            'SL': { question: 'In which compass direction is the Skyscraper located relative to the Clock Tower?', options: ['North', 'East', 'South', 'West'], correct: 0 },
+            'TO': { question: 'In what order do the landmarks become visible in the video?', options: ['Red Brick Clock Tower -> White Domed Concert Hall -> Green Glass Skyscraper', 'White Domed Concert Hall -> Green Glass Skyscraper -> Red Brick Clock Tower', 'White Domed Concert Hall -> Red Brick Clock Tower -> Green Glass Skyscraper', 'Green Glass Skyscraper -> White Domed Concert Hall -> Red Brick Clock Tower'], correct: 0 },
+            'CR': { question: 'If the camera had flown South instead of North, in which compass direction would the Skyscraper be located relative to the Camera?', options: ['North', 'East', 'South', 'West'], correct: 0 },
+            'PR': { question: 'If the camera continues moving in the same direction beyond the final position, in which compass direction would the Clock Tower be located relative to the Camera?', options: ['South', 'North', 'East', 'West'], correct: 0 },
+            'PT': { question: 'If you were standing on the rooftop of the Clock Tower, in which direction would you look to see the Concert Hall?', options: ['Northeast', 'Southwest', 'Northwest', 'Southeast'], correct: 0 },
+          } },
+        { title: "Alpine Ski Resort", idx: 80,
+          mp4: 'static/videos/LS/80.mp4', jpg: 'static/thumbs/LS/80.jpg',
+          qas: {
+            'OA': { question: 'What is the color of the Gondola Terminal?', options: ['Silver Steel', 'Adobe-Red', 'Red Timber', 'Orange'], correct: 0 },
+            'OE': { question: 'Which structure appears in the video?', options: ['Silver Steel Gondola Terminal', 'Adobe-Red General Store', 'Red Timber Farmhouse', 'Orange Cylindrical Ore Silo'], correct: 0 },
+            'CM': { question: 'In which compass direction does the camera fly horizontally?', options: ['North', 'East', 'South', 'West'], correct: 0 },
+            'SL': { question: 'In which compass direction is the Mountain Rescue Station located relative to the Ski Lodge?', options: ['North', 'East', 'South', 'West'], correct: 0 },
+            'TO': { question: 'In what order do the landmarks become visible in the video?', options: ['Timber Brown Ski Lodge -> Silver Steel Gondola Terminal -> Red and White Mountain Rescue Station', 'Silver Steel Gondola Terminal -> Timber Brown Ski Lodge -> Red and White Mountain Rescue Station', 'Red and White Mountain Rescue Station -> Silver Steel Gondola Terminal -> Timber Brown Ski Lodge', 'Red and White Mountain Rescue Station -> Timber Brown Ski Lodge -> Silver Steel Gondola Terminal'], correct: 0 },
+            'CR': { question: 'If the camera had flown South instead of North, in which compass direction would the Mountain Rescue Station be located relative to the Camera?', options: ['North', 'East', 'South', 'West'], correct: 0 },
+            'PR': { question: 'If the camera continues moving in the same direction beyond the final position, in which compass direction would the Ski Lodge be located relative to the Camera?', options: ['South', 'North', 'East', 'West'], correct: 0 },
+            'PT': { question: 'If you were standing on the rooftop of the Ski Lodge, in which direction would you look to see the Gondola Terminal?', options: ['North', 'South', 'East', 'West'], correct: 0 },
+          } },
+        { title: "Arctic Mining Camp", idx: 89,
+          mp4: 'static/videos/LS/89.mp4', jpg: 'static/thumbs/LS/89.jpg',
+          qas: {
+            'OA': { question: 'What is the rooftop shape of the Mine Shaft Head Frame?', options: ['Earth-covered rectangular mound with concealed ventilation shafts', 'Open lattice tower top with pulley wheel visible from above', 'Mediterranean red clay tile hip roof with courtyard', 'Extremely long rectangular sawtooth roof with north-facing clerestory windows'], correct: 1 },
+            'OE': { question: 'Which structure does NOT appear in the video?', options: ['Rust Orange Ore Processing Plant', 'White Spillway Control House', 'Steel Gray Equipment Garage', 'Dark Iron Mine Shaft Head Frame'], correct: 1 },
+            'CM': { question: 'In which compass direction does the camera fly horizontally?', options: ['North', 'East', 'South', 'West'], correct: 2 },
+            'SL': { question: 'In which compass direction is the Mine Shaft Head Frame located relative to the Ore Processing Plant?', options: ['North', 'East', 'South', 'West'], correct: 2 },
+            'TO': { question: 'In what order do the landmarks become visible in the video?', options: ['Dark Iron Mine Shaft Head Frame -> Rust Orange Ore Processing Plant -> Steel Gray Equipment Garage', 'Rust Orange Ore Processing Plant -> Steel Gray Equipment Garage -> Dark Iron Mine Shaft Head Frame', 'Steel Gray Equipment Garage -> Dark Iron Mine Shaft Head Frame -> Rust Orange Ore Processing Plant', 'Dark Iron Mine Shaft Head Frame -> Steel Gray Equipment Garage -> Rust Orange Ore Processing Plant'], correct: 1 },
+            'CR': { question: 'If the camera had flown North instead of South, in which compass direction would the Mine Shaft Head Frame be located relative to the Camera?', options: ['North', 'East', 'South', 'West'], correct: 2 },
+            'PR': { question: 'If the camera continues moving in the same direction beyond the final position, in which compass direction would the Ore Processing Plant be located relative to the Camera?', options: ['South', 'North', 'East', 'West'], correct: 1 },
+            'PT': { question: 'If you were standing on the rooftop of the Mine Shaft Head Frame, in which direction are the Ore Processing Plant and Equipment Garage located?', options: ['South', 'North', 'East', 'West'], correct: 1 },
+          } },
+        { title: "Mars Colony Settlement", idx: 90,
+          mp4: 'static/videos/LS/90.mp4', jpg: 'static/thumbs/LS/90.jpg',
+          qas: {
+            'OA': { question: 'What is the color of the Habitation Dome Alpha?', options: ['Golden', 'Blue Steel', 'Red Oxide', 'Bright Orange'], correct: 2 },
+            'OE': { question: 'Which structure appears in the video?', options: ['Golden Stupa Shrine', 'Blue Steel Glacier Monitoring Tower', 'Red Oxide Habitation Dome Alpha', 'Bright Orange Main Habitat Module'], correct: 2 },
+            'CM': { question: 'In which compass direction does the camera fly horizontally?', options: ['North', 'East', 'South', 'West'], correct: 0 },
+            'SL': { question: 'In which compass direction is the Biodome Greenhouse located relative to the Habitation Dome Alpha?', options: ['North', 'East', 'South', 'West'], correct: 0 },
+            'TO': { question: 'In what order do the landmarks become visible in the video?', options: ['Solar Gold Solar Array Hub -> Red Oxide Habitation Dome Alpha -> Transparent Biodome Greenhouse', 'Solar Gold Solar Array Hub -> Transparent Biodome Greenhouse -> Red Oxide Habitation Dome Alpha', 'Red Oxide Habitation Dome Alpha -> Solar Gold Solar Array Hub -> Transparent Biodome Greenhouse', 'Transparent Biodome Greenhouse -> Red Oxide Habitation Dome Alpha -> Solar Gold Solar Array Hub'], correct: 2 },
+            'CR': { question: 'If the camera had flown South instead of North, in which compass direction would the Biodome Greenhouse be located relative to the Camera?', options: ['North', 'East', 'South', 'West'], correct: 0 },
+            'PR': { question: 'If the camera continues moving in the same direction beyond the final position, in which compass direction would the Habitation Dome Alpha be located relative to the Camera?', options: ['North', 'East', 'South', 'West'], correct: 2 },
+            'PT': { question: 'If you were standing on the rooftop of the Habitation Dome Alpha, in which direction would you look to see the Solar Array Hub?', options: ['Southeast', 'Northeast', 'Northwest', 'Southwest'], correct: 2 },
+          } },
+      ]
+    },
+        BT: {
+      name: 'Behavioral Trigger Identification',
+      themes: [
+        { title: "Riverfront promenade", idx: 3,
+          mp4: 'static/videos/BT/3.mp4', jpg: 'static/thumbs/BT/3.jpg',
+          qas: {
+            'OA': { question: 'What is the color of the moving Tourism E-Bike with Front Basket?', options: ['Grey', 'Green', 'White', 'Red'], correct: 3 },
+            'OE': { question: 'Which object does NOT appear in the video?', options: ['Blue Tourist Information Kiosk', 'Red Tourism E-Bike with Front Basket', 'Labrador', 'White Shipyard Pickup Truck'], correct: 3 },
+            'AR': { question: 'What event causes the Red Tourism E-Bike with Front Basket to react?', options: ['The Blue Tourist Information Kiosk on the side of the path', 'The Labrador entering the path', 'It reacts itself without any external event'], correct: 1 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['Stays completely fixed in one position', 'Tracks the agent from a high angle behind it', 'Rotates around the agent in a circle', 'Zooms in and out repeatedly'], correct: 1 },
+            'IT': { question: 'The object that suddenly enters the frame - what is it?', options: ['A Lost Highland Calf', 'An Alien Creature', 'A Child', 'A Labrador'], correct: 3 },
+            'TO': { question: 'What is the order of events in the video?', options: ['The Red Tourism E-Bike with Front Basket is moving forward, then the Red Tourism E-Bike with Front Basket stops and resumes, then the Labrador appears on the path', 'The Red Tourism E-Bike with Front Basket is moving forward, then the Labrador appears on the path, then the Red Tourism E-Bike with Front Basket stops and resumes', 'The Labrador appears on the path, then the Red Tourism E-Bike with Front Basket is moving forward, then the Red Tourism E-Bike with Front Basket stops and resumes'], correct: 1 },
+            'CR': { question: 'If the Labrador had not entered the path, what would the Red Tourism E-Bike with Front Basket most likely do?', options: ['Come to a complete stop anyway', 'Continue moving forward at the same speed', 'Turn around and move backward', 'Collide with the Blue Tourist Information Kiosk'], correct: 1 },
+            'PT': { question: 'From the perspective of an observer standing on the opposite side of the path, facing the moving agent, from which side does the trigger appear?', options: ['Left', 'Right', 'Front'], correct: 0 },
+          } },
+        { title: "Desert straight highway", idx: 10,
+          mp4: 'static/videos/BT/10.mp4', jpg: 'static/thumbs/BT/10.jpg',
+          qas: {
+            'OA': { question: 'What is the color of the moving Adventure Motorcycle with Rider in Grey Leathers?', options: ['White', 'Beige', 'Black', 'Pink'], correct: 2 },
+            'OE': { question: 'Which object does NOT appear in the video?', options: ['Large Red Sandstone Rock Formation', 'Black Adventure Motorcycle with Rider in Grey Leathers', 'Stone Idol Pillar', 'Swirling Sandstorm'], correct: 2 },
+            'AR': { question: 'What action does the Black Adventure Motorcycle with Rider in Grey Leathers perform during the video?', options: ['Continues moving without stopping', 'Comes to a complete stop', 'Turns around and moves backward', 'Waits and resumes moving after a short pause'], correct: 3 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['Stays completely fixed in one position', 'Tracks the agent from a high angle behind it', 'Rotates around the agent in a circle', 'Zooms in and out repeatedly'], correct: 1 },
+            'IT': { question: 'The object that suddenly enters the frame - what is it?', options: ['A Spotted Trail Dog', 'A Stray Goat', 'A Swirling Sandstorm', 'A Caribou'], correct: 2 },
+            'TO': { question: 'What is the order of events in the video?', options: ['The Black Adventure Motorcycle with Rider in Grey Leathers is moving forward, then the Black Adventure Motorcycle with Rider in Grey Leathers stops and resumes, then the Swirling Sandstorm appears on the path', 'The Black Adventure Motorcycle with Rider in Grey Leathers is moving forward, then the Swirling Sandstorm appears on the path, then the Black Adventure Motorcycle with Rider in Grey Leathers stops and resumes', 'The Swirling Sandstorm appears on the path, then the Black Adventure Motorcycle with Rider in Grey Leathers is moving forward, then the Black Adventure Motorcycle with Rider in Grey Leathers stops and resumes'], correct: 1 },
+            'CR': { question: 'If the Swirling Sandstorm had not entered the path, what would the Black Adventure Motorcycle with Rider in Grey Leathers most likely do?', options: ['Come to a complete stop anyway', 'Continue moving forward at the same speed', 'Turn around and move backward', 'Collide with the Large Red Sandstone Rock Formation'], correct: 1 },
+            'PT': { question: 'From the perspective of an observer standing on the opposite side of the path, facing the moving agent, from which side does the trigger appear?', options: ['Left', 'Right', 'Front'], correct: 1 },
+          } },
+        { title: "Alpine hiking ridge", idx: 40,
+          mp4: 'static/videos/BT/40.mp4', jpg: 'static/thumbs/BT/40.jpg',
+          qas: {
+            'OA': { question: 'What is the color of the moving Solo Hiker in Jacket with Backpack?', options: ['Red', 'Blue', 'Yellow', 'Silver'], correct: 0 },
+            'OE': { question: 'Which object does NOT appear in the video?', options: ['White Ranch Pickup Truck', 'Large Granite Boulder', 'Solo Hiker in Red Jacket with Backpack', 'Mountain Goat'], correct: 0 },
+            'AR': { question: 'What action does the Solo Hiker in Red Jacket with Backpack perform during the video?', options: ['Continues moving without stopping', 'Comes to a complete stop', 'Turns around and moves backward', 'Waits and resumes moving after a short pause'], correct: 1 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['Stays completely fixed in one position', 'Tracks the agent from a high angle behind it', 'Rotates around the agent in a circle', 'Zooms in and out repeatedly'], correct: 1 },
+            'IT': { question: 'The object that suddenly enters the frame - what is it?', options: ['A Mountain Goat', 'A Lost Luggage Cart with Bags', 'A Fallen Tree Branch', 'A Fallen Giant Magical Acorn'], correct: 0 },
+            'TO': { question: 'What is the order of events in the video?', options: ['The Solo Hiker in Red Jacket with Backpack is moving forward, then the Solo Hiker in Red Jacket with Backpack stops, then the Mountain Goat appears on the path', 'The Solo Hiker in Red Jacket with Backpack is moving forward, then the Mountain Goat appears on the path, then the Solo Hiker in Red Jacket with Backpack stops', 'The Mountain Goat appears on the path, then the Solo Hiker in Red Jacket with Backpack is moving forward, then the Solo Hiker in Red Jacket with Backpack stops'], correct: 1 },
+            'CR': { question: 'If the Mountain Goat had not entered the path, what would the Solo Hiker in Red Jacket with Backpack most likely do?', options: ['Come to a complete stop anyway', 'Continue moving forward at the same speed', 'Turn around and move backward', 'Collide with the Large Granite Boulder'], correct: 1 },
+            'PT': { question: 'From the perspective of an observer standing on the opposite side of the path, facing the moving agent, from which side does the trigger appear?', options: ['Left', 'Right', 'Front'], correct: 1 },
+          } },
+        { title: "Muddy forest path", idx: 44,
+          mp4: 'static/videos/BT/44.mp4', jpg: 'static/thumbs/BT/44.jpg',
+          qas: {
+            'OA': { question: 'What is the color of the moving Hiker?', options: ['Brown', 'Blue', 'White', 'Yellow'], correct: 0 },
+            'OE': { question: 'Which object does NOT appear in the video?', options: ['Tall Snow Plow Pile against Roadside Barn Wall', 'Fallen Mossy Tree Trunk', 'Brown Hiker', 'Wild Boar'], correct: 0 },
+            'AR': { question: 'What action does the Brown Hiker perform during the video?', options: ['Continues moving without stopping', 'Comes to a complete stop', 'Turns around and moves backward', 'Waits and resumes moving after a short pause'], correct: 1 },
+            'CM': { question: 'How does the camera move throughout the video?', options: ['Stays completely fixed in one position', 'Tracks the agent from a high angle behind it', 'Rotates around the agent in a circle', 'Zooms in and out repeatedly'], correct: 1 },
+            'IT': { question: 'The object that suddenly enters the frame - what is it?', options: ['A Wild Boar', 'A Red Toddler Tricycle', 'A Dock Worker in Orange Safety Vest', 'A Sprinting Coyote'], correct: 0 },
+            'TO': { question: 'What is the order of events in the video?', options: ['The Brown Hiker is moving forward, then the Brown Hiker stops, then the Wild Boar appears on the path', 'The Brown Hiker is moving forward, then the Wild Boar appears on the path, then the Brown Hiker stops', 'The Wild Boar appears on the path, then the Brown Hiker is moving forward, then the Brown Hiker stops'], correct: 1 },
+            'CR': { question: 'If the Wild Boar had not entered the path, what would the Brown Hiker most likely do?', options: ['Come to a complete stop anyway', 'Continue moving forward at the same speed', 'Turn around and move backward', 'Collide with the Fallen Mossy Tree Trunk'], correct: 1 },
+            'PT': { question: 'From the perspective of an observer standing on the opposite side of the path, facing the moving agent, from which side does the trigger appear?', options: ['Left', 'Right', 'Front'], correct: 1 },
+          } },
+      ]
+    }
+  };
+
+  /* ===================================================================
+     STATE + RENDERING
+     =================================================================== */
+  const state = {
+    scale: 'figural',
+    persp: 'ego',
+    dyn: 'static',
+    theme: 0,
+    qaType: null,   // first applicable type per task; set on task change
+  };
+
+  const videoFrameEl = document.querySelector('.video-frame');
+  const placeholderEl = document.getElementById('video-placeholder');
+  const selectedBarEl = document.getElementById('selected-bar');
+  const selectedCodeEl = document.getElementById('selected-code');
+  const selectedNameEl = document.getElementById('selected-name');
+  const taskDescTextEl = document.getElementById('task-desc-text');
+  const qtdNameEl = document.getElementById('qtd-name');
+  const qtdTextEl = document.getElementById('qtd-text');
+  const metaTaskEl = document.getElementById('meta-task-name');
+  const metaThemeEl = document.getElementById('meta-theme-name');
+  const qaTagEl = document.getElementById('qa-tag');
+  const qaQEl = document.getElementById('qa-question');
+  const qaOptsEl = document.getElementById('qa-options');
+  const themeGridEl = document.getElementById('theme-grid');
+  const stageEl = document.getElementById('stage');
+  const stripEl = document.getElementById('theme-strip');
+
+  function currentTask() {
+    const key = `${state.scale}|${state.persp}|${state.dyn}`;
+    return TASK_MAP[key];
+  }
+
+  function tryMedia(item) {
+    const video = document.createElement('video');
+    video.muted = true;
+    video.loop = true;
+    video.playsInline = true;
+    video.autoplay = true;
+    video.controls = true;
+    video.preload = 'metadata';
+    video.poster = item.jpg;
+    video.src = item.mp4;
+    return video;
+  }
+
+  function render() {
+    const taskCode = currentTask();
+    const task = DATA[taskCode];
+    const themes = task.themes;
+    if (state.theme >= themes.length) state.theme = 0;
+    const item = themes[state.theme];
+
+    // Axis segmented buttons
+    document.querySelectorAll('.segmented').forEach(group => {
+      const axis = group.dataset.axis;
+      group.querySelectorAll('.seg-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.val === state[axis]);
+      });
+    });
+
+    // Selected task pill
+    selectedCodeEl.textContent = taskCode;
+    selectedNameEl.textContent = task.name;
+
+    // Task description
+    taskDescTextEl.textContent = TASK_DESC[taskCode] || '';
+
+    // QA type cards: enable applicable, disable rest; mark active
+    const applicable = TASK_QA_APPLICABLE[taskCode] || [];
+    if (!applicable.includes(state.qaType)) {
+      state.qaType = applicable[0] || null;
+    }
+    document.querySelectorAll('.ql-type').forEach(btn => {
+      const t = btn.dataset.type;
+      btn.classList.toggle('disabled', !applicable.includes(t));
+      btn.classList.toggle('active', t === state.qaType);
+    });
+
+    // QA type description
+    const meta = state.qaType ? QA_TYPE_META[state.qaType] : null;
+    if (meta) {
+      qtdNameEl.textContent = `${meta.level} · ${meta.name}`;
+      qtdTextEl.textContent = meta.desc;
+    } else {
+      qtdNameEl.textContent = '';
+      qtdTextEl.textContent = '';
+    }
+
+    // Main video
+    videoFrameEl.querySelectorAll('video,img').forEach(n => n.remove());
+    placeholderEl.style.display = 'flex';
+    placeholderEl.innerHTML = `Replace <code>static/videos/${taskCode}_theme${state.theme+1}.mp4</code>`;
+    const v = tryMedia(item);
+    v.addEventListener('loadeddata', () => { placeholderEl.style.display = 'none'; });
+    v.addEventListener('error', () => { placeholderEl.style.display = 'flex'; });
+    videoFrameEl.appendChild(v);
+
+    // Meta
+    metaTaskEl.textContent = task.name;
+    metaThemeEl.textContent = item.title;
+
+    // QA — look up by current qa type
+    const qa = item.qas && item.qas[state.qaType];
+    qaTagEl.style.display = 'none';   // redundant with qa-type-desc above
+    if (qa) {
+      qaQEl.textContent = qa.question;
+      qaOptsEl.innerHTML = qa.options.map((opt, i) => {
+        const letter = String.fromCharCode(65 + i);
+        const correct = i === qa.correct;
+        return `<li class="${correct ? 'correct' : ''}">
+          <span class="letter">${letter}.</span>
+          <span>${opt}</span>
+        </li>`;
+      }).join('');
+    } else {
+      qaQEl.textContent = '[QA data not yet wired for this task]';
+      qaOptsEl.innerHTML = '';
+    }
+
+    // Theme strip
+    themeGridEl.innerHTML = themes.map((th, i) => {
+      const active = i === state.theme;
+      return `<div class="theme-card ${active ? 'active' : ''}" data-theme="${i}">
+        <div class="theme-thumb">
+          <img src="${th.jpg}" alt="" onerror="this.remove()">
+        </div>
+        <div class="theme-info">
+          <div class="theme-title">${th.title}</div>
+        </div>
+      </div>`;
+    }).join('');
+
+    // Animate
+    [stageEl, stripEl, selectedBarEl].forEach(el => {
+      el.classList.remove('swap-anim');
+      void el.offsetWidth;
+      el.classList.add('swap-anim');
+    });
+  }
+
+  // Axis segmented click
+  document.querySelectorAll('.segmented').forEach(group => {
+    const axis = group.dataset.axis;
+    group.addEventListener('click', e => {
+      const btn = e.target.closest('.seg-btn');
+      if (!btn) return;
+      state[axis] = btn.dataset.val;
+      state.theme = 0;       // reset to first theme of the new task
+      render();
+    });
+  });
+
+  // QA type click (within level cards)
+  document.querySelectorAll('.ql-type').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (btn.classList.contains('disabled')) return;
+      state.qaType = btn.dataset.type;
+      render();
+    });
+  });
+
+  // Theme thumbnail click
+  themeGridEl.addEventListener('click', e => {
+    const card = e.target.closest('.theme-card');
+    if (!card) return;
+    state.theme = parseInt(card.dataset.theme, 10);
+    render();
+  });
+
+  // Keyboard: ← / → cycles themes within the current task
+  document.addEventListener('keydown', e => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    const themes = DATA[currentTask()].themes;
+    if (e.key === 'ArrowRight') {
+      state.theme = (state.theme + 1) % themes.length;
+      render();
+    } else if (e.key === 'ArrowLeft') {
+      state.theme = (state.theme - 1 + themes.length) % themes.length;
+      render();
+    }
+  });
+
+  render();
+
+  function copyBibtex(btn) {
+    const text = document.getElementById('bibtex-content').innerText;
+    const done = () => {
+      const span = btn.querySelector('span');
+      const icon = btn.querySelector('i');
+      span.textContent = 'Copied!';
+      icon.className = 'fa-solid fa-check';
+      setTimeout(() => {
+        span.textContent = 'Copy';
+        icon.className = 'fa-regular fa-copy';
+      }, 1800);
+    };
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(done).catch(() => {});
+    } else {
+      const ta = document.createElement('textarea');
+      ta.value = text; document.body.appendChild(ta); ta.select();
+      document.execCommand('copy'); document.body.removeChild(ta); done();
+    }
+  }
+</script>
+
+</body>
+</html>
