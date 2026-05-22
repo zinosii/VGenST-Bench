@@ -1,0 +1,20 @@
+[
+    {
+        "reasoning_goal": "The viewer must classify each non-ego agent's velocity relative to the Ego (Silver SUV): the Orange Construction Truck (in the Right lane, ahead) is Slower-than-Ego because it visibly drifts BACKWARD in ego's frame; the Black Sports Car (entering from behind in the Left lane) is Faster-than-Ego because it streaks past Ego and shrinks FORWARD into the distance.",
+        "timeline": {
+            "(Setup)": "First-person view from inside the Ego Silver SUV cruising forward at constant speed in a Desert Highway environment. The Orange Construction Truck is visible ahead in the Right lane, appearing nearly stationary. The Left lane and the road behind Ego are empty — no other agents in frame yet.",
+            "(Phase 1 — Slower-than-Ego Cue)": "The Orange Construction Truck (in the Right lane) appears nearly stationary in absolute terms while Ego closes the gap rapidly. It grows larger in frame, slides past beside Ego, and drifts off-screen toward the back of frame, visibly moving BACKWARD relative to Ego. This cue identifies it as Slower-than-Ego.",
+            "(Phase 2 — Faster-than-Ego Cue)": "The Black Sports Car enters frame from behind in the Left lane at very high relative speed. It streaks past Ego (visibly moving FORWARD in Ego's frame), continues forward, shrinks to a dot ahead, and disappears into the distance. This cue identifies it as Faster-than-Ego.",
+            "(Result)": "Ego continues forward at constant speed. The relative velocity classification is confirmed: Orange Construction Truck = Slower-than-Ego, Black Sports Car = Faster-than-Ego. Final velocity ranking (low to high): Orange Construction Truck < Ego (Silver SUV) < Black Sports Car."
+        }
+    },
+    {
+        "reasoning_goal": "The viewer must classify each non-ego agent's velocity relative to the Ego (White Sedan): the Yellow Tanker Truck (in the Left lane, ahead) is Slower-than-Ego because it visibly drifts BACKWARD in ego's frame; the Red Motorcycle (entering from behind in the Right lane) is Faster-than-Ego because it streaks past Ego and shrinks FORWARD into the distance.",
+        "timeline": {
+            "(Setup)": "First-person view from inside the Ego White Sedan cruising forward at constant speed in a Coastal Freeway environment. The Yellow Tanker Truck is visible ahead in the Left lane, appearing nearly stationary. The Right lane and the road behind Ego are empty — no other agents in frame yet.",
+            "(Phase 1 — Slower-than-Ego Cue)": "The Yellow Tanker Truck (in the Left lane) appears nearly stationary in absolute terms while Ego closes the gap rapidly. It grows larger in frame, slides past beside Ego, and drifts off-screen toward the back of frame, visibly moving BACKWARD relative to Ego. This cue identifies it as Slower-than-Ego.",
+            "(Phase 2 — Faster-than-Ego Cue)": "The Red Motorcycle enters frame from behind in the Right lane at very high relative speed. It streaks past Ego (visibly moving FORWARD in Ego's frame), continues forward, shrinks to a dot ahead, and disappears into the distance. This cue identifies it as Faster-than-Ego.",
+            "(Result)": "Ego continues forward at constant speed. The relative velocity classification is confirmed: Yellow Tanker Truck = Slower-than-Ego, Red Motorcycle = Faster-than-Ego. Final velocity ranking (low to high): Yellow Tanker Truck < Ego (White Sedan) < Red Motorcycle."
+        }
+    }
+]

@@ -1,0 +1,11 @@
+{
+  "task_id": "CM_F_EXO_DYN",
+  "category_id": "L2-SL",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "From the camera's perspective, where is the agent located relative to the buttons?: A. In front of the buttons, B. Behind the buttons, C. Between the two buttons, D. Above the buttons",
+      "answer": "B"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "DE_V_EGO_STA",
+  "category_id": "L2-CM",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How does the camera move throughout the video?: A. It stays fixed at the starting position, B. It walks straight forward without turning, C. It walks forward, makes a turn, D. It rotates in place without moving",
+      "answer": "C"
+    },
+    {
+      "id": "proto_2",
+      "question": "In which direction does the camera turn at the corner?: A. Left, B. Right, C. It does not turn, D. It makes a U-turn (180 degrees)",
+      "answer": "B"
+    }
+  ]
+}

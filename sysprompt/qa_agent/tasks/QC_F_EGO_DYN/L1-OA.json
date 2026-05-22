@@ -1,0 +1,16 @@
+{
+  "task_id": "QC_F_EGO_DYN",
+  "category_id": "L1-OA",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What is the material of the container?: A. Metal, B. Glass, C. Wood, D. Plastic",
+      "answer": "C"
+    },
+    {
+      "id": "proto_2",
+      "question": "What is the color of the surface?: A. Light Gray, B. Pure White, C. Dark Brown, D. Bright Orange",
+      "answer": "C"
+    }
+  ]
+}

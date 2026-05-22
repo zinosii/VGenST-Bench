@@ -1,0 +1,16 @@
+{
+  "task_id": "RV_E_EGO_DYN",
+  "category_id": "L1-OE",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which object appears in the video?: A. Orange Construction Truck, B. Yellow School Bus, C. Green Tractor, D. Purple Limousine",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "Which object appears in the video?: A. White Pickup Truck, B. Black Sports Car, C. Red Convertible, D. Blue Motorcycle",
+      "answer": "B"
+    }
+  ]
+}

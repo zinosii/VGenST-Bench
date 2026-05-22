@@ -1,0 +1,11 @@
+{
+  "task_id": "BT_E_EXO_DYN",
+  "category_id": "L3-CR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If the child had not entered the path, what would the Blue Sedan Car most likely do?: A. Come to a complete stop anyway, B. Continue driving forward at the same speed, C. Turn around and drive backward, D. Crash into the parked SUV",
+      "answer": "B"
+    }
+  ]
+}

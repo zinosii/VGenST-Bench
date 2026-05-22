@@ -1,0 +1,11 @@
+{
+  "task_id": "BT_E_EXO_DYN",
+  "category_id": "L2-TO",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What is the order of events in the video?: A. The car is moving forward, then the car stops, then the child appears on the path, B. The car is moving forward, then the child appears on the path, then the car stops, C. The child appears on the path, then the car is moving forward, then the car stops",
+      "answer": "B"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "IO_V_EGO_DYN",
+  "category_id": "L1-OE",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which object appears in the video?: A. Red Ceramic Coffee Mug, B. Yellow Rubber Duck, C. Purple Silk Scarf, D. Black Leather Wallet",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "Which agent appears in the video?: A. Service Robot, B. Casual Resident, C. Uniformed Delivery Worker, D. Small Child",
+      "answer": "B"
+    }
+  ]
+}

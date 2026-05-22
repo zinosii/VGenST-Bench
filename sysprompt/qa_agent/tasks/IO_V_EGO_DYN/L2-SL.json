@@ -1,0 +1,11 @@
+{
+  "task_id": "IO_V_EGO_DYN",
+  "category_id": "L2-SL",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "From the camera's perspective, what is the left-to-right order of objects on the Coffee Table?: A. Red Mug, Blue Novel, Green Apple, B. Blue Novel, Red Mug, Green Apple, C. Green Apple, Blue Novel, Red Mug, D. Red Mug, Green Apple, Blue Novel",
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "RV_E_EGO_DYN",
+  "category_id": "L2-TO",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which object becomes visible last in the video?: A. Orange Construction Truck, B. Black Sports Car, C. Both at the same time",
+      "answer": "B"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "task_id": "HO_V_EXO_STA",
+  "category_id": "L2-SL",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What is the height ranking of the objects from lowest to highest?: A. Ceramic Floor Vase, Remote Control, Potted Succulent, B. Remote Control, Ceramic Floor Vase, Potted Succulent, C. Potted Succulent, Remote Control, Ceramic Floor Vase, D. Ceramic Floor Vase, Potted Succulent, Remote Control",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "Which object is at the same height level as the Yoga Mat Roll?: A. Ceramic Floor Vase, B. Remote Control, C. Potted Succulent",
+      "answer": "A"
+    },
+    {
+      "id": "proto_3",
+      "question": "Which object is placed at the highest position in the room?: A. Ceramic Floor Vase, B. Remote Control, C. Potted Succulent, D. Yoga Mat Roll",
+      "answer": "C"
+    }
+  ]
+}

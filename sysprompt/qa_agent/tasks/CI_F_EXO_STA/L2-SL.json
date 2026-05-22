@@ -1,0 +1,11 @@
+{
+  "task_id": "CI_F_EXO_STA",
+  "category_id": "L2-SL",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Where is the Red Pillar Candle located?: A. Inside the Ceramic Crate, B. Inside the Wicker Basket C. Revealed in both containers D. Not revealed in either container",
+      "answer": "A"
+    }
+  ]
+}

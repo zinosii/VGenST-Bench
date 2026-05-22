@@ -1,0 +1,21 @@
+{
+  "task_id": "IO_V_EGO_DYN",
+  "category_id": "L2-AR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What action does the agent perform on one of the objects?: A. Picks it up and places it on another surface, B. Pushes it off the table, C. Rearranges its position on the same surface, D. Breaks it into pieces",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "Which object does the agent pick up?: A. Red Ceramic Coffee Mug, B. Hardcover Blue Novel, C. Green Apple",
+      "answer": "A"
+    },
+    {
+      "id": "proto_3",
+      "question": "From which position on the Coffee Table does the agent pick up the object?: A. Left, B. Center, C. Right",
+      "answer": "A"
+    }
+  ]
+}

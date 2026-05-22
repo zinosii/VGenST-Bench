@@ -1,0 +1,16 @@
+{
+  "task_id": "CI_F_EXO_STA",
+  "category_id": "L1-OE",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which object appears in the video?: A. Wide Cream Ceramic Crate, B. Narrow Blue Plastic Bin, C. Tall Black Metal Box, D. Small Glass Jar",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "Which object does NOT appear in the video?: A. Small Red Pillar Candle, B. Small Silver Fork, C. Small Brown Leather Keychain, D. Large Golden Statue",
+      "answer": "D"
+    }
+  ]
+}

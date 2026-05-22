@@ -1,0 +1,8 @@
+[
+    {
+        "prompt": "Continuing from the anchor frame. Spaceship bridge command console environment. Camera remains fixed — no panning, tilting, or zoom. Phase 1 : Agent presses the Left Command Button. The Left Status Pillar immediately illuminates with red light and extends upwards. Agent retracts hand to rest position and pauses. Phase 2 : Agent presses the Right Command Button. The Right Status Pillar immediately illuminates with blue light and extends upwards. Agent retracts hand. Camera holds on the final state — Left Status Pillar glowing red, Right Status Pillar glowing blue. Video ends. CRITICAL: Camera remains completely fixed throughout. Each trigger press must be clearly separated with a pause between them. Do not render any text, captions, subtitles, or overlays in the video."
+    },
+    {
+        "prompt": "Continuing from the anchor frame. Cyberpunk Hacker's Neon Desk environment. Camera remains fixed — no panning, tilting, or zoom. Phase 1 : Agent presses the Dull Red Switch. The Inactive Prism remains absolutely still — no movement, no light, no change. Agent retracts hand to rest position and pauses. Phase 2 : Agent presses the Glowing Blue Switch. The Active Prism immediately spins and emits neon light. Agent retracts hand. Camera holds on the final state — Inactive Prism still and dark, Active Prism spinning and emitting neon light. Video ends. CRITICAL: Camera remains completely fixed throughout. Each trigger press must be clearly separated with a pause between them. Do not render any text, captions, subtitles, or overlays in the video."
+    }
+]

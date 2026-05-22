@@ -1,0 +1,11 @@
+{
+  "task_id": "RV_E_EGO_DYN",
+  "category_id": "L2-IT",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "The object that overtakes the camera from behind — which object is it?: A. Orange Construction Truck, B. Black Sports Car, C. A different object, D. No object overtakes",
+      "answer": "B"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "BT_E_EXO_DYN",
+  "category_id": "L1-OE",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which object does NOT appear in the video?: A. Parked Green SUV, B. Blue Sedan Car, C. Child in Red Shirt, D. Yellow School Bus",
+      "answer": "D"
+    }
+  ]
+}

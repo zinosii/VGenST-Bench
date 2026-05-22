@@ -1,0 +1,21 @@
+{
+  "task_id": "QC_F_EGO_DYN",
+  "category_id": "L3-PR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If the hand were to perform one additional REMOVE action after the video ends, how many items would be inside the container?: A. 0, B. 1, C. 2, D. 3",
+      "answer": "B"
+    },
+    {
+      "id": "proto_2",
+      "question": "If the hand were to perform two additional REMOVE actions after the video ends, how many items would be inside the container?: A. 0, B. 1, C. 2, D. 3",
+      "answer": "A"
+    },
+    {
+      "id": "proto_3",
+      "question": "If the hand were to perform one additional ADD action after the video ends, how many items would be inside the container?: A. 0, B. 1, C. 2, D. 3",
+      "answer": "C"
+    }
+  ]
+}

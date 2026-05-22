@@ -1,0 +1,16 @@
+{
+  "task_id": "DS_E_EGO_STA",
+  "category_id": "L2-SL",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which destination is at the straight?: A. Gates A1-A20, B. Customs & Baggage, C. Restrooms",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "Which destination is at the left?: A. Gates A1-A20, B. Customs & Baggage, C. Restrooms",
+      "answer": "B"
+    }
+  ]
+}

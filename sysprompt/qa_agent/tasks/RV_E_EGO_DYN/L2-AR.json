@@ -1,0 +1,21 @@
+{
+  "task_id": "RV_E_EGO_DYN",
+  "category_id": "L2-AR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How does the Construction Truck appear to move relative to the camera?: A. Drifts backward, B. Streaks forward, C. Stays stationary at the same distance, D. Moves to the side and disappears",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "How does the Sports Car appear to move relative to the camera?: A. Drifts backward, B. Streaks forward, C. Stays stationary at the same distance, D. Moves to the side and disappears",
+      "answer": "B"
+    },
+    {
+      "id": "proto_3",
+      "question": "Which object is moving slower than the camera?: A. Orange Construction Truck, B. Black Sports Car, C. Both move slower",
+      "answer": "A"
+    }
+  ]
+}

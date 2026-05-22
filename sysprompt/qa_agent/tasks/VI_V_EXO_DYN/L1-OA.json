@@ -1,0 +1,11 @@
+{
+  "task_id": "VI_V_EXO_DYN",
+  "category_id": "L1-OA",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which combination of appearances is seen among the objects in the video?: A. Dark blue uniform and black ski mask, B. Chef's hat and lab coat, C. Police badge and military camouflage, D. Wedding suit and hospital gown",
+      "answer": "A"
+    }
+  ]
+}

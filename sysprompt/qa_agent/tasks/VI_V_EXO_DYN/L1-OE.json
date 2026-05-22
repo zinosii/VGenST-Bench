@@ -1,0 +1,11 @@
+{
+  "task_id": "VI_V_EXO_DYN",
+  "category_id": "L1-OE",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which object appears in the video?: A. Reception Desk, B. Safety Deposit Cabinet, C. Pillar of Marble, D. ATM Machine",
+      "answer": "B"
+    }
+  ]
+}

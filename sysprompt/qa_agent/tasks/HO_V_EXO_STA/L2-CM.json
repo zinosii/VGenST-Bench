@@ -1,0 +1,16 @@
+{
+  "task_id": "HO_V_EXO_STA",
+  "category_id": "L2-CM",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How does the camera move throughout the video?: A. It pans horizontally from left to right, B. It tilts vertically from bottom to top, C. It zooms in and out, D. It rotates around the room",
+      "answer": "B"
+    },
+    {
+      "id": "proto_2",
+      "question": "In which direction does the camera tilt?: A. From bottom to top, B. From top to bottom, C. From left to right, D. From right to left",
+      "answer": "A"
+    }
+  ]
+}

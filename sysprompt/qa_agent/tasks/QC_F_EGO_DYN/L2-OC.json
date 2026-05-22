@@ -1,0 +1,12 @@
+{
+  "task_id": "QC_F_EGO_DYN",
+  "category_id": "L2-OC",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Suppose the container was empty at the start of the video — How many identical items are in container at the end of the video?: A. 0, B. 1, C. 2, D. 3",
+      "answer": "C"
+    }
+  ]
+}
+

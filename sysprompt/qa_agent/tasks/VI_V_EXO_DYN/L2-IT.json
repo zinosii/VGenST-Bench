@@ -1,0 +1,11 @@
+{
+  "task_id": "VI_V_EXO_DYN",
+  "category_id": "L2-IT",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Is the agent at the top of the initial view the same person as the agent at the right of the final view?: A. Yes, the same person, B. No, different people, C. There is no agent at the top of the initial view, D. There is no agent at the right of the final view",
+      "answer": "A"
+    }
+  ]
+}

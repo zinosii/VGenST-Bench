@@ -1,0 +1,1402 @@
+[
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Gates A1-A20",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Customs & Baggage",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling center"
+    }
+  },
+  {
+    "label": "Directional Sign (Overhead Gantry)",
+    "attributes": {
+      "entry_A": {
+        "text": "Platforms 1-10",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Metro Connection",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Platforms 1-5",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Transfer Hall",
+        "arrow": "Right"
+      },
+      "placement": "Hanging from ceiling"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Boarding Gates 1-15",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Ticket & Information",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from high ceiling"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Platforms 1-25",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Ticketing Hall",
+        "arrow": "Straight"
+      },
+      "placement": "Suspended from ceiling above corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Digital Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Interstellar Gates 1-50",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "VIP Commercial Lounge",
+        "arrow": "Right"
+      },
+      "placement": "Hanging from ceiling"
+    }
+  },
+  {
+    "label": "Illuminated Overhead Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Pod Bay 7-12",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Transit Hub",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling center"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Upper Station Platform",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Ticketing Hall",
+        "arrow": "Straight"
+      },
+      "placement": "Suspended from ceiling beams"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage Panel",
+    "attributes": {
+      "entry_A": {
+        "text": "Downtown Terminal",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Sky Lounge",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling structure at junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Gantry Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "North Line Docks",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Main Lobby",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from ceiling above promenade"
+    }
+  },
+  {
+    "label": "Overhead Emergency Routing Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Trauma & Emergency",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Surgery & ICU",
+        "arrow": "Straight"
+      },
+      "placement": "Hanging from ceiling"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Small Animal Clinic",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Surgery Wing",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling at junction"
+    }
+  },
+  {
+    "label": "Illuminated Directional Sign (Brushed Metal)",
+    "attributes": {
+      "entry_A": {
+        "text": "Grand Thermal Pool",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Aromatherapy Suites",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from ceiling center at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Neonatal ICU",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Postpartum Ward",
+        "arrow": "Straight"
+      },
+      "placement": "Suspended from ceiling at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage Panel",
+    "attributes": {
+      "entry_A": {
+        "text": "Decontamination Shower",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Biohazard Ward 7",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling at corridor junction"
+    }
+  },
+  {
+    "label": "Illuminated Corridor Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Sector 7 MedBay",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Decontamination",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling center at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Gait Training Lab",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Patient Suites",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from ceiling at corridor intersection"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "High Security Ward B",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Crisis Intervention Unit",
+        "arrow": "Right"
+      },
+      "placement": "Hanging from ceiling at junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "General Treatment Rooms",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Emergency Dental",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from ceiling center"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Bio-Safety Level 3 Labs",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Administrative Offices",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from ceiling at skybridge junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Science Building",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Student Union",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from walkway ceiling at junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Main Reading Room",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Archives & Special Collections",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from high ceiling above corridor junction"
+    }
+  },
+  {
+    "label": "Industrial Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Injection Sector 4",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Control Center",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling center at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Panel",
+    "attributes": {
+      "entry_A": {
+        "text": "Habitation Module",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Airlock Sector",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling center"
+    }
+  },
+  {
+    "label": "Overhead Museum Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Titanosaur Exhibit",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Cafe & Restrooms",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling"
+    }
+  },
+  {
+    "label": "Overhead Junction Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Science Domes",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Residential Module",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from ceiling at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage Panel",
+    "attributes": {
+      "entry_A": {
+        "text": "Hydroponics Wing A",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Seed Bank Access",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling structure above corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Simulation Deck 4",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Armory",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling"
+    }
+  },
+  {
+    "label": "Institutional Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Administration Office",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Sculpture Studio",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling center at corridor junction"
+    }
+  },
+  {
+    "label": "Directional Sign (Overhead Facility Sign)",
+    "attributes": {
+      "entry_A": {
+        "text": "Primary Radar Array",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Backup Power Cell",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling center at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Food Court & Restrooms",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Cinema Complex",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling above central walkway"
+    }
+  },
+  {
+    "label": "Overhead Aisle Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Checkout & Membership",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Outdoor & Garden",
+        "arrow": "Right"
+      },
+      "placement": "Hanging from ceiling beams above aisle intersection"
+    }
+  },
+  {
+    "label": "Overhead Navigation Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Showroom Displays",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Checkout & Exit",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling at junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Archway Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Designer Wing",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Food Court",
+        "arrow": "Left"
+      },
+      "placement": "Mounted on overhead archway spanning the promenade"
+    }
+  },
+  {
+    "label": "Overhead Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Tuna Auction Ring",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Cold Storage",
+        "arrow": "Right"
+      },
+      "placement": "Hanging from ceiling beams"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Main Showrooms",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Vehicle Delivery Center",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling above corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage Gantry",
+    "attributes": {
+      "entry_A": {
+        "text": "Terminal 2 Gates",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Duty-Free Plaza",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from ceiling center of walkway"
+    }
+  },
+  {
+    "label": "Overhead Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Food Court",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Metro Station",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Cloud Computing Hall",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Cybersecurity Forum",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling at junction"
+    }
+  },
+  {
+    "label": "Overhead Wooden Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Ceramic Hall",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Spice Market",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from wooden beam under stone archway"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Balcony & Box Seats",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "Orchestra Seating Hall",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from high foyer ceiling at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Galaxy Coaster",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Food Court",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling above junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Grand Hotel Towers",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "High Limit Salon",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from ceiling above main corridor"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Auditorium 6-10",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Main Lobby",
+        "arrow": "Straight"
+      },
+      "placement": "Hanging from ceiling at corridor junction"
+    }
+  },
+  {
+    "label": "Ornate Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Grand Auditorium",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Cloakroom & VIP Lounge",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling center at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Main Slopes & Lifts",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Equipment Rentals",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling beams"
+    }
+  },
+  {
+    "label": "Overhead Aquarium Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Shark Tunnel",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Coral Reef Exhibit",
+        "arrow": "Right"
+      },
+      "placement": "Hanging from ceiling at junction"
+    }
+  },
+  {
+    "label": "Directional Sign (Overhead Junction Sign)",
+    "attributes": {
+      "entry_A": {
+        "text": "Gorilla Forest",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Orangutan Canopy",
+        "arrow": "Right"
+      },
+      "placement": "Hanging from ceiling at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Wave Pool Complex",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Changing Rooms & Exit",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from high ceiling above corridor center"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "VIP Hospitality Suite",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Main Arena Bowl",
+        "arrow": "Straight"
+      },
+      "placement": "Suspended from ceiling at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Digital Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Executive Suites",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Server Farm",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from walkway ceiling at junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Zone C - Final Inspection",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Safety Exit",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Server Blocks A-M",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "Cooling & Power",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from ceiling at junction"
+    }
+  },
+  {
+    "label": "Industrial Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Turbine Hall",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Penstock Access",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling center at corridor junction"
+    }
+  },
+  {
+    "label": "Industrial Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Deep Shaft Elevator",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Ore Processing",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from ceiling center at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Lithography Bay 4",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Wet Bench Area",
+        "arrow": "Straight"
+      },
+      "placement": "Suspended from ceiling at junction"
+    }
+  },
+  {
+    "label": "Industrial Overhead Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Domestic Sorting Zone",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "International Loading Dock",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling above walkway junction"
+    }
+  },
+  {
+    "label": "Overhead Corporate Directional Gantry",
+    "attributes": {
+      "entry_A": {
+        "text": "North Tower / Offices 40-60",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Client Lounge / Reception",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from high ceiling above main corridor"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage Gantry",
+    "attributes": {
+      "entry_A": {
+        "text": "Soundstage 12",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "Costume Department",
+        "arrow": "Left"
+      },
+      "placement": "Mounted on overhead gantry spanning the alley"
+    }
+  },
+  {
+    "label": "Industrial Directional Sign (Overhead Junction Sign)",
+    "attributes": {
+      "entry_A": {
+        "text": "Web Press Hall",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Dispatch Bay",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from high ceiling at junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Plenary Hall",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Committee Rooms",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from high arched ceiling"
+    }
+  },
+  {
+    "label": "Overhead Bronzed Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Courtrooms 1-10",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Legal Archives",
+        "arrow": "Straight"
+      },
+      "placement": "Suspended from high ceiling"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Joint Chiefs Wing",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Security Vestibule",
+        "arrow": "Right"
+      },
+      "placement": "Hanging from ceiling at junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Outbound Sorting",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Loading Dock B",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling center"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Council Chambers",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Public Records",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from high ceiling"
+    }
+  },
+  {
+    "label": "Secure Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Chancery Building",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Visa & Consular",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling center at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Individual Tax Services",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Corporate Audit Room",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling center"
+    }
+  },
+  {
+    "label": "Overhead Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Passport Control",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "Security Re-Check",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage Panel",
+    "attributes": {
+      "entry_A": {
+        "text": "COMMAND CENTER",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "DECONTAMINATION",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling at corridor junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Preservation Vault 1-10",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Public Research Room",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling center"
+    }
+  },
+  {
+    "label": "Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Main Reception",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "Azure Pool & Spa",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from high ceiling"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Grand Ballroom & Halls 1-5",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Registration & Main Exit",
+        "arrow": "Right"
+      },
+      "placement": "Hanging from ceiling above junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Main Dining Room",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Theater",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling center"
+    }
+  },
+  {
+    "label": "Illuminated Ice Archway Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Ice Sculpture Gallery",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "Thermal Sleeping Pods",
+        "arrow": "Left"
+      },
+      "placement": "Carved into overhead ice archway"
+    }
+  },
+  {
+    "label": "Antique Brass Directional Plaque",
+    "attributes": {
+      "entry_A": {
+        "text": "Main Lobby & Reception",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Presidential Suites",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling center at corridor junction"
+    }
+  },
+  {
+    "label": "Wooden Directional Signpost",
+    "attributes": {
+      "entry_A": {
+        "text": "Main Lodge",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "Canopy Dining",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from wooden canopy beams above walkway junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Sign (Skybridge Junction)",
+    "attributes": {
+      "entry_A": {
+        "text": "Grand Ballroom",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "Registration & Check-in",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from ceiling structure"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "Pod Block B",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Showers & Lounge",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling at junction"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage Panel",
+    "attributes": {
+      "entry_A": {
+        "text": "Thermal Springs",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Private Villas",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from high ceiling structure"
+    }
+  },
+  {
+    "label": "Overhead Directional Signage",
+    "attributes": {
+      "entry_A": {
+        "text": "High Limit Vault",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Surveillance Core",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling above corridor junction"
+    }
+  },
+  {
+    "label": "Directional Sign (Overhead Corridor Panel)",
+    "attributes": {
+      "entry_A": {
+        "text": "Central Airlock",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Hydroponics Bay 4",
+        "arrow": "Right"
+      },
+      "placement": "Hanging from ceiling"
+    }
+  },
+  {
+    "label": "Overhead Holographic Directional Panel",
+    "attributes": {
+      "entry_A": {
+        "text": "Habitation Ring Sector 7",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Docking Bay Alpha",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from ceiling centerline"
+    }
+  },
+  {
+    "label": "Holographic Directional Panel",
+    "attributes": {
+      "entry_A": {
+        "text": "Sector 9 Residences",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Corp Plaza Upper",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling structure"
+    }
+  },
+  {
+    "label": "Industrial Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Chassis Welding",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Neural Calibration",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling grid"
+    }
+  },
+  {
+    "label": "Industrial Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Residential Block 4",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Life Support Core",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling center at corridor junction"
+    }
+  },
+  {
+    "label": "Illuminated Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Quantum Power Grid",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "Cryo-Pod Storage Hall",
+        "arrow": "Left"
+      },
+      "placement": "Suspended from ceiling center at corridor junction"
+    }
+  },
+  {
+    "label": "Holographic Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Orbital Docks",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Commerce Sector",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling at junction"
+    }
+  },
+  {
+    "label": "Overhead Temporal Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Past Wing",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Future Wing",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling"
+    }
+  },
+  {
+    "label": "Holographic Directional Panel",
+    "attributes": {
+      "entry_A": {
+        "text": "Sector 7 Archives",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Administration Hub",
+        "arrow": "Straight"
+      },
+      "placement": "Suspended from ceiling at corridor junction"
+    }
+  },
+  {
+    "label": "Holographic Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Atmosphere Core",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Geo-Engineering Bay",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from ceiling center at corridor junction"
+    }
+  },
+  {
+    "label": "Enchanted Directional Plaque",
+    "attributes": {
+      "entry_A": {
+        "text": "Grand Library",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "Student Dormitories",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling by iron chains"
+    }
+  },
+  {
+    "label": "Carved Stone Directional Plaque",
+    "attributes": {
+      "entry_A": {
+        "text": "Deep Forge",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "Gem Vaults",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from tunnel ceiling by iron chains"
+    }
+  },
+  {
+    "label": "Elven Directional Signpost",
+    "attributes": {
+      "entry_A": {
+        "text": "Sunspire District",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Moonwell Markets",
+        "arrow": "Right"
+      },
+      "placement": "Hanging from woven vine canopy overhead"
+    }
+  },
+  {
+    "label": "Ornate Wrought-Iron Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Machinery Hall",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Fine Arts Wing",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling archway"
+    }
+  },
+  {
+    "label": "Iron-Bound Wooden Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Royal Cells",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "North Tower",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from dungeon ceiling by iron chains"
+    }
+  },
+  {
+    "label": "Overhead Brass Directional Plaque",
+    "attributes": {
+      "entry_A": {
+        "text": "Engine Core",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Command Deck",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from riveted steel beams above catwalk junction"
+    }
+  },
+  {
+    "label": "Carved Stone Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Sanctum of Wisdom",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "Royal Armory",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from temple ceiling by stone brackets"
+    }
+  },
+  {
+    "label": "Wooden Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Main Storage",
+        "arrow": "Right"
+      },
+      "entry_B": {
+        "text": "Hidden Dock",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from cave ceiling beams"
+    }
+  },
+  {
+    "label": "Overhead Brass Directional Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Central Chronometer",
+        "arrow": "Left"
+      },
+      "entry_B": {
+        "text": "Steam Docks",
+        "arrow": "Right"
+      },
+      "placement": "Suspended from gear-arch ceiling"
+    }
+  },
+  {
+    "label": "Overhead Magical Exhibits Sign",
+    "attributes": {
+      "entry_A": {
+        "text": "Griffin Roost",
+        "arrow": "Straight"
+      },
+      "entry_B": {
+        "text": "Mermaid Lagoon",
+        "arrow": "Left"
+      },
+      "placement": "Hanging from ceiling"
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "task_id": "VI_V_EXO_DYN",
+  "category_id": "L2-SL",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "In the initial view, what is the spatial arrangement of the three entities?: A. The Cabinet is between the Guard and the Robber on a diagonal, B. The Cabinet is directly between the Guard and the Robber on the same horizontal line, C. All three are clustered together at one corner, D. The Guard is between the Cabinet and the Robber",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "In the final view, what is the spatial arrangement of the three entities?: A. The Cabinet is between the Guard and the Robber on a diagonal, B. The Cabinet is directly between the Guard and the Robber on the same horizontal line, C. All three are clustered together at one corner, D. The Guard is between the Cabinet and the Robber",
+      "answer": "B"
+    }
+  ]
+}

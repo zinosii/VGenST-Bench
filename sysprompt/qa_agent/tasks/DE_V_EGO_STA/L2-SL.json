@@ -1,0 +1,11 @@
+{
+  "task_id": "DE_V_EGO_STA",
+  "category_id": "L2-SL",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What is the overall shape of the space that the camera walks through?: A. Straight line, B. L-shape (90-degree corner), C. U-shape (180-degree curve), D. Circular loop",
+      "answer": "B"
+    }
+  ]
+}

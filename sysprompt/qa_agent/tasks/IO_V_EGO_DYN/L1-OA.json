@@ -1,0 +1,16 @@
+{
+  "task_id": "IO_V_EGO_DYN",
+  "category_id": "L1-OA",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What is the color of the Coffee Table?: A. Matte White, B. Walnut Brown, C. Light Gray, D. Glossy Black",
+      "answer": "B"
+    },
+    {
+      "id": "proto_2",
+      "question": "What is the appearance of the agent?: A. Adult in a cozy sweater and jeans, B. Humanoid robot with metallic body, C. Alien creature with tentacles, D. Cloaked figure with hidden face",
+      "answer": "A"
+    }
+  ]
+}

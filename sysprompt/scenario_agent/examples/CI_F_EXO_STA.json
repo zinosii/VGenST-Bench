@@ -1,0 +1,27 @@
+[
+    {
+        "reasoning_goal": "Viewers must identify that NO object appears in both Container A and Container B, by comparing Phase 1 (Container A: Red Pillar Candle + Wooden Picture Frame + Silver Fork) with Phase 2 (Container B: Green Glass Tealight Holder + Silver TV Remote Control + Brown Leather Keychain). All six objects are distinct  -  the intersection is empty.",
+        "timeline": {
+            "(Setup)": "Third-person exo view, eye-level. A Rustic Oak Coffee Table fills the frame. On the left sits a Wide Cream Ceramic Crate (Container A, open-top, no lid) and on the right sits a Wide Round Natural Wicker Basket (Container B, open-top, no lid). Both containers are opaque from this side angle  -  no interior visible. Camera completely static.",
+            "(Phase 1  -  Container A Reveal)": "Camera smoothly ascends and moves overhead Container A (Cream Ceramic Crate). Looking straight down into the crate, all three objects are fully visible and individually distinguishable: a Red Pillar Candle, a Wooden Picture Frame, a Silver Fork. Container B interior is completely hidden. Camera holds overhead for at least 2 seconds.",
+            "(Phase 2  -  Container B Reveal)": "Camera smoothly transitions overhead Container B (Round Natural Wicker Basket). Container A is now completely off-screen. Looking straight down into the basket, all three objects are fully visible: a Green Glass Tealight Holder, a Silver TV Remote Control, a Brown Leather Keychain. None of these objects were seen in Container A. Camera holds overhead for at least 2 seconds."
+        }
+    },
+    {
+        "reasoning_goal": "Viewers must identify the Yellow Lemon as the sole object appearing in BOTH Container A and Container B, by comparing Phase 1 (Container A: Silver Garlic Press + Yellow Lemon + White Ceramic Salt Cellar) with Phase 2 (Container B: Brown Wooden Spice Lid + Yellow Lemon + Green Rubber Bottle Cap). The intersection is exactly one object.",
+        "timeline": {
+            "(Setup)": "Third-person exo view, eye-level. A White Marble Kitchen Island Counter fills the frame. On the left sits a Wide Matte Black Metal Bin (Container A, open-top, no lid) and on the right sits a Wide Deep Terracotta Flower Pot (Container B, open-top, no lid). Both containers are opaque from this side angle  -  no interior visible. Camera completely static.",
+            "(Phase 1  -  Container A Reveal)": "Camera smoothly ascends and moves overhead Container A (Matte Black Metal Bin). Looking straight down into the bin, all three objects are fully visible and individually distinguishable: a Silver Garlic Press, a Yellow Lemon, a White Ceramic Salt Cellar. Container B interior is completely hidden. Camera holds overhead for at least 2 seconds.",
+            "(Phase 2  -  Container B Reveal)": "Camera smoothly transitions overhead Container B (Deep Terracotta Flower Pot). Container A is now completely off-screen. Looking straight down into the pot, all three objects are fully visible: a Brown Wooden Spice Lid, a Yellow Lemon (identical to the one seen in Phase 1), a Green Rubber Bottle Cap. Camera holds overhead for at least 2 seconds."
+        }
+    },
+    {
+        "reasoning_goal": "Viewers must identify all three objects  -  the Pink Bar of Soap, the Silver Bobby Pin, and the Red Lip Balm Tube  -  as appearing in BOTH Container A and Container B, by comparing Phase 1 (Container A: Pink Bar of Soap + Silver Bobby Pin + Red Lip Balm Tube) with Phase 2 (Container B: Pink Bar of Soap + Silver Bobby Pin + Red Lip Balm Tube). The intersection contains all three objects.",
+        "timeline": {
+            "(Setup)": "Third-person exo view, eye-level. A White Marble Bathroom Vanity Counter fills the frame. On the left sits a Wide Round White Ceramic Organizer Bowl (Container A, open-top, no lid) and on the right sits a Wide Rectangular Bamboo Tray Box (Container B, open-top, no lid). Both containers are opaque from this side angle  -  no interior visible. Camera completely static.",
+            "(Phase 1  -  Container A Reveal)": "Camera smoothly ascends and moves overhead Container A (Round White Ceramic Organizer Bowl). Looking straight down into the bowl, all three objects are fully visible and individually distinguishable: a Pink Bar of Soap, a Silver Bobby Pin, a Red Lip Balm Tube. Container B interior is completely hidden. Camera holds overhead for at least 2 seconds.",
+            "(Phase 2  -  Container B Reveal)": "Camera smoothly transitions overhead Container B (Rectangular Bamboo Tray Box). Container A is now completely off-screen. Looking straight down into the box, all three objects are fully visible: a Pink Bar of Soap (identical to the one seen in Phase 1), a Silver Bobby Pin (identical to the one seen in Phase 1), a Red Lip Balm Tube (identical to the one seen in Phase 1). All three objects match exactly what was seen in Container A. Camera holds overhead for at least 2 seconds."
+        }
+    }
+
+]

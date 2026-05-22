@@ -1,0 +1,9 @@
+[
+    {
+        "prompt": "Continuing from the anchor frame. Minimalist living room environment. Static scene — all objects remain completely frozen. Only the camera tilts. Phase 1 : Camera holds zoomed in on the floor. White Ceramic Floor Vase and Grey Yoga Mat Roll are visible side by side. Phase 2 : Camera tilts upward. Floor objects exit frame below. Black Remote Control on a TV table surface comes into view and becomes centered. Phase 3 : Camera continues tilting upward. Remote Control exits frame below. Green Potted Succulent on a high shelf comes into view and becomes centered. Video ends. CRITICAL: Camera only tilts vertically — no horizontal pan, no translation. Each level appears alone (except distractor shares level with its neighbor). Do not render any text, captions, subtitles, or overlays in the video."
+    },
+    {
+        "prompt": "Continuing from the anchor frame. Cozy Apartment Lounge environment. Static scene — all objects remain completely frozen. Only the camera tilts. Phase 1 : Camera holds zoomed in on the floor. Brown Woven Floor Basket is visible and centered. Phase 2 : Camera tilts upward. Floor object exits frame below. Red Ceramic Mug on the side table comes into view and becomes centered. Phase 3 : Camera continues tilting upward. Red Ceramic Mug exits frame below. Blue Framed Photo and Gold Small Clock on the high bookshelf come into view and are visible side by side. Video ends. CRITICAL: Camera only tilts vertically — no horizontal pan, no translation. Each level appears alone (except distractor shares level with its neighbor). Do not render any text, captions, subtitles, or overlays in the video."
+    }
+
+]

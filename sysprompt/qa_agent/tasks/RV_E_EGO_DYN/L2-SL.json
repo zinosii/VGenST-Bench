@@ -1,0 +1,11 @@
+{
+  "task_id": "RV_E_EGO_DYN",
+  "category_id": "L2-SL",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "In which lane does the Orange Construction Truck travel?: A. Left lane, B. Same lane as the camera, C. Right lane, D. The truck switches lanes",
+      "answer": "C"
+    }
+  ]
+}

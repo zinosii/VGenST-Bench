@@ -1,0 +1,16 @@
+{
+  "task_id": "RV_E_EGO_DYN",
+  "category_id": "L3-PT",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "From the perspective of Construction Truck, how does the camera object appear to move?: A. Approaches from behind and passes on the left, B. Approaches from behind and passes on the right, C. Stays still at the same distance, D. Disappears into the distance ahead",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "From the perspective of Sports Car, how does the camera object appear to move?: A. Stays ahead and the gap stays the same, B. Falls behind and shrinks in the rearview, C. Approaches from behind, D. Moves sideways out of the lane",
+      "answer": "B"
+    }
+  ]
+}

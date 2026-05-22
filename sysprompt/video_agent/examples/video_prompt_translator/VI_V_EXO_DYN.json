@@ -1,0 +1,8 @@
+[
+    {
+        "prompt": "Continuing from the anchor frame. Bird's-eye top-down view. Camera remains completely fixed — no movement. Phase 1: Bank Robber walks from 12 o'clock position (top of the frame) to 3 o'clock position (right side of the frame, to the right of the Large Safety Deposit Cabinet). Security Guard stays still at 9 o'clock (left side of the frame, to the left of the Large Safety Deposit Cabinet), DO NOT MOVE. Phase 2: Bank Robber is now directly opposite Security Guard in a straight horizontal line, with the Large Safety Deposit Cabinet perfectly aligned between them — the cabinet now blocks the sightline between them. Security Guard can no longer see Bank Robber. Do not render any text, captions, subtitles, or overlays in the video."
+    },
+    {
+        "prompt": "Continuing from the anchor frame. Bird's-eye top-down view. Camera remains completely fixed — no movement. Phase 1: Museum Visitor walks from 3 o'clock position (right side of the frame, directly opposite the Museum Guard with the Massive Marble Pillar between them) to 6 o'clock position (bottom of the frame). Museum Guard stays still at 9 o'clock (left side of the frame, to the left of the Massive Marble Pillar), DO NOT MOVE. Phase 2: Museum Visitor now sits diagonally offset from Museum Guard — the sightline from Museum Guard to Museum Visitor now bypasses the Massive Marble Pillar diagonally, no longer blocked. Museum Guard can now see Museum Visitor. Do not render any text, captions, subtitles, or overlays in the video."
+    }
+]

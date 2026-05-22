@@ -1,0 +1,11 @@
+{
+  "task_id": "CM_F_EXO_DYN",
+  "category_id": "L3-CR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If the agent had pressed the button on the right first instead of the one on the left, which pillar would illuminate first?: A. The pillar on the left, B. The pillar on the right, C. Both simultaneously",
+      "answer": "B"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "RV_E_EGO_DYN",
+  "category_id": "L3-CR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If the Construction Truck had been moving faster than the camera object, how would it appear to move in the video?: A. Drift backward and disappear behind, B. Streak forward and disappear ahead, C. Stay at the same distance, D. Move to the side",
+      "answer": "B"
+    },
+    {
+      "id": "proto_2",
+      "question": "If the Sports Car had been moving slower than the camera object, what would happen in the video?: A. The camera would be overtaken by the Sports Car, B. The Sports Car would not appear, C. They would stay at the same distance, D. The Sports Car would move to the right lane",
+      "answer": "B"
+    }
+  ]
+}

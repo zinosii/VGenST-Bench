@@ -1,0 +1,16 @@
+{
+  "task_id": "HO_V_EXO_STA",
+  "category_id": "L1-OE",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which object appears in the video?: A. White Ceramic Floor Vase, B. Brown Wooden Stool, C. Blue Velvet Cushion, D. Red Standing Lamp",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "Which object does NOT appear in the video?: A. Black Remote Control, B. Green Potted Succulent, C. Grey Yoga Mat Roll, D. Orange Throw Pillow",
+      "answer": "D"
+    }
+  ]
+}

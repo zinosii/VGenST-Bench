@@ -1,0 +1,3602 @@
+[
+  {
+    "label": "White Ceramic Floor Vase",
+    "attributes": {
+      "color": "White",
+      "type": "Ceramic Floor Vase",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Black Remote Control",
+    "attributes": {
+      "color": "Black",
+      "type": "Remote Control",
+      "height_level": "middle",
+      "placement": "on the TV table"
+    }
+  },
+  {
+    "label": "Green Potted Succulent",
+    "attributes": {
+      "color": "Green",
+      "type": "Potted Succulent",
+      "height_level": "highest",
+      "placement": "on the wall-mounted shelf"
+    }
+  },
+  {
+    "label": "Grey Yoga Mat Roll",
+    "attributes": {
+      "color": "Grey",
+      "type": "Yoga Mat Roll",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Brown Woven Floor Basket",
+    "attributes": {
+      "color": "Brown",
+      "type": "Floor Basket",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Red Ceramic Mug",
+    "attributes": {
+      "color": "Red",
+      "type": "Ceramic Mug",
+      "height_level": "middle",
+      "placement": "on the side table"
+    }
+  },
+  {
+    "label": "Blue Framed Photo",
+    "attributes": {
+      "color": "Blue",
+      "type": "Framed Photo",
+      "height_level": "highest",
+      "placement": "on the high bookshelf"
+    }
+  },
+  {
+    "label": "Gold Small Clock",
+    "attributes": {
+      "color": "Gold",
+      "type": "Small Clock",
+      "height_level": "highest",
+      "placement": "on the high bookshelf"
+    }
+  },
+  {
+    "label": "Terracotta Watering Can",
+    "attributes": {
+      "color": "Terracotta",
+      "type": "Watering Can",
+      "height_level": "lowest",
+      "placement": "on the tiled floor"
+    }
+  },
+  {
+    "label": "Yellow Lemon Bowl",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Lemon Bowl",
+      "height_level": "middle",
+      "placement": "on the windowsill planter bench"
+    }
+  },
+  {
+    "label": "Green Hanging Fern Pot",
+    "attributes": {
+      "color": "Green",
+      "type": "Hanging Fern Pot",
+      "height_level": "highest",
+      "placement": "hanging from the ceiling beam"
+    }
+  },
+  {
+    "label": "White Wind Chime",
+    "attributes": {
+      "color": "White",
+      "type": "Wind Chime",
+      "height_level": "highest",
+      "placement": "hanging from the ceiling beam"
+    }
+  },
+  {
+    "label": "Red Bowling Ball",
+    "attributes": {
+      "color": "Red",
+      "type": "Bowling Ball",
+      "height_level": "lowest",
+      "placement": "on the concrete floor"
+    }
+  },
+  {
+    "label": "Green Billiard Ball",
+    "attributes": {
+      "color": "Green",
+      "type": "Billiard Ball",
+      "height_level": "middle",
+      "placement": "on the billiard table edge"
+    }
+  },
+  {
+    "label": "Silver Dart Board",
+    "attributes": {
+      "color": "Silver",
+      "type": "Dart Board",
+      "height_level": "highest",
+      "placement": "mounted high on the wall"
+    }
+  },
+  {
+    "label": "Blue Bean Bag",
+    "attributes": {
+      "color": "Blue",
+      "type": "Bean Bag",
+      "height_level": "lowest",
+      "placement": "on the concrete floor"
+    }
+  },
+  {
+    "label": "Black Designer Handbag",
+    "attributes": {
+      "color": "Black",
+      "type": "Designer Handbag",
+      "height_level": "lowest",
+      "placement": "on the marble floor"
+    }
+  },
+  {
+    "label": "Crystal Champagne Flute",
+    "attributes": {
+      "color": "Crystal",
+      "type": "Champagne Flute",
+      "height_level": "middle",
+      "placement": "on the glass coffee table"
+    }
+  },
+  {
+    "label": "Gold Art Deco Clock",
+    "attributes": {
+      "color": "Gold",
+      "type": "Art Deco Clock",
+      "height_level": "highest",
+      "placement": "on the high display ledge"
+    }
+  },
+  {
+    "label": "Ivory Cashmere Throw",
+    "attributes": {
+      "color": "Ivory",
+      "type": "Cashmere Throw",
+      "height_level": "lowest",
+      "placement": "on the marble floor"
+    }
+  },
+  {
+    "label": "Brown Luggage Bag",
+    "attributes": {
+      "color": "Brown",
+      "type": "Luggage Bag",
+      "height_level": "lowest",
+      "placement": "on the carpeted floor"
+    }
+  },
+  {
+    "label": "White Room Service Tray",
+    "attributes": {
+      "color": "White",
+      "type": "Room Service Tray",
+      "height_level": "middle",
+      "placement": "on the room service cart"
+    }
+  },
+  {
+    "label": "Brass Wall Sconce",
+    "attributes": {
+      "color": "Brass",
+      "type": "Wall Sconce",
+      "height_level": "highest",
+      "placement": "mounted on the wall above the headboard"
+    }
+  },
+  {
+    "label": "Cream Decorative Vase",
+    "attributes": {
+      "color": "Cream",
+      "type": "Decorative Vase",
+      "height_level": "highest",
+      "placement": "mounted on the wall above the headboard"
+    }
+  },
+  {
+    "label": "Red Toy Fire Truck",
+    "attributes": {
+      "color": "Red",
+      "type": "Toy Fire Truck",
+      "height_level": "lowest",
+      "placement": "on the hardwood floor"
+    }
+  },
+  {
+    "label": "Blue TV Remote",
+    "attributes": {
+      "color": "Blue",
+      "type": "TV Remote",
+      "height_level": "middle",
+      "placement": "on the TV console"
+    }
+  },
+  {
+    "label": "Green Family Photo Frame",
+    "attributes": {
+      "color": "Green",
+      "type": "Family Photo Frame",
+      "height_level": "highest",
+      "placement": "on the high floating shelf"
+    }
+  },
+  {
+    "label": "Purple Small Teddy Bear",
+    "attributes": {
+      "color": "Purple",
+      "type": "Small Teddy Bear",
+      "height_level": "highest",
+      "placement": "on the high floating shelf"
+    }
+  },
+  {
+    "label": "Orange Retro Magazine Stack",
+    "attributes": {
+      "color": "Orange",
+      "type": "Retro Magazine Stack",
+      "height_level": "lowest",
+      "placement": "on the terrazzo floor"
+    }
+  },
+  {
+    "label": "Teal Ceramic Ashtray",
+    "attributes": {
+      "color": "Teal",
+      "type": "Ceramic Ashtray",
+      "height_level": "middle",
+      "placement": "on the teak side table"
+    }
+  },
+  {
+    "label": "Walnut Wooden Clock",
+    "attributes": {
+      "color": "Walnut",
+      "type": "Wooden Clock",
+      "height_level": "highest",
+      "placement": "mounted high on the wall"
+    }
+  },
+  {
+    "label": "Olive Vinyl Record",
+    "attributes": {
+      "color": "Olive",
+      "type": "Vinyl Record",
+      "height_level": "lowest",
+      "placement": "on the terrazzo floor"
+    }
+  },
+  {
+    "label": "Brown Firewood Log",
+    "attributes": {
+      "color": "Brown",
+      "type": "Firewood Log",
+      "height_level": "lowest",
+      "placement": "on the stone hearth floor"
+    }
+  },
+  {
+    "label": "Red Plaid Thermos",
+    "attributes": {
+      "color": "Red",
+      "type": "Plaid Thermos",
+      "height_level": "middle",
+      "placement": "on the log coffee table"
+    }
+  },
+  {
+    "label": "Antler Mounted Candle Holder",
+    "attributes": {
+      "color": "Antler",
+      "type": "Mounted Candle Holder",
+      "height_level": "highest",
+      "placement": "on the high mantel above the fireplace"
+    }
+  },
+  {
+    "label": "Green Pine Cone Basket",
+    "attributes": {
+      "color": "Green",
+      "type": "Pine Cone Basket",
+      "height_level": "lowest",
+      "placement": "on the stone hearth floor"
+    }
+  },
+  {
+    "label": "Black Skateboard",
+    "attributes": {
+      "color": "Black",
+      "type": "Skateboard",
+      "height_level": "lowest",
+      "placement": "on the polished concrete floor"
+    }
+  },
+  {
+    "label": "White Coffee Pour-Over Set",
+    "attributes": {
+      "color": "White",
+      "type": "Coffee Pour-Over Set",
+      "height_level": "middle",
+      "placement": "on the kitchen island counter"
+    }
+  },
+  {
+    "label": "Copper Industrial Pendant Lamp",
+    "attributes": {
+      "color": "Copper",
+      "type": "Industrial Pendant Lamp",
+      "height_level": "highest",
+      "placement": "hanging from the exposed ceiling beam"
+    }
+  },
+  {
+    "label": "Edison Exposed Bulb Fixture",
+    "attributes": {
+      "color": "Edison",
+      "type": "Exposed Bulb Fixture",
+      "height_level": "highest",
+      "placement": "hanging from the exposed ceiling beam"
+    }
+  },
+  {
+    "label": "Navy Blue Leather Weekend Bag",
+    "attributes": {
+      "color": "Navy Blue",
+      "type": "Leather Weekend Bag",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Red Alarm Clock",
+    "attributes": {
+      "color": "Red",
+      "type": "Alarm Clock",
+      "height_level": "middle",
+      "placement": "on the nightstand"
+    }
+  },
+  {
+    "label": "Gold Framed Photo",
+    "attributes": {
+      "color": "Gold",
+      "type": "Framed Photo",
+      "height_level": "highest",
+      "placement": "on the high wall shelf"
+    }
+  },
+  {
+    "label": "Ivory Decorative Cushion",
+    "attributes": {
+      "color": "Ivory",
+      "type": "Decorative Cushion",
+      "height_level": "highest",
+      "placement": "on the high wall shelf"
+    }
+  },
+  {
+    "label": "Yellow Stuffed Teddy Bear",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Stuffed Teddy Bear",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Blue Storybook",
+    "attributes": {
+      "color": "Blue",
+      "type": "Storybook",
+      "height_level": "middle",
+      "placement": "on the small desk"
+    }
+  },
+  {
+    "label": "Pink Paper Butterfly Mobile",
+    "attributes": {
+      "color": "Pink",
+      "type": "Paper Butterfly Mobile",
+      "height_level": "highest",
+      "placement": "hanging from the ceiling hook"
+    }
+  },
+  {
+    "label": "Green Toy Dinosaur",
+    "attributes": {
+      "color": "Green",
+      "type": "Toy Dinosaur",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Black Backpack",
+    "attributes": {
+      "color": "Black",
+      "type": "Backpack",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "White Coffee Mug",
+    "attributes": {
+      "color": "White",
+      "type": "Coffee Mug",
+      "height_level": "middle",
+      "placement": "on the desk"
+    }
+  },
+  {
+    "label": "Orange Mini Basketball",
+    "attributes": {
+      "color": "Orange",
+      "type": "Mini Basketball",
+      "height_level": "highest",
+      "placement": "on the top bunk shelf"
+    }
+  },
+  {
+    "label": "Blue Pencil Cup",
+    "attributes": {
+      "color": "Blue",
+      "type": "Pencil Cup",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Beige Woven Storage Basket",
+    "attributes": {
+      "color": "Beige",
+      "type": "Woven Storage Basket",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Teal Scented Candle",
+    "attributes": {
+      "color": "Teal",
+      "type": "Scented Candle",
+      "height_level": "middle",
+      "placement": "on the bedside table"
+    }
+  },
+  {
+    "label": "Burgundy Hardcover Novel",
+    "attributes": {
+      "color": "Burgundy",
+      "type": "Hardcover Novel",
+      "height_level": "highest",
+      "placement": "on the high wall shelf"
+    }
+  },
+  {
+    "label": "Cream Folded Throw Blanket",
+    "attributes": {
+      "color": "Cream",
+      "type": "Folded Throw Blanket",
+      "height_level": "highest",
+      "placement": "on the high wall shelf"
+    }
+  },
+  {
+    "label": "Brown Leather Suitcase",
+    "attributes": {
+      "color": "Brown",
+      "type": "Leather Suitcase",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Silver Table Lamp",
+    "attributes": {
+      "color": "Silver",
+      "type": "Table Lamp",
+      "height_level": "middle",
+      "placement": "on the nightstand"
+    }
+  },
+  {
+    "label": "White Orchid in Ceramic Pot",
+    "attributes": {
+      "color": "White",
+      "type": "Orchid in Ceramic Pot",
+      "height_level": "highest",
+      "placement": "on the high decorative ledge"
+    }
+  },
+  {
+    "label": "Charcoal Travel Tote Bag",
+    "attributes": {
+      "color": "Charcoal",
+      "type": "Travel Tote Bag",
+      "height_level": "highest",
+      "placement": "on the high decorative ledge"
+    }
+  },
+  {
+    "label": "Olive Canvas Duffel Bag",
+    "attributes": {
+      "color": "Olive",
+      "type": "Canvas Duffel Bag",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Red Desk Lamp",
+    "attributes": {
+      "color": "Red",
+      "type": "Desk Lamp",
+      "height_level": "middle",
+      "placement": "on the side table"
+    }
+  },
+  {
+    "label": "Turquoise Potted Fern",
+    "attributes": {
+      "color": "Turquoise",
+      "type": "Potted Fern",
+      "height_level": "highest",
+      "placement": "on the floating wall shelf"
+    }
+  },
+  {
+    "label": "Yellow Ceramic Vase",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Ceramic Vase",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Mint Green Plush Elephant Toy",
+    "attributes": {
+      "color": "Mint Green",
+      "type": "Plush Elephant Toy",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Lavender Baby Monitor",
+    "attributes": {
+      "color": "Lavender",
+      "type": "Baby Monitor",
+      "height_level": "middle",
+      "placement": "on the changing table"
+    }
+  },
+  {
+    "label": "Coral Star-Shaped Wall Light",
+    "attributes": {
+      "color": "Coral",
+      "type": "Star-Shaped Wall Light",
+      "height_level": "highest",
+      "placement": "mounted on the upper wall"
+    }
+  },
+  {
+    "label": "Peach Wooden Rattle",
+    "attributes": {
+      "color": "Peach",
+      "type": "Wooden Rattle",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Purple Guitar Case",
+    "attributes": {
+      "color": "Purple",
+      "type": "Guitar Case",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Orange Bluetooth Speaker",
+    "attributes": {
+      "color": "Orange",
+      "type": "Bluetooth Speaker",
+      "height_level": "middle",
+      "placement": "on the desk"
+    }
+  },
+  {
+    "label": "Neon Green Sports Trophy",
+    "attributes": {
+      "color": "Neon Green",
+      "type": "Sports Trophy",
+      "height_level": "highest",
+      "placement": "on the high wall shelf"
+    }
+  },
+  {
+    "label": "Grey Skateboard",
+    "attributes": {
+      "color": "Grey",
+      "type": "Skateboard",
+      "height_level": "highest",
+      "placement": "on the high wall shelf"
+    }
+  },
+  {
+    "label": "Tan Vintage Trunk",
+    "attributes": {
+      "color": "Tan",
+      "type": "Vintage Trunk",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Copper Antique Lantern",
+    "attributes": {
+      "color": "Copper",
+      "type": "Antique Lantern",
+      "height_level": "middle",
+      "placement": "on the low wooden dresser"
+    }
+  },
+  {
+    "label": "Dark Green Hanging Ivy Plant",
+    "attributes": {
+      "color": "Dark Green",
+      "type": "Hanging Ivy Plant",
+      "height_level": "highest",
+      "placement": "suspended from the exposed ceiling beam"
+    }
+  },
+  {
+    "label": "Maroon Rolled-Up Quilt",
+    "attributes": {
+      "color": "Maroon",
+      "type": "Rolled-Up Quilt",
+      "height_level": "highest",
+      "placement": "suspended from the exposed ceiling beam"
+    }
+  },
+  {
+    "label": "Indigo Zabuton Floor Cushion",
+    "attributes": {
+      "color": "Indigo",
+      "type": "Zabuton Floor Cushion",
+      "height_level": "lowest",
+      "placement": "on the tatami floor"
+    }
+  },
+  {
+    "label": "Scarlet Ceramic Tea Set",
+    "attributes": {
+      "color": "Scarlet",
+      "type": "Ceramic Tea Set",
+      "height_level": "middle",
+      "placement": "on the low wooden table"
+    }
+  },
+  {
+    "label": "White Small Framed Picture",
+    "attributes": {
+      "color": "White",
+      "type": "Small Framed Picture",
+      "height_level": "highest",
+      "placement": "hanging high on the wall"
+    }
+  },
+  {
+    "label": "Jade Green Ikebana Flower Arrangement",
+    "attributes": {
+      "color": "Jade Green",
+      "type": "Ikebana Flower Arrangement",
+      "height_level": "lowest",
+      "placement": "on the tatami floor"
+    }
+  },
+  {
+    "label": "Brown Leather Briefcase",
+    "attributes": {
+      "color": "Brown",
+      "type": "Leather Briefcase",
+      "height_level": "lowest",
+      "placement": "on the marble floor"
+    }
+  },
+  {
+    "label": "Black Desk Lamp",
+    "attributes": {
+      "color": "Black",
+      "type": "Desk Lamp",
+      "height_level": "middle",
+      "placement": "on the mahogany desk"
+    }
+  },
+  {
+    "label": "Gold Achievement Award Trophy",
+    "attributes": {
+      "color": "Gold",
+      "type": "Achievement Award Trophy",
+      "height_level": "highest",
+      "placement": "on the high walnut bookshelf"
+    }
+  },
+  {
+    "label": "Navy Document Folder",
+    "attributes": {
+      "color": "Navy",
+      "type": "Document Folder",
+      "height_level": "lowest",
+      "placement": "on the marble floor"
+    }
+  },
+  {
+    "label": "Black Laptop Bag",
+    "attributes": {
+      "color": "Black",
+      "type": "Laptop Bag",
+      "height_level": "lowest",
+      "placement": "on the hardwood floor"
+    }
+  },
+  {
+    "label": "Red Ceramic Mug",
+    "attributes": {
+      "color": "Red",
+      "type": "Ceramic Mug",
+      "height_level": "middle",
+      "placement": "on the pine desk"
+    }
+  },
+  {
+    "label": "Green Potted Ivy Plant",
+    "attributes": {
+      "color": "Green",
+      "type": "Potted Ivy Plant",
+      "height_level": "highest",
+      "placement": "on the high wooden bookshelf"
+    }
+  },
+  {
+    "label": "White Globe Ornament",
+    "attributes": {
+      "color": "White",
+      "type": "Globe Ornament",
+      "height_level": "highest",
+      "placement": "on the high wooden bookshelf"
+    }
+  },
+  {
+    "label": "Grey Cardboard Model Box",
+    "attributes": {
+      "color": "Grey",
+      "type": "Cardboard Model Box",
+      "height_level": "lowest",
+      "placement": "on the concrete floor"
+    }
+  },
+  {
+    "label": "Yellow Drafting Pencil Holder",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Drafting Pencil Holder",
+      "height_level": "middle",
+      "placement": "on the drafting table"
+    }
+  },
+  {
+    "label": "Blue Architectural Scale Model",
+    "attributes": {
+      "color": "Blue",
+      "type": "Architectural Scale Model",
+      "height_level": "highest",
+      "placement": "on the high steel utility shelf"
+    }
+  },
+  {
+    "label": "Orange Hard Hat",
+    "attributes": {
+      "color": "Orange",
+      "type": "Hard Hat",
+      "height_level": "highest",
+      "placement": "on the high steel utility shelf"
+    }
+  },
+  {
+    "label": "Teal Backpack",
+    "attributes": {
+      "color": "Teal",
+      "type": "Backpack",
+      "height_level": "lowest",
+      "placement": "on the carpet floor"
+    }
+  },
+  {
+    "label": "White Wireless Keyboard",
+    "attributes": {
+      "color": "White",
+      "type": "Wireless Keyboard",
+      "height_level": "middle",
+      "placement": "on the standing desk"
+    }
+  },
+  {
+    "label": "Red Motivational Plaque",
+    "attributes": {
+      "color": "Red",
+      "type": "Motivational Plaque",
+      "height_level": "highest",
+      "placement": "on the high industrial shelf"
+    }
+  },
+  {
+    "label": "Black Power Strip Box",
+    "attributes": {
+      "color": "Black",
+      "type": "Power Strip Box",
+      "height_level": "lowest",
+      "placement": "on the carpet floor"
+    }
+  },
+  {
+    "label": "Brown Canvas Messenger Bag",
+    "attributes": {
+      "color": "Brown",
+      "type": "Canvas Messenger Bag",
+      "height_level": "lowest",
+      "placement": "on the vinyl tile floor"
+    }
+  },
+  {
+    "label": "Silver Metal Stapler",
+    "attributes": {
+      "color": "Silver",
+      "type": "Metal Stapler",
+      "height_level": "middle",
+      "placement": "on the oak desk"
+    }
+  },
+  {
+    "label": "Burgundy Hardcover Reference Book",
+    "attributes": {
+      "color": "Burgundy",
+      "type": "Hardcover Reference Book",
+      "height_level": "highest",
+      "placement": "on the high oak bookshelf"
+    }
+  },
+  {
+    "label": "Green Recycling Bin",
+    "attributes": {
+      "color": "Green",
+      "type": "Recycling Bin",
+      "height_level": "lowest",
+      "placement": "on the vinyl tile floor"
+    }
+  },
+  {
+    "label": "Black Rolling Suitcase",
+    "attributes": {
+      "color": "Black",
+      "type": "Rolling Suitcase",
+      "height_level": "lowest",
+      "placement": "on the plush carpet floor"
+    }
+  },
+  {
+    "label": "Blue Fountain Pen Stand",
+    "attributes": {
+      "color": "Blue",
+      "type": "Fountain Pen Stand",
+      "height_level": "middle",
+      "placement": "on the glass-top executive desk"
+    }
+  },
+  {
+    "label": "Gold Mantel Clock",
+    "attributes": {
+      "color": "Gold",
+      "type": "Mantel Clock",
+      "height_level": "highest",
+      "placement": "on the high cherry wood cabinet"
+    }
+  },
+  {
+    "label": "White Crystal Paperweight",
+    "attributes": {
+      "color": "White",
+      "type": "Crystal Paperweight",
+      "height_level": "highest",
+      "placement": "on the high cherry wood cabinet"
+    }
+  },
+  {
+    "label": "Beige Tote Bag",
+    "attributes": {
+      "color": "Beige",
+      "type": "Tote Bag",
+      "height_level": "lowest",
+      "placement": "on the parquet floor"
+    }
+  },
+  {
+    "label": "Green Brass Reading Lamp",
+    "attributes": {
+      "color": "Green",
+      "type": "Brass Reading Lamp",
+      "height_level": "middle",
+      "placement": "on the reading table"
+    }
+  },
+  {
+    "label": "Red Leather-Bound Dictionary",
+    "attributes": {
+      "color": "Red",
+      "type": "Leather-Bound Dictionary",
+      "height_level": "highest",
+      "placement": "on the high library shelf"
+    }
+  },
+  {
+    "label": "Brown Vintage Bookend",
+    "attributes": {
+      "color": "Brown",
+      "type": "Vintage Bookend",
+      "height_level": "highest",
+      "placement": "on the high library shelf"
+    }
+  },
+  {
+    "label": "Orange Canvas Backpack",
+    "attributes": {
+      "color": "Orange",
+      "type": "Canvas Backpack",
+      "height_level": "lowest",
+      "placement": "on the rubber mat floor"
+    }
+  },
+  {
+    "label": "Black Noise-Canceling Headphones",
+    "attributes": {
+      "color": "Black",
+      "type": "Noise-Canceling Headphones",
+      "height_level": "middle",
+      "placement": "on the compact pod desk"
+    }
+  },
+  {
+    "label": "White Small Desk Fan",
+    "attributes": {
+      "color": "White",
+      "type": "Small Desk Fan",
+      "height_level": "highest",
+      "placement": "on the high overhead cubby shelf"
+    }
+  },
+  {
+    "label": "Grey Reusable Water Bottle",
+    "attributes": {
+      "color": "Grey",
+      "type": "Reusable Water Bottle",
+      "height_level": "lowest",
+      "placement": "on the rubber mat floor"
+    }
+  },
+  {
+    "label": "Black Leather Attache Case",
+    "attributes": {
+      "color": "Black",
+      "type": "Leather Attache Case",
+      "height_level": "lowest",
+      "placement": "on the dark hardwood floor"
+    }
+  },
+  {
+    "label": "Gold Brass Desk Clock",
+    "attributes": {
+      "color": "Gold",
+      "type": "Brass Desk Clock",
+      "height_level": "middle",
+      "placement": "on the walnut partner desk"
+    }
+  },
+  {
+    "label": "Maroon Legal Reference Volume",
+    "attributes": {
+      "color": "Maroon",
+      "type": "Legal Reference Volume",
+      "height_level": "highest",
+      "placement": "on the high mahogany bookcase"
+    }
+  },
+  {
+    "label": "Green Banker's Desk Lamp",
+    "attributes": {
+      "color": "Green",
+      "type": "Banker's Desk Lamp",
+      "height_level": "lowest",
+      "placement": "on the dark hardwood floor"
+    }
+  },
+  {
+    "label": "Navy Nylon Laptop Bag",
+    "attributes": {
+      "color": "Navy",
+      "type": "Nylon Laptop Bag",
+      "height_level": "lowest",
+      "placement": "on the grey carpet floor"
+    }
+  },
+  {
+    "label": "Red Desktop Calculator",
+    "attributes": {
+      "color": "Red",
+      "type": "Desktop Calculator",
+      "height_level": "middle",
+      "placement": "on the laminate office desk"
+    }
+  },
+  {
+    "label": "Black Three-Ring Binder Set",
+    "attributes": {
+      "color": "Black",
+      "type": "Three-Ring Binder Set",
+      "height_level": "highest",
+      "placement": "on the high metal filing shelf"
+    }
+  },
+  {
+    "label": "White Porcelain Pencil Cup",
+    "attributes": {
+      "color": "White",
+      "type": "Porcelain Pencil Cup",
+      "height_level": "highest",
+      "placement": "on the high metal filing shelf"
+    }
+  },
+  {
+    "label": "Red Silicone Trivet",
+    "attributes": {
+      "color": "Red",
+      "type": "Silicone Trivet",
+      "height_level": "lowest",
+      "placement": "on the kitchen floor"
+    }
+  },
+  {
+    "label": "White Ceramic Mixing Bowl",
+    "attributes": {
+      "color": "White",
+      "type": "Ceramic Mixing Bowl",
+      "height_level": "middle",
+      "placement": "on the counter surface"
+    }
+  },
+  {
+    "label": "Olive Glass Spice Jar",
+    "attributes": {
+      "color": "Olive",
+      "type": "Glass Spice Jar",
+      "height_level": "highest",
+      "placement": "on the upper cabinet shelf"
+    }
+  },
+  {
+    "label": "Navy Ceramic Canister",
+    "attributes": {
+      "color": "Navy",
+      "type": "Ceramic Canister",
+      "height_level": "highest",
+      "placement": "on the upper cabinet shelf"
+    }
+  },
+  {
+    "label": "Tan Burlap Produce Sack",
+    "attributes": {
+      "color": "Tan",
+      "type": "Burlap Produce Sack",
+      "height_level": "lowest",
+      "placement": "on the farmhouse kitchen floor"
+    }
+  },
+  {
+    "label": "Copper Butter Dish",
+    "attributes": {
+      "color": "Copper",
+      "type": "Butter Dish",
+      "height_level": "middle",
+      "placement": "on the counter surface"
+    }
+  },
+  {
+    "label": "Cream Mason Jar",
+    "attributes": {
+      "color": "Cream",
+      "type": "Mason Jar",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Sage Jute Doormat",
+    "attributes": {
+      "color": "Sage",
+      "type": "Jute Doormat",
+      "height_level": "lowest",
+      "placement": "on the farmhouse kitchen floor"
+    }
+  },
+  {
+    "label": "Maroon Umbrella Stand",
+    "attributes": {
+      "color": "Maroon",
+      "type": "Umbrella Stand",
+      "height_level": "lowest",
+      "placement": "on the cafe floor"
+    }
+  },
+  {
+    "label": "Teal Ceramic Sugar Dispenser",
+    "attributes": {
+      "color": "Teal",
+      "type": "Ceramic Sugar Dispenser",
+      "height_level": "middle",
+      "placement": "on the counter surface"
+    }
+  },
+  {
+    "label": "Amber Glass Pendant Lamp",
+    "attributes": {
+      "color": "Amber",
+      "type": "Glass Pendant Lamp",
+      "height_level": "highest",
+      "placement": "hanging from the upper shelf"
+    }
+  },
+  {
+    "label": "Ivory Woven Welcome Mat",
+    "attributes": {
+      "color": "Ivory",
+      "type": "Woven Welcome Mat",
+      "height_level": "lowest",
+      "placement": "on the cafe floor"
+    }
+  },
+  {
+    "label": "Yellow Plastic Mop Bucket",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Plastic Mop Bucket",
+      "height_level": "lowest",
+      "placement": "on the kitchen floor"
+    }
+  },
+  {
+    "label": "Red Apple",
+    "attributes": {
+      "color": "Red",
+      "type": "Apple",
+      "height_level": "middle",
+      "placement": "on the counter surface"
+    }
+  },
+  {
+    "label": "Copper Pot",
+    "attributes": {
+      "color": "Copper",
+      "type": "Pot",
+      "height_level": "highest",
+      "placement": "hanging on the high overhead rack"
+    }
+  },
+  {
+    "label": "Black Frying Pan",
+    "attributes": {
+      "color": "Black",
+      "type": "Frying Pan",
+      "height_level": "highest",
+      "placement": "hanging on the high overhead rack"
+    }
+  },
+  {
+    "label": "Pink Silicone Baking Mat Roll",
+    "attributes": {
+      "color": "Pink",
+      "type": "Silicone Baking Mat Roll",
+      "height_level": "lowest",
+      "placement": "on the bakery floor"
+    }
+  },
+  {
+    "label": "Beige Wooden Rolling Pin",
+    "attributes": {
+      "color": "Beige",
+      "type": "Wooden Rolling Pin",
+      "height_level": "middle",
+      "placement": "on the counter surface"
+    }
+  },
+  {
+    "label": "Cobalt Decorating Tip Set Box",
+    "attributes": {
+      "color": "Cobalt",
+      "type": "Decorating Tip Set Box",
+      "height_level": "highest",
+      "placement": "on the upper cabinet shelf"
+    }
+  },
+  {
+    "label": "Lavender Ceramic Cookie Jar",
+    "attributes": {
+      "color": "Lavender",
+      "type": "Ceramic Cookie Jar",
+      "height_level": "highest",
+      "placement": "on the upper cabinet shelf"
+    }
+  },
+  {
+    "label": "Charcoal Rubber Anti-Fatigue Mat",
+    "attributes": {
+      "color": "Charcoal",
+      "type": "Rubber Anti-Fatigue Mat",
+      "height_level": "lowest",
+      "placement": "on the sushi bar floor"
+    }
+  },
+  {
+    "label": "Vermilion Lacquer Soy Sauce Tray",
+    "attributes": {
+      "color": "Vermilion",
+      "type": "Lacquer Soy Sauce Tray",
+      "height_level": "middle",
+      "placement": "on the counter surface"
+    }
+  },
+  {
+    "label": "Jade Ceramic Sake Bottle",
+    "attributes": {
+      "color": "Jade",
+      "type": "Ceramic Sake Bottle",
+      "height_level": "highest",
+      "placement": "on the high display shelf"
+    }
+  },
+  {
+    "label": "Gold Bamboo Broom",
+    "attributes": {
+      "color": "Gold",
+      "type": "Bamboo Broom",
+      "height_level": "lowest",
+      "placement": "on the sushi bar floor"
+    }
+  },
+  {
+    "label": "White Large Flour Sack",
+    "attributes": {
+      "color": "White",
+      "type": "Large Flour Sack",
+      "height_level": "lowest",
+      "placement": "on the kitchen floor"
+    }
+  },
+  {
+    "label": "Red Tomato Sauce Pot",
+    "attributes": {
+      "color": "Red",
+      "type": "Tomato Sauce Pot",
+      "height_level": "middle",
+      "placement": "on the counter surface"
+    }
+  },
+  {
+    "label": "Black Mounted Chalkboard Menu",
+    "attributes": {
+      "color": "Black",
+      "type": "Mounted Chalkboard Menu",
+      "height_level": "highest",
+      "placement": "hanging high on the wall"
+    }
+  },
+  {
+    "label": "Silver Stainless Steel Trash Can",
+    "attributes": {
+      "color": "Silver",
+      "type": "Stainless Steel Trash Can",
+      "height_level": "lowest",
+      "placement": "on the kitchen floor"
+    }
+  },
+  {
+    "label": "Burgundy Leather Wine Carrier",
+    "attributes": {
+      "color": "Burgundy",
+      "type": "Leather Wine Carrier",
+      "height_level": "lowest",
+      "placement": "on the cellar stone floor"
+    }
+  },
+  {
+    "label": "Crystal Glass Decanter",
+    "attributes": {
+      "color": "Crystal",
+      "type": "Glass Decanter",
+      "height_level": "middle",
+      "placement": "on the counter surface"
+    }
+  },
+  {
+    "label": "Walnut Wooden Wine Rack Label",
+    "attributes": {
+      "color": "Walnut",
+      "type": "Wooden Wine Rack Label",
+      "height_level": "highest",
+      "placement": "on the high wall-mounted rack"
+    }
+  },
+  {
+    "label": "Slate Pewter Goblet",
+    "attributes": {
+      "color": "Slate",
+      "type": "Pewter Goblet",
+      "height_level": "highest",
+      "placement": "on the high wall-mounted rack"
+    }
+  },
+  {
+    "label": "Forest Green Rubber Floor Mat",
+    "attributes": {
+      "color": "Forest Green",
+      "type": "Rubber Floor Mat",
+      "height_level": "lowest",
+      "placement": "on the butcher shop floor"
+    }
+  },
+  {
+    "label": "Steel Meat Tenderizer Mallet",
+    "attributes": {
+      "color": "Steel",
+      "type": "Meat Tenderizer Mallet",
+      "height_level": "middle",
+      "placement": "on the counter surface"
+    }
+  },
+  {
+    "label": "Brass Hanging Scale",
+    "attributes": {
+      "color": "Brass",
+      "type": "Hanging Scale",
+      "height_level": "highest",
+      "placement": "on the high overhead hook"
+    }
+  },
+  {
+    "label": "Brown Cast Iron Meat Hook",
+    "attributes": {
+      "color": "Brown",
+      "type": "Cast Iron Meat Hook",
+      "height_level": "highest",
+      "placement": "on the high overhead hook"
+    }
+  },
+  {
+    "label": "Indigo Ceramic Water Basin",
+    "attributes": {
+      "color": "Indigo",
+      "type": "Ceramic Water Basin",
+      "height_level": "lowest",
+      "placement": "on the tea house floor"
+    }
+  },
+  {
+    "label": "Rust Cast Iron Teapot",
+    "attributes": {
+      "color": "Rust",
+      "type": "Cast Iron Teapot",
+      "height_level": "middle",
+      "placement": "on the counter surface"
+    }
+  },
+  {
+    "label": "Mint Porcelain Tea Canister",
+    "attributes": {
+      "color": "Mint",
+      "type": "Porcelain Tea Canister",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Peach Straw Floor Cushion",
+    "attributes": {
+      "color": "Peach",
+      "type": "Straw Floor Cushion",
+      "height_level": "lowest",
+      "placement": "on the tea house floor"
+    }
+  },
+  {
+    "label": "Red Plastic Tool Box",
+    "attributes": {
+      "color": "Red",
+      "type": "Plastic Tool Box",
+      "height_level": "lowest",
+      "placement": "on the garage floor"
+    }
+  },
+  {
+    "label": "Yellow Cordless Drill",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Cordless Drill",
+      "height_level": "middle",
+      "placement": "on the workbench surface"
+    }
+  },
+  {
+    "label": "Blue Roll of Duct Tape",
+    "attributes": {
+      "color": "Blue",
+      "type": "Roll of Duct Tape",
+      "height_level": "highest",
+      "placement": "on the wall pegboard"
+    }
+  },
+  {
+    "label": "Orange Extension Cord Reel",
+    "attributes": {
+      "color": "Orange",
+      "type": "Extension Cord Reel",
+      "height_level": "lowest",
+      "placement": "on the garage floor"
+    }
+  },
+  {
+    "label": "Black Hydraulic Floor Jack",
+    "attributes": {
+      "color": "Black",
+      "type": "Hydraulic Floor Jack",
+      "height_level": "lowest",
+      "placement": "on the mechanic bay floor"
+    }
+  },
+  {
+    "label": "Chrome Torque Wrench",
+    "attributes": {
+      "color": "Chrome",
+      "type": "Torque Wrench",
+      "height_level": "middle",
+      "placement": "on the workbench surface"
+    }
+  },
+  {
+    "label": "Green Brake Fluid Bottle",
+    "attributes": {
+      "color": "Green",
+      "type": "Brake Fluid Bottle",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Red Shop Rag Roll",
+    "attributes": {
+      "color": "Red",
+      "type": "Shop Rag Roll",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Tan Canvas Drop Cloth Bundle",
+    "attributes": {
+      "color": "Tan",
+      "type": "Canvas Drop Cloth Bundle",
+      "height_level": "lowest",
+      "placement": "on the workshop floor"
+    }
+  },
+  {
+    "label": "Mahogany Hand Plane",
+    "attributes": {
+      "color": "Mahogany",
+      "type": "Hand Plane",
+      "height_level": "middle",
+      "placement": "on the workbench surface"
+    }
+  },
+  {
+    "label": "Silver Coping Saw",
+    "attributes": {
+      "color": "Silver",
+      "type": "Coping Saw",
+      "height_level": "highest",
+      "placement": "hanging on the wall pegboard"
+    }
+  },
+  {
+    "label": "Copper Set of Chisels",
+    "attributes": {
+      "color": "Copper",
+      "type": "Set of Chisels",
+      "height_level": "highest",
+      "placement": "hanging on the wall pegboard"
+    }
+  },
+  {
+    "label": "Violet Paint-Stained Drop Cloth",
+    "attributes": {
+      "color": "Violet",
+      "type": "Paint-Stained Drop Cloth",
+      "height_level": "lowest",
+      "placement": "on the studio floor"
+    }
+  },
+  {
+    "label": "Crimson Palette Knife Set",
+    "attributes": {
+      "color": "Crimson",
+      "type": "Palette Knife Set",
+      "height_level": "middle",
+      "placement": "on the workbench surface"
+    }
+  },
+  {
+    "label": "Titanium White Gesso Jar",
+    "attributes": {
+      "color": "Titanium White",
+      "type": "Gesso Jar",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Cerulean Turpentine Can",
+    "attributes": {
+      "color": "Cerulean",
+      "type": "Turpentine Can",
+      "height_level": "lowest",
+      "placement": "on the studio floor"
+    }
+  },
+  {
+    "label": "Terracotta Clay Block",
+    "attributes": {
+      "color": "Terracotta",
+      "type": "Clay Block",
+      "height_level": "lowest",
+      "placement": "on the studio floor"
+    }
+  },
+  {
+    "label": "Cream Wire Cutting Tool",
+    "attributes": {
+      "color": "Cream",
+      "type": "Wire Cutting Tool",
+      "height_level": "middle",
+      "placement": "on the workbench surface"
+    }
+  },
+  {
+    "label": "Cobalt Glaze Bottle",
+    "attributes": {
+      "color": "Cobalt",
+      "type": "Glaze Bottle",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Sage Sponge Bucket",
+    "attributes": {
+      "color": "Sage",
+      "type": "Sponge Bucket",
+      "height_level": "lowest",
+      "placement": "on the studio floor"
+    }
+  },
+  {
+    "label": "Grey Anti-Static Mat Roll",
+    "attributes": {
+      "color": "Grey",
+      "type": "Anti-Static Mat Roll",
+      "height_level": "lowest",
+      "placement": "on the repair shop floor"
+    }
+  },
+  {
+    "label": "Black Computer Mouse",
+    "attributes": {
+      "color": "Black",
+      "type": "Computer Mouse",
+      "height_level": "middle",
+      "placement": "on the workbench surface"
+    }
+  },
+  {
+    "label": "Yellow Screwdriver",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Screwdriver",
+      "height_level": "highest",
+      "placement": "hanging on the wall pegboard"
+    }
+  },
+  {
+    "label": "Red Pliers",
+    "attributes": {
+      "color": "Red",
+      "type": "Pliers",
+      "height_level": "highest",
+      "placement": "hanging on the wall pegboard"
+    }
+  },
+  {
+    "label": "Navy Velvet Scrap Bin",
+    "attributes": {
+      "color": "Navy",
+      "type": "Velvet Scrap Bin",
+      "height_level": "lowest",
+      "placement": "on the workshop floor"
+    }
+  },
+  {
+    "label": "Rose Gold Ring Mandrel",
+    "attributes": {
+      "color": "Rose Gold",
+      "type": "Ring Mandrel",
+      "height_level": "middle",
+      "placement": "on the workbench surface"
+    }
+  },
+  {
+    "label": "Emerald Jeweler's Loupe Case",
+    "attributes": {
+      "color": "Emerald",
+      "type": "Jeweler's Loupe Case",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Pearl Polishing Compound Tin",
+    "attributes": {
+      "color": "Pearl",
+      "type": "Polishing Compound Tin",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Chestnut Leather Hide Roll",
+    "attributes": {
+      "color": "Chestnut",
+      "type": "Leather Hide Roll",
+      "height_level": "lowest",
+      "placement": "on the workshop floor"
+    }
+  },
+  {
+    "label": "Brass Rotary Punch Tool",
+    "attributes": {
+      "color": "Brass",
+      "type": "Rotary Punch Tool",
+      "height_level": "middle",
+      "placement": "on the workbench surface"
+    }
+  },
+  {
+    "label": "Oxblood Dye Bottle Set",
+    "attributes": {
+      "color": "Oxblood",
+      "type": "Dye Bottle Set",
+      "height_level": "highest",
+      "placement": "on the wall pegboard"
+    }
+  },
+  {
+    "label": "Tan Thread Spool Basket",
+    "attributes": {
+      "color": "Tan",
+      "type": "Thread Spool Basket",
+      "height_level": "lowest",
+      "placement": "on the workshop floor"
+    }
+  },
+  {
+    "label": "Neon Green Bicycle Pump",
+    "attributes": {
+      "color": "Neon Green",
+      "type": "Bicycle Pump",
+      "height_level": "lowest",
+      "placement": "on the shop floor"
+    }
+  },
+  {
+    "label": "Silver Chain Link Tool",
+    "attributes": {
+      "color": "Silver",
+      "type": "Chain Link Tool",
+      "height_level": "middle",
+      "placement": "on the workbench surface"
+    }
+  },
+  {
+    "label": "Red Tire Patch Kit",
+    "attributes": {
+      "color": "Red",
+      "type": "Tire Patch Kit",
+      "height_level": "highest",
+      "placement": "on the wall pegboard"
+    }
+  },
+  {
+    "label": "Black Inner Tube Bundle",
+    "attributes": {
+      "color": "Black",
+      "type": "Inner Tube Bundle",
+      "height_level": "lowest",
+      "placement": "on the shop floor"
+    }
+  },
+  {
+    "label": "Brown Terracotta Pot",
+    "attributes": {
+      "color": "Brown",
+      "type": "Terracotta Pot",
+      "height_level": "lowest",
+      "placement": "on the shed floor"
+    }
+  },
+  {
+    "label": "Green Watering Can",
+    "attributes": {
+      "color": "Green",
+      "type": "Watering Can",
+      "height_level": "middle",
+      "placement": "on the workbench surface"
+    }
+  },
+  {
+    "label": "Silver Hand Trowel",
+    "attributes": {
+      "color": "Silver",
+      "type": "Hand Trowel",
+      "height_level": "highest",
+      "placement": "hanging on the wall hook"
+    }
+  },
+  {
+    "label": "Yellow Garden Glove",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Garden Glove",
+      "height_level": "highest",
+      "placement": "hanging on the wall hook"
+    }
+  },
+  {
+    "label": "Ivory Folded Cashmere Scarf",
+    "attributes": {
+      "color": "Ivory",
+      "type": "Folded Cashmere Scarf",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Burgundy Leather Handbag",
+    "attributes": {
+      "color": "Burgundy",
+      "type": "Leather Handbag",
+      "height_level": "middle",
+      "placement": "on the display table"
+    }
+  },
+  {
+    "label": "Teal Silk Necktie Roll",
+    "attributes": {
+      "color": "Teal",
+      "type": "Silk Necktie Roll",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Charcoal Felt Hat Box",
+    "attributes": {
+      "color": "Charcoal",
+      "type": "Felt Hat Box",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Navy Canvas Tote Bag",
+    "attributes": {
+      "color": "Navy",
+      "type": "Canvas Tote Bag",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Coral Shoe Care Kit",
+    "attributes": {
+      "color": "Coral",
+      "type": "Shoe Care Kit",
+      "height_level": "middle",
+      "placement": "on the display table"
+    }
+  },
+  {
+    "label": "Silver Metal Shoe Horn",
+    "attributes": {
+      "color": "Silver",
+      "type": "Metal Shoe Horn",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Olive Leather Polish Tin",
+    "attributes": {
+      "color": "Olive",
+      "type": "Leather Polish Tin",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Black Wireless Router",
+    "attributes": {
+      "color": "Black",
+      "type": "Wireless Router",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "White Bluetooth Speaker",
+    "attributes": {
+      "color": "White",
+      "type": "Bluetooth Speaker",
+      "height_level": "middle",
+      "placement": "on the display table"
+    }
+  },
+  {
+    "label": "Red Noise-Canceling Headphones",
+    "attributes": {
+      "color": "Red",
+      "type": "Noise-Canceling Headphones",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Blue Portable Power Bank",
+    "attributes": {
+      "color": "Blue",
+      "type": "Portable Power Bank",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Maroon Leather Journal",
+    "attributes": {
+      "color": "Maroon",
+      "type": "Leather Journal",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Cream Ceramic Bookend Set",
+    "attributes": {
+      "color": "Cream",
+      "type": "Ceramic Bookend Set",
+      "height_level": "middle",
+      "placement": "on the display table"
+    }
+  },
+  {
+    "label": "Forest Green Antique Globe",
+    "attributes": {
+      "color": "Forest Green",
+      "type": "Antique Globe",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Amber Brass Magnifying Glass",
+    "attributes": {
+      "color": "Amber",
+      "type": "Brass Magnifying Glass",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Black Jewelry Box",
+    "attributes": {
+      "color": "Black",
+      "type": "Jewelry Box",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Gold Necklace",
+    "attributes": {
+      "color": "Gold",
+      "type": "Necklace",
+      "height_level": "middle",
+      "placement": "on the display table"
+    }
+  },
+  {
+    "label": "Crystal Clear Chandelier Pendant",
+    "attributes": {
+      "color": "Crystal Clear",
+      "type": "Chandelier Pendant",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Emerald Gemstone Tray",
+    "attributes": {
+      "color": "Emerald",
+      "type": "Gemstone Tray",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Orange Basketball",
+    "attributes": {
+      "color": "Orange",
+      "type": "Basketball",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Yellow Tennis Racket",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Tennis Racket",
+      "height_level": "middle",
+      "placement": "on the display table"
+    }
+  },
+  {
+    "label": "Cobalt Blue Cycling Helmet",
+    "attributes": {
+      "color": "Cobalt Blue",
+      "type": "Cycling Helmet",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Lime Green Water Bottle",
+    "attributes": {
+      "color": "Lime Green",
+      "type": "Water Bottle",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Brown Wooden Footstool",
+    "attributes": {
+      "color": "Brown",
+      "type": "Wooden Footstool",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Sage Green Decorative Throw Pillow",
+    "attributes": {
+      "color": "Sage Green",
+      "type": "Decorative Throw Pillow",
+      "height_level": "middle",
+      "placement": "on the display table"
+    }
+  },
+  {
+    "label": "Copper Pendant Lamp Shade",
+    "attributes": {
+      "color": "Copper",
+      "type": "Pendant Lamp Shade",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Pewter Metal Wall Clock",
+    "attributes": {
+      "color": "Pewter",
+      "type": "Metal Wall Clock",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Red Shopping Basket",
+    "attributes": {
+      "color": "Red",
+      "type": "Shopping Basket",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Green Stacked Cereal Box",
+    "attributes": {
+      "color": "Green",
+      "type": "Stacked Cereal Box",
+      "height_level": "middle",
+      "placement": "on the display table"
+    }
+  },
+  {
+    "label": "Yellow Canned Soup Tower",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Canned Soup Tower",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Blue Bottled Water Pack",
+    "attributes": {
+      "color": "Blue",
+      "type": "Bottled Water Pack",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Terracotta Clay Plant Pot",
+    "attributes": {
+      "color": "Terracotta",
+      "type": "Clay Plant Pot",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Pink Rose Bouquet Vase",
+    "attributes": {
+      "color": "Pink",
+      "type": "Rose Bouquet Vase",
+      "height_level": "middle",
+      "placement": "on the display table"
+    }
+  },
+  {
+    "label": "Lavender Hanging Orchid Basket",
+    "attributes": {
+      "color": "Lavender",
+      "type": "Hanging Orchid Basket",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Moss Green Watering Can",
+    "attributes": {
+      "color": "Moss Green",
+      "type": "Watering Can",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Rustic Brown Vintage Wooden Crate",
+    "attributes": {
+      "color": "Rustic Brown",
+      "type": "Vintage Wooden Crate",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Brass Antique Desk Lamp",
+    "attributes": {
+      "color": "Brass",
+      "type": "Antique Desk Lamp",
+      "height_level": "middle",
+      "placement": "on the display table"
+    }
+  },
+  {
+    "label": "Ivory Porcelain Vase",
+    "attributes": {
+      "color": "Ivory",
+      "type": "Porcelain Vase",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Patina Green Bronze Figurine",
+    "attributes": {
+      "color": "Patina Green",
+      "type": "Bronze Figurine",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Black Kettlebell",
+    "attributes": {
+      "color": "Black",
+      "type": "Kettlebell",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Red Resistance Band Set",
+    "attributes": {
+      "color": "Red",
+      "type": "Resistance Band Set",
+      "height_level": "middle",
+      "placement": "on the bench surface"
+    }
+  },
+  {
+    "label": "Silver Wall-Mounted Pull-Up Bar Grip",
+    "attributes": {
+      "color": "Silver",
+      "type": "Wall-Mounted Pull-Up Bar Grip",
+      "height_level": "highest",
+      "placement": "on the wall rack"
+    }
+  },
+  {
+    "label": "Blue Foam Roller",
+    "attributes": {
+      "color": "Blue",
+      "type": "Foam Roller",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Orange Medicine Ball",
+    "attributes": {
+      "color": "Orange",
+      "type": "Medicine Ball",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Gray Dumbbell Set",
+    "attributes": {
+      "color": "Gray",
+      "type": "Dumbbell Set",
+      "height_level": "middle",
+      "placement": "on the equipment surface"
+    }
+  },
+  {
+    "label": "Black Weight Plate Rack Hook",
+    "attributes": {
+      "color": "Black",
+      "type": "Weight Plate Rack Hook",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "Yellow Gym Timer Display",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Gym Timer Display",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "Purple Yoga Block",
+    "attributes": {
+      "color": "Purple",
+      "type": "Yoga Block",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Teal Meditation Singing Bowl",
+    "attributes": {
+      "color": "Teal",
+      "type": "Meditation Singing Bowl",
+      "height_level": "middle",
+      "placement": "on the bench surface"
+    }
+  },
+  {
+    "label": "Gold Wall-Mounted Incense Holder",
+    "attributes": {
+      "color": "Gold",
+      "type": "Wall-Mounted Incense Holder",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "White Decorative Mandala Disc",
+    "attributes": {
+      "color": "White",
+      "type": "Decorative Mandala Disc",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "Navy Balance Board",
+    "attributes": {
+      "color": "Navy",
+      "type": "Balance Board",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Lime Green Therapy Putty Container",
+    "attributes": {
+      "color": "Lime Green",
+      "type": "Therapy Putty Container",
+      "height_level": "middle",
+      "placement": "on the equipment surface"
+    }
+  },
+  {
+    "label": "White Round Wall Clock",
+    "attributes": {
+      "color": "White",
+      "type": "Round Wall Clock",
+      "height_level": "highest",
+      "placement": "hanging high on the wall"
+    }
+  },
+  {
+    "label": "Gray Foam Wedge Cushion",
+    "attributes": {
+      "color": "Gray",
+      "type": "Foam Wedge Cushion",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Red Boxing Gloves Pair",
+    "attributes": {
+      "color": "Red",
+      "type": "Boxing Gloves Pair",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Black Speed Bag Anchor Plate",
+    "attributes": {
+      "color": "Black",
+      "type": "Speed Bag Anchor Plate",
+      "height_level": "middle",
+      "placement": "on the equipment surface"
+    }
+  },
+  {
+    "label": "Gold Championship Belt Display",
+    "attributes": {
+      "color": "Gold",
+      "type": "Championship Belt Display",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "White Hand Wraps Roll",
+    "attributes": {
+      "color": "White",
+      "type": "Hand Wraps Roll",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Chalk White Chalk Bucket",
+    "attributes": {
+      "color": "Chalk White",
+      "type": "Chalk Bucket",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Orange Water Bottle",
+    "attributes": {
+      "color": "Orange",
+      "type": "Water Bottle",
+      "height_level": "middle",
+      "placement": "on the bench surface"
+    }
+  },
+  {
+    "label": "Red Climbing Helmet",
+    "attributes": {
+      "color": "Red",
+      "type": "Climbing Helmet",
+      "height_level": "highest",
+      "placement": "hanging on the high wall mount"
+    }
+  },
+  {
+    "label": "Blue Coiled Rope",
+    "attributes": {
+      "color": "Blue",
+      "type": "Coiled Rope",
+      "height_level": "highest",
+      "placement": "hanging on the high wall mount"
+    }
+  },
+  {
+    "label": "Pink Dance Bag",
+    "attributes": {
+      "color": "Pink",
+      "type": "Dance Bag",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Black Portable Bluetooth Speaker",
+    "attributes": {
+      "color": "Black",
+      "type": "Portable Bluetooth Speaker",
+      "height_level": "middle",
+      "placement": "on the bench surface"
+    }
+  },
+  {
+    "label": "Silver Round Wall Clock",
+    "attributes": {
+      "color": "Silver",
+      "type": "Round Wall Clock",
+      "height_level": "highest",
+      "placement": "hanging high on the wall"
+    }
+  },
+  {
+    "label": "Gold Framed Dance Poster",
+    "attributes": {
+      "color": "Gold",
+      "type": "Framed Dance Poster",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "Navy Gym Duffel Bag",
+    "attributes": {
+      "color": "Navy",
+      "type": "Gym Duffel Bag",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "White Folded Towel Stack",
+    "attributes": {
+      "color": "White",
+      "type": "Folded Towel Stack",
+      "height_level": "middle",
+      "placement": "on the bench surface"
+    }
+  },
+  {
+    "label": "Red Wall-Mounted First Aid Kit",
+    "attributes": {
+      "color": "Red",
+      "type": "Wall-Mounted First Aid Kit",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "Green Water Bottle",
+    "attributes": {
+      "color": "Green",
+      "type": "Water Bottle",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Yellow Pool Noodle Bundle",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Pool Noodle Bundle",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Blue Kickboard Stack",
+    "attributes": {
+      "color": "Blue",
+      "type": "Kickboard Stack",
+      "height_level": "middle",
+      "placement": "on the equipment surface"
+    }
+  },
+  {
+    "label": "Red Lifeguard Rescue Tube",
+    "attributes": {
+      "color": "Red",
+      "type": "Lifeguard Rescue Tube",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "Orange Swim Fins Pair",
+    "attributes": {
+      "color": "Orange",
+      "type": "Swim Fins Pair",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Brown Leather Quiver",
+    "attributes": {
+      "color": "Brown",
+      "type": "Leather Quiver",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Yellow Arrow",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Arrow",
+      "height_level": "middle",
+      "placement": "on the equipment surface"
+    }
+  },
+  {
+    "label": "Wooden Bow",
+    "attributes": {
+      "color": "Wooden Brown",
+      "type": "Bow",
+      "height_level": "highest",
+      "placement": "hanging on the high wall mount"
+    }
+  },
+  {
+    "label": "Round Black Target",
+    "attributes": {
+      "color": "Black",
+      "type": "Round Target",
+      "height_level": "highest",
+      "placement": "hanging on the high wall mount"
+    }
+  },
+  {
+    "label": "White Medical Scale",
+    "attributes": {
+      "color": "White",
+      "type": "Medical Scale",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Blue Blood Pressure Cuff",
+    "attributes": {
+      "color": "Blue",
+      "type": "Blood Pressure Cuff",
+      "height_level": "middle",
+      "placement": "on the exam table"
+    }
+  },
+  {
+    "label": "Red First Aid Kit",
+    "attributes": {
+      "color": "Red",
+      "type": "First Aid Kit",
+      "height_level": "highest",
+      "placement": "on the overhead cabinet"
+    }
+  },
+  {
+    "label": "Green Framed Diploma",
+    "attributes": {
+      "color": "Green",
+      "type": "Framed Diploma",
+      "height_level": "highest",
+      "placement": "hanging high on the wall"
+    }
+  },
+  {
+    "label": "Yellow Biohazard Bin",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Biohazard Bin",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Pink Water Pitcher",
+    "attributes": {
+      "color": "Pink",
+      "type": "Water Pitcher",
+      "height_level": "middle",
+      "placement": "on the bedside table"
+    }
+  },
+  {
+    "label": "White Framed Medical Certificate",
+    "attributes": {
+      "color": "White",
+      "type": "Framed Medical Certificate",
+      "height_level": "highest",
+      "placement": "hanging high on the wall"
+    }
+  },
+  {
+    "label": "Blue Vital Signs Monitor",
+    "attributes": {
+      "color": "Blue",
+      "type": "Vital Signs Monitor",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Orange Chemical Jug",
+    "attributes": {
+      "color": "Orange",
+      "type": "Chemical Jug",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Green Erlenmeyer Flask",
+    "attributes": {
+      "color": "Green",
+      "type": "Erlenmeyer Flask",
+      "height_level": "middle",
+      "placement": "on the lab bench"
+    }
+  },
+  {
+    "label": "Brown Reagent Bottle",
+    "attributes": {
+      "color": "Brown",
+      "type": "Reagent Bottle",
+      "height_level": "highest",
+      "placement": "on the overhead cabinet shelf"
+    }
+  },
+  {
+    "label": "Clear Graduated Cylinder",
+    "attributes": {
+      "color": "Clear",
+      "type": "Graduated Cylinder",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Grey Sterilization Tray",
+    "attributes": {
+      "color": "Grey",
+      "type": "Sterilization Tray",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Silver Dental Mirror Set",
+    "attributes": {
+      "color": "Silver",
+      "type": "Dental Mirror Set",
+      "height_level": "middle",
+      "placement": "on the exam table"
+    }
+  },
+  {
+    "label": "White X-Ray Viewer",
+    "attributes": {
+      "color": "White",
+      "type": "X-Ray Viewer",
+      "height_level": "highest",
+      "placement": "on the wall mount"
+    }
+  },
+  {
+    "label": "Blue Suction Unit",
+    "attributes": {
+      "color": "Blue",
+      "type": "Suction Unit",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "Red Pet Carrier",
+    "attributes": {
+      "color": "Red",
+      "type": "Pet Carrier",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Teal Stethoscope",
+    "attributes": {
+      "color": "Teal",
+      "type": "Stethoscope",
+      "height_level": "middle",
+      "placement": "on the exam table"
+    }
+  },
+  {
+    "label": "White Medication Jar",
+    "attributes": {
+      "color": "White",
+      "type": "Medication Jar",
+      "height_level": "highest",
+      "placement": "on the overhead cabinet"
+    }
+  },
+  {
+    "label": "Brown Bag of Pet Food",
+    "attributes": {
+      "color": "Brown",
+      "type": "Bag of Pet Food",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "Black Lens Case Box",
+    "attributes": {
+      "color": "Black",
+      "type": "Lens Case Box",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Silver Trial Lens Kit",
+    "attributes": {
+      "color": "Silver",
+      "type": "Trial Lens Kit",
+      "height_level": "middle",
+      "placement": "on the exam table"
+    }
+  },
+  {
+    "label": "White Eye Chart",
+    "attributes": {
+      "color": "White",
+      "type": "Eye Chart",
+      "height_level": "highest",
+      "placement": "on the wall mount"
+    }
+  },
+  {
+    "label": "Gold Phoropter Attachment",
+    "attributes": {
+      "color": "Gold",
+      "type": "Phoropter Attachment",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Yellow Specimen Cooler",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Specimen Cooler",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Blue Microscope",
+    "attributes": {
+      "color": "Blue",
+      "type": "Microscope",
+      "height_level": "middle",
+      "placement": "on the lab bench"
+    }
+  },
+  {
+    "label": "Green Preserved Specimen Jar",
+    "attributes": {
+      "color": "Green",
+      "type": "Preserved Specimen Jar",
+      "height_level": "highest",
+      "placement": "on the overhead cabinet shelf"
+    }
+  },
+  {
+    "label": "Amber Chemical Wash Bottle",
+    "attributes": {
+      "color": "Amber",
+      "type": "Chemical Wash Bottle",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Red Fire Extinguisher",
+    "attributes": {
+      "color": "Red",
+      "type": "Fire Extinguisher",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Silver Triple Beam Balance",
+    "attributes": {
+      "color": "Silver",
+      "type": "Triple Beam Balance",
+      "height_level": "middle",
+      "placement": "on the lab bench"
+    }
+  },
+  {
+    "label": "White Periodic Table Poster",
+    "attributes": {
+      "color": "White",
+      "type": "Periodic Table Poster",
+      "height_level": "highest",
+      "placement": "on the wall mount"
+    }
+  },
+  {
+    "label": "Purple Backpack",
+    "attributes": {
+      "color": "Purple",
+      "type": "Backpack",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "White Pill Sorting Tray",
+    "attributes": {
+      "color": "White",
+      "type": "Pill Sorting Tray",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Orange Prescription Bottle",
+    "attributes": {
+      "color": "Orange",
+      "type": "Prescription Bottle",
+      "height_level": "middle",
+      "placement": "on the lab bench"
+    }
+  },
+  {
+    "label": "Blue Medicine Reference Binder",
+    "attributes": {
+      "color": "Blue",
+      "type": "Medicine Reference Binder",
+      "height_level": "highest",
+      "placement": "on the overhead cabinet"
+    }
+  },
+  {
+    "label": "Green Mortar and Pestle",
+    "attributes": {
+      "color": "Green",
+      "type": "Mortar and Pestle",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "Grey Lead Apron",
+    "attributes": {
+      "color": "Grey",
+      "type": "Lead Apron",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Black Dosimeter Badge Holder",
+    "attributes": {
+      "color": "Black",
+      "type": "Dosimeter Badge Holder",
+      "height_level": "middle",
+      "placement": "on the exam table"
+    }
+  },
+  {
+    "label": "White X-Ray Film Box",
+    "attributes": {
+      "color": "White",
+      "type": "X-Ray Film Box",
+      "height_level": "highest",
+      "placement": "on the wall-mounted shelf"
+    }
+  },
+  {
+    "label": "Silver Radiation Warning Sign",
+    "attributes": {
+      "color": "Silver",
+      "type": "Radiation Warning Sign",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Black Guitar Pedal Board",
+    "attributes": {
+      "color": "Black",
+      "type": "Guitar Pedal Board",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Silver Condenser Microphone",
+    "attributes": {
+      "color": "Silver",
+      "type": "Condenser Microphone",
+      "height_level": "middle",
+      "placement": "on the mixing desk"
+    }
+  },
+  {
+    "label": "Red Studio Headphones",
+    "attributes": {
+      "color": "Red",
+      "type": "Studio Headphones",
+      "height_level": "highest",
+      "placement": "on the high wall hook"
+    }
+  },
+  {
+    "label": "Brown Cable Coil",
+    "attributes": {
+      "color": "Brown",
+      "type": "Cable Coil",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Gold Stage Light Gel Pack",
+    "attributes": {
+      "color": "Gold",
+      "type": "Stage Light Gel Pack",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Black Script Binder",
+    "attributes": {
+      "color": "Black",
+      "type": "Script Binder",
+      "height_level": "middle",
+      "placement": "on the prop table"
+    }
+  },
+  {
+    "label": "Red Velvet Curtain Tassel",
+    "attributes": {
+      "color": "Red",
+      "type": "Velvet Curtain Tassel",
+      "height_level": "highest",
+      "placement": "on the high wall hook"
+    }
+  },
+  {
+    "label": "White Spotlight Clamp",
+    "attributes": {
+      "color": "White",
+      "type": "Spotlight Clamp",
+      "height_level": "highest",
+      "placement": "on the high wall hook"
+    }
+  },
+  {
+    "label": "Grey Sandbag Weight",
+    "attributes": {
+      "color": "Grey",
+      "type": "Sandbag Weight",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Black Camera Lens",
+    "attributes": {
+      "color": "Black",
+      "type": "Camera Lens",
+      "height_level": "middle",
+      "placement": "on the equipment table"
+    }
+  },
+  {
+    "label": "Silver Reflector Disc",
+    "attributes": {
+      "color": "Silver",
+      "type": "Reflector Disc",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "White Softbox Panel",
+    "attributes": {
+      "color": "White",
+      "type": "Softbox Panel",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Brown Treasure Chest Prop",
+    "attributes": {
+      "color": "Brown",
+      "type": "Treasure Chest Prop",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Red Vintage Telephone Prop",
+    "attributes": {
+      "color": "Red",
+      "type": "Vintage Telephone Prop",
+      "height_level": "middle",
+      "placement": "on the storage table"
+    }
+  },
+  {
+    "label": "Gold Crown Prop",
+    "attributes": {
+      "color": "Gold",
+      "type": "Crown Prop",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Green Fake Plant Prop",
+    "attributes": {
+      "color": "Green",
+      "type": "Fake Plant Prop",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Black Foot Pedal Extender",
+    "attributes": {
+      "color": "Black",
+      "type": "Foot Pedal Extender",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Red Metronome",
+    "attributes": {
+      "color": "Red",
+      "type": "Metronome",
+      "height_level": "middle",
+      "placement": "on the piano top"
+    }
+  },
+  {
+    "label": "Gold Framed Music Certificate",
+    "attributes": {
+      "color": "Gold",
+      "type": "Framed Music Certificate",
+      "height_level": "highest",
+      "placement": "on the wall mount"
+    }
+  },
+  {
+    "label": "Blue Sheet Music Bag",
+    "attributes": {
+      "color": "Blue",
+      "type": "Sheet Music Bag",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Navy Duffel Bag",
+    "attributes": {
+      "color": "Navy",
+      "type": "Duffel Bag",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "White Coffee Mug",
+    "attributes": {
+      "color": "White",
+      "type": "Coffee Mug",
+      "height_level": "middle",
+      "placement": "on the vanity table"
+    }
+  },
+  {
+    "label": "Gold Comedy Award Trophy",
+    "attributes": {
+      "color": "Gold",
+      "type": "Comedy Award Trophy",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Silver Framed Headshot",
+    "attributes": {
+      "color": "Silver",
+      "type": "Framed Headshot",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Black Vinyl Record Crate",
+    "attributes": {
+      "color": "Black",
+      "type": "Vinyl Record Crate",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Blue LED Controller Pad",
+    "attributes": {
+      "color": "Blue",
+      "type": "LED Controller Pad",
+      "height_level": "middle",
+      "placement": "on the equipment surface"
+    }
+  },
+  {
+    "label": "Red Disco Ball",
+    "attributes": {
+      "color": "Red",
+      "type": "Disco Ball",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "Green Laser Light Unit",
+    "attributes": {
+      "color": "Green",
+      "type": "Laser Light Unit",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "Red Board Game Box",
+    "attributes": {
+      "color": "Red",
+      "type": "Board Game Box",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Green Card Deck Holder",
+    "attributes": {
+      "color": "Green",
+      "type": "Card Deck Holder",
+      "height_level": "middle",
+      "placement": "on the game table"
+    }
+  },
+  {
+    "label": "Blue Neon Sign",
+    "attributes": {
+      "color": "Blue",
+      "type": "Neon Sign",
+      "height_level": "highest",
+      "placement": "on the wall mount"
+    }
+  },
+  {
+    "label": "Yellow Bean Bag Toss Set",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Bean Bag Toss Set",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Purple Prize Basket",
+    "attributes": {
+      "color": "Purple",
+      "type": "Prize Basket",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Red Joystick Controller",
+    "attributes": {
+      "color": "Red",
+      "type": "Joystick Controller",
+      "height_level": "middle",
+      "placement": "on the arcade cabinet surface"
+    }
+  },
+  {
+    "label": "Yellow High Score Plaque",
+    "attributes": {
+      "color": "Yellow",
+      "type": "High Score Plaque",
+      "height_level": "highest",
+      "placement": "on the wall mount"
+    }
+  },
+  {
+    "label": "Orange Token Bucket",
+    "attributes": {
+      "color": "Orange",
+      "type": "Token Bucket",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Black Top Hat",
+    "attributes": {
+      "color": "Black",
+      "type": "Top Hat",
+      "height_level": "lowest",
+      "placement": "on the floor"
+    }
+  },
+  {
+    "label": "Red Card Deck Fan",
+    "attributes": {
+      "color": "Red",
+      "type": "Card Deck Fan",
+      "height_level": "middle",
+      "placement": "on the workbench"
+    }
+  },
+  {
+    "label": "Purple Crystal Ball",
+    "attributes": {
+      "color": "Purple",
+      "type": "Crystal Ball",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Silver Magic Wand Set",
+    "attributes": {
+      "color": "Silver",
+      "type": "Magic Wand Set",
+      "height_level": "highest",
+      "placement": "on the high shelf"
+    }
+  },
+  {
+    "label": "Silver Navigation Data Pad",
+    "attributes": {
+      "color": "Silver",
+      "type": "Navigation Data Pad",
+      "height_level": "lowest",
+      "placement": "on the deck floor"
+    }
+  },
+  {
+    "label": "Blue Holographic Star Chart",
+    "attributes": {
+      "color": "Blue",
+      "type": "Holographic Star Chart",
+      "height_level": "middle",
+      "placement": "on the command console"
+    }
+  },
+  {
+    "label": "Red Emergency Beacon Light",
+    "attributes": {
+      "color": "Red",
+      "type": "Emergency Beacon Light",
+      "height_level": "highest",
+      "placement": "on the overhead panel"
+    }
+  },
+  {
+    "label": "Orange Plasma Coil Canister",
+    "attributes": {
+      "color": "Orange",
+      "type": "Plasma Coil Canister",
+      "height_level": "highest",
+      "placement": "on the overhead panel"
+    }
+  },
+  {
+    "label": "Purple Crystal Orb",
+    "attributes": {
+      "color": "Purple",
+      "type": "Crystal Orb",
+      "height_level": "lowest",
+      "placement": "on the stone floor"
+    }
+  },
+  {
+    "label": "Brown Leather-Bound Grimoire",
+    "attributes": {
+      "color": "Brown",
+      "type": "Leather-Bound Grimoire",
+      "height_level": "middle",
+      "placement": "on the oak study table"
+    }
+  },
+  {
+    "label": "Gold Enchanted Hourglass",
+    "attributes": {
+      "color": "Gold",
+      "type": "Enchanted Hourglass",
+      "height_level": "highest",
+      "placement": "on the high wall bracket"
+    }
+  },
+  {
+    "label": "Teal Rune Sphere",
+    "attributes": {
+      "color": "Teal",
+      "type": "Rune Sphere",
+      "height_level": "lowest",
+      "placement": "on the stone floor"
+    }
+  },
+  {
+    "label": "Iron Steel War Shield",
+    "attributes": {
+      "color": "Iron",
+      "type": "Steel War Shield",
+      "height_level": "lowest",
+      "placement": "on the flagstone floor"
+    }
+  },
+  {
+    "label": "Crimson Velvet Jewel Box",
+    "attributes": {
+      "color": "Crimson",
+      "type": "Velvet Jewel Box",
+      "height_level": "middle",
+      "placement": "on the stone table"
+    }
+  },
+  {
+    "label": "Gold Royal Coat of Arms",
+    "attributes": {
+      "color": "Gold",
+      "type": "Royal Coat of Arms",
+      "height_level": "highest",
+      "placement": "mounted high on the castle wall"
+    }
+  },
+  {
+    "label": "Silver Heraldic Banner",
+    "attributes": {
+      "color": "Silver",
+      "type": "Heraldic Banner",
+      "height_level": "lowest",
+      "placement": "on the flagstone floor"
+    }
+  },
+  {
+    "label": "Black VR Headset",
+    "attributes": {
+      "color": "Black",
+      "type": "VR Headset",
+      "height_level": "lowest",
+      "placement": "on the concrete floor"
+    }
+  },
+  {
+    "label": "Neon Green Holographic Keyboard",
+    "attributes": {
+      "color": "Neon Green",
+      "type": "Holographic Keyboard",
+      "height_level": "middle",
+      "placement": "on the hacker desk"
+    }
+  },
+  {
+    "label": "Cyan Surveillance Monitor Array",
+    "attributes": {
+      "color": "Cyan",
+      "type": "Surveillance Monitor Array",
+      "height_level": "highest",
+      "placement": "on the ceiling-mounted rail"
+    }
+  },
+  {
+    "label": "Magenta Cable Spool",
+    "attributes": {
+      "color": "Magenta",
+      "type": "Cable Spool",
+      "height_level": "highest",
+      "placement": "on the ceiling-mounted rail"
+    }
+  },
+  {
+    "label": "White Oxygen Tank",
+    "attributes": {
+      "color": "White",
+      "type": "Oxygen Tank",
+      "height_level": "lowest",
+      "placement": "on the habitat floor"
+    }
+  },
+  {
+    "label": "Orange Geological Sample Kit",
+    "attributes": {
+      "color": "Orange",
+      "type": "Geological Sample Kit",
+      "height_level": "middle",
+      "placement": "on the research console"
+    }
+  },
+  {
+    "label": "Green Hydroponic Growth Pod",
+    "attributes": {
+      "color": "Green",
+      "type": "Hydroponic Growth Pod",
+      "height_level": "highest",
+      "placement": "on the overhead rack"
+    }
+  },
+  {
+    "label": "Grey Dust Filter Cartridge",
+    "attributes": {
+      "color": "Grey",
+      "type": "Dust Filter Cartridge",
+      "height_level": "highest",
+      "placement": "on the overhead rack"
+    }
+  },
+  {
+    "label": "Sandstone Clay Canopic Jar",
+    "attributes": {
+      "color": "Sandstone",
+      "type": "Clay Canopic Jar",
+      "height_level": "lowest",
+      "placement": "on the tomb floor"
+    }
+  },
+  {
+    "label": "Turquoise Scarab Amulet Box",
+    "attributes": {
+      "color": "Turquoise",
+      "type": "Scarab Amulet Box",
+      "height_level": "middle",
+      "placement": "on the limestone altar"
+    }
+  },
+  {
+    "label": "Gold Falcon-Headed Idol",
+    "attributes": {
+      "color": "Gold",
+      "type": "Falcon-Headed Idol",
+      "height_level": "highest",
+      "placement": "on the high stone ledge"
+    }
+  },
+  {
+    "label": "Jade Ankh Relief Tablet",
+    "attributes": {
+      "color": "Jade",
+      "type": "Ankh Relief Tablet",
+      "height_level": "lowest",
+      "placement": "on the tomb floor"
+    }
+  },
+  {
+    "label": "Bronze Pressure Gauge Dial",
+    "attributes": {
+      "color": "Bronze",
+      "type": "Pressure Gauge Dial",
+      "height_level": "lowest",
+      "placement": "on the workshop floor"
+    }
+  },
+  {
+    "label": "Copper Gear Assembly Box",
+    "attributes": {
+      "color": "Copper",
+      "type": "Gear Assembly Box",
+      "height_level": "middle",
+      "placement": "on the workbench"
+    }
+  },
+  {
+    "label": "Brass Airship Navigation Compass",
+    "attributes": {
+      "color": "Brass",
+      "type": "Airship Navigation Compass",
+      "height_level": "highest",
+      "placement": "on the high pipe shelf"
+    }
+  },
+  {
+    "label": "Pewter Steam Valve Wheel",
+    "attributes": {
+      "color": "Pewter",
+      "type": "Steam Valve Wheel",
+      "height_level": "lowest",
+      "placement": "on the workshop floor"
+    }
+  },
+  {
+    "label": "Dark Brown Rum Barrel",
+    "attributes": {
+      "color": "Dark Brown",
+      "type": "Rum Barrel",
+      "height_level": "lowest",
+      "placement": "on the cabin floor"
+    }
+  },
+  {
+    "label": "Gold Compass",
+    "attributes": {
+      "color": "Gold",
+      "type": "Compass",
+      "height_level": "middle",
+      "placement": "on the captain's desk"
+    }
+  },
+  {
+    "label": "Silver Cutlass",
+    "attributes": {
+      "color": "Silver",
+      "type": "Cutlass",
+      "height_level": "highest",
+      "placement": "hanging on the high mounting hook"
+    }
+  },
+  {
+    "label": "Brown Tricorn Hat",
+    "attributes": {
+      "color": "Brown",
+      "type": "Tricorn Hat",
+      "height_level": "highest",
+      "placement": "hanging on the high mounting hook"
+    }
+  },
+  {
+    "label": "Burgundy Leather Travel Case",
+    "attributes": {
+      "color": "Burgundy",
+      "type": "Leather Travel Case",
+      "height_level": "lowest",
+      "placement": "on the hardwood floor"
+    }
+  },
+  {
+    "label": "Forest Green Antique Desk Lamp",
+    "attributes": {
+      "color": "Forest Green",
+      "type": "Antique Desk Lamp",
+      "height_level": "middle",
+      "placement": "on the writing desk"
+    }
+  },
+  {
+    "label": "Amber Taxidermy Owl",
+    "attributes": {
+      "color": "Amber",
+      "type": "Taxidermy Owl",
+      "height_level": "highest",
+      "placement": "on the high mahogany shelf"
+    }
+  },
+  {
+    "label": "Ivory Porcelain Mantel Clock",
+    "attributes": {
+      "color": "Ivory",
+      "type": "Porcelain Mantel Clock",
+      "height_level": "highest",
+      "placement": "on the high mahogany shelf"
+    }
+  },
+  {
+    "label": "Iron Warhammer",
+    "attributes": {
+      "color": "Iron",
+      "type": "Warhammer",
+      "height_level": "lowest",
+      "placement": "on the stone-cut floor"
+    }
+  },
+  {
+    "label": "Steel Chainmail Coif",
+    "attributes": {
+      "color": "Steel",
+      "type": "Chainmail Coif",
+      "height_level": "middle",
+      "placement": "on the anvil table"
+    }
+  },
+  {
+    "label": "Gold Runic Battle Standard",
+    "attributes": {
+      "color": "Gold",
+      "type": "Runic Battle Standard",
+      "height_level": "highest",
+      "placement": "on the high wall mount"
+    }
+  },
+  {
+    "label": "Bronze Dented Buckler Shield",
+    "attributes": {
+      "color": "Bronze",
+      "type": "Dented Buckler Shield",
+      "height_level": "lowest",
+      "placement": "on the stone-cut floor"
+    }
+  }
+]

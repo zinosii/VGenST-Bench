@@ -1,0 +1,9 @@
+anthropic
+openai
+google-genai
+natsort
+tqdm
+json_repair
+pandas
+requests
+opencv-python

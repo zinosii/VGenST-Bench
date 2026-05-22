@@ -1,0 +1,26 @@
+[
+    {
+        "reasoning_goal": "The viewer must determine the height ordering: White Ceramic Floor Vase (on the floor) is lowest, Black Remote Control (on the TV table) is middle, Green Potted Succulent (on the wall-mounted shelf) is highest. Distractor Grey Yoga Mat Roll shares the lowest level.",
+        "timeline": {
+            "(Phase 1 — Lowest)": "Camera holds zoomed in on the lowest level. White Ceramic Floor Vase (on the floor) and Grey Yoga Mat Roll (distractor, on the floor) are visible side by side.",
+            "(Phase 2 — Middle)": "Camera tilts upward. White Ceramic Floor Vase exits frame. Black Remote Control (on the TV table) comes into view and becomes centered.",
+            "(Phase 3 — Highest)": "Camera continues tilting upward. Black Remote Control exits frame. Green Potted Succulent (on the wall-mounted shelf) comes into view alone. Video ends."
+        }
+    },
+    {
+        "reasoning_goal": "The viewer must determine the height ordering: Brown Woven Floor Basket (on the floor) is lowest, Red Ceramic Mug (on the side table) is middle, Blue Framed Photo (on the high bookshelf) is highest. Distractor Gold Small Clock shares the highest level.",
+        "timeline": {
+            "(Phase 1 — Lowest)": "Camera holds zoomed in on the lowest level. Brown Woven Floor Basket (on the floor) is visible alone.",
+            "(Phase 2 — Middle)": "Camera tilts upward. Brown Woven Floor Basket exits frame. Red Ceramic Mug (on the side table) comes into view and becomes centered.",
+            "(Phase 3 — Highest)": "Camera continues tilting upward. Red Ceramic Mug exits frame. Blue Framed Photo (on the high bookshelf) and Gold Small Clock (distractor, on the high bookshelf) come into view side by side. Video ends."
+        }
+    },
+    {
+        "reasoning_goal": "The viewer must determine the height ordering: Terracotta Watering Can (on the tiled floor) is lowest, Yellow Lemon Bowl (on the windowsill planter bench) is middle, Green Hanging Fern Pot (hanging from the ceiling beam) is highest. Distractor White Wind Chime shares the highest level.",
+        "timeline": {
+            "(Phase 1 — Highest)": "Camera holds zoomed in on the highest level. Green Hanging Fern Pot (hanging from the ceiling beam) and White Wind Chime (distractor, hanging from the ceiling beam) are visible side by side.",
+            "(Phase 2 — Middle)": "Camera tilts downward. Green Hanging Fern Pot exits frame. Yellow Lemon Bowl (on the windowsill planter bench) comes into view and becomes centered.",
+            "(Phase 3 — Lowest)": "Camera continues tilting downward. Yellow Lemon Bowl exits frame. Terracotta Watering Can (on the tiled floor) comes into view alone. Video ends."
+        }
+    }
+]

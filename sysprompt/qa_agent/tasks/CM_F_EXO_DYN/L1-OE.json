@@ -1,0 +1,11 @@
+{
+  "task_id": "CM_F_EXO_DYN",
+  "category_id": "L1-OE",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which object appears in the video?: A. Ceiling Fan, B. Status Pillar, C. Holographic Display, D. Alarm Siren",
+      "answer": "B"
+    }
+  ]
+}

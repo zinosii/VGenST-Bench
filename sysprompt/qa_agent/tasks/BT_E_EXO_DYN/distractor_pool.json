@@ -1,0 +1,2294 @@
+[
+  {
+    "label": "Blue Sedan Car",
+    "attributes": {
+      "color": "Blue",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Parked Green SUV",
+    "attributes": {
+      "color": "Green",
+      "type": "Parked Vehicle",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Child",
+    "attributes": {
+      "color": "Red Shirt",
+      "type": "Pedestrian",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Blue Courier Motorcycle with Delivery Box",
+    "attributes": {
+      "color": "Blue",
+      "type": "Motorcycle"
+    }
+  },
+  {
+    "label": "Parked Orange Delivery Van",
+    "attributes": {
+      "color": "Orange",
+      "type": "Parked Vehicle",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Pedestrian",
+    "attributes": {
+      "color": "Grey Suit",
+      "type": "Human",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "White Electric Office Shuttle Golf Cart",
+    "attributes": {
+      "color": "White",
+      "type": "Electric Cart"
+    }
+  },
+  {
+    "label": "Large Stone Modern Art Sculpture",
+    "attributes": {
+      "color": "Beige Stone",
+      "type": "Static Art Installation",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Corgi",
+    "attributes": {
+      "color": "Brown and White",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Red Tourism E-Bike with Front Basket",
+    "attributes": {
+      "color": "Red",
+      "type": "Electric Bicycle"
+    }
+  },
+  {
+    "label": "Blue Tourist Information Kiosk",
+    "attributes": {
+      "color": "Blue",
+      "type": "Static Booth",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Labrador",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Green Hatchback Car",
+    "attributes": {
+      "color": "Green",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Parked Orange Highway Maintenance Trailer",
+    "attributes": {
+      "color": "Orange",
+      "type": "Parked Service Trailer",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Large Brown Deer",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Yellow Taxi Sedan",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Parked White City Bus",
+    "attributes": {
+      "color": "White",
+      "type": "Parked Large Vehicle",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Elderly Woman with Walker",
+    "attributes": {
+      "color": "Grey Coat",
+      "type": "Human",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Black Vintage Bicycle with Rider in Khaki",
+    "attributes": {
+      "color": "Black",
+      "type": "Bicycle"
+    }
+  },
+  {
+    "label": "Stacked Wooden Vegetable Crates",
+    "attributes": {
+      "color": "Brown Wood",
+      "type": "Static Stacked Crates",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Grey Tabby Cat",
+    "attributes": {
+      "color": "Grey Tabby",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Yellow Postal Delivery Tricycle",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Tricycle"
+    }
+  },
+  {
+    "label": "Tall Red Postal Mailbox Cluster",
+    "attributes": {
+      "color": "Red",
+      "type": "Static Mailbox Stand",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Brown Mongrel Dog",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "White Family Sedan",
+    "attributes": {
+      "color": "White",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Tall Hedge Bush",
+    "attributes": {
+      "color": "Green",
+      "type": "Static Garden Hedge",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Red Toddler Tricycle",
+    "attributes": {
+      "color": "Red",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Tan Vintage Motorcycle with Rider in Brown Leather",
+    "attributes": {
+      "color": "Tan",
+      "type": "Motorcycle"
+    }
+  },
+  {
+    "label": "Stone Statue Pedestal",
+    "attributes": {
+      "color": "Grey Stone",
+      "type": "Static Statue Pedestal",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Elderly Pedestrian with Wooden Cane",
+    "attributes": {
+      "color": "Brown",
+      "type": "Pedestrian",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Black Adventure Motorcycle with Rider in Grey Leathers",
+    "attributes": {
+      "color": "Black",
+      "type": "Motorcycle"
+    }
+  },
+  {
+    "label": "Large Red Sandstone Rock Formation",
+    "attributes": {
+      "color": "Red",
+      "type": "Static Natural Rock",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Swirling Sandstorm",
+    "attributes": {
+      "color": "Tan/Beige",
+      "type": "Weather Phenomenon",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Orange Convertible Sports Car",
+    "attributes": {
+      "color": "Orange",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Pile of Stone Boulders",
+    "attributes": {
+      "color": "Grey Stone",
+      "type": "Static Rock Pile",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "White Mountain Goat",
+    "attributes": {
+      "color": "White",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Silver Convertible Sports Car",
+    "attributes": {
+      "color": "Silver",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Large Grey Cliff Rock Outcrop",
+    "attributes": {
+      "color": "Grey Stone",
+      "type": "Static Natural Rock Formation",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Large Brown Ram",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Dark Brown Forest Service Pickup Truck",
+    "attributes": {
+      "color": "Dark Brown",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Stack of Freshly Cut Logs",
+    "attributes": {
+      "color": "Tan Wood",
+      "type": "Static Stacked Logs",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Adult Black Bear",
+    "attributes": {
+      "color": "Black",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Tan Expedition Jeep",
+    "attributes": {
+      "color": "Tan",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Large Red Canyon Boulder",
+    "attributes": {
+      "color": "Red Sandstone",
+      "type": "Static Natural Boulder",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Sprinting Coyote",
+    "attributes": {
+      "color": "Tan Grey",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Beige Family Minivan",
+    "attributes": {
+      "color": "Beige",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Large Parked White RV Motorhome",
+    "attributes": {
+      "color": "White",
+      "type": "Parked Large Vehicle",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Boy on Red Skateboard",
+    "attributes": {
+      "color": "Yellow Shirt on Red Skateboard",
+      "type": "Human on Wheeled Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Maroon Pickup Truck with Hay Bales in Bed",
+    "attributes": {
+      "color": "Maroon",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Stack of Large Round Hay Bales",
+    "attributes": {
+      "color": "Golden Yellow",
+      "type": "Static Stacked Bales",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Adult Holstein Cow",
+    "attributes": {
+      "color": "Black and White",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "White Port Security SUV with Orange Light Bar",
+    "attributes": {
+      "color": "White",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Stack of Red Shipping Containers",
+    "attributes": {
+      "color": "Red",
+      "type": "Static Stacked Cargo Containers",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Dock Worker in Orange Safety Vest",
+    "attributes": {
+      "color": "Orange Vest with Yellow Hard Hat",
+      "type": "Human",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Red Pickup Truck with Snow Tires",
+    "attributes": {
+      "color": "Red",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Tall Snow Plow Pile against Roadside Barn Wall",
+    "attributes": {
+      "color": "White Snow",
+      "type": "Static Snow Pile",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Lone White Wolf",
+    "attributes": {
+      "color": "White",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Red Bicycle Cyclist",
+    "attributes": {
+      "color": "Red Bike, Yellow Helmet",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Tall Roadside Hedge",
+    "attributes": {
+      "color": "Green",
+      "type": "Static Hedge",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Brown Stray Dog",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Female Jogger in Pink Athletic Wear",
+    "attributes": {
+      "color": "Pink",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Park Wooden Bench with Backrest",
+    "attributes": {
+      "color": "Brown Wood",
+      "type": "Static Park Bench",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Red Frisbee",
+    "attributes": {
+      "color": "Red",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Elderly Visitor with Walking Stick",
+    "attributes": {
+      "color": "Beige",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Tall Greenhouse Glass Display Case",
+    "attributes": {
+      "color": "Glass",
+      "type": "Static Greenhouse Case",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Fallen Tree Branch",
+    "attributes": {
+      "color": "Brown",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Gold Electric Cruiser Bicycle",
+    "attributes": {
+      "color": "Gold",
+      "type": "Bicycle"
+    }
+  },
+  {
+    "label": "Wooden Bait and Tackle Shed",
+    "attributes": {
+      "color": "Weathered Brown Wood",
+      "type": "Static Wooden Building",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Running Girl in Yellow Dress",
+    "attributes": {
+      "color": "Yellow Dress",
+      "type": "Human",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Cream Golf Cart with Red Golf Bags",
+    "attributes": {
+      "color": "Cream",
+      "type": "Electric Cart"
+    }
+  },
+  {
+    "label": "Wooden Golf Cart Shelter Pavilion",
+    "attributes": {
+      "color": "Dark Brown Wood",
+      "type": "Static Shelter Structure",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Fast-Hopping Brown Wild Rabbit",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Zebra-Striped Zoo Safari Jeep",
+    "attributes": {
+      "color": "Black and White Stripes",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Large Elephant Topiary Sculpture",
+    "attributes": {
+      "color": "Green Topiary",
+      "type": "Static Topiary Sculpture",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Peacock with Fully Displayed Tail",
+    "attributes": {
+      "color": "Iridescent Blue-Green with Tail",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Yellow Golf Cart",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Tall Striped Vendor Kiosk",
+    "attributes": {
+      "color": "Red and White Striped",
+      "type": "Static Vendor Kiosk",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Runaway Empty Baby Stroller",
+    "attributes": {
+      "color": "Pink",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Indigo Commuter Bicycle",
+    "attributes": {
+      "color": "Indigo",
+      "type": "Bicycle"
+    }
+  },
+  {
+    "label": "Large Stone Park Gazebo",
+    "attributes": {
+      "color": "Grey Stone with Slate Roof",
+      "type": "Static Stone Gazebo",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Roller Skater",
+    "attributes": {
+      "color": "Black and Red Outfit with Helmet",
+      "type": "Human on Wheeled Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Lime Green Ski Rental Delivery Van",
+    "attributes": {
+      "color": "Lime Green",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Log Cabin Ski Rental Kiosk",
+    "attributes": {
+      "color": "Dark Timber Log",
+      "type": "Static Wooden Kiosk",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Skier Sliding Fast on Skis",
+    "attributes": {
+      "color": "Red Ski Jacket with Blue Helmet",
+      "type": "Human on Wheeled-like Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Blue Electric Skateboard Rider",
+    "attributes": {
+      "color": "Blue",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Bronze Statue of University Founder on Pedestal",
+    "attributes": {
+      "color": "Bronze",
+      "type": "Static Statue Pedestal",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Stack of Falling Books",
+    "attributes": {
+      "color": "Brown and Red",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Yellow Touring Cyclist",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Large Modernist Stone Sculpture",
+    "attributes": {
+      "color": "Grey Stone",
+      "type": "Static Sculpture",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Soccer Ball",
+    "attributes": {
+      "color": "Black and White",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Yellow Mining Dump Truck",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Pile of Crushed Ore Rocks",
+    "attributes": {
+      "color": "Grey",
+      "type": "Static Rock Pile",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Mining Cart on Tracks",
+    "attributes": {
+      "color": "Rust Brown",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "White Refinery Inspection Pickup Truck",
+    "attributes": {
+      "color": "White",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Cylindrical Oil Storage Tank",
+    "attributes": {
+      "color": "Grey Metal",
+      "type": "Static Storage Tank",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Forklift carrying Pipe Section",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Vehicle",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Gunmetal Grey Container Transporter Truck",
+    "attributes": {
+      "color": "Gunmetal Grey",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Stack of Blue Shipping Containers",
+    "attributes": {
+      "color": "Blue",
+      "type": "Static Stacked Cargo Containers",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Forklift",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Vehicle",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Yellow Airport Tug Vehicle",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Air Stairs Cart",
+    "attributes": {
+      "color": "White",
+      "type": "Static Parked Vehicle",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Lost Luggage Cart with Bags",
+    "attributes": {
+      "color": "Grey Metal",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Red Lumber Yard Forklift",
+    "attributes": {
+      "color": "Red",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Tall Stack of Lumber Planks",
+    "attributes": {
+      "color": "Brown Wood",
+      "type": "Static Lumber Stack",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Rolling Log",
+    "attributes": {
+      "color": "Brown",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "White Test Car",
+    "attributes": {
+      "color": "White",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Test Track Sign Tower",
+    "attributes": {
+      "color": "Gray and Orange",
+      "type": "Static Sign Tower",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Stray Dog",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "White Shipyard Pickup Truck",
+    "attributes": {
+      "color": "White",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Stack of Shipping Containers",
+    "attributes": {
+      "color": "Multicolor",
+      "type": "Static Container Stack",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Fallen Shipyard Sign Board",
+    "attributes": {
+      "color": "Yellow Metal",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Brown Construction Worker on Foot in Hard Hat",
+    "attributes": {
+      "color": "Brown",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Pile of Sand and Gravel",
+    "attributes": {
+      "color": "Tan",
+      "type": "Static Material Pile",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Tipped Wheelbarrow with Cement",
+    "attributes": {
+      "color": "Grey",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "White Maintenance UTV",
+    "attributes": {
+      "color": "White",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Solar Panel Installation Frame",
+    "attributes": {
+      "color": "Black and Silver",
+      "type": "Static Solar Panel Frame",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Stray Sheep",
+    "attributes": {
+      "color": "White Wool",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Yellow Railroad Maintenance Cart",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Wooden Railroad Tie Stack",
+    "attributes": {
+      "color": "Brown",
+      "type": "Static Stack",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Wandering Deer",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Solo Hiker in Red Jacket with Backpack",
+    "attributes": {
+      "color": "Red",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Large Granite Boulder",
+    "attributes": {
+      "color": "Grey Granite",
+      "type": "Static Boulder",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Mountain Goat",
+    "attributes": {
+      "color": "White and Brown",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Dusty Brown Safari Truck",
+    "attributes": {
+      "color": "Dusty Brown",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Large Termite Mound",
+    "attributes": {
+      "color": "Rust Red Clay",
+      "type": "Static Natural Mound",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Warthog",
+    "attributes": {
+      "color": "Dark Grey Brown",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Khaki Expedition Jeep",
+    "attributes": {
+      "color": "Khaki",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Dense Vine-Covered Bush",
+    "attributes": {
+      "color": "Dark Green",
+      "type": "Static Vegetation",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Wild Boar",
+    "attributes": {
+      "color": "Dark Brown Bristly",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Golden Tan Dune Buggy",
+    "attributes": {
+      "color": "Golden Tan",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Large Weathered Sandstone Boulder",
+    "attributes": {
+      "color": "Rust Red Sandstone",
+      "type": "Static Rock Formation",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Desert Fox",
+    "attributes": {
+      "color": "Pale Tan",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Brown Hiker",
+    "attributes": {
+      "color": "Brown",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Fallen Mossy Tree Trunk",
+    "attributes": {
+      "color": "Green-Brown",
+      "type": "Static Natural Object",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Wild Boar",
+    "attributes": {
+      "color": "Dark Brown",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "White Beach ATV with Rider",
+    "attributes": {
+      "color": "White",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Wooden Beach Lifeguard Tower",
+    "attributes": {
+      "color": "Wood Tan",
+      "type": "Static Lifeguard Tower",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Beach Volleyball",
+    "attributes": {
+      "color": "White and Blue",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Grey Volcanic Research Rover",
+    "attributes": {
+      "color": "Grey",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Lava Rock Outcrop",
+    "attributes": {
+      "color": "Black Volcanic",
+      "type": "Static Rock Outcrop",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Cloud of Volcanic Ash Wind",
+    "attributes": {
+      "color": "Grey Ash",
+      "type": "Weather Phenomenon",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Arctic White Snowmobile",
+    "attributes": {
+      "color": "Arctic White",
+      "type": "Snowmobile"
+    }
+  },
+  {
+    "label": "Tall Snowdrift",
+    "attributes": {
+      "color": "White Snow",
+      "type": "Static Wind-Shaped Snow Drift",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Caribou",
+    "attributes": {
+      "color": "Light Brown with Antlers",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Olive Drab Marsh ATV",
+    "attributes": {
+      "color": "Olive Drab",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Tall Cypress Tree",
+    "attributes": {
+      "color": "Grey Bark with Green Canopy",
+      "type": "Static Tree",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Marsh Turtle",
+    "attributes": {
+      "color": "Dark Olive Green Shell",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Brown Trail Mule with Rider in Cowboy Hat",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal"
+    }
+  },
+  {
+    "label": "Tall Cottonwood Bush",
+    "attributes": {
+      "color": "Green",
+      "type": "Static Bush",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Fallen Log",
+    "attributes": {
+      "color": "Brown",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "British Racing Green Polo Official Cart",
+    "attributes": {
+      "color": "British Racing Green",
+      "type": "Electric Cart"
+    }
+  },
+  {
+    "label": "Polo Field Scoreboard Box",
+    "attributes": {
+      "color": "White with Black Trim",
+      "type": "Static Scoreboard Structure",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Polo Pony",
+    "attributes": {
+      "color": "Chestnut Brown",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Female Sprinter in Blue Singlet",
+    "attributes": {
+      "color": "Blue",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Padded Hurdle Stand",
+    "attributes": {
+      "color": "Black",
+      "type": "Static Hurdle Stand",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Loose Discus",
+    "attributes": {
+      "color": "Bronze Metal",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Orange Longboard with Helmeted Rider",
+    "attributes": {
+      "color": "Orange Board with Blue Jacket Rider",
+      "type": "Skater"
+    }
+  },
+  {
+    "label": "Parked Safety Truck",
+    "attributes": {
+      "color": "Yellow with Red Stripes",
+      "type": "Parked Vehicle",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Jogger",
+    "attributes": {
+      "color": "Red Tracksuit",
+      "type": "Human",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Blue Jogger",
+    "attributes": {
+      "color": "Blue Shirt, Black Shorts",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Track Equipment Storage Shed",
+    "attributes": {
+      "color": "Gray",
+      "type": "Static Shed",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Stray Cat",
+    "attributes": {
+      "color": "Orange Tabby",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Blue Track Cyclist",
+    "attributes": {
+      "color": "Blue",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Track Officials Wooden Booth",
+    "attributes": {
+      "color": "Brown",
+      "type": "Static Booth",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Stray Pigeon",
+    "attributes": {
+      "color": "Gray",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Mountain Biker in Helmet on Green Bike",
+    "attributes": {
+      "color": "Green",
+      "type": "Bicycle"
+    }
+  },
+  {
+    "label": "Large Trail Boulder",
+    "attributes": {
+      "color": "Grey",
+      "type": "Static Boulder",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Spotted Trail Dog",
+    "attributes": {
+      "color": "Brown and White",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Black Hockey Player with Stick",
+    "attributes": {
+      "color": "Black",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Players Bench Side Wall",
+    "attributes": {
+      "color": "White and Blue",
+      "type": "Static Rink Wall",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Cluster of Fallen Hockey Pucks",
+    "attributes": {
+      "color": "Black",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Skateboarder in Cap on Red Skateboard",
+    "attributes": {
+      "color": "Red",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Concrete Quarter Pipe Wall",
+    "attributes": {
+      "color": "Grey Concrete",
+      "type": "Static Skatepark Wall",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Fallen Skateboarder",
+    "attributes": {
+      "color": "Multicolor",
+      "type": "Pedestrian",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Yellow Pace Car",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Large Sponsor Banner Frame",
+    "attributes": {
+      "color": "Blue with White Logos",
+      "type": "Static Banner Frame",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Spectator",
+    "attributes": {
+      "color": "Green T-shirt Waving Flag",
+      "type": "Human",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "White Race Support Motorcycle",
+    "attributes": {
+      "color": "White",
+      "type": "Motorcycle"
+    }
+  },
+  {
+    "label": "Large Aid Station Canopy",
+    "attributes": {
+      "color": "Red and White Stripes",
+      "type": "Static Tent Canopy",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Medic",
+    "attributes": {
+      "color": "White Uniform with Red Cross",
+      "type": "Human",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Blue Gondola",
+    "attributes": {
+      "color": "Blue",
+      "type": "Watercraft"
+    }
+  },
+  {
+    "label": "Venetian Stone Bridge Pylon",
+    "attributes": {
+      "color": "Gray Stone",
+      "type": "Static Stone Pylon",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "White Swan",
+    "attributes": {
+      "color": "White",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Yellow Kayak with Paddler",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Mangrove Tree Cluster",
+    "attributes": {
+      "color": "Green-Brown",
+      "type": "Static Mangrove",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Drifted Anchored Buoy",
+    "attributes": {
+      "color": "Orange",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Wetsuit Open Water Swimmer",
+    "attributes": {
+      "color": "Orange Wetsuit and Swim Cap",
+      "type": "Swimmer"
+    }
+  },
+  {
+    "label": "Large Rock Pillar",
+    "attributes": {
+      "color": "Gray",
+      "type": "Static Rock",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Swimming River Otter",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "White Speedboat",
+    "attributes": {
+      "color": "White",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Anchored Sailboat Hull",
+    "attributes": {
+      "color": "White",
+      "type": "Static Anchored Boat",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "School of Jumping Fish",
+    "attributes": {
+      "color": "Silver",
+      "type": "Animals",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Orange Inflatable Rescue Raft",
+    "attributes": {
+      "color": "Orange",
+      "type": "Watercraft"
+    }
+  },
+  {
+    "label": "Submerged Parked Car Roof",
+    "attributes": {
+      "color": "Gray",
+      "type": "Static Submerged Vehicle",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Stranded Cat on Floating Debris",
+    "attributes": {
+      "color": "Orange and Brown",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Cold Water Swimmer in Red Wetsuit",
+    "attributes": {
+      "color": "Red Wetsuit and Yellow Swim Cap",
+      "type": "Swimmer"
+    }
+  },
+  {
+    "label": "Towering Iceberg Wall",
+    "attributes": {
+      "color": "Blue-White",
+      "type": "Static Ice Formation",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Polar Bear on Ice Floe",
+    "attributes": {
+      "color": "White",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Blue Airboat",
+    "attributes": {
+      "color": "Blue",
+      "type": "Watercraft"
+    }
+  },
+  {
+    "label": "Cypress Tree with Hanging Spanish Moss",
+    "attributes": {
+      "color": "Green-Gray",
+      "type": "Static Tree",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Mallard Duck",
+    "attributes": {
+      "color": "Green and Brown",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Open Water Marathon Swimmer",
+    "attributes": {
+      "color": "Yellow Swim Cap and Black Wetsuit",
+      "type": "Swimmer"
+    }
+  },
+  {
+    "label": "Marker Buoy Tower",
+    "attributes": {
+      "color": "Orange",
+      "type": "Static Buoy",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Leaping Dolphin",
+    "attributes": {
+      "color": "Gray",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "White Maintenance Pickup Truck",
+    "attributes": {
+      "color": "White",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Concrete Dam Spillway Tower",
+    "attributes": {
+      "color": "Grey Concrete",
+      "type": "Static Spillway Tower",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Fallen Power Line Pole",
+    "attributes": {
+      "color": "Brown Wood",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Yellow Lifeguard Jet Ski",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Beached Surfboard Display Stand",
+    "attributes": {
+      "color": "Multicolor",
+      "type": "Static Surfboard Stand",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Drifting Loose Surfboard",
+    "attributes": {
+      "color": "Blue and White",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Red Fire Truck",
+    "attributes": {
+      "color": "Red",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Collapsed Concrete Slab Wall",
+    "attributes": {
+      "color": "Gray",
+      "type": "Static Debris Wall",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Stray Dog",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Black Storm Chase SUV",
+    "attributes": {
+      "color": "Black",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Overturned Roof Section",
+    "attributes": {
+      "color": "Brown Shingle",
+      "type": "Static Debris",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Tumbling Metal Sheet",
+    "attributes": {
+      "color": "Silver Metal",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Yellow Wildfire Bulldozer",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Charred Tree Trunk Stump",
+    "attributes": {
+      "color": "Black Charred",
+      "type": "Static Burnt Stump",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Fallen Burning Log",
+    "attributes": {
+      "color": "Black with Glowing Embers",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Female Inspector in Yellow Hard Hat",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Collapsed Wooden Beam Pile",
+    "attributes": {
+      "color": "Brown Wood",
+      "type": "Static Wood Pile",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Broken Pier Plank",
+    "attributes": {
+      "color": "Brown Wood Splintered",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Brown Horseback Rider in Cowboy Hat",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal"
+    }
+  },
+  {
+    "label": "Ruined Saloon Wall",
+    "attributes": {
+      "color": "Weathered Wood",
+      "type": "Static Ruined Wall",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Tumbleweed",
+    "attributes": {
+      "color": "Dry Brown",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Green Armored Recon Vehicle",
+    "attributes": {
+      "color": "Green",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Destroyed Tank Hulk",
+    "attributes": {
+      "color": "Rust Brown",
+      "type": "Static Wreck",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Limping Stray Dog",
+    "attributes": {
+      "color": "Grey",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "White Off-road SUV",
+    "attributes": {
+      "color": "White",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Pile of Landslide Rocks",
+    "attributes": {
+      "color": "Grey",
+      "type": "Static Rock Pile",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Boulder",
+    "attributes": {
+      "color": "Grey Granite",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Red Cross Volunteer Carrying Box",
+    "attributes": {
+      "color": "Red and White",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Stack of Aid Supply Crates",
+    "attributes": {
+      "color": "Cardboard Brown",
+      "type": "Static Crate Stack",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Fallen Folding Chair Pile",
+    "attributes": {
+      "color": "Grey Metal",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "White Hazmat Suit Worker",
+    "attributes": {
+      "color": "White",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Yellow Toxic Waste Drum Stack",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Static Drum Stack",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Spreading Yellow Fume Cloud",
+    "attributes": {
+      "color": "Pale Yellow",
+      "type": "Weather Phenomenon",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Life-Vested Swimmer",
+    "attributes": {
+      "color": "Orange Life Vest",
+      "type": "Swimmer"
+    }
+  },
+  {
+    "label": "Capsized Fishing Boat Hull",
+    "attributes": {
+      "color": "Blue",
+      "type": "Static Capsized Boat",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Sea Turtle",
+    "attributes": {
+      "color": "Green",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Green John Deere Tractor",
+    "attributes": {
+      "color": "Green",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Tall Corn Stalk Cluster",
+    "attributes": {
+      "color": "Yellow-Green",
+      "type": "Static Crop Stand",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Fallen Scarecrow",
+    "attributes": {
+      "color": "Tan and Black",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Farmer in Blue Overalls",
+    "attributes": {
+      "color": "Blue Overalls, Straw Hat",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Hay Bale Stack",
+    "attributes": {
+      "color": "Golden Yellow",
+      "type": "Static Stack",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Brown Hen",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Female Hiker",
+    "attributes": {
+      "color": "Green Jacket, Beige Trousers",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Tall Roadside Bush",
+    "attributes": {
+      "color": "Dark Green",
+      "type": "Static Bush",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Brown Rabbit",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Female Hiker",
+    "attributes": {
+      "color": "Blue",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Lavender Bush Cluster",
+    "attributes": {
+      "color": "Purple",
+      "type": "Static Plant Cluster",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Brown Rabbit",
+    "attributes": {
+      "color": "Brown",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Brown Border Collie Sheepdog",
+    "attributes": {
+      "color": "Brown and White",
+      "type": "Animal"
+    }
+  },
+  {
+    "label": "Wooden Hay Bale Stack",
+    "attributes": {
+      "color": "Tan Hay",
+      "type": "Static Hay Stack",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Lost Lamb",
+    "attributes": {
+      "color": "White",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Red Farm Tractor",
+    "attributes": {
+      "color": "Red",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Stacked Apple Crates",
+    "attributes": {
+      "color": "Brown and Red",
+      "type": "Static Crate Stack",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Stray Goat",
+    "attributes": {
+      "color": "White",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Female Tea Harvester with Bamboo Basket",
+    "attributes": {
+      "color": "Tan and Green",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Tall Tea Bush Hedge",
+    "attributes": {
+      "color": "Dark Green",
+      "type": "Static Tea Bush",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Bantam Chicken Family",
+    "attributes": {
+      "color": "Brown and Yellow",
+      "type": "Animals",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Hiker with Backpack",
+    "attributes": {
+      "color": "Red Jacket, Khaki Trousers",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Tall Wildflower Cluster",
+    "attributes": {
+      "color": "Mixed Yellow and Pink",
+      "type": "Static Plant Cluster",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "White Ranch Pickup Truck",
+    "attributes": {
+      "color": "White",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Wooden Ranch Sign Post Stack",
+    "attributes": {
+      "color": "Brown Wood",
+      "type": "Static Sign Stack",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Stray Cattle Cow",
+    "attributes": {
+      "color": "Brown and White",
+      "type": "Animal",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Scottish Shepherd with Wooden Staff in Tartan",
+    "attributes": {
+      "color": "Tartan",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Stone Cairn",
+    "attributes": {
+      "color": "Grey Stone",
+      "type": "Static Stone Cairn",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Lost Highland Calf",
+    "attributes": {
+      "color": "Reddish Brown Shaggy",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "White Six-Wheeled Mars Rover",
+    "attributes": {
+      "color": "White",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Red Boulder Outcrop",
+    "attributes": {
+      "color": "Red Mars Rock",
+      "type": "Static Boulder Outcrop",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Martian Dust Devil",
+    "attributes": {
+      "color": "Red Ochre Dust",
+      "type": "Weather Phenomenon",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Black Hovercar",
+    "attributes": {
+      "color": "Black",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Neon Holographic Billboard Tower",
+    "attributes": {
+      "color": "Neon Blue",
+      "type": "Static Billboard Tower",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Runaway Delivery Drone",
+    "attributes": {
+      "color": "Silver",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Mounted Knight in Silver Armor on White Horse",
+    "attributes": {
+      "color": "Silver and White",
+      "type": "Animal"
+    }
+  },
+  {
+    "label": "Stone Castle Tower",
+    "attributes": {
+      "color": "Grey Stone",
+      "type": "Static Castle Tower",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Fallen Wooden Cart with Broken Wheel",
+    "attributes": {
+      "color": "Brown Wood",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Brass Mechanical Walker with Pilot",
+    "attributes": {
+      "color": "Brass",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Steam Pipe Junction Tower",
+    "attributes": {
+      "color": "Brass and Copper",
+      "type": "Static Pipe Tower",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Fallen Brass Gear Wheel",
+    "attributes": {
+      "color": "Brass",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Black Spiked Post-Apocalyptic Combat Vehicle",
+    "attributes": {
+      "color": "Black with Rust",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Rusted Wrecked Car Stack",
+    "attributes": {
+      "color": "Rust Brown",
+      "type": "Static Wreck Stack",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Pack of Mutant Wild Dogs",
+    "attributes": {
+      "color": "Greenish-Brown",
+      "type": "Animals",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Tan Adventurer in Khaki Coat with Whip",
+    "attributes": {
+      "color": "Tan Khaki",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Stone Idol Pillar",
+    "attributes": {
+      "color": "Sandstone",
+      "type": "Static Stone Idol",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Slithering Giant Snake",
+    "attributes": {
+      "color": "Green Scaled",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "Green Elf Ranger with Bow",
+    "attributes": {
+      "color": "Forest Green",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Massive Mushroom Cluster",
+    "attributes": {
+      "color": "Red with White Spots",
+      "type": "Static Mushroom Cluster",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Fallen Giant Magical Acorn",
+    "attributes": {
+      "color": "Golden Brown",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Red Dwarf Warrior with Battle Axe",
+    "attributes": {
+      "color": "Red Beard",
+      "type": "Pedestrian"
+    }
+  },
+  {
+    "label": "Stone Forge Anvil Pile",
+    "attributes": {
+      "color": "Iron Grey",
+      "type": "Static Anvil Pile",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Fallen Stone Block",
+    "attributes": {
+      "color": "Grey Stone",
+      "type": "Object",
+      "entry_direction": "right side of path"
+    }
+  },
+  {
+    "label": "White Lunar Rover",
+    "attributes": {
+      "color": "White",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Lunar Crater Rim",
+    "attributes": {
+      "color": "Gray",
+      "type": "Static Crater Formation",
+      "position": "left side of path"
+    }
+  },
+  {
+    "label": "Rolling Moon Rock",
+    "attributes": {
+      "color": "Gray",
+      "type": "Object",
+      "entry_direction": "left side of path"
+    }
+  },
+  {
+    "label": "Silver Hover Pod",
+    "attributes": {
+      "color": "Silver",
+      "type": "Vehicle"
+    }
+  },
+  {
+    "label": "Crystal Spire Cluster",
+    "attributes": {
+      "color": "Purple-Blue",
+      "type": "Static Crystal Formation",
+      "position": "right side of path"
+    }
+  },
+  {
+    "label": "Alien Creature",
+    "attributes": {
+      "color": "Bioluminescent Green",
+      "type": "Animal",
+      "entry_direction": "right side of path"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "reasoning_goal": "Viewers must map container identity (seen from side) to content (seen from top) by integrating both camera angles. Mapping: Red Ceramic Mug → Black Coffee, Blue Ceramic Mug → White Milk, Green Ceramic Mug → Empty.",
+        "timeline": {
+            "(Phase 1 — Side View)": "Eye-level side view of the Wooden Coffee Table, Living Room Table environment. Three opaque open-top containers in a row: Red Ceramic Mug (Red) on the left, Blue Ceramic Mug (Blue) in the middle, Green Ceramic Mug (Green) on the right. Container interiors are completely invisible from this side-view angle.",
+            "(Phase 2 — Boom Up)": "Camera smoothly rises from side-view to overhead top-down view. Contents revealed: Red Ceramic Mug contains Black Coffee, Blue Ceramic Mug contains White Milk, Green Ceramic Mug contains Empty.",
+            "(Phase 3 — Top-Down Hold)": "Camera holds at 90-degree overhead view. All three interiors clearly visible. Left: Black Coffee, Middle: White Milk, Right: Empty."
+        }
+    },
+    {
+        "reasoning_goal": "Viewers must map content (seen from top) to container identity (seen from side) by integrating both camera angles. Mapping: Red Ceramic Canister → White Flour, Blue Ceramic Canister → Black Coffee Powder, Green Ceramic Canister → Empty.",
+        "timeline": {
+            "(Phase 1 — Top-Down View)": "90-degree overhead top-down view of the Granite Kitchen Island Counter, Kitchen Island Counter environment. Three open-top containers, interiors visible: Left: Red Ceramic Canister contains White Flour, Middle: Blue Ceramic Canister contains Black Coffee Powder, Right: Green Ceramic Canister contains Empty.",
+            "(Phase 2 — Boom Down)": "Camera smoothly descends from overhead to eye-level side view. Container interiors become hidden behind opaque walls. Exterior appearances become prominent.",
+            "(Phase 3 — Side View Hold)": "Camera holds at eye-level side view. Interiors completely hidden. Exteriors visible: Red Ceramic Canister (Red) left, Blue Ceramic Canister (Blue) middle, Green Ceramic Canister (Green) right."
+        }
+    }
+]

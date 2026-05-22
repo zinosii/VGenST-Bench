@@ -1,0 +1,18 @@
+[
+    {
+        "reasoning_goal": "The viewer must visually integrate the forward movement and right turn to deduce that the starting position lies behind and to the right (approximately 4-5 o'clock) relative to the final east-facing heading.",
+        "timeline": {
+            "(Setup)": "Camera starts at eye-level facing North down Seg 1. Landmark 1 (Red/Black Painting) is centered in the distance. The corridor turns ahead, but Seg 2 is not yet visible from this position. Landmark 2 is completely hidden. Camera simulates walking forward with slight vertical sway; all objects remain absolutely stationary.",
+            "(Event)": "Camera approaches the L-shaped junction. A smooth Right turn is executed. As the camera turns, the corridor opens up to reveal Seg 2. Camera continues walking forward toward Landmark 2. All objects remain absolutely stationary.",
+            "(Result)": "Camera comes to a complete stop facing East. Landmark 2 is clearly visible ahead. Landmark 1 is now behind and to the left (out of view). The static geometry confirms the path taken, allowing deduction that the Start Point is Back-Right (4-5 o'clock) relative to the current heading. All objects remain frozen."
+        }
+    },
+    {
+        "reasoning_goal": "The viewer must track the ego-centric left turn from North to West and deduce that the starting point lies at the 7-8 o'clock position relative to the final West-facing heading.",
+        "timeline": {
+            "(Setup)": "Camera starts at eye-level facing North down Seg 1 with slight natural walking sway. The Metallic Silver Sculpture (Landmark 1) is clearly visible in the distance ahead. The corridor turns ahead, but Seg 2 is not yet visible from this position. The Multi-colored Mural (Landmark 2) is completely hidden behind the corner. All objects remain absolutely stationary while the camera moves slowly forward.",
+            "(Event)": "Camera approaches the corner wall and executes a smooth Left turn, simulating a person turning into Seg 2. As the camera rotates West, the corridor opens up to reveal Seg 2. The camera continues walking forward along Seg 2 towards the Mural. The Metallic Silver Sculpture is now behind the camera's right shoulder. All objects remain static.",
+            "(Result)": "Camera comes to a complete stop facing West, centered on the Multi-colored Mural. The view is steady with no further movement, allowing the viewer to finalize the spatial map. The starting point is now logically positioned Back-Left (7-8 o'clock) relative to this final heading. All objects remain frozen in place until the video ends."
+        }
+    }
+]

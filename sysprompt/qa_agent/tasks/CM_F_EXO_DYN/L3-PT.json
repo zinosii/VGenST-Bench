@@ -1,0 +1,11 @@
+{
+  "task_id": "CM_F_EXO_DYN",
+  "category_id": "L3-PT",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "From the agent's perspective, which status pillar illuminates first?: A. The pillar on the agent's left, B. The pillar on the agent's right, C. Both simultaneously",
+      "answer": "B"
+    }
+  ]
+}

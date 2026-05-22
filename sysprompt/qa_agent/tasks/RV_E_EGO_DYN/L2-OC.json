@@ -1,0 +1,16 @@
+{
+  "task_id": "RV_E_EGO_DYN",
+  "category_id": "L2-OC",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How many objects move slower than the camera?: A. 0, B. 1, C. 2, D. 3",
+      "answer": "B"
+    },
+    {
+      "id": "proto_2",
+      "question": "How many objects move faster than the camera?: A. 0, B. 1, C. 2, D. 3",
+      "answer": "B"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "VI_V_EXO_DYN",
+  "category_id": "L1-FL",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "In the initial view, where are the agents located in the frame?: A. Top and Left, B. Top and Right, C. Bottom and Left, D. Bottom and Right",
+      "answer": "A"
+    }
+  ]
+}

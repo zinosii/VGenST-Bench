@@ -1,0 +1,18 @@
+[
+    {
+        "reasoning_goal": "Viewers must track 2 sequential ADD/REMOVE actions on identical Smooth Red Glass Marbles to determine that 2 object(s) remain inside the Tall Lidless Wooden Storage Box at the end.",
+        "timeline": {
+            "(Phase 1 — Setup)": "Eye-level view of empty Tall Lidless Wooden Storage Box on Polished Walnut Coffee Table. 2 Smooth Red Glass Marbles on the surface beside it.",
+            "(Phase 2 — Actions)": "Action 1 (ADD): Hand grasps one Smooth Red Glass Marble then puts it into Lidless Wooden Storage Box. Action 2 (ADD): Hand grasps another Smooth Red Glass Marble then puts it into Lidless Wooden Storage Box.",
+            "(Phase 3 — Result)": "Hand exits frame. 0 Smooth Red Glass Marbles on the surface. 2 inside the container."
+        }
+    },
+    {
+        "reasoning_goal": "Viewers must track 5 sequential ADD/REMOVE actions on identical Small Yellow Lemons to determine that 1 object(s) remain inside the Tall Stainless Steel Canister at the end.",
+        "timeline": {
+            "(Phase 1 — Setup)": "Eye-level view of empty Tall Stainless Steel Canister on White Quartz Kitchen Island Counter. 3 Small Yellow Lemons on the surface beside it.",
+            "(Phase 2 — Actions)": "Action 1 (ADD): Hand grasps one Small Yellow Lemon then puts it into Stainless Steel Canister. Action 2 (ADD): Hand grasps another Small Yellow Lemon then puts it into Stainless Steel Canister. Action 3 (ADD): Hand grasps another Small Yellow Lemon then puts it into Stainless Steel Canister. Action 4 (REMOVE): Hand reaches into Stainless Steel Canister, lifts one Small Yellow Lemon out, places it on the surface. Action 5 (REMOVE): Hand reaches into Stainless Steel Canister, lifts one Small Yellow Lemon out, places it on the surface.",
+            "(Phase 3 — Result)": "Hand exits frame. 2 Small Yellow Lemons on the surface. 1 inside the container."
+        }
+    }
+]

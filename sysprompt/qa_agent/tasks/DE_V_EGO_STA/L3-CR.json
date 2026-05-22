@@ -1,0 +1,11 @@
+{
+  "task_id": "DE_V_EGO_STA",
+  "category_id": "L3-CR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If the camera had turned Left instead of Right, in which direction would the second landmark be from the final position?: A. 4-5 o'clock (back-right), B. 7-8 o'clock (back-left), C. 12 o'clock (directly ahead), D. 6 o'clock (directly behind)",
+      "answer": "D"
+    }
+  ]
+}

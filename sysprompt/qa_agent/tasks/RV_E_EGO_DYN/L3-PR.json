@@ -1,0 +1,16 @@
+{
+  "task_id": "RV_E_EGO_DYN",
+  "category_id": "L3-PR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If all objects continue at their current speeds after the video ends, where will the Black Sports Car be relative to the camera?: A. Far ahead and out of sight, B. Right next to the camera, C. Far behind the camera, D. Stopped at the side",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "If all objects continue at their current speeds after the video ends, where will the Orange Construction Truck be relative to the camera?: A. Far ahead and out of sight, B. Right next to the camera, C. Far behind the camera, D. Stopped at the side",
+      "answer": "C"
+    }
+  ]
+}

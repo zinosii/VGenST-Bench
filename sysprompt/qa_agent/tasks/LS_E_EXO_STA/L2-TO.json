@@ -1,0 +1,11 @@
+{
+  "task_id": "LS_E_EXO_STA",
+  "category_id": "L2-TO",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "In what order do the landmarks become visible in the video?: A. Red Brick Clock Tower -> White Domed Concert Hall -> Green Glass Skyscraper, B. White Domed Concert Hall -> Red Brick Clock Tower -> Green Glass Skyscraper, C. Green Glass Skyscraper -> Red Brick Clock Tower -> White Domed Concert Hall, D. Red Brick Clock Tower -> Green Glass Skyscraper -> White Domed Concert Hall",
+      "answer": "A"
+    }
+  ]
+}

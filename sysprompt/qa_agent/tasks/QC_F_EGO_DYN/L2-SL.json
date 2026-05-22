@@ -1,0 +1,11 @@
+{
+  "task_id": "QC_F_EGO_DYN",
+  "category_id": "L2-SL",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "From the camera's perspective, where are the items placed relative to the container?: A. Inside the container, B. Beside the container on the surface, C. On top of the container, D. Underneath the container",
+      "answer": "B"
+    }
+  ]
+}

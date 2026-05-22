@@ -1,0 +1,11 @@
+{
+  "task_id": "IO_V_EGO_DYN",
+  "category_id": "L1-FL",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "In the view right after agent appears, where is the agent located in the frame?: A. Left, B. Center, C. Right",
+      "answer": "A"
+    }
+  ]
+}

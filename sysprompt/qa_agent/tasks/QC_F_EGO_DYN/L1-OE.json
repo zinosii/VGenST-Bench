@@ -1,0 +1,21 @@
+{
+  "task_id": "QC_F_EGO_DYN",
+  "category_id": "L1-OE",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which object appears in the video?: A. Tall Lidless Wooden Storage Box, B. Short Ceramic Bowl, C. Transparent Glass Jar, D. Round Metal Tin",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "Which object does NOT appear in the video?: A. Smooth Red Glass Marbles, B. Tall Lidless Wooden Storage Box, C. Polished Walnut Coffee Table, D. Hardcover Blue Novel",
+      "answer": "D"
+    },
+    {
+      "id": "proto_3",
+      "question": "Which object appears as the surface in the video?: A. Marble Coffee Table, B. Metal Coffee Table, C. Walnut Coffee Table, D. Glass Coffee Table",
+      "answer": "C"
+    }
+  ]
+}

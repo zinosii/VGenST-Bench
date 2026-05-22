@@ -1,0 +1,3176 @@
+[
+  {
+    "label": "Starship Pilot",
+    "attributes": {
+      "appearance": "Human officer in uniform, visible from chest up, hands reachable over console"
+    }
+  },
+  {
+    "label": "Main Control Console",
+    "attributes": {
+      "color": "Dark Metallic Grey"
+    }
+  },
+  {
+    "label": "Left Command Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Command Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Status Pillar",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Status Pillar",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Cybernetic Hacker",
+    "attributes": {
+      "appearance": "Wearing black tactical gloves with circuit patterns, visible from chest up behind desk"
+    }
+  },
+  {
+    "label": "Matte Black Tech Desk",
+    "attributes": {
+      "color": "Dark Grey with neon circuit lines"
+    }
+  },
+  {
+    "label": "Dull Red Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Glowing Blue Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Inactive Prism",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Active Prism",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Mission Control Operator",
+    "attributes": {
+      "appearance": "Human hands and forearms visible, wearing blue flight suit sleeves"
+    }
+  },
+  {
+    "label": "Command Console Surface",
+    "attributes": {
+      "color": "Dark Grey Metallic"
+    }
+  },
+  {
+    "label": "Left Command Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Command Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Mini Rover Prototype",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Mini Rover Prototype",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Repair Technician",
+    "attributes": {
+      "appearance": "Human torso and hands visible, wearing anti-static wrist strap and blue uniform"
+    }
+  },
+  {
+    "label": "Anti-Static Workbench",
+    "attributes": {
+      "color": "Green rubber mat surface with tools organized around edges"
+    }
+  },
+  {
+    "label": "Green Diagnostic Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Red Diagnostic Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Left Phone Test Rig",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Phone Test Rig",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Traffic Control Operator",
+    "attributes": {
+      "appearance": "Human hands and arms visible, wearing dark uniform sleeves"
+    }
+  },
+  {
+    "label": "Holographic Control Console",
+    "attributes": {
+      "color": "Dark sleek matte black with glowing blue interface lines"
+    }
+  },
+  {
+    "label": "Left Holographic Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Holographic Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Holographic Drone Model",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Holographic Drone Model",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Uniformed Customs Officer",
+    "attributes": {
+      "appearance": "Humanoid officer in dark uniform standing behind counter"
+    }
+  },
+  {
+    "label": "Polished Metal Inspection Desk",
+    "attributes": {
+      "color": "Gunmetal Grey"
+    }
+  },
+  {
+    "label": "Left Biometric Scanner Pad",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Clearance Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Clearance Signal Lamp",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Clearance Signal Lamp",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Time Scientist",
+    "attributes": {
+      "appearance": "Human in lab coat, standing behind the desk"
+    }
+  },
+  {
+    "label": "Brushed Steel Control Desk",
+    "attributes": {
+      "color": "Silver Brushed Steel"
+    }
+  },
+  {
+    "label": "Left Chrono Dial",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Chrono Dial",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Chrono Status Lamp",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Chrono Status Lamp",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Xenobiologist",
+    "attributes": {
+      "appearance": "Human wearing hazmat suit and protective gloves, standing behind the table facing camera"
+    }
+  },
+  {
+    "label": "Metallic Scanning Console",
+    "attributes": {
+      "color": "Dark Gunmetal Grey"
+    }
+  },
+  {
+    "label": "Right Scanner Pad",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Scanner Pad",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Left Scan Status Light",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Scan Status Light",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Cybernetics Technician",
+    "attributes": {
+      "appearance": "Human hands and forearms visible, wearing anti-static gloves"
+    }
+  },
+  {
+    "label": "Sterile Metallic Workbench",
+    "attributes": {
+      "color": "Brushed Steel Gray"
+    }
+  },
+  {
+    "label": "Left Interface Node",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Interface Node",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Prosthetic Hand Prototype",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Prosthetic Hand Prototype",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Drone Technician",
+    "attributes": {
+      "appearance": "Human hands and forearms visible, wearing black tactical gloves with neon trim"
+    }
+  },
+  {
+    "label": "Control Console Surface",
+    "attributes": {
+      "color": "Matte Black with embedded cyan neon circuitry"
+    }
+  },
+  {
+    "label": "Left Launch Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Launch Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Mini-Drone",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Mini-Drone",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Robed Wizard",
+    "attributes": {
+      "appearance": "Human figure in dark mystical robes, hands visible reaching over altar, facing camera"
+    }
+  },
+  {
+    "label": "Carved Stone Altar",
+    "attributes": {
+      "color": "Dark Grey"
+    }
+  },
+  {
+    "label": "Azure Rune Stone",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Crimson Rune Stone",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Crystal Orb",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Crystal Orb",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Alchemist",
+    "attributes": {
+      "appearance": "Human wearing leather apron and protective gloves"
+    }
+  },
+  {
+    "label": "Oak Workbench",
+    "attributes": {
+      "color": "Dark Brown"
+    }
+  },
+  {
+    "label": "Left Brass Lever",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Brass Lever",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Green Vial",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Blue Vial",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Steampunk Pilot",
+    "attributes": {
+      "appearance": "Wearing leather gloves and brass goggles, visible from chest up behind the console"
+    }
+  },
+  {
+    "label": "Brass Console Desk",
+    "attributes": {
+      "color": "Polished Brass and Dark Wood"
+    }
+  },
+  {
+    "label": "Left Copper Lever",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Copper Lever",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Vacuum Tube",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Vacuum Tube",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Castle Guard",
+    "attributes": {
+      "appearance": "Armored guard standing behind the wooden table"
+    }
+  },
+  {
+    "label": "Heavy Oak Command Table",
+    "attributes": {
+      "color": "Dark Oak"
+    }
+  },
+  {
+    "label": "Right Iron Lever",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Iron Lever",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Left Torch Sconce",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Torch Sconce",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Dwarven Smith",
+    "attributes": {
+      "appearance": "Bearded dwarf in apron, standing behind workbench"
+    }
+  },
+  {
+    "label": "Stone-Topped Forge Workbench",
+    "attributes": {
+      "color": "Gray Stone"
+    }
+  },
+  {
+    "label": "Right Bellows Handle",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Bellows Handle",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Left Ember Crucible",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Ember Crucible",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Fortune Teller",
+    "attributes": {
+      "appearance": "Human wearing deep purple velvet robes, hands visible with silver rings"
+    }
+  },
+  {
+    "label": "Velvet Draped Table",
+    "attributes": {
+      "color": "Dark purple"
+    }
+  },
+  {
+    "label": "Left Runestone",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Runestone",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Crystal Ball",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Crystal Ball",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Pirate Captain",
+    "attributes": {
+      "appearance": "Bearded captain in hat, standing behind desk"
+    }
+  },
+  {
+    "label": "Wooden Navigation Desk",
+    "attributes": {
+      "color": "Weathered Dark Wood"
+    }
+  },
+  {
+    "label": "Left Brass Compass Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Brass Compass Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Lantern",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Lantern",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Dungeon Keeper",
+    "attributes": {
+      "appearance": "Hooded figure standing behind stone table"
+    }
+  },
+  {
+    "label": "Stone Dungeon Table",
+    "attributes": {
+      "color": "Dark Gray Stone"
+    }
+  },
+  {
+    "label": "Right Skull Lever",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Skull Lever",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Left Green Flame Brazier",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Green Flame Brazier",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Clockmaker",
+    "attributes": {
+      "appearance": "Human hands and forearms visible, wearing leather wrist guards and a magnifying loupe around neck"
+    }
+  },
+  {
+    "label": "Wooden Workbench",
+    "attributes": {
+      "color": "Dark Oak"
+    }
+  },
+  {
+    "label": "Left Brass Toggle Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Brass Toggle Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Skeleton Pendulum Clock",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Skeleton Pendulum Clock",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Sorcerer",
+    "attributes": {
+      "appearance": "Robed wizard standing behind the enchanted table"
+    }
+  },
+  {
+    "label": "Dark Enchanted Wooden Table",
+    "attributes": {
+      "color": "Deep Purple Wood"
+    }
+  },
+  {
+    "label": "Left Crystal Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Crystal Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Floating Orb",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Floating Orb",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "QC Inspector",
+    "attributes": {
+      "appearance": "Human wearing white lab coat and blue nitrile gloves"
+    }
+  },
+  {
+    "label": "Steel Workbench",
+    "attributes": {
+      "color": "Brushed Gray Metal"
+    }
+  },
+  {
+    "label": "Left Control Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Control Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Status Flap",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Status Flap",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Nuclear Technician",
+    "attributes": {
+      "appearance": "Wearing blue uniform, only hands and forearms visible behind console"
+    }
+  },
+  {
+    "label": "Control Console Surface",
+    "attributes": {
+      "color": "Dark Gray Metal"
+    }
+  },
+  {
+    "label": "Red Emergency Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Blue Toggle Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Warning Lamp",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Warning Lamp",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Factory Technician",
+    "attributes": {
+      "appearance": "Wearing blue uniform, only hands and forearms visible behind the desk"
+    }
+  },
+  {
+    "label": "Control Test Bench",
+    "attributes": {
+      "color": "Matte Grey Steel"
+    }
+  },
+  {
+    "label": "Red Toggle Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Green Push Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Miniature Conveyor Segment Left",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Miniature Conveyor Segment Right",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Plant Operator",
+    "attributes": {
+      "appearance": "Worker in safety vest behind the control desk"
+    }
+  },
+  {
+    "label": "Gray Industrial Control Desk",
+    "attributes": {
+      "color": "Industrial Gray"
+    }
+  },
+  {
+    "label": "Left Flow Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Flow Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Pressure Gauge",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Pressure Gauge",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Mine Supervisor",
+    "attributes": {
+      "appearance": "Worker in hard hat behind the control desk"
+    }
+  },
+  {
+    "label": "Rugged Steel Control Desk",
+    "attributes": {
+      "color": "Dark Steel"
+    }
+  },
+  {
+    "label": "Left Warning Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Warning Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Warning Light",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Warning Light",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Steel Mill Operator",
+    "attributes": {
+      "appearance": "Wearing heat-resistant uniform and gloves, positioned behind the console facing camera"
+    }
+  },
+  {
+    "label": "Industrial Control Console",
+    "attributes": {
+      "color": "Dark Grey Metal"
+    }
+  },
+  {
+    "label": "Red Safety Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Green Operation Lever",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Pressure Gauge",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Status Light Panel",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Factory Operator",
+    "attributes": {
+      "appearance": "Human torso and hands visible, wearing work gloves, positioned behind the control desk facing the camera"
+    }
+  },
+  {
+    "label": "Steel Control Desk",
+    "attributes": {
+      "color": "Industrial Grey"
+    }
+  },
+  {
+    "label": "Left Red Lever",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Blue Lever",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Spinning Spindle Model",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Spinning Spindle Model",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Human Operator",
+    "attributes": {
+      "appearance": "Wearing high-visibility vest, hands and forearms visible"
+    }
+  },
+  {
+    "label": "Control Desk Surface",
+    "attributes": {
+      "color": "Industrial Grey"
+    }
+  },
+  {
+    "label": "Right Control Lever",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Control Lever",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Left Signal Arm",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Signal Arm",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Human Technician",
+    "attributes": {
+      "appearance": "Wearing blue anti-static uniform and gloves, visible from chest up behind the workbench"
+    }
+  },
+  {
+    "label": "Industrial Workbench",
+    "attributes": {
+      "color": "Gray anti-static mat surface"
+    }
+  },
+  {
+    "label": "Red Control Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Green Control Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Miniature Conveyor Segment",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Miniature Servo Arm",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Print Technician",
+    "attributes": {
+      "appearance": "Wearing blue work uniform and grey gloves, torso and hands visible behind the console"
+    }
+  },
+  {
+    "label": "Steel Control Console",
+    "attributes": {
+      "color": "Industrial Grey"
+    }
+  },
+  {
+    "label": "Left Toggle Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Push Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Right Status LED",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "DJ (Human Hands/Arms)",
+    "attributes": {
+      "appearance": "Human arms visible, wearing dark sleeves, positioned behind the console facing camera"
+    }
+  },
+  {
+    "label": "Black Matte Console Deck",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Left Neon Pad (Red)",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Neon Pad (Blue)",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Vertical VU Meter",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Vertical VU Meter",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Human Contestant",
+    "attributes": {
+      "appearance": "Upper body visible, wearing formal attire, positioned behind desk"
+    }
+  },
+  {
+    "label": "Game Show Desk",
+    "attributes": {
+      "color": "Glossy Black"
+    }
+  },
+  {
+    "label": "Left Red Buzzer",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Green Buzzer",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Podium Score Globe",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Podium Score Globe",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Lighting Technician",
+    "attributes": {
+      "appearance": "Human wearing black crew neck, visible from chest up, hands visible"
+    }
+  },
+  {
+    "label": "Control Console Desk",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Blue Control Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Miniature Spotlight Left",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Miniature Spotlight Right",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Gamemaster",
+    "attributes": {
+      "appearance": "Human wearing black tactical vest and headset"
+    }
+  },
+  {
+    "label": "Control Desk",
+    "attributes": {
+      "color": "Dark metallic grey"
+    }
+  },
+  {
+    "label": "Blue Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Red Alert Beacon Lamp",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Blue Lock Status Lamp",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Magician",
+    "attributes": {
+      "appearance": "Human torso and hands visible, wearing black formal suit and white gloves"
+    }
+  },
+  {
+    "label": "Prop Table",
+    "attributes": {
+      "color": "Black velvet cloth covering wooden surface"
+    }
+  },
+  {
+    "label": "Left Brass Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Brass Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Velvet Box",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Velvet Box",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Human Player (Hands & Arms)",
+    "attributes": {
+      "appearance": "Visible from chest down, standing behind the console, facing camera"
+    }
+  },
+  {
+    "label": "Tabletop Arcade Console Surface",
+    "attributes": {
+      "color": "Black with colorful decals"
+    }
+  },
+  {
+    "label": "Left Red Push Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Blue Push Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Arcade Score Dome Light",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Arcade Score Dome Light",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Ride Operator",
+    "attributes": {
+      "appearance": "Human wearing uniform vest, visible from chest up behind console"
+    }
+  },
+  {
+    "label": "Control Console",
+    "attributes": {
+      "color": "Grey Metal"
+    }
+  },
+  {
+    "label": "Left Ride Status Light",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Ride Status Light",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Casino Technician",
+    "attributes": {
+      "appearance": "Blue uniform shirt, visible hands and arms"
+    }
+  },
+  {
+    "label": "Anti-static Workbench",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Red Test Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Green Test Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "LED Diagnostic Panel",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Miniature Slot Reel",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Puppeteer",
+    "attributes": {
+      "appearance": "Human hands and forearms visible, wearing black sleeves"
+    }
+  },
+  {
+    "label": "Control Console",
+    "attributes": {
+      "color": "Dark Walnut Wood"
+    }
+  },
+  {
+    "label": "Right Brass Knob",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Miniature Marionette",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Miniature Marionette",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Stadium Operator",
+    "attributes": {
+      "appearance": "Human wearing headset and uniform shirt"
+    }
+  },
+  {
+    "label": "Control Console Desk",
+    "attributes": {
+      "color": "Dark Gray Metal"
+    }
+  },
+  {
+    "label": "Right Toggle Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Electronic Score Displayer",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Electronic Score Displayer",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Barista",
+    "attributes": {
+      "appearance": "Human wearing apron, standing behind counter facing camera"
+    }
+  },
+  {
+    "label": "Espresso Bar Counter",
+    "attributes": {
+      "color": "Stainless Steel"
+    }
+  },
+  {
+    "label": "Left Order Indicator Light",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Order Indicator Light",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Bartender",
+    "attributes": {
+      "appearance": "Human wearing black shirt, visible torso and face, standing behind bar counter"
+    }
+  },
+  {
+    "label": "Polished Black Bar Counter",
+    "attributes": {
+      "color": "Glossy Black"
+    }
+  },
+  {
+    "label": "Red Neon Push Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Blue Neon Push Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Motorized Cocktail Shaker Left",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Motorized Cocktail Shaker Right",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Cashier Trainee",
+    "attributes": {
+      "appearance": "Human wearing fast food uniform and cap, standing behind counter"
+    }
+  },
+  {
+    "label": "Service Counter Top",
+    "attributes": {
+      "color": "Gray laminate surface"
+    }
+  },
+  {
+    "label": "Left Combo Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Drink Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left LED Indicator",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right LED Indicator",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Hotel Concierge",
+    "attributes": {
+      "appearance": "Human wearing formal hotel uniform, standing behind desk facing camera"
+    }
+  },
+  {
+    "label": "Polished Mahogany Desk",
+    "attributes": {
+      "color": "Dark Brown"
+    }
+  },
+  {
+    "label": "Brass Call Button (Left)",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Silver Service Bell (Right)",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Service Indicator Light",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Service Indicator Light",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Retro Diner Waitress",
+    "attributes": {
+      "appearance": "Female server wearing white shirt, red apron, and paper hat"
+    }
+  },
+  {
+    "label": "Chrome-edged Formica Counter",
+    "attributes": {
+      "color": "Turquoise with silver trim"
+    }
+  },
+  {
+    "label": "Red Jukebox Selection Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Blue Jukebox Selection Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Retro Neon Bullet Lamp",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Retro Neon Bullet Lamp",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Ticket Seller",
+    "attributes": {
+      "appearance": "Human wearing uniform, positioned behind counter"
+    }
+  },
+  {
+    "label": "Ticket Counter Surface",
+    "attributes": {
+      "color": "Polished Wood"
+    }
+  },
+  {
+    "label": "Left Selection Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Selection Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Ticket Dispenser",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Ticket Dispenser",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Ice Cream Server",
+    "attributes": {
+      "appearance": "Human wearing white uniform and apron, visible torso and hands behind counter"
+    }
+  },
+  {
+    "label": "Stainless Steel Counter",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Red Push Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Sprinkles Dispenser",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Chocolate Syrup Pump",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Airline Check-in Agent",
+    "attributes": {
+      "appearance": "Human wearing navy blue uniform vest, standing behind counter"
+    }
+  },
+  {
+    "label": "Check-in Counter Surface",
+    "attributes": {
+      "color": "Grey laminate"
+    }
+  },
+  {
+    "label": "Green Baggage Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Red Priority Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Check-in Status Lamp",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Check-in Status Lamp",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Bank Teller",
+    "attributes": {
+      "appearance": "Professional uniform, seated behind counter"
+    }
+  },
+  {
+    "label": "Polished Wooden Counter",
+    "attributes": {
+      "color": "Dark Mahogany"
+    }
+  },
+  {
+    "label": "Left Status Lamp",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Status Lamp",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Cyber-Cafe Technician",
+    "attributes": {
+      "appearance": "Human wearing a dark uniform with neon trim, standing behind the desk facing the camera"
+    }
+  },
+  {
+    "label": "Matte Black Console Desk",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Red Mechanical Toggle",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Blue Haptic Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Mini Status Monitor",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Neon Coil Indicator",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Mad Scientist",
+    "attributes": {
+      "appearance": "Human wearing white lab coat, safety goggles, wild gray hair"
+    }
+  },
+  {
+    "label": "Stained Wooden Workbench",
+    "attributes": {
+      "color": "Dark Brown"
+    }
+  },
+  {
+    "label": "Left Red Activation Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Red Activation Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Tesla Coil Sphere",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Tesla Coil Sphere",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Lab Technician",
+    "attributes": {
+      "appearance": "Human wearing white lab coat and blue nitrile gloves"
+    }
+  },
+  {
+    "label": "Laboratory Bench",
+    "attributes": {
+      "color": "White chemical-resistant surface"
+    }
+  },
+  {
+    "label": "Left Control Knob",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Control Knob",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Lab Indicator Light",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Lab Indicator Light",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Lab Technician",
+    "attributes": {
+      "appearance": "Human wearing white lab coat and blue nitrile gloves, standing behind the workbench facing the camera"
+    }
+  },
+  {
+    "label": "Sterile Stainless Steel Control Bench",
+    "attributes": {
+      "color": "Metallic Silver"
+    }
+  },
+  {
+    "label": "Left Sterilization Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Ventilation Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Vent Flap",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Vent Flap",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "ICU Nurse",
+    "attributes": {
+      "appearance": "Wearing blue scrubs, only hands and forearms visible behind console"
+    }
+  },
+  {
+    "label": "Medical Control Console",
+    "attributes": {
+      "color": "Sterile Gray"
+    }
+  },
+  {
+    "label": "Red Alarm Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Blue Reset Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Red Strobe Light",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Green Status LED",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Radiologic Technologist",
+    "attributes": {
+      "appearance": "Wearing blue scrubs and a lead apron, standing behind the console facing the camera"
+    }
+  },
+  {
+    "label": "Lead-lined Control Console",
+    "attributes": {
+      "color": "Gray metallic surface"
+    }
+  },
+  {
+    "label": "Left Exposure Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Exposure Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left LED Display Panel",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right LED Display Panel",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Laboratory Technician",
+    "attributes": {
+      "appearance": "Human wearing white lab coat, standing behind the desk facing camera"
+    }
+  },
+  {
+    "label": "Anti-vibration Laboratory Table",
+    "attributes": {
+      "color": "Gray metal surface"
+    }
+  },
+  {
+    "label": "Right Calibration Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Calibration Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Left Seismograph Drum",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Seismograph Drum",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Human Operator",
+    "attributes": {
+      "appearance": "Wearing dark blue diving suit sleeves, hands visible behind console"
+    }
+  },
+  {
+    "label": "Submersible Control Console",
+    "attributes": {
+      "color": "Dark grey metallic surface"
+    }
+  },
+  {
+    "label": "Meteorologist",
+    "attributes": {
+      "appearance": "Human wearing a white lab coat and headset, standing behind the console"
+    }
+  },
+  {
+    "label": "Control Console Desk",
+    "attributes": {
+      "color": "Dark Grey Metallic"
+    }
+  },
+  {
+    "label": "Blue Push Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Miniature Radar Dish",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Signal Light Tower",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Forensic Analyst",
+    "attributes": {
+      "appearance": "Wearing white lab coat and blue nitrile gloves"
+    }
+  },
+  {
+    "label": "Stainless Steel Lab Bench",
+    "attributes": {
+      "color": "Brushed Silver"
+    }
+  },
+  {
+    "label": "Left UV Inspection Lamp",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right UV Inspection Lamp",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Optometrist",
+    "attributes": {
+      "appearance": "Human wearing white lab coat and blue nitrile gloves"
+    }
+  },
+  {
+    "label": "Clinical Console Desk",
+    "attributes": {
+      "color": "Matte White"
+    }
+  },
+  {
+    "label": "Left Aperture Shutter",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Aperture Shutter",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Human Operator",
+    "attributes": {
+      "appearance": "Visible hands and arms, wearing casual sleeves, positioned behind table facing camera"
+    }
+  },
+  {
+    "label": "Smart Control Table",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Left Status Light",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Status Light",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Human Chef",
+    "attributes": {
+      "appearance": "Wearing white chef coat, visible from chest up, standing behind counter"
+    }
+  },
+  {
+    "label": "Quartz Countertop",
+    "attributes": {
+      "color": "White with grey veins"
+    }
+  },
+  {
+    "label": "Left Toaster Slot",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Toaster Slot",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Mechanic",
+    "attributes": {
+      "appearance": "Human wearing blue work shirt and heavy-duty gloves, positioned behind the workbench facing camera"
+    }
+  },
+  {
+    "label": "Steel Workbench",
+    "attributes": {
+      "color": "Dark Gray"
+    }
+  },
+  {
+    "label": "Left Red Push-Button Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Red Push-Button Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Mini Bench Grinder",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Mini Bench Grinder",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Audiophile (Human)",
+    "attributes": {
+      "appearance": "Visible torso and hands, wearing casual attire, positioned behind the desk facing camera"
+    }
+  },
+  {
+    "label": "Walnut Wood Audio Control Desk",
+    "attributes": {
+      "color": "Dark Brown"
+    }
+  },
+  {
+    "label": "DAC Mode Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Amplifier Toggle Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "VU Meter Needle Display",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "LED Display Panel",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Gamer",
+    "attributes": {
+      "appearance": "Human wearing black hoodie, visible from chest up, seated behind desk facing camera"
+    }
+  },
+  {
+    "label": "Gaming Desk",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Red Macro Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Green Macro Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left RGB Lamp",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right RGB Lamp",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Human Operator",
+    "attributes": {
+      "appearance": "Visible hands and forearms wearing BBQ mitts"
+    }
+  },
+  {
+    "label": "Picnic Table Surface",
+    "attributes": {
+      "color": "Weathered Wood"
+    }
+  },
+  {
+    "label": "Red Control Knob",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Blue Control Knob",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Grill Temperature Gauge",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Grill Temperature Gauge",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Human Laundry Attendant",
+    "attributes": {
+      "appearance": "Visible arms and hands, wearing casual clothing, standing behind the washing machine"
+    }
+  },
+  {
+    "label": "White Washing Machine Top Surface",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Small Red Vibrating Coin Toy",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Small Blue Spinning Fan Toy",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "DJ",
+    "attributes": {
+      "appearance": "Human wearing headphones, visible from chest up, hands reaching over desk"
+    }
+  },
+  {
+    "label": "Mixing Console Surface",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Left Cue Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Cue Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Circular LED",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Circular LED",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Security Operator",
+    "attributes": {
+      "appearance": "Human wearing uniform, positioned behind desk facing camera"
+    }
+  },
+  {
+    "label": "Security Control Desk",
+    "attributes": {
+      "color": "Dark Gray"
+    }
+  },
+  {
+    "label": "Left Miniature Barrier",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Miniature Barrier",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Human Podcaster",
+    "attributes": {
+      "appearance": "Wearing over-ear headphones, visible torso and hands, seated behind desk"
+    }
+  },
+  {
+    "label": "Broadcasting Desk",
+    "attributes": {
+      "color": "Dark Walnut Wood"
+    }
+  },
+  {
+    "label": "Left Mute Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Mute Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Mic LED Ring",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Mic LED Ring",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Subway Dispatcher",
+    "attributes": {
+      "appearance": "Human torso and hands visible, wearing uniform shirt, positioned behind desk facing camera"
+    }
+  },
+  {
+    "label": "Control Console Desk",
+    "attributes": {
+      "color": "Dark Grey Metal"
+    }
+  },
+  {
+    "label": "Left Signal Light",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Signal Light",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Traffic Control Operator",
+    "attributes": {
+      "appearance": "Human wearing high-visibility vest and cap"
+    }
+  },
+  {
+    "label": "Control Console Desk",
+    "attributes": {
+      "color": "Dark Grey"
+    }
+  },
+  {
+    "label": "Left Signal Indicator",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Signal Indicator",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Lighthouse Keeper",
+    "attributes": {
+      "appearance": "Elderly human male wearing a thick wool sweater and suspenders"
+    }
+  },
+  {
+    "label": "Mahogany Control Console",
+    "attributes": {
+      "color": "Dark polished wood with brass trim"
+    }
+  },
+  {
+    "label": "Left Miniature Fresnel Lens",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Miniature Fresnel Lens",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Human Operator",
+    "attributes": {
+      "appearance": "Visible torso and hands, wearing uniform gloves, positioned behind the console"
+    }
+  },
+  {
+    "label": "Control Console Surface",
+    "attributes": {
+      "color": "Dark Grey Metal"
+    }
+  },
+  {
+    "label": "Right Steel Lever",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Signal Gear",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Signal Gear",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Control Room Operator",
+    "attributes": {
+      "appearance": "Human wearing blue uniform, visible from chest up, hands visible"
+    }
+  },
+  {
+    "label": "Left Miniature Gate Segment",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Miniature Gate Segment",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Radio Host",
+    "attributes": {
+      "appearance": "Human wearing professional headphones and microphone headset"
+    }
+  },
+  {
+    "label": "Studio Control Desk",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Left Console Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Console Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Signal Lamp",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Signal Lamp",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Mission Control Operator",
+    "attributes": {
+      "appearance": "Human wearing headset and uniform, visible from chest up behind console"
+    }
+  },
+  {
+    "label": "Control Console Surface",
+    "attributes": {
+      "color": "Dark Grey Metallic"
+    }
+  },
+  {
+    "label": "Green Arm Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Red Abort Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Left Status Shutter",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Status Shutter",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Dispatch Operator",
+    "attributes": {
+      "appearance": "Human hands and forearms visible, wearing uniform sleeves"
+    }
+  },
+  {
+    "label": "Dispatch Console Desk",
+    "attributes": {
+      "color": "Dark Gray Metal"
+    }
+  },
+  {
+    "label": "Green Comms Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Red Alert Strobe",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Weather Station Technician",
+    "attributes": {
+      "appearance": "Human wearing blue uniform shirt, standing behind the control desk, facing camera"
+    }
+  },
+  {
+    "label": "Right Activation Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Activation Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Left Miniature Siren",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Miniature Siren",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Planetarium Technician",
+    "attributes": {
+      "appearance": "Human operator wearing dark uniform, visible from chest up, standing behind console facing camera"
+    }
+  },
+  {
+    "label": "Black Control Console Surface",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Blue Illuminated Button (Left)",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Red Illuminated Button (Right)",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Miniature Star Field Projector (Left)",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Miniature Rotating Planet Gear (Right)",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Launch Technician",
+    "attributes": {
+      "appearance": "Human operator wearing green military uniform, visible from chest up, standing behind console"
+    }
+  },
+  {
+    "label": "Steel Control Console",
+    "attributes": {
+      "color": "Dark Grey Industrial Metal"
+    }
+  },
+  {
+    "label": "Sonar Operator",
+    "attributes": {
+      "appearance": "Human wearing navy uniform and headset"
+    }
+  },
+  {
+    "label": "Sonar Control Console",
+    "attributes": {
+      "color": "Dark Grey Metal"
+    }
+  },
+  {
+    "label": "Human Operator (Hands and Forearms)",
+    "attributes": {
+      "appearance": "Wearing tactical gloves, positioned behind the console"
+    }
+  },
+  {
+    "label": "Tactical Control Console",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Left Toggle Switch (Red)",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Toggle Switch (Green)",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Status Indicator Light",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Status Indicator Light",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Prison Guard",
+    "attributes": {
+      "appearance": "Uniformed officer standing behind the desk, facing camera"
+    }
+  },
+  {
+    "label": "Left Cell Status Lamp",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Cell Status Lamp",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Border Control Officer",
+    "attributes": {
+      "appearance": "Uniformed human, visible from chest up, hands reachable over console"
+    }
+  },
+  {
+    "label": "Control Console Desk",
+    "attributes": {
+      "color": "Grey metallic surface"
+    }
+  },
+  {
+    "label": "Left Lane Control Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Lane Control Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Miniature Boom Gate",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Miniature Boom Gate",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Fire Control Officer",
+    "attributes": {
+      "appearance": "Uniformed arms and hands visible behind console"
+    }
+  },
+  {
+    "label": "Tactical Console Surface",
+    "attributes": {
+      "color": "Matte Olive Green"
+    }
+  },
+  {
+    "label": "Radar Operator",
+    "attributes": {
+      "appearance": "Human operator torso and hands visible, wearing uniform, positioned behind console facing camera"
+    }
+  },
+  {
+    "label": "Left Miniature Radar Display",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Miniature Radar Display",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Cyber-Defense Operator",
+    "attributes": {
+      "appearance": "Human wearing tactical headset and dark uniform, standing behind the console facing camera"
+    }
+  },
+  {
+    "label": "Tactical Console Table",
+    "attributes": {
+      "color": "Matte Black Metal"
+    }
+  },
+  {
+    "label": "Left Red Toggle Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Blue Toggle Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Holo-Dome Projector",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Holo-Dome Projector",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Naval Officer",
+    "attributes": {
+      "appearance": "White uniform, peaked cap, visible torso and hands"
+    }
+  },
+  {
+    "label": "Polished Mahogany Control Console",
+    "attributes": {
+      "color": "Dark Brown"
+    }
+  },
+  {
+    "label": "Left Brass Telegraph Lever",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Brass Telegraph Lever",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Indicator Dial",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Indicator Dial",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Security Operator",
+    "attributes": {
+      "appearance": "Human wearing dark uniform, visible from chest up behind console"
+    }
+  },
+  {
+    "label": "Security Console Desk",
+    "attributes": {
+      "color": "Dark Grey Metal"
+    }
+  },
+  {
+    "label": "Blue Status Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Green Activation Light",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Amber Alert Light",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Model Train Operator",
+    "attributes": {
+      "appearance": "Human hands and forearms visible, wearing a dark blue shirt"
+    }
+  },
+  {
+    "label": "Control Panel Desk",
+    "attributes": {
+      "color": "Dark Grey"
+    }
+  },
+  {
+    "label": "Ham Radio Operator",
+    "attributes": {
+      "appearance": "Human wearing headphones and a utility vest, seated behind the desk facing the camera"
+    }
+  },
+  {
+    "label": "Radio Equipment Desk",
+    "attributes": {
+      "color": "Dark Oak Wood"
+    }
+  },
+  {
+    "label": "Miniature Rotating Antenna",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Signal Indicator Light",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Sound Engineer",
+    "attributes": {
+      "appearance": "Human hands and arms visible, wearing headphones, positioned behind the console facing the camera"
+    }
+  },
+  {
+    "label": "Mixing Console Surface",
+    "attributes": {
+      "color": "Dark Grey"
+    }
+  },
+  {
+    "label": "Left Fader Slider",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Fader Slider",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left VU Meter Needle",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right VU Meter Needle",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Video Editor",
+    "attributes": {
+      "appearance": "Human upper body visible behind desk, wearing dark clothing, facing camera"
+    }
+  },
+  {
+    "label": "Matte Black Work Surface",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Left Macro Key",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Macro Key",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Color Wheel",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Color Wheel",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Music Producer",
+    "attributes": {
+      "appearance": "Human hands and forearms visible, wearing a dark long-sleeve shirt"
+    }
+  },
+  {
+    "label": "Studio Desk Surface",
+    "attributes": {
+      "color": "Dark Walnut Wood"
+    }
+  },
+  {
+    "label": "Left RGB Pad Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right RGB Pad Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Motorized Fader Slider",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Motorized Fader Slider",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Human Operator",
+    "attributes": {
+      "appearance": "Visible torso and hands, positioned behind the control console facing the camera"
+    }
+  },
+  {
+    "label": "Control Console Surface",
+    "attributes": {
+      "color": "Dark Gray Plastic"
+    }
+  },
+  {
+    "label": "Left Lane Control Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Lane Control Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Lane Slot Car",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Lane Slot Car",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Pyrotechnician",
+    "attributes": {
+      "appearance": "Wearing safety vest and heavy gloves, standing behind the table facing camera"
+    }
+  },
+  {
+    "label": "Reinforced Testing Table",
+    "attributes": {
+      "color": "Dark Grey Metal"
+    }
+  },
+  {
+    "label": "Left Spark Tube",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Spark Tube",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Mechanic",
+    "attributes": {
+      "appearance": "Human wearing blue work shirt, visible from chest up behind the bench"
+    }
+  },
+  {
+    "label": "Repair Workbench",
+    "attributes": {
+      "color": "Dark Gray Metal"
+    }
+  },
+  {
+    "label": "Left RC Car Chassis",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right RC Car Chassis",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "Drone Pilot",
+    "attributes": {
+      "appearance": "Human hands and forearms wearing black racing gloves, positioned behind the desk"
+    }
+  },
+  {
+    "label": "Carbon Fiber Control Desk",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Left Launch Switch",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Launch Switch",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left Mini Racing Drone",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right Mini Racing Drone",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  },
+  {
+    "label": "VR Technician",
+    "attributes": {
+      "appearance": "Human wearing blue arcade uniform, standing behind desk, facing camera"
+    }
+  },
+  {
+    "label": "Black Tech Console Desk",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Left Activation Button",
+    "attributes": {
+      "position": "background_left"
+    }
+  },
+  {
+    "label": "Right Activation Button",
+    "attributes": {
+      "position": "background_right"
+    }
+  },
+  {
+    "label": "Left VR Headset Stand",
+    "attributes": {
+      "position": "foreground_left"
+    }
+  },
+  {
+    "label": "Right VR Headset Stand",
+    "attributes": {
+      "position": "foreground_right"
+    }
+  }
+]

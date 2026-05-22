@@ -1,0 +1,16 @@
+{
+  "task_id": "RV_E_EGO_DYN",
+  "category_id": "L1-FL",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "In the initial view, where is the Construction Truck located in the frame?: A. Left side, B. Center, C. Right side",
+      "answer": "C"
+    },
+    {
+      "id": "proto_2",
+      "question": "When the Sports Car first enters the frame, where does it appear?: A. Left side, B. Center, C. Right side",
+      "answer": "A"
+    }
+  ]
+}

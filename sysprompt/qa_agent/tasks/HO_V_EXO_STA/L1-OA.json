@@ -1,0 +1,16 @@
+{
+  "task_id": "HO_V_EXO_STA",
+  "category_id": "L1-OA",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What is the color of the Ceramic Floor Vase?: A. White, B. Black, C. Green, D. Grey",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "What is the color of the Potted Succulent?: A. White, B. Black, C. Green, D. Grey",
+      "answer": "C"
+    }
+  ]
+}

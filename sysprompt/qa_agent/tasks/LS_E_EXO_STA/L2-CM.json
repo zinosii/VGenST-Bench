@@ -1,0 +1,16 @@
+{
+  "task_id": "LS_E_EXO_STA",
+  "category_id": "L2-CM",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How does the camera move throughout the video?: A. Stays fixed at the starting position, B. Cranes up first, then flies horizontally to a new location, C. Rotates 360 degrees in place, D. Zooms in on a specific structure",
+      "answer": "B"
+    },
+    {
+      "id": "proto_2",
+      "question": "In which compass direction does the camera fly horizontally?: A. North, B. East, C. South, D. West",
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "IO_V_EGO_DYN",
+  "category_id": "L3-CR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If the agent had picked up the object at the Center position instead, which object would be in the Side Shelf?: A. Red Ceramic Coffee Mug, B. Hardcover Blue Novel, C. Green Apple, D. The agent would have moved no object",
+      "answer": "B"
+    },
+    {
+      "id": "proto_2",
+      "question": "If the agent had picked up the Green Apple instead, from which position on the Coffee Table would it have been taken?: A. Left, B. Center, C. Right, D. It was not on the Coffee Table",
+      "answer": "C"
+    }
+  ]
+}

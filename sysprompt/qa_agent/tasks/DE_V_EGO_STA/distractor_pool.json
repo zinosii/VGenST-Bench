@@ -1,0 +1,1402 @@
+[
+  {
+    "label": "Large Abstract Canvas Painting",
+    "attributes": {
+      "color": "Bold Red and Black geometric patterns",
+      "position": "Centered on the far North wall of Seg 1"
+    }
+  },
+  {
+    "label": "Metallic Geometric Sculpture",
+    "attributes": {
+      "color": "Polished Silver and Blue",
+      "position": "Centered on the far East wall of Seg 2"
+    }
+  },
+  {
+    "label": "Large Geometric Sculpture on Pedestal",
+    "attributes": {
+      "color": "Metallic Silver",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Vibrant Abstract Mural",
+    "attributes": {
+      "color": "Multi-colored (Red/Blue)",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Tyrannosaurus Rex Skeleton",
+    "attributes": {
+      "color": "Bone White",
+      "position": "Far end of North wall, centered in Seg 1 corridor"
+    }
+  },
+  {
+    "label": "Stegosaurus Skeleton",
+    "attributes": {
+      "color": "Bone White with Dark Mounting",
+      "position": "Far end of East wall, centered in Seg 2 corridor"
+    }
+  },
+  {
+    "label": "Marble Statue of Athena",
+    "attributes": {
+      "color": "White Marble",
+      "position": "Far end of North wall in Seg 1"
+    }
+  },
+  {
+    "label": "Bronze Equestrian Statue",
+    "attributes": {
+      "color": "Dark Bronze",
+      "position": "Far end of West wall in Seg 2"
+    }
+  },
+  {
+    "label": "Large Vertical LED Display",
+    "attributes": {
+      "color": "Bright Cyan and Magenta",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Kinetic Light Sculpture",
+    "attributes": {
+      "color": "Warm Amber Glow",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Giant Red Telephone Sculpture",
+    "attributes": {
+      "color": "Bright Red",
+      "position": "Center of North Wall at end of Seg 1"
+    }
+  },
+  {
+    "label": "Blue Comic Explosion Mural",
+    "attributes": {
+      "color": "Cyan Blue with Black Outlines",
+      "position": "Center of West Wall at end of Seg 2"
+    }
+  },
+  {
+    "label": "Oversized Framed Black & White Photograph",
+    "attributes": {
+      "color": "Black Frame, White Mat, Monochrome Image",
+      "position": "Center of the Far North Wall in Seg 1"
+    }
+  },
+  {
+    "label": "Illuminated Pedestal with Bronze Sculpture",
+    "attributes": {
+      "color": "White Pedestal, Bronze Sculpture, Warm Spotlight",
+      "position": "Center of the Far East Wall in Seg 2"
+    }
+  },
+  {
+    "label": "Bronze Warrior Statue on Pedestal",
+    "attributes": {
+      "color": "Dark Bronze",
+      "position": "Far end of North wall, centered in Seg 1"
+    }
+  },
+  {
+    "label": "Illuminated Glass Sarcophagus",
+    "attributes": {
+      "color": "Gold and Glass",
+      "position": "Far end of West wall, centered in Seg 2"
+    }
+  },
+  {
+    "label": "Large Abstract Oil Painting",
+    "attributes": {
+      "color": "Vibrant Red and Gold",
+      "position": "Far end of North wall, centered"
+    }
+  },
+  {
+    "label": "Antique Glass Display Case",
+    "attributes": {
+      "color": "Dark Mahogany Wood with Gold Trim",
+      "position": "Far end of East wall, inside private alcove"
+    }
+  },
+  {
+    "label": "Illuminated City Scale Model",
+    "attributes": {
+      "color": "Warm White Glow",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Suspended Geometric Installation",
+    "attributes": {
+      "color": "Matte Black Steel",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Humanoid Robot Display Podium",
+    "attributes": {
+      "color": "White and Blue",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Industrial Robotic Arm Station",
+    "attributes": {
+      "color": "Yellow and Black",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Holographic Directory Panel",
+    "attributes": {
+      "color": "Glowing Blue",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "VR Calibration Station",
+    "attributes": {
+      "color": "Matte Black with Red Accents",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Giant Convex Lens Display",
+    "attributes": {
+      "color": "Translucent Blue with White Frame",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Laser Grid Wall Installation",
+    "attributes": {
+      "color": "Red Neon Grid on Black Panel",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Futuristic Concept Car on Illuminated Pod",
+    "attributes": {
+      "color": "Metallic Silver with Blue Underglow",
+      "position": "Far end of North wall, centered in Seg 1"
+    }
+  },
+  {
+    "label": "Holographic Engine Display Wall",
+    "attributes": {
+      "color": "Bright Orange Wireframe on Black Background",
+      "position": "Far end of West wall, centered in Seg 2"
+    }
+  },
+  {
+    "label": "Giant Curved OLED Display Wall",
+    "attributes": {
+      "color": "Bright Blue/White",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Red Interactive VR Kiosk Zone",
+    "attributes": {
+      "color": "Neon Red",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Smart Home Control Kiosk",
+    "attributes": {
+      "color": "Glossy Black with Blue LED accents",
+      "position": "Far end of North wall (Segment 1)"
+    }
+  },
+  {
+    "label": "Automated Security Display Wall",
+    "attributes": {
+      "color": "White panel with Green status lights",
+      "position": "Far end of West wall (Segment 2)"
+    }
+  },
+  {
+    "label": "Stacked Flight Cases",
+    "attributes": {
+      "color": "Black with silver aluminum edges",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Vertical LED Light Stand",
+    "attributes": {
+      "color": "Bright Cyan Glow",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Illuminated Sponsor Tower",
+    "attributes": {
+      "color": "Blue and White LED",
+      "position": "Far end of North wall (End of Seg 1)"
+    }
+  },
+  {
+    "label": "Interactive VR Pod",
+    "attributes": {
+      "color": "Matte Black with Green Accents",
+      "position": "Far end of West wall (End of Seg 2)"
+    }
+  },
+  {
+    "label": "Red Calibration Target Wall",
+    "attributes": {
+      "color": "Bright Red with White Grid",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Blue Caged Drone Station",
+    "attributes": {
+      "color": "Safety Blue Mesh",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Floating Smart Fabric Showcase",
+    "attributes": {
+      "color": "Glowing Cyan and White",
+      "position": "Far end of North wall (End of Seg 1)"
+    }
+  },
+  {
+    "label": "Immersive AR Experience Zone",
+    "attributes": {
+      "color": "Deep Purple and Neon Green",
+      "position": "Far end of West wall (End of Seg 2)"
+    }
+  },
+  {
+    "label": "Illuminated Topographic Wall Map",
+    "attributes": {
+      "color": "Backlit Blue and Green",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Rustic Wooden Ranger Information Desk",
+    "attributes": {
+      "color": "Dark Oak Brown",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Large Rustic Tapestry",
+    "attributes": {
+      "color": "Earth tones (Red/Orange)",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Large Stone Bear Statue",
+    "attributes": {
+      "color": "Grey Granite",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Large Terracotta Urn",
+    "attributes": {
+      "color": "Burnt Orange",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Wrought Iron Lantern Stand",
+    "attributes": {
+      "color": "Black Metal",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Illuminated Ammonite Fossil Case",
+    "attributes": {
+      "color": "Golden-brown fossil with warm spotlight",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Violaceous Geode Wall Installation",
+    "attributes": {
+      "color": "Deep purple crystals with cool lighting",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Stone Fireplace",
+    "attributes": {
+      "color": "Grey stone with wooden mantel",
+      "position": "Far end of North wall in Seg 1"
+    }
+  },
+  {
+    "label": "Large Leather Armchair",
+    "attributes": {
+      "color": "Dark brown leather",
+      "position": "Far end of East wall in Seg 2"
+    }
+  },
+  {
+    "label": "Rustic Stone Fireplace Niche",
+    "attributes": {
+      "color": "Grey Stone with Warm Glow",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Large Panoramic Mountain Window",
+    "attributes": {
+      "color": "Bright Daylight vs Dark Interior Frame",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Large Framed Bryce Canyon Panorama Photo",
+    "attributes": {
+      "color": "Vibrant Orange and Red Rock Tones",
+      "position": "Far end of North Wall"
+    }
+  },
+  {
+    "label": "Antique Navajo Weaving Display Stand",
+    "attributes": {
+      "color": "Earth Tones and Red Fabric",
+      "position": "Far end of East Wall"
+    }
+  },
+  {
+    "label": "Large Topographic Wall Map",
+    "attributes": {
+      "color": "Earth tones with red contour lines",
+      "position": "Far end of North wall (Segment 1)"
+    }
+  },
+  {
+    "label": "Wooden Ranger Information Desk",
+    "attributes": {
+      "color": "Dark stained wood",
+      "position": "Far end of West wall (Segment 2)"
+    }
+  },
+  {
+    "label": "Giant Saguaro Cactus Cluster",
+    "attributes": {
+      "color": "Deep Green with brown trunk",
+      "position": "Far end of North wall"
+    }
+  },
+  {
+    "label": "Illuminated Glass Succulent Display Case",
+    "attributes": {
+      "color": "Silver frame with internal green lighting",
+      "position": "Far end of East wall"
+    }
+  },
+  {
+    "label": "Large Geometric Woven Tapestry",
+    "attributes": {
+      "color": "Red, Black, and White geometric patterns",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Tall Wooden Kachina Display Stand",
+    "attributes": {
+      "color": "Natural wood with painted details",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Golden Lion Statue",
+    "attributes": {
+      "color": "Gold",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Neon Poker Chip Sign",
+    "attributes": {
+      "color": "Red and Blue Neon",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Giant Neon Dragon Sign",
+    "attributes": {
+      "color": "Bright Cyan and Purple Neon",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Retro Pink Cabinet Cluster",
+    "attributes": {
+      "color": "Hot Pink and White Glow",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Giant Movie Poster Standee",
+    "attributes": {
+      "color": "Bright Red and Gold",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Illuminated Concession Counter",
+    "attributes": {
+      "color": "Neon Blue and Silver",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Marble Reception Desk",
+    "attributes": {
+      "color": "White Marble with Gold Trim",
+      "position": "Far end of North wall (End of Segment 1)"
+    }
+  },
+  {
+    "label": "Modern Sculptural Lounge",
+    "attributes": {
+      "color": "Deep Blue Velvet",
+      "position": "Far end of West wall (End of Segment 2)"
+    }
+  },
+  {
+    "label": "Illuminated Neon Wall Art",
+    "attributes": {
+      "color": "Violet and Cyan",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Antique Brass Jukebox",
+    "attributes": {
+      "color": "Gold and Black",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Neon 'ON AIR' Sign",
+    "attributes": {
+      "color": "Bright Red Neon",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Red Velvet Stage Curtain",
+    "attributes": {
+      "color": "Deep Red Velvet",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Ornate Golden Dragon Statue on Pedestal",
+    "attributes": {
+      "color": "Gold and Red",
+      "position": "Far end of North wall (End of Seg 1)"
+    }
+  },
+  {
+    "label": "Circular VIP Blackjack Table",
+    "attributes": {
+      "color": "Green Felt with Gold Trim",
+      "position": "Far end of East wall (End of Seg 2)"
+    }
+  },
+  {
+    "label": "Glowing Neon Skate Sign",
+    "attributes": {
+      "color": "Bright Pink and Blue Neon",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Red Vinyl Snack Bar Counter",
+    "attributes": {
+      "color": "Deep Red Vinyl and Chrome",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Neon 'Strike' Sign",
+    "attributes": {
+      "color": "Bright Blue and Pink Neon",
+      "position": "Far end of North wall"
+    }
+  },
+  {
+    "label": "Vintage Red Popcorn Machine",
+    "attributes": {
+      "color": "Glossy Red and Chrome",
+      "position": "Far end of East wall"
+    }
+  },
+  {
+    "label": "Giant Vertical LED Team Banner",
+    "attributes": {
+      "color": "Neon Blue and Black",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Illuminated Championship Trophy Case",
+    "attributes": {
+      "color": "Gold and Glass",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Gray Server Rack Cabinet",
+    "attributes": {
+      "color": "Dark Gray with blinking LED lights",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Blue Prototype Rover",
+    "attributes": {
+      "color": "Bright Blue",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Wall-Mounted Network Diagram Panel",
+    "attributes": {
+      "color": "White with Blue Prints",
+      "position": "Far end of North wall (End of Seg 1)"
+    }
+  },
+  {
+    "label": "Yellow Maintenance Cart",
+    "attributes": {
+      "color": "Bright Yellow",
+      "position": "Far end of West wall (End of Seg 2)"
+    }
+  },
+  {
+    "label": "Red Alert Server Bank",
+    "attributes": {
+      "color": "Glowing Red and Black",
+      "position": "Far end of North wall (Segment 1)"
+    }
+  },
+  {
+    "label": "Blue Cryo-Stasis Pod",
+    "attributes": {
+      "color": "Translucent Blue and White",
+      "position": "Far end of East wall (Segment 2)"
+    }
+  },
+  {
+    "label": "High-Contrast Calibration Panel",
+    "attributes": {
+      "color": "White with Black Grid",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Black Server Rack",
+    "attributes": {
+      "color": "Matte Black",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Red Industrial Tool Cabinet",
+    "attributes": {
+      "color": "Bright Red",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Blue Electronics Testing Rack",
+    "attributes": {
+      "color": "Deep Blue",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Blue Server Rack End-Panel",
+    "attributes": {
+      "color": "Bright Blue",
+      "position": "Far end of North wall (End of Seg 1)"
+    }
+  },
+  {
+    "label": "Yellow Maintenance Cabinet",
+    "attributes": {
+      "color": "Safety Yellow",
+      "position": "Far end of West wall (End of Seg 2)"
+    }
+  },
+  {
+    "label": "Yellow Emergency Safety Shower Station",
+    "attributes": {
+      "color": "Bright Yellow",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Blue Chemical Fume Hood Cabinet",
+    "attributes": {
+      "color": "Deep Blue",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "High-Contrast Calibration Checkerboard",
+    "attributes": {
+      "color": "Red and White",
+      "position": "Mounted on the far North wall at eye level"
+    }
+  },
+  {
+    "label": "White Spherical 3D Scanner Pod",
+    "attributes": {
+      "color": "Glossy White",
+      "position": "Mounted on stand at the far West wall"
+    }
+  },
+  {
+    "label": "Red 'History' Section End-Cap Sign",
+    "attributes": {
+      "color": "Bright Red",
+      "position": "Far end of North aisle, mounted on shelf end-cap"
+    }
+  },
+  {
+    "label": "Antique Globe on Wooden Study Desk",
+    "attributes": {
+      "color": "Blue and Gold",
+      "position": "Far end of East aisle, on desk surface"
+    }
+  },
+  {
+    "label": "Departmental Research Poster Board",
+    "attributes": {
+      "color": "Cork board with colorful papers",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Large Whiteboard with Schedules",
+    "attributes": {
+      "color": "White surface with blue markers",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Tall Wooden Display Cabinet",
+    "attributes": {
+      "color": "Dark Walnut",
+      "position": "Far end of North wall (Hallway terminus)"
+    }
+  },
+  {
+    "label": "Oak Dining Table Set",
+    "attributes": {
+      "color": "Light Oak",
+      "position": "Far end of East wall (Dining Area)"
+    }
+  },
+  {
+    "label": "Stainless Steel Range Hood",
+    "attributes": {
+      "color": "Silver/Metallic",
+      "position": "Far end of North wall (Kitchen Zone)"
+    }
+  },
+  {
+    "label": "Round Wooden Breakfast Table",
+    "attributes": {
+      "color": "Warm Oak",
+      "position": "Far end of West wall (Breakfast Nook Zone)"
+    }
+  },
+  {
+    "label": "Upholstered King Headboard",
+    "attributes": {
+      "color": "Dark Grey Velvet",
+      "position": "Far end of North wall in Bedroom segment"
+    }
+  },
+  {
+    "label": "Illuminated Shoe Rack",
+    "attributes": {
+      "color": "Warm Wood with LED strips",
+      "position": "Far end of East wall in Closet segment"
+    }
+  },
+  {
+    "label": "Large Wall-Mounted TV",
+    "attributes": {
+      "color": "Black screen with silver frame",
+      "position": "Far end of North wall in Seg 1"
+    }
+  },
+  {
+    "label": "Green Felt Pool Table",
+    "attributes": {
+      "color": "Green felt with wood frame",
+      "position": "Far end of West wall in Seg 2"
+    }
+  },
+  {
+    "label": "Large Vintage Wooden Trunk",
+    "attributes": {
+      "color": "Dark Brown",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Tall Antique Bookshelf",
+    "attributes": {
+      "color": "Weathered Oak",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Large Geometric Abstract Painting",
+    "attributes": {
+      "color": "High-contrast Black and White",
+      "position": "Far end of North wall (End of Seg 1)"
+    }
+  },
+  {
+    "label": "Velvet Modular Sectional Sofa",
+    "attributes": {
+      "color": "Deep Emerald Green",
+      "position": "Far end of West wall (End of Seg 2)"
+    }
+  },
+  {
+    "label": "White Wicker Conservatory Bench",
+    "attributes": {
+      "color": "White",
+      "position": "Far end of North wall (Sunroom segment)"
+    }
+  },
+  {
+    "label": "Dark Mahogany Writing Desk",
+    "attributes": {
+      "color": "Dark Brown",
+      "position": "Far end of East wall (Study segment)"
+    }
+  },
+  {
+    "label": "Framed Classic Movie Poster",
+    "attributes": {
+      "color": "Black frame with vibrant artwork",
+      "position": "Far end of North wall, directly ahead at Start"
+    }
+  },
+  {
+    "label": "Vintage Red Popcorn Machine",
+    "attributes": {
+      "color": "Bright Red with illuminated glass",
+      "position": "Far end of West wall, near theater entrance door"
+    }
+  },
+  {
+    "label": "Red Heavy-Duty Tool Cabinet",
+    "attributes": {
+      "color": "Bright Red",
+      "position": "Far end of North wall"
+    }
+  },
+  {
+    "label": "Blue Hydraulic Car Lift",
+    "attributes": {
+      "color": "Industrial Blue",
+      "position": "Far end of East wall"
+    }
+  },
+  {
+    "label": "Large Ornate Gold Mirror",
+    "attributes": {
+      "color": "Gold frame, dark reflection",
+      "position": "Far end of North wall (End of Seg 1)"
+    }
+  },
+  {
+    "label": "White Marble Statue on Pedestal",
+    "attributes": {
+      "color": "White marble",
+      "position": "Far end of West wall (End of Seg 2)"
+    }
+  },
+  {
+    "label": "Promotional End-Cap Display",
+    "attributes": {
+      "color": "Bright Red",
+      "position": "Far end of North wall (end of Aisle 1)"
+    }
+  },
+  {
+    "label": "Dairy Section Overhead Sign",
+    "attributes": {
+      "color": "Blue and White",
+      "position": "Far end of East wall (end of Aisle 2)"
+    }
+  },
+  {
+    "label": "Illuminated Mannequin Display",
+    "attributes": {
+      "color": "Red Dress on White Pedestal",
+      "position": "Far end of North wall (Segment 1)"
+    }
+  },
+  {
+    "label": "Fitting Room Curtain Wall",
+    "attributes": {
+      "color": "Emerald Green Curtains",
+      "position": "Far end of West wall (Segment 2)"
+    }
+  },
+  {
+    "label": "Red Fiction Endcap Display",
+    "attributes": {
+      "color": "Bright Red",
+      "position": "Far end of North wall (End of Seg 1)"
+    }
+  },
+  {
+    "label": "Blue Author Feature Podium",
+    "attributes": {
+      "color": "Deep Blue",
+      "position": "Far end of East wall (End of Seg 2)"
+    }
+  },
+  {
+    "label": "Power Tools End-Cap Display",
+    "attributes": {
+      "color": "Yellow and Black",
+      "position": "Far end of North wall segment"
+    }
+  },
+  {
+    "label": "Paint Mixing Station Sign",
+    "attributes": {
+      "color": "Blue and White",
+      "position": "Far end of West wall segment"
+    }
+  },
+  {
+    "label": "Crimson Velvet Armchair",
+    "attributes": {
+      "color": "Deep Red",
+      "position": "Far end of North wall, centered in Seg 1"
+    }
+  },
+  {
+    "label": "Giant Fiddle Leaf Fig Tree",
+    "attributes": {
+      "color": "Green",
+      "position": "Far end of East wall, centered in Seg 2"
+    }
+  },
+  {
+    "label": "Illuminated Brand Logo Wall",
+    "attributes": {
+      "color": "White with Neon Blue Logo",
+      "position": "Far end of North wall (Segment 1)"
+    }
+  },
+  {
+    "label": "Customer Fitting Lounge",
+    "attributes": {
+      "color": "Orange Velvet Seating",
+      "position": "Far end of West wall (Segment 2)"
+    }
+  },
+  {
+    "label": "Large Dome Tent Display",
+    "attributes": {
+      "color": "Orange and Grey",
+      "position": "Far end of North wall (Segment 1)"
+    }
+  },
+  {
+    "label": "Wall of Sleeping Bags",
+    "attributes": {
+      "color": "Blue and Green",
+      "position": "Far end of East wall (Segment 2)"
+    }
+  },
+  {
+    "label": "Giant Mech Statue Display",
+    "attributes": {
+      "color": "Silver and Red",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Neon Space Zone Sign",
+    "attributes": {
+      "color": "Glowing Blue and Purple",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Illuminated Perfume Display Tower",
+    "attributes": {
+      "color": "Gold and White with bright LED lighting",
+      "position": "Far end of North aisle, against the North wall"
+    }
+  },
+  {
+    "label": "Large Vanity Mirror Station",
+    "attributes": {
+      "color": "Black frame with reflective glass",
+      "position": "Far end of East aisle, against the East wall"
+    }
+  },
+  {
+    "label": "Large Illuminated Freshwater Display Tank",
+    "attributes": {
+      "color": "Bright Blue/White LED",
+      "position": "Far end of North wall"
+    }
+  },
+  {
+    "label": "Premium Saltwater Reef Tank Setup",
+    "attributes": {
+      "color": "Deep Blue/Purple Actinic",
+      "position": "Far end of West wall"
+    }
+  },
+  {
+    "label": "Red Fire Safety Cabinet",
+    "attributes": {
+      "color": "Red",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Blue Water Cooler Station",
+    "attributes": {
+      "color": "Blue",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Yellow Safety End-Cap Rack",
+    "attributes": {
+      "color": "Bright Yellow",
+      "position": "Far end of North aisle wall"
+    }
+  },
+  {
+    "label": "Stack of Blue Plastic Crates",
+    "attributes": {
+      "color": "Deep Blue",
+      "position": "Far end of West aisle wall"
+    }
+  },
+  {
+    "label": "Red Control Panel Station",
+    "attributes": {
+      "color": "Bright Red",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Yellow Robotic Arm Unit",
+    "attributes": {
+      "color": "Safety Yellow",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Nurse Station Counter",
+    "attributes": {
+      "color": "White and Blue",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Red Emergency Exit Door",
+    "attributes": {
+      "color": "Bright Red",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Industrial Printing Press Machine",
+    "attributes": {
+      "color": "Dark Gray with Red safety accents",
+      "position": "Far end of North wall"
+    }
+  },
+  {
+    "label": "Paper Storage Rack",
+    "attributes": {
+      "color": "Yellow metal frame with white paper stacks",
+      "position": "Far end of East wall"
+    }
+  },
+  {
+    "label": "Red Sorting Rack Unit",
+    "attributes": {
+      "color": "Bright Red",
+      "position": "Far end of North wall, Seg 1"
+    }
+  },
+  {
+    "label": "Blue Secure Mail Cage",
+    "attributes": {
+      "color": "Deep Blue",
+      "position": "Far end of West wall, Seg 2"
+    }
+  },
+  {
+    "label": "Red Heavy-Duty Tool Cabinet",
+    "attributes": {
+      "color": "Bright Red",
+      "position": "Far end of North wall, Segment 1"
+    }
+  },
+  {
+    "label": "Blue Hydraulic Car Lift",
+    "attributes": {
+      "color": "Industrial Blue",
+      "position": "Far end of East wall, Segment 2"
+    }
+  },
+  {
+    "label": "Automated Weaving Loom",
+    "attributes": {
+      "color": "Grey Metal with Red Textile",
+      "position": "Terminus of North Aisle Segment"
+    }
+  },
+  {
+    "label": "Thread Spool Storage Rack",
+    "attributes": {
+      "color": "Yellow Frame with Blue Spools",
+      "position": "Terminus of West Aisle Segment"
+    }
+  },
+  {
+    "label": "Industrial Stainless Steel Mixing Vat",
+    "attributes": {
+      "color": "Silver/Metallic",
+      "position": "Far end of North wall"
+    }
+  },
+  {
+    "label": "Automated Packaging Machine",
+    "attributes": {
+      "color": "White and Grey with Safety Yellow accents",
+      "position": "Far end of East wall"
+    }
+  },
+  {
+    "label": "Large Stainless Steel Fermentation Vat",
+    "attributes": {
+      "color": "Silver/Chrome",
+      "position": "Far end of North wall, Seg 1"
+    }
+  },
+  {
+    "label": "Copper Mash Tun Kettle",
+    "attributes": {
+      "color": "Bronze/Copper",
+      "position": "Far end of West wall, Seg 2"
+    }
+  },
+  {
+    "label": "Red Illuminated Airlock Door",
+    "attributes": {
+      "color": "Red/Metallic",
+      "position": "Far end of North corridor wall"
+    }
+  },
+  {
+    "label": "Blue Stasis Pod",
+    "attributes": {
+      "color": "Blue/Glass",
+      "position": "Far end of East corridor wall"
+    }
+  },
+  {
+    "label": "Holographic Ad Panel",
+    "attributes": {
+      "color": "Neon Pink and Blue",
+      "position": "Far end of North wall (End of Seg 1)"
+    }
+  },
+  {
+    "label": "Industrial Ventilation Unit",
+    "attributes": {
+      "color": "Rusted Metal with Green Status Light",
+      "position": "Far end of West wall (End of Seg 2)"
+    }
+  },
+  {
+    "label": "Primary Airlock Hatch",
+    "attributes": {
+      "color": "Bright Red circle on Grey Metal",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Hydroponics Control Server",
+    "attributes": {
+      "color": "Glowing Green Screen on White Unit",
+      "position": "Far end of East wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Blue Holo-Target Projector",
+    "attributes": {
+      "color": "Neon Blue",
+      "position": "Far end of North wall"
+    }
+  },
+  {
+    "label": "Red Holo-Target Projector",
+    "attributes": {
+      "color": "Neon Red",
+      "position": "Far end of West wall"
+    }
+  },
+  {
+    "label": "Automated Robotic Assembly Unit",
+    "attributes": {
+      "color": "Industrial Orange",
+      "position": "Far end of North wall, Seg 1"
+    }
+  },
+  {
+    "label": "Quality Control Inspection Booth",
+    "attributes": {
+      "color": "Bright Blue",
+      "position": "Far end of East wall, Seg 2"
+    }
+  },
+  {
+    "label": "Glowing Server Rack",
+    "attributes": {
+      "color": "Cyan and Black",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Haptic Suit Mannequin",
+    "attributes": {
+      "color": "White and Grey",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Holographic Dragon Sign",
+    "attributes": {
+      "color": "Cyan and Pink Neon",
+      "position": "Far end of North wall, above the bar entrance"
+    }
+  },
+  {
+    "label": "Vintage Neon Slot Machine",
+    "attributes": {
+      "color": "Amber and Red Glow",
+      "position": "Far end of East wall, recessed in alcove"
+    }
+  },
+  {
+    "label": "Glowing Amber Pressure Gauge Array",
+    "attributes": {
+      "color": "Brass and Amber Light",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Vertical Copper Steam Vent Column",
+    "attributes": {
+      "color": "Oxidized Copper and White Steam",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Holographic Species Display Panel",
+    "attributes": {
+      "color": "Cyan and Blue Neon",
+      "position": "Far end of North wall (Segment 1)"
+    }
+  },
+  {
+    "label": "Large Alien Habitat Observation Window",
+    "attributes": {
+      "color": "Amber Lit Glass",
+      "position": "Far end of East wall (Segment 2)"
+    }
+  },
+  {
+    "label": "Glowing Temporal Anchor Panel",
+    "attributes": {
+      "color": "Cyan Neon",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Circular Time Portal Gate",
+    "attributes": {
+      "color": "Purple Energy Ring",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Large Red Royal Tapestry",
+    "attributes": {
+      "color": "Deep Red with Gold Crest",
+      "position": "Far end of North wall, Seg 1"
+    }
+  },
+  {
+    "label": "Ancient Armor Stand",
+    "attributes": {
+      "color": "Silver Steel and Dark Wood",
+      "position": "Far end of East wall, Seg 2"
+    }
+  },
+  {
+    "label": "Ancient Grimoire Shelf",
+    "attributes": {
+      "color": "Dark Oak with Glowing Blue Runes",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Celestial Astrolabe Globe",
+    "attributes": {
+      "color": "Brass and Crystal with Internal Light",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Heavy Iron Portcullis",
+    "attributes": {
+      "color": "Rusty Black",
+      "position": "Far end of North wall (End of Seg 1)"
+    }
+  },
+  {
+    "label": "Stone Executioner's Block",
+    "attributes": {
+      "color": "Grey Stone with Red Stains",
+      "position": "Far end of East wall (End of Seg 2)"
+    }
+  },
+  {
+    "label": "Ornate Wooden Bar Counter",
+    "attributes": {
+      "color": "Dark Polished Oak",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Large Stone Fireplace",
+    "attributes": {
+      "color": "Grey Stone with Warm Fire Glow",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Gilded Treasure Chest",
+    "attributes": {
+      "color": "Gold and dark wood",
+      "position": "Far end of North corridor wall"
+    }
+  },
+  {
+    "label": "Stack of Rum Barrels",
+    "attributes": {
+      "color": "Dark brown wood with red stencils",
+      "position": "Far end of East corridor wall"
+    }
+  },
+  {
+    "label": "Large Gilded Portrait",
+    "attributes": {
+      "color": "Gold frame, dark background",
+      "position": "Far end of North wall (Segment 1)"
+    }
+  },
+  {
+    "label": "Antique Suit of Armor",
+    "attributes": {
+      "color": "Polished Steel",
+      "position": "Far end of West wall (Segment 2)"
+    }
+  },
+  {
+    "label": "Sealed Stone Door with Hieroglyphs",
+    "attributes": {
+      "color": "Grey limestone with painted blue glyphs",
+      "position": "Far end of North wall (Segment 1)"
+    }
+  },
+  {
+    "label": "Obsidian Anubis Statue",
+    "attributes": {
+      "color": "Polished Black Obsidian",
+      "position": "Far end of East wall (Segment 2)"
+    }
+  },
+  {
+    "label": "Ornate Elven Gate",
+    "attributes": {
+      "color": "Gold and Dark Wood",
+      "position": "Far end of North wall (Seg 1)"
+    }
+  },
+  {
+    "label": "Bioluminescent Flora Arrangement",
+    "attributes": {
+      "color": "Glowing Blue and Green",
+      "position": "Far end of West wall (Seg 2)"
+    }
+  },
+  {
+    "label": "Runed Mine Cart with Glowing Ore",
+    "attributes": {
+      "color": "Bronze metal with Blue glowing crystals",
+      "position": "Dead end of North tunnel segment (Seg 1)"
+    }
+  },
+  {
+    "label": "Large Pulsating Crystal Formation",
+    "attributes": {
+      "color": "Bright Purple and Magenta",
+      "position": "Dead end of East tunnel segment (Seg 2)"
+    }
+  },
+  {
+    "label": "Mounted Deer Head with Antlers",
+    "attributes": {
+      "color": "Brown/Tan",
+      "position": "Center of Far North Wall"
+    }
+  },
+  {
+    "label": "Vintage Poker Table with Green Felt",
+    "attributes": {
+      "color": "Wood/Green",
+      "position": "Far end of West Wall"
+    }
+  }
+]

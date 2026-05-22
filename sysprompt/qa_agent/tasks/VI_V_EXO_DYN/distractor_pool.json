@@ -1,0 +1,2096 @@
+[
+  {
+    "label": "Security Guard",
+    "attributes": {
+      "appearance": "Uniformed guard in dark blue",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Bank Robber",
+    "attributes": {
+      "appearance": "Man in black ski mask",
+      "position": "12 o'clock (initial), moves to 3 o'clock"
+    }
+  },
+  {
+    "label": "Large Safety Deposit Cabinet",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Museum Guard",
+    "attributes": {
+      "appearance": "Guard in maroon blazer",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Museum Visitor",
+    "attributes": {
+      "appearance": "Woman in yellow dress",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Massive Marble Pillar",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Gallery Owner",
+    "attributes": {
+      "appearance": "Woman in black dress",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Art Thief",
+    "attributes": {
+      "appearance": "Man in dark hoodie",
+      "position": "12 o'clock (initial), moves to 9 o'clock"
+    }
+  },
+  {
+    "label": "Freestanding Display Wall",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Prison Officer",
+    "attributes": {
+      "appearance": "Officer in khaki uniform",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Inmate",
+    "attributes": {
+      "appearance": "Person in orange jumpsuit",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Concrete Pillar",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Casino Security",
+    "attributes": {
+      "appearance": "Guard in black suit with earpiece",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Card Counter",
+    "attributes": {
+      "appearance": "Man in red polo shirt",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Tall Slot Machine Bank",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Store Manager",
+    "attributes": {
+      "appearance": "Woman in navy blazer",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Black Cat",
+    "attributes": {
+      "appearance": "A small black cat sitting on the floor",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Large Display Kiosk",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Butler",
+    "attributes": {
+      "appearance": "Man in formal tuxedo",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Intruder",
+    "attributes": {
+      "appearance": "Person in black jacket",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Grand Piano",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "IT Technician",
+    "attributes": {
+      "appearance": "Man in blue polo with lanyard",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Unauthorized Visitor",
+    "attributes": {
+      "appearance": "Person in gray trench coat",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Tall Server Racks",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Warehouse Supervisor",
+    "attributes": {
+      "appearance": "A man in a high-visibility vest and hard hat carrying a clipboard",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Forklift Operator",
+    "attributes": {
+      "appearance": "A man in a blue jumpsuit and safety goggles",
+      "position": "12 o'clock (initial), moves to 3 o'clock"
+    }
+  },
+  {
+    "label": "Stack of Shipping Pallets",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Commuter",
+    "attributes": {
+      "appearance": "A woman in a beige trench coat carrying a leather briefcase",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Busker",
+    "attributes": {
+      "appearance": "A young man in a denim jacket holding a guitar case",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Thick Support Column",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Homeowner",
+    "attributes": {
+      "appearance": "A middle-aged man in a gray cardigan and slippers",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Pet Cat",
+    "attributes": {
+      "appearance": "A small orange tabby cat wandering on the living room floor",
+      "position": "12 o'clock (initial), moves to 9 o'clock"
+    }
+  },
+  {
+    "label": "Large Sectional Sofa",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Gardener",
+    "attributes": {
+      "appearance": "An elderly woman in a floral apron and sun hat holding pruning shears",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Child",
+    "attributes": {
+      "appearance": "A small boy in a striped T-shirt and shorts carrying a toy truck",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Wide Oak Tree",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Parent",
+    "attributes": {
+      "appearance": "A woman in a casual blouse and jeans kneeling on the floor",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Toddler",
+    "attributes": {
+      "appearance": "A small girl in a pink tutu and white sneakers holding a stuffed bunny",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Pop-up Play Tent",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Jogger",
+    "attributes": {
+      "appearance": "A man in a neon-green running shirt and black shorts wearing earbuds",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Dog Walker",
+    "attributes": {
+      "appearance": "A woman in a windbreaker walking a golden retriever on a leash",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Large Wooden Storage Shed",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Kindergarten Teacher",
+    "attributes": {
+      "appearance": "A young woman in a pastel-blue smock with alphabet-print pockets",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Student",
+    "attributes": {
+      "appearance": "A small boy in a green polo shirt and khaki pants carrying a lunchbox",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Tall Cubby Shelves",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Homeowner",
+    "attributes": {
+      "appearance": "A man in a plaid flannel shirt and work boots holding a power drill",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Stray Cat",
+    "attributes": {
+      "appearance": "A small gray stray cat sitting near the garage entrance",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Large Tool Cabinet",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Parent",
+    "attributes": {
+      "appearance": "A woman in a white T-shirt and leggings sitting on a bench",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Child",
+    "attributes": {
+      "appearance": "A young boy in an orange hoodie and sneakers waving his hands",
+      "position": "12 o'clock (initial), moves to 3 o'clock"
+    }
+  },
+  {
+    "label": "Large Ball Pit Wall",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Resident",
+    "attributes": {
+      "appearance": "A woman in a navy turtleneck and reading glasses holding a mug",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Visitor",
+    "attributes": {
+      "appearance": "A man in a brown corduroy jacket carrying a paper bag",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Tall Wooden Bookshelf",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Golden Retriever",
+    "attributes": {
+      "appearance": "A golden retriever dog sitting on the floor",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Orange Cat",
+    "attributes": {
+      "appearance": "A small orange cat walking on the floor",
+      "position": "12 o'clock (initial), moves to 9 o'clock"
+    }
+  },
+  {
+    "label": "Billiard Table",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Home Cook",
+    "attributes": {
+      "appearance": "A woman in a white chef's apron holding a wooden spoon",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Pet Corgi",
+    "attributes": {
+      "appearance": "A small corgi sniffing around the kitchen floor",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Large Central Island",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Shopper",
+    "attributes": {
+      "appearance": "A woman in a winter coat pushing a shopping cart",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Store Cat",
+    "attributes": {
+      "appearance": "A small orange tabby cat wandering between the supermarket aisles",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Large Freezer Unit",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Customer",
+    "attributes": {
+      "appearance": "A young woman in a denim jacket and sunglasses browsing clothes",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Store Cat",
+    "attributes": {
+      "appearance": "A small calico cat napping between the clothing racks",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Circular Hanging Racks",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Reader",
+    "attributes": {
+      "appearance": "An elderly man in a tweed blazer and round glasses holding an open book",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Librarian",
+    "attributes": {
+      "appearance": "A young woman in a cardigan pushing a book cart",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Ceiling-High Bookshelves",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Contractor",
+    "attributes": {
+      "appearance": "A burly man in a yellow hard hat and steel-toed boots carrying a tape measure",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Store Employee",
+    "attributes": {
+      "appearance": "A young man in an orange apron and work gloves pushing a flatbed cart",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Towering Lumber Stacks",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Customer",
+    "attributes": {
+      "appearance": "An elderly woman in a light-blue cardigan holding a prescription slip",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Pharmacy Cat",
+    "attributes": {
+      "appearance": "A small black cat wandering behind the pharmacy counter",
+      "position": "12 o'clock (initial), moves to 3 o'clock"
+    }
+  },
+  {
+    "label": "Prescription Counter Block",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Shopper",
+    "attributes": {
+      "appearance": "A teenage girl in a crop top and high-waisted jeans carrying a tote bag",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Store Attendant",
+    "attributes": {
+      "appearance": "A man in a vest and dress shirt holding a shoe box",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Tall Display Shelf",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Store Security",
+    "attributes": {
+      "appearance": "Guard in black polo with radio",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Shoplifter",
+    "attributes": {
+      "appearance": "Teen in baggy gray hoodie",
+      "position": "12 o'clock (initial), moves to 9 o'clock"
+    }
+  },
+  {
+    "label": "Massive Freestanding Display Kiosk",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Toy Store Clerk",
+    "attributes": {
+      "appearance": "Woman in bright red apron",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Lost Toddler",
+    "attributes": {
+      "appearance": "A small toddler in a yellow raincoat sitting on the floor",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Giant Stuffed Bear",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Floor Manager",
+    "attributes": {
+      "appearance": "Man in navy vest with name tag",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Shoplifter",
+    "attributes": {
+      "appearance": "Woman carrying oversized tote bag",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Large Circular Display Column",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Florist",
+    "attributes": {
+      "appearance": "Woman in green apron with gloves",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Shop Cat",
+    "attributes": {
+      "appearance": "A small calico cat sitting near the flower buckets on the floor",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Large Floral Display Refrigerator",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Office Manager",
+    "attributes": {
+      "appearance": "Woman in gray blazer",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "New Employee",
+    "attributes": {
+      "appearance": "Man in white button-down shirt",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Solid Room Divider",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Team Lead",
+    "attributes": {
+      "appearance": "Man in striped dress shirt",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Intern",
+    "attributes": {
+      "appearance": "Young woman in khaki pants",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "High Fabric Walls",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Executive",
+    "attributes": {
+      "appearance": "Man in pinstripe suit",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Office Robot Vacuum",
+    "attributes": {
+      "appearance": "A small round robot vacuum cleaning the office floor",
+      "position": "12 o'clock (initial), moves to 3 o'clock"
+    }
+  },
+  {
+    "label": "Tall Filing Cabinet",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Supervisor",
+    "attributes": {
+      "appearance": "Man in blue dress shirt with lanyard",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Small Gray Mouse",
+    "attributes": {
+      "appearance": "A tiny gray mouse scurrying on the floor",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Large Refrigerator",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "White Cat",
+    "attributes": {
+      "appearance": "A small white cat sitting on a floor",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Executive's Dog",
+    "attributes": {
+      "appearance": "A small French bulldog trotting around the boardroom floor",
+      "position": "12 o'clock (initial), moves to 9 o'clock"
+    }
+  },
+  {
+    "label": "Large Square Conference Table",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Office Assistant",
+    "attributes": {
+      "appearance": "Woman in plaid skirt and cardigan",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Office Cat",
+    "attributes": {
+      "appearance": "A small gray cat napping near the printer",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Massive Industrial Printer",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Small Boy",
+    "attributes": {
+      "appearance": "A small boy in a blue t-shirt and shorts",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Lobby Cat",
+    "attributes": {
+      "appearance": "A small orange tabby cat lounging on the lobby floor",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Large Square Reception Table",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Lead Architect",
+    "attributes": {
+      "appearance": "Man in black turtleneck",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Studio Cat",
+    "attributes": {
+      "appearance": "A small ginger cat sitting near the drafting supplies",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Scale Model Table",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Mailroom Clerk",
+    "attributes": {
+      "appearance": "Man in gray polo with ID badge",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Courier",
+    "attributes": {
+      "appearance": "Person in high-vis vest",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Sorting Shelf Unit",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Freelancer",
+    "attributes": {
+      "appearance": "Man in casual flannel shirt",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Startup Founder",
+    "attributes": {
+      "appearance": "Woman in leather jacket",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Large Phone Booth Pod",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Patient",
+    "attributes": {
+      "appearance": "Elderly man in hospital gown",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Nurse",
+    "attributes": {
+      "appearance": "Woman in blue scrubs",
+      "position": "12 o'clock (initial), moves to 3 o'clock"
+    }
+  },
+  {
+    "label": "Rolling Privacy Screens",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Patient",
+    "attributes": {
+      "appearance": "Person on wheeled stretcher",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Nurse",
+    "attributes": {
+      "appearance": "Woman in green scrubs with stethoscope",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Curtained Cubicle",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Doctor",
+    "attributes": {
+      "appearance": "Woman in white lab coat",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Patient",
+    "attributes": {
+      "appearance": "Man in casual clothes sitting on bench",
+      "position": "12 o'clock (initial), moves to 9 o'clock"
+    }
+  },
+  {
+    "label": "Tall Medical Cabinet",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Dentist",
+    "attributes": {
+      "appearance": "Man in teal scrubs with mask",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Dental Assistant",
+    "attributes": {
+      "appearance": "Woman in lavender scrubs",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Lead-Lined X-Ray Booth",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Physical Therapist",
+    "attributes": {
+      "appearance": "Woman in athletic polo shirt",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Therapy Dog",
+    "attributes": {
+      "appearance": "A small golden retriever puppy resting on the floor",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Gym Mat Stack",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Pharmacist",
+    "attributes": {
+      "appearance": "Man in white coat with glasses",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Pharmacy Technician",
+    "attributes": {
+      "appearance": "Woman in blue smock",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "High Shelves",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Veterinarian",
+    "attributes": {
+      "appearance": "Woman in white lab coat",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Pet Owner",
+    "attributes": {
+      "appearance": "Man in casual jeans and t-shirt",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Solid-Walled Kennel Enclosure",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Brown Dog",
+    "attributes": {
+      "appearance": "A small brown dog standing on the floor",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "White Cat",
+    "attributes": {
+      "appearance": "A small white cat sitting on the floor",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Testing Machine",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Nurse",
+    "attributes": {
+      "appearance": "Woman in light blue scrubs",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Blood Donor",
+    "attributes": {
+      "appearance": "Young man in gray sweatshirt",
+      "position": "12 o'clock (initial), moves to 3 o'clock"
+    }
+  },
+  {
+    "label": "Room Dividers",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Psychiatrist",
+    "attributes": {
+      "appearance": "Doctor in brown tweed jacket",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Patient",
+    "attributes": {
+      "appearance": "Person in hospital gown",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Heavy Padded Room Divider",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Market Vendor",
+    "attributes": {
+      "appearance": "Man in green apron",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Shopper",
+    "attributes": {
+      "appearance": "Woman carrying canvas tote bag",
+      "position": "12 o'clock (initial), moves to 9 o'clock"
+    }
+  },
+  {
+    "label": "Central Stone Pillar",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Station Attendant",
+    "attributes": {
+      "appearance": "Worker in orange high-vis vest",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Commuter",
+    "attributes": {
+      "appearance": "Man in navy overcoat with briefcase",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Large Information Pillar",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Warehouse Supervisor",
+    "attributes": {
+      "appearance": "Man in hard hat and reflective vest",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Delivery Driver",
+    "attributes": {
+      "appearance": "Person in brown uniform",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Stacked Crate Wall",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Station Cleaner",
+    "attributes": {
+      "appearance": "Worker in gray coveralls",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Stray Cat",
+    "attributes": {
+      "appearance": "A small tabby stray cat sitting near the waiting area bench",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Large Vending Machine",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Airport Staff",
+    "attributes": {
+      "appearance": "Woman in airline uniform",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Lost Luggage Robot",
+    "attributes": {
+      "appearance": "A small autonomous luggage retrieval robot rolling on the floor",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Large Baggage Carousel Machine",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Parking Attendant",
+    "attributes": {
+      "appearance": "Man in yellow safety vest",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Driver",
+    "attributes": {
+      "appearance": "Woman in red winter coat",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Thick Concrete Support",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Deck Officer",
+    "attributes": {
+      "appearance": "Officer in white naval uniform",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Passenger",
+    "attributes": {
+      "appearance": "Tourist in Hawaiian shirt",
+      "position": "12 o'clock (initial), moves to 3 o'clock"
+    }
+  },
+  {
+    "label": "Funnel Stack",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Site Foreman",
+    "attributes": {
+      "appearance": "Man in orange hard hat and vest",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Inspector",
+    "attributes": {
+      "appearance": "Person in gray suit with clipboard",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Portable Storage Container",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Stray Cat",
+    "attributes": {
+      "appearance": "A small calico stray cat sitting on the plaza ground",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Pedestrian",
+    "attributes": {
+      "appearance": "Woman in denim jacket",
+      "position": "12 o'clock (initial), moves to 9 o'clock"
+    }
+  },
+  {
+    "label": "Large Public Art Sculpture",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Event Coordinator",
+    "attributes": {
+      "appearance": "Woman in black pantsuit",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Stray Cat",
+    "attributes": {
+      "appearance": "A small gray stray cat wandering near the stage area",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Stage Platform",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Stage Manager",
+    "attributes": {
+      "appearance": "Man in all-black attire with headset",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Actor",
+    "attributes": {
+      "appearance": "Woman in period costume",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Large Prop Crate",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Film Director",
+    "attributes": {
+      "appearance": "Man in director's chair vest",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Extra",
+    "attributes": {
+      "appearance": "Person in casual wardrobe",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Fake Wall Flats",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Sound Engineer",
+    "attributes": {
+      "appearance": "Man in black crew t-shirt",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Concert-goer",
+    "attributes": {
+      "appearance": "Young woman in band merchandise",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Stacked Speaker Wall",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Magician",
+    "attributes": {
+      "appearance": "Man in top hat and cape",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Stage Assistant",
+    "attributes": {
+      "appearance": "Woman in sequined leotard",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Illusion Cabinet",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Black Labrador",
+    "attributes": {
+      "appearance": "A black labrador dog sitting on the floor",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "White Rabbit",
+    "attributes": {
+      "appearance": "A small white rabbit hopping on the floor",
+      "position": "12 o'clock (initial), moves to 3 o'clock"
+    }
+  },
+  {
+    "label": "Large Equipment Case",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Ringmaster",
+    "attributes": {
+      "appearance": "Man in red tailcoat and top hat",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Animal Trainer",
+    "attributes": {
+      "appearance": "Person in khaki safari outfit",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Large Circus Wagon",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Arcade Employee",
+    "attributes": {
+      "appearance": "Staff in red polo shirt",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Teenage Gamer",
+    "attributes": {
+      "appearance": "Teen in neon green jacket",
+      "position": "12 o'clock (initial), moves to 9 o'clock"
+    }
+  },
+  {
+    "label": "Photo Booth Cabin",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Nightclub Bouncer",
+    "attributes": {
+      "appearance": "Muscular man in black tank top",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Suspicious Patron",
+    "attributes": {
+      "appearance": "Man in leather jacket",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "VIP Lounge Divider",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Bowling Alley Manager",
+    "attributes": {
+      "appearance": "Man in striped bowling shirt",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Stray Cat",
+    "attributes": {
+      "appearance": "A small black cat wandering near the bowling lanes",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Heavy Ball Rack Stand",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "TV Producer",
+    "attributes": {
+      "appearance": "Woman with headset and clipboard",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Stage Intruder",
+    "attributes": {
+      "appearance": "Person in gray sweatshirt",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Large Studio Flat Panel",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Park Ranger",
+    "attributes": {
+      "appearance": "Ranger in olive green uniform",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Lost Hiker",
+    "attributes": {
+      "appearance": "Person in bright orange vest",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Fallen Giant Sequoia",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Desert Guide",
+    "attributes": {
+      "appearance": "Man in khaki hat and vest",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Stranded Tourist",
+    "attributes": {
+      "appearance": "Woman in white sun hat",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Massive Sandstone Boulder",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Brown Bear",
+    "attributes": {
+      "appearance": "A large brown bear standing on the floor",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Gray Fox",
+    "attributes": {
+      "appearance": "A small gray fox standing on the floor",
+      "position": "12 o'clock (initial), moves to 3 o'clock"
+    }
+  },
+  {
+    "label": "Large Stone Fireplace",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Ski Instructor",
+    "attributes": {
+      "appearance": "Woman in bright red ski jacket",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Suspicious Guest",
+    "attributes": {
+      "appearance": "Man in black beanie and coat",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Beach Shack Owner",
+    "attributes": {
+      "appearance": "Man in Hawaiian shirt",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Board Thief",
+    "attributes": {
+      "appearance": "Teen in wetsuit",
+      "position": "12 o'clock (initial), moves to 9 o'clock"
+    }
+  },
+  {
+    "label": "Large Wooden Beach Storage Shed",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Campsite Warden",
+    "attributes": {
+      "appearance": "Man in ranger hat and khaki shorts",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Campsite Intruder",
+    "attributes": {
+      "appearance": "Person in camo jacket",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Large RV Motorhome",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Jungle Explorer",
+    "attributes": {
+      "appearance": "Man in safari vest and boots",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Poacher",
+    "attributes": {
+      "appearance": "Person in dark green poncho",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Massive Banyan Tree Trunk",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Lakeside Fisherman",
+    "attributes": {
+      "appearance": "Man in waders and flannel",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Boat Thief",
+    "attributes": {
+      "appearance": "Person in navy windbreaker",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Wooden Boathouse",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Safari Ranger",
+    "attributes": {
+      "appearance": "Woman in tan uniform with binoculars",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Meerkat",
+    "attributes": {
+      "appearance": "A small meerkat standing on the safari ground",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Giant Termite Mound",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Spelunker",
+    "attributes": {
+      "appearance": "Person in helmet with headlamp",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Cave Trespasser",
+    "attributes": {
+      "appearance": "Figure in dark gray coveralls",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Massive Cave Column",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Cargo Officer",
+    "attributes": {
+      "appearance": "Officer in gray flight suit",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Stowaway",
+    "attributes": {
+      "appearance": "Person in tattered brown cloak",
+      "position": "12 o'clock (initial), moves to 3 o'clock"
+    }
+  },
+  {
+    "label": "Large Crate Stack",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Cyberpunk Mechanic",
+    "attributes": {
+      "appearance": "Woman with neon-lit goggles",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Data Thief",
+    "attributes": {
+      "appearance": "Man in black trench coat",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Large Server Rack Tower",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Colony Botanist",
+    "attributes": {
+      "appearance": "Scientist in white lab coat",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Saboteur",
+    "attributes": {
+      "appearance": "Person in dark EVA suit",
+      "position": "12 o'clock (initial), moves to 9 o'clock"
+    }
+  },
+  {
+    "label": "Pressurized Habitat Module",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Lead Scientist",
+    "attributes": {
+      "appearance": "Woman in blue lab coat with goggles",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Escaped Subject",
+    "attributes": {
+      "appearance": "Person in white hospital gown",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Cryo-Stasis Pod Array",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Factory Supervisor",
+    "attributes": {
+      "appearance": "Man in metallic jumpsuit",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Rogue Technician",
+    "attributes": {
+      "appearance": "Person in oil-stained overalls",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Sealed Manufacturing Pod",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Archive Keeper",
+    "attributes": {
+      "appearance": "Robed figure with glowing staff",
+      "position": "9 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Data Infiltrator",
+    "attributes": {
+      "appearance": "Person in sleek black bodysuit",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Solid Archive Vault",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Alien Merchant",
+    "attributes": {
+      "appearance": "Creature in iridescent robes",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Smuggler",
+    "attributes": {
+      "appearance": "Figure in dark space suit",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Cargo Container Stack",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Lead Physicist",
+    "attributes": {
+      "appearance": "Scientist in white hazmat suit",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Saboteur",
+    "attributes": {
+      "appearance": "Person in gray stealth gear",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Shield Wall",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Station Commander",
+    "attributes": {
+      "appearance": "Officer in blue flight suit",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Stowaway",
+    "attributes": {
+      "appearance": "Person in tattered space coveralls",
+      "position": "12 o'clock (initial), moves to 3 o'clock"
+    }
+  },
+  {
+    "label": "Cargo Containers",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Time Agent",
+    "attributes": {
+      "appearance": "Agent in silver chrono-suit",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Temporal Fugitive",
+    "attributes": {
+      "appearance": "Figure in patched leather coat",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Temporal Engine Block",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Castle Guard",
+    "attributes": {
+      "appearance": "Knight in chainmail armor",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Stray Cat",
+    "attributes": {
+      "appearance": "A small tabby cat sneaking through the courtyard",
+      "position": "12 o'clock (initial), moves to 9 o'clock"
+    }
+  },
+  {
+    "label": "Stone Well",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Archmage",
+    "attributes": {
+      "appearance": "Elder in deep purple robe",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Dark Apprentice",
+    "attributes": {
+      "appearance": "Youth in tattered black cloak",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Tall Arcane Bookshelf",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Priest",
+    "attributes": {
+      "appearance": "Man in black cassock with white collar",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Choirboy",
+    "attributes": {
+      "appearance": "Young boy in white choir robe",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Large Stone Confessional Booth",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Temple Priest",
+    "attributes": {
+      "appearance": "Priest in golden ceremonial garb",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Tomb Raider",
+    "attributes": {
+      "appearance": "Explorer in khaki vest",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Colossal Stone Obelisk",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Tavern Dog",
+    "attributes": {
+      "appearance": "A large brown hound dog lying on the tavern floor",
+      "position": "3 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Gray Rat",
+    "attributes": {
+      "appearance": "A small gray rat scurrying on the tavern floor",
+      "position": "12 o'clock"
+    }
+  },
+  {
+    "label": "Large Fireplace",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Ship Captain",
+    "attributes": {
+      "appearance": "Captain in red longcoat with tricorn hat",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Ship's Cat",
+    "attributes": {
+      "appearance": "A small ginger cat crouching on the ship deck",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Large Wooden Cabin",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Manor Lord",
+    "attributes": {
+      "appearance": "Gentleman in black tailcoat",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Assassin",
+    "attributes": {
+      "appearance": "Shadow in dark gray cloak",
+      "position": "12 o'clock (initial), moves to 3 o'clock"
+    }
+  },
+  {
+    "label": "Grand Marble Fireplace",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Elf Ranger",
+    "attributes": {
+      "appearance": "Elf in green woodland garb",
+      "position": "9 o'clock"
+    }
+  },
+  {
+    "label": "Orc Scout",
+    "attributes": {
+      "appearance": "Orc in crude hide armor",
+      "position": "3 o'clock (initial), moves to 12 o'clock"
+    }
+  },
+  {
+    "label": "Mossy Stone Boulder",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "color": "Grey stone with green moss patches on top",
+      "material": "Opaque solid rock, large enough to block horizontal line of sight"
+    }
+  },
+  {
+    "label": "Mine Foreman",
+    "attributes": {
+      "appearance": "Dwarf in heavy iron helmet",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Goblin Infiltrator",
+    "attributes": {
+      "appearance": "Small creature in ragged cloth",
+      "position": "12 o'clock (initial), moves to 9 o'clock"
+    }
+  },
+  {
+    "label": "Massive Stone Pillar",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  },
+  {
+    "label": "Sheriff",
+    "attributes": {
+      "appearance": "Lawman in tan duster and star badge",
+      "position": "3 o'clock"
+    }
+  },
+  {
+    "label": "Saloon Dog",
+    "attributes": {
+      "appearance": "A small hound dog lying near the bar counter",
+      "position": "9 o'clock (initial), moves to 6 o'clock"
+    }
+  },
+  {
+    "label": "Large Wooden Bar Counter",
+    "attributes": {
+      "position": "CENTER of the scene",
+      "material": "Opaque"
+    }
+  }
+]

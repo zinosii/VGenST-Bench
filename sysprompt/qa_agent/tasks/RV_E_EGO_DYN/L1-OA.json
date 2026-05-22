@@ -1,0 +1,16 @@
+{
+  "task_id": "RV_E_EGO_DYN",
+  "category_id": "L1-OA",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What is the color of the Construction Truck?: A. Orange, B. Yellow, C. Red, D. Blue",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "What is the color of the Sports Car?: A. White, B. Silver, C. Black, D. Green",
+      "answer": "C"
+    }
+  ]
+}

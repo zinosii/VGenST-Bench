@@ -1,0 +1,16 @@
+{
+  "task_id": "QC_F_EGO_DYN",
+  "category_id": "L2-AR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How many times does the hand place an item into the container?: A. 0, B. 1, C. 2, D. 3",
+      "answer": "C"
+    },
+    {
+      "id": "proto_2",
+      "question": "What action does the hand perform in the second step?: A. Places an item into the container, B. Takes an item out of the container, C. Moves an item on the surface to the other location of the surface",
+      "answer": "A"
+    }
+  ]
+}

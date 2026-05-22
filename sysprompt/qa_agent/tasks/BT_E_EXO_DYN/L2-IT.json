@@ -1,0 +1,11 @@
+{
+  "task_id": "BT_E_EXO_DYN",
+  "category_id": "L2-IT",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "The object that suddenly enters the frame — what is it?: A. A Bicyclist, B. A Construction Worker, C. A Child in a Red Shirt, D. A Stray Cat",
+      "answer": "C"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "IO_V_EGO_DYN",
+  "category_id": "L2-IT",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "The object placed on the Side Shelf at the end — which object is it?: A. Red Ceramic Coffee Mug, B. Hardcover Blue Novel, C. Green Apple, D. A different object not seen before",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "Is the object placed on the Side Shelf the same object that the agent picked up from the Coffee Table?: A. Yes, it is the same object, B. No, it is a different object, C. Cannot be determined, D. The agent did not place any object",
+      "answer": "A"
+    }
+  ]
+}

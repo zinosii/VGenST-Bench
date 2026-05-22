@@ -1,0 +1,32 @@
+{
+    "DATA": {
+        "data_root": "./data",
+        "out_dir": "./eval_results"
+    },
+
+    "TARGET": {
+        "model": "vllm",
+        "model_alias": "default",
+        "judge_provider": "claude",
+        "judge_alias": "default"
+    },
+
+    "INPUT_MODE": "video",
+
+    "EVAL_MODES": {
+        "1": {"name": "vanilla_base",  "variant": "base", "circular": false},
+        "2": {"name": "circular_base", "variant": "base", "circular": true},
+        "3": {"name": "v1",            "variant": "v1",   "circular": false},
+        "4": {"name": "v2",            "variant": "v2",   "circular": false},
+        "5": {"name": "v3",            "variant": "v3",   "circular": false}
+    },
+
+    "RUN": {
+        "selected_modes": [5],
+        "task": "",
+        "qa_type": "",
+        "limit": 0,
+        "per_task_limit": 0,
+        "tag": ""
+    }
+}

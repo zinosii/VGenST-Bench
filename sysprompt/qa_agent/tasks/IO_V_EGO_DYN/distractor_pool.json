@@ -1,0 +1,3506 @@
+[
+  {
+    "label": "Casual Resident",
+    "attributes": {
+      "appearance": "Adult in a cozy sweater and jeans, side view"
+    }
+  },
+  {
+    "label": "Coffee Table",
+    "attributes": {
+      "color": "Walnut Brown"
+    }
+  },
+  {
+    "label": "Side Shelf",
+    "attributes": {
+      "color": "Matte White"
+    }
+  },
+  {
+    "label": "Red Ceramic Coffee Mug",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Hardcover Blue Novel",
+    "attributes": {
+      "color": "Navy Blue"
+    }
+  },
+  {
+    "label": "Green Apple",
+    "attributes": {
+      "color": "Green"
+    }
+  },
+  {
+    "label": "Apartment Resident",
+    "attributes": {
+      "appearance": "Young adult in casual loungewear, side view"
+    }
+  },
+  {
+    "label": "Console Table",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Bookshelf",
+    "attributes": {
+      "color": "Light Oak"
+    }
+  },
+  {
+    "label": "Black Glass Vase",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Yellow Hardcover Book",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "White Pillar Candle",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Stylish Host",
+    "attributes": {
+      "appearance": "Adult in a tailored shirt and slacks, side view"
+    }
+  },
+  {
+    "label": "Marble Coffee Table",
+    "attributes": {
+      "color": "White with Grey Veins"
+    }
+  },
+  {
+    "label": "Bar Cart",
+    "attributes": {
+      "color": "Brushed Brass and Clear Glass"
+    }
+  },
+  {
+    "label": "Crystal Ashtray",
+    "attributes": {
+      "color": "Clear Crystal"
+    }
+  },
+  {
+    "label": "Brass Decorative Bowl",
+    "attributes": {
+      "color": "Brushed Brass"
+    }
+  },
+  {
+    "label": "Amber Whiskey Bottle",
+    "attributes": {
+      "color": "Amber"
+    }
+  },
+  {
+    "label": "Den Visitor",
+    "attributes": {
+      "appearance": "Adult in a wool cardigan, side view"
+    }
+  },
+  {
+    "label": "Ottoman Tray",
+    "attributes": {
+      "color": "Tan Leather and Dark Wood"
+    }
+  },
+  {
+    "label": "Fireplace Mantel",
+    "attributes": {
+      "color": "Grey Stone"
+    }
+  },
+  {
+    "label": "Brown Leather Notebook",
+    "attributes": {
+      "color": "Saddle Brown"
+    }
+  },
+  {
+    "label": "Red Stoneware Mug",
+    "attributes": {
+      "color": "Brick Red"
+    }
+  },
+  {
+    "label": "Beige Knit Coaster Set",
+    "attributes": {
+      "color": "Beige"
+    }
+  },
+  {
+    "label": "Sunroom Visitor",
+    "attributes": {
+      "appearance": "Adult in a light linen outfit, side view"
+    }
+  },
+  {
+    "label": "Rattan Coffee Table",
+    "attributes": {
+      "color": "Natural Rattan Beige"
+    }
+  },
+  {
+    "label": "Plant Stand",
+    "attributes": {
+      "color": "Light Pine"
+    }
+  },
+  {
+    "label": "Yellow Lemonade Pitcher",
+    "attributes": {
+      "color": "Bright Yellow"
+    }
+  },
+  {
+    "label": "Terracotta Mini Cactus Pot",
+    "attributes": {
+      "color": "Terracotta Orange"
+    }
+  },
+  {
+    "label": "White Wide-Brim Sun Hat",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Loft Resident",
+    "attributes": {
+      "appearance": "Young adult in casual streetwear, side view"
+    }
+  },
+  {
+    "label": "Low Table",
+    "attributes": {
+      "color": "Reclaimed Oak Brown"
+    }
+  },
+  {
+    "label": "Window Ledge",
+    "attributes": {
+      "color": "Painted Off-White"
+    }
+  },
+  {
+    "label": "Blue Acrylic Tumbler",
+    "attributes": {
+      "color": "Translucent Blue"
+    }
+  },
+  {
+    "label": "White Smartphone",
+    "attributes": {
+      "color": "Matte White"
+    }
+  },
+  {
+    "label": "Green Glass Plant Mister",
+    "attributes": {
+      "color": "Sage Green"
+    }
+  },
+  {
+    "label": "Hotel Guest",
+    "attributes": {
+      "appearance": "Adult in business casual attire, side view"
+    }
+  },
+  {
+    "label": "Center Table",
+    "attributes": {
+      "color": "Glossy White"
+    }
+  },
+  {
+    "label": "Writing Desk",
+    "attributes": {
+      "color": "Dark Mahogany"
+    }
+  },
+  {
+    "label": "Black Reading Glasses",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Gold Wristwatch",
+    "attributes": {
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "Red Hotel Brochure",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Mid-Century Aesthete",
+    "attributes": {
+      "appearance": "Adult in a turtleneck and slacks, side view"
+    }
+  },
+  {
+    "label": "Teak Coffee Table",
+    "attributes": {
+      "color": "Warm Teak"
+    }
+  },
+  {
+    "label": "Credenza",
+    "attributes": {
+      "color": "Burnt Orange"
+    }
+  },
+  {
+    "label": "Olive Ceramic Vase",
+    "attributes": {
+      "color": "Olive Green"
+    }
+  },
+  {
+    "label": "Mustard Paperback Book",
+    "attributes": {
+      "color": "Mustard Yellow"
+    }
+  },
+  {
+    "label": "Amber Glass Tumbler",
+    "attributes": {
+      "color": "Amber"
+    }
+  },
+  {
+    "label": "Family Member",
+    "attributes": {
+      "appearance": "Adult in casual home clothing, side view"
+    }
+  },
+  {
+    "label": "Coffee Table",
+    "attributes": {
+      "color": "Espresso Brown"
+    }
+  },
+  {
+    "label": "TV Console",
+    "attributes": {
+      "color": "Matte Charcoal"
+    }
+  },
+  {
+    "label": "Black TV Remote",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Red Coffee Mug",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Beige Throw Cushion",
+    "attributes": {
+      "color": "Beige"
+    }
+  },
+  {
+    "label": "Reader",
+    "attributes": {
+      "appearance": "Adult in a knit sweater, side view"
+    }
+  },
+  {
+    "label": "Side Table",
+    "attributes": {
+      "color": "Cherry Wood Red-Brown"
+    }
+  },
+  {
+    "label": "Wall Shelf",
+    "attributes": {
+      "color": "Painted Cream"
+    }
+  },
+  {
+    "label": "Brown Leather Bookmark",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Green Hardcover Book",
+    "attributes": {
+      "color": "Forest Green"
+    }
+  },
+  {
+    "label": "Amber Reading Lamp",
+    "attributes": {
+      "color": "Amber Glass"
+    }
+  },
+  {
+    "label": "Bedroom Resident",
+    "attributes": {
+      "appearance": "Adult in pajamas, side view"
+    }
+  },
+  {
+    "label": "Dresser",
+    "attributes": {
+      "color": "White Painted Wood"
+    }
+  },
+  {
+    "label": "Nightstand",
+    "attributes": {
+      "color": "Light Maple"
+    }
+  },
+  {
+    "label": "Silver Hairbrush",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Pink Perfume Bottle",
+    "attributes": {
+      "color": "Soft Pink"
+    }
+  },
+  {
+    "label": "Black Leather Wallet",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Teenager",
+    "attributes": {
+      "appearance": "Teen in graphic tee and jeans, side view"
+    }
+  },
+  {
+    "label": "Study Desk",
+    "attributes": {
+      "color": "Birch White"
+    }
+  },
+  {
+    "label": "Bed Foot Bench",
+    "attributes": {
+      "color": "Navy Blue"
+    }
+  },
+  {
+    "label": "Blue Spiral Notebook",
+    "attributes": {
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "Red Soda Can",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Black Wireless Headphones",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Hotel Guest",
+    "attributes": {
+      "appearance": "Adult in business attire, side view"
+    }
+  },
+  {
+    "label": "Writing Desk",
+    "attributes": {
+      "color": "Dark Walnut"
+    }
+  },
+  {
+    "label": "White Marble Side Table",
+    "attributes": {
+      "color": "Polished White Marble"
+    }
+  },
+  {
+    "label": "Brown Leather Passport Holder",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Silver Pen",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "White Hotel Keycard",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Guest",
+    "attributes": {
+      "appearance": "Adult in casual evening wear, side view"
+    }
+  },
+  {
+    "label": "Vanity Table",
+    "attributes": {
+      "color": "Antique White"
+    }
+  },
+  {
+    "label": "Window Bench",
+    "attributes": {
+      "color": "Cream Cushion and Oak"
+    }
+  },
+  {
+    "label": "Pearl Necklace",
+    "attributes": {
+      "color": "Pearl White"
+    }
+  },
+  {
+    "label": "Crystal Perfume Bottle",
+    "attributes": {
+      "color": "Clear Crystal"
+    }
+  },
+  {
+    "label": "Pink Powder Compact",
+    "attributes": {
+      "color": "Rose Pink"
+    }
+  },
+  {
+    "label": "Caregiver",
+    "attributes": {
+      "appearance": "Adult in soft cotton clothing, side view"
+    }
+  },
+  {
+    "label": "Changing Table",
+    "attributes": {
+      "color": "Soft Pastel Yellow"
+    }
+  },
+  {
+    "label": "Toy Shelf",
+    "attributes": {
+      "color": "White Painted Wood"
+    }
+  },
+  {
+    "label": "Yellow Rubber Duck",
+    "attributes": {
+      "color": "Bright Yellow"
+    }
+  },
+  {
+    "label": "Pink Baby Bottle",
+    "attributes": {
+      "color": "Soft Pink"
+    }
+  },
+  {
+    "label": "Blue Plush Bear",
+    "attributes": {
+      "color": "Sky Blue"
+    }
+  },
+  {
+    "label": "College Student",
+    "attributes": {
+      "appearance": "Young adult in hoodie and sweatpants, side view"
+    }
+  },
+  {
+    "label": "Study Desk",
+    "attributes": {
+      "color": "Light Grey Laminate"
+    }
+  },
+  {
+    "label": "Mini Fridge Top",
+    "attributes": {
+      "color": "White Plastic"
+    }
+  },
+  {
+    "label": "Yellow Highlighter Pen",
+    "attributes": {
+      "color": "Bright Yellow"
+    }
+  },
+  {
+    "label": "Black Smartphone Charger",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Boutique Hotel Guest",
+    "attributes": {
+      "appearance": "Adult in resort wear, side view"
+    }
+  },
+  {
+    "label": "Console Table",
+    "attributes": {
+      "color": "Marble White"
+    }
+  },
+  {
+    "label": "Armchair Side Table",
+    "attributes": {
+      "color": "Velvet Olive"
+    }
+  },
+  {
+    "label": "Gold Hand Cream Tube",
+    "attributes": {
+      "color": "Metallic Gold"
+    }
+  },
+  {
+    "label": "White Linen Napkin",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Crystal Decanter",
+    "attributes": {
+      "color": "Clear Crystal"
+    }
+  },
+  {
+    "label": "Attic Resident",
+    "attributes": {
+      "appearance": "Adult in vintage knitwear, side view"
+    }
+  },
+  {
+    "label": "Trunk",
+    "attributes": {
+      "color": "Aged Pine"
+    }
+  },
+  {
+    "label": "Windowsill",
+    "attributes": {
+      "color": "Painted White Wood"
+    }
+  },
+  {
+    "label": "Bronze Picture Frame",
+    "attributes": {
+      "color": "Antique Bronze"
+    }
+  },
+  {
+    "label": "Red Vintage Tin Box",
+    "attributes": {
+      "color": "Faded Red"
+    }
+  },
+  {
+    "label": "Green Glass Bottle",
+    "attributes": {
+      "color": "Forest Green"
+    }
+  },
+  {
+    "label": "Studio Resident",
+    "attributes": {
+      "appearance": "Young adult in casual loungewear, side view"
+    }
+  },
+  {
+    "label": "Wide Writing Desk by the Window",
+    "attributes": {
+      "color": "Light Pine"
+    }
+  },
+  {
+    "label": "Foot-of-Bed Storage Bench",
+    "attributes": {
+      "color": "Charcoal Grey Upholstery"
+    }
+  },
+  {
+    "label": "White Laptop",
+    "attributes": {
+      "color": "Matte White"
+    }
+  },
+  {
+    "label": "Blue Insulated Water Bottle",
+    "attributes": {
+      "color": "Cobalt Blue"
+    }
+  },
+  {
+    "label": "Red Notebook",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Tatami Resident",
+    "attributes": {
+      "appearance": "Adult in a kimono, side view"
+    }
+  },
+  {
+    "label": "Low Table",
+    "attributes": {
+      "color": "Natural Pale Wood"
+    }
+  },
+  {
+    "label": "Tokonoma Alcove",
+    "attributes": {
+      "color": "Aged Cypress Wood"
+    }
+  },
+  {
+    "label": "Black Tea Bowl",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Bamboo Tea Whisk",
+    "attributes": {
+      "color": "Natural Bamboo"
+    }
+  },
+  {
+    "label": "Red Lacquer Box",
+    "attributes": {
+      "color": "Cinnabar Red"
+    }
+  },
+  {
+    "label": "Home Office Worker",
+    "attributes": {
+      "appearance": "Adult in casual button-down shirt, side view"
+    }
+  },
+  {
+    "label": "Desk",
+    "attributes": {
+      "color": "Walnut Veneer"
+    }
+  },
+  {
+    "label": "Filing Cabinet Top",
+    "attributes": {
+      "color": "Light Grey Metal"
+    }
+  },
+  {
+    "label": "Black Stapler",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Yellow Sticky Note Pad",
+    "attributes": {
+      "color": "Bright Yellow"
+    }
+  },
+  {
+    "label": "Executive",
+    "attributes": {
+      "appearance": "Adult in a business suit, side view"
+    }
+  },
+  {
+    "label": "Main Desk",
+    "attributes": {
+      "color": "Polished Mahogany"
+    }
+  },
+  {
+    "label": "Credenza",
+    "attributes": {
+      "color": "Cherry Wood"
+    }
+  },
+  {
+    "label": "Gold Fountain Pen",
+    "attributes": {
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "Crystal Paperweight",
+    "attributes": {
+      "color": "Clear Crystal"
+    }
+  },
+  {
+    "label": "Brown Leather Day Planner",
+    "attributes": {
+      "color": "Saddle Brown"
+    }
+  },
+  {
+    "label": "Researcher",
+    "attributes": {
+      "appearance": "Adult in cardigan and slacks, side view"
+    }
+  },
+  {
+    "label": "Reading Desk",
+    "attributes": {
+      "color": "Dark Oak"
+    }
+  },
+  {
+    "label": "Black Hardcover Journal",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Silver Magnifying Glass",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Architect",
+    "attributes": {
+      "appearance": "Adult in a black turtleneck, side view"
+    }
+  },
+  {
+    "label": "Drafting Table",
+    "attributes": {
+      "color": "White Drafting Surface"
+    }
+  },
+  {
+    "label": "Supply Shelf",
+    "attributes": {
+      "color": "Galvanized Grey Metal"
+    }
+  },
+  {
+    "label": "Yellow Mechanical Pencil",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Silver Drafting Compass",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Red Eraser Block",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Office Worker",
+    "attributes": {
+      "appearance": "Adult in a buttoned shirt and tie, side view"
+    }
+  },
+  {
+    "label": "Desk",
+    "attributes": {
+      "color": "Light Maple"
+    }
+  },
+  {
+    "label": "Side Meeting Table",
+    "attributes": {
+      "color": "Black Conference Surface"
+    }
+  },
+  {
+    "label": "Black Computer Mouse",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "White Coffee Cup",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Red Manila Folder",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Lawyer",
+    "attributes": {
+      "appearance": "Adult in a formal suit, side view"
+    }
+  },
+  {
+    "label": "Desk",
+    "attributes": {
+      "color": "Polished Cherry"
+    }
+  },
+  {
+    "label": "Document Cabinet Counter",
+    "attributes": {
+      "color": "Dark Walnut"
+    }
+  },
+  {
+    "label": "Black Law Book",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Silver Letter Opener",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Brown Leather Desk Pad",
+    "attributes": {
+      "color": "Saddle Brown"
+    }
+  },
+  {
+    "label": "Studious Reader",
+    "attributes": {
+      "appearance": "Adult in a knit sweater, side view"
+    }
+  },
+  {
+    "label": "Writing Desk",
+    "attributes": {
+      "color": "Antique Oak"
+    }
+  },
+  {
+    "label": "Window Ledge",
+    "attributes": {
+      "color": "Painted Cream"
+    }
+  },
+  {
+    "label": "Green Banker's Lamp",
+    "attributes": {
+      "color": "Forest Green"
+    }
+  },
+  {
+    "label": "Brown Leather Journal",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Amber Glass Inkwell",
+    "attributes": {
+      "color": "Amber"
+    }
+  },
+  {
+    "label": "Professor",
+    "attributes": {
+      "appearance": "Adult in tweed jacket, side view"
+    }
+  },
+  {
+    "label": "Desk",
+    "attributes": {
+      "color": "Aged Oak"
+    }
+  },
+  {
+    "label": "Book Cart",
+    "attributes": {
+      "color": "Brushed Steel"
+    }
+  },
+  {
+    "label": "Brown Leather Briefcase Handle",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Red Hardcover Textbook",
+    "attributes": {
+      "color": "Crimson Red"
+    }
+  },
+  {
+    "label": "Black Coffee Thermos",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Accountant",
+    "attributes": {
+      "appearance": "Adult in a business shirt, side view"
+    }
+  },
+  {
+    "label": "Desk",
+    "attributes": {
+      "color": "Light Birch"
+    }
+  },
+  {
+    "label": "Ledger Cabinet",
+    "attributes": {
+      "color": "Steel Grey"
+    }
+  },
+  {
+    "label": "Black Calculator",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Green Ledger Book",
+    "attributes": {
+      "color": "Forest Green"
+    }
+  },
+  {
+    "label": "Researcher",
+    "attributes": {
+      "appearance": "Adult in a lab coat, side view"
+    }
+  },
+  {
+    "label": "Desk",
+    "attributes": {
+      "color": "White Laminate"
+    }
+  },
+  {
+    "label": "Material Cart",
+    "attributes": {
+      "color": "Stainless Steel"
+    }
+  },
+  {
+    "label": "Black Notebook",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Red Lab Sample Tube",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Yellow Highlighter Pen",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Home Cook",
+    "attributes": {
+      "appearance": "Adult in apron, side view"
+    }
+  },
+  {
+    "label": "Island Counter",
+    "attributes": {
+      "color": "White Marble"
+    }
+  },
+  {
+    "label": "Breakfast Bar",
+    "attributes": {
+      "color": "Stainless Steel"
+    }
+  },
+  {
+    "label": "Red Tomato",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Yellow Lemon",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Wooden Spatula",
+    "attributes": {
+      "color": "Light Wood"
+    }
+  },
+  {
+    "label": "Farm Cook",
+    "attributes": {
+      "appearance": "Adult in a denim apron, side view"
+    }
+  },
+  {
+    "label": "Prep Table",
+    "attributes": {
+      "color": "Aged Pine"
+    }
+  },
+  {
+    "label": "Hutch",
+    "attributes": {
+      "color": "Painted Cream"
+    }
+  },
+  {
+    "label": "White Egg in Bowl",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Brown Bread Loaf",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Red Cherry Tomato Cluster",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Cafe Barista",
+    "attributes": {
+      "appearance": "Adult in a brown apron, side view"
+    }
+  },
+  {
+    "label": "Service Counter",
+    "attributes": {
+      "color": "Walnut Wood"
+    }
+  },
+  {
+    "label": "Display Shelf",
+    "attributes": {
+      "color": "Brushed Brass"
+    }
+  },
+  {
+    "label": "White Ceramic Latte Cup",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Brown Sugar Caddy",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Gold Bell",
+    "attributes": {
+      "color": "Polished Gold"
+    }
+  },
+  {
+    "label": "Restaurant Chef",
+    "attributes": {
+      "appearance": "Adult in chef's whites, side view"
+    }
+  },
+  {
+    "label": "Pass Counter",
+    "attributes": {
+      "color": "Brushed Stainless Steel"
+    }
+  },
+  {
+    "label": "Plating Station",
+    "attributes": {
+      "color": "Slate Grey"
+    }
+  },
+  {
+    "label": "Red Sauce Squeeze Bottle",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Yellow Lemon Wedge Plate",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Green Herb Sprig",
+    "attributes": {
+      "color": "Green"
+    }
+  },
+  {
+    "label": "Baker",
+    "attributes": {
+      "appearance": "Adult in white baker's apron, side view"
+    }
+  },
+  {
+    "label": "Prep Counter",
+    "attributes": {
+      "color": "Floured White Wood"
+    }
+  },
+  {
+    "label": "Cooling Counter",
+    "attributes": {
+      "color": "Wire Rack Silver"
+    }
+  },
+  {
+    "label": "Brown Bread Roll",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Pink Cupcake",
+    "attributes": {
+      "color": "Pink"
+    }
+  },
+  {
+    "label": "Yellow Lemon Tart",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Dining Host",
+    "attributes": {
+      "appearance": "Adult in a sweater and slacks, side view"
+    }
+  },
+  {
+    "label": "Dinner Table",
+    "attributes": {
+      "color": "Dark Walnut"
+    }
+  },
+  {
+    "label": "Buffet Sideboard",
+    "attributes": {
+      "color": "Aged Oak"
+    }
+  },
+  {
+    "label": "Red Wine Glass",
+    "attributes": {
+      "color": "Red Wine Liquid"
+    }
+  },
+  {
+    "label": "White Napkin Ring",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Silver Salt Shaker",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Tea Master",
+    "attributes": {
+      "appearance": "Adult in a tea-master apron, side view"
+    }
+  },
+  {
+    "label": "Preparation Table",
+    "attributes": {
+      "color": "Aged Cypress"
+    }
+  },
+  {
+    "label": "Tea Shelf",
+    "attributes": {
+      "color": "Cedar Wood"
+    }
+  },
+  {
+    "label": "White Porcelain Teapot",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Bamboo Tea Scoop",
+    "attributes": {
+      "color": "Natural Bamboo"
+    }
+  },
+  {
+    "label": "Green Tea Tin",
+    "attributes": {
+      "color": "Forest Green"
+    }
+  },
+  {
+    "label": "Sommelier",
+    "attributes": {
+      "appearance": "Adult in a black vest, side view"
+    }
+  },
+  {
+    "label": "Round Wine Tasting Table",
+    "attributes": {
+      "color": "Aged Dark Oak"
+    }
+  },
+  {
+    "label": "Wine Side Table",
+    "attributes": {
+      "color": "Aged Dark Oak"
+    }
+  },
+  {
+    "label": "Red Wine Glass",
+    "attributes": {
+      "color": "Deep Red Wine"
+    }
+  },
+  {
+    "label": "Silver Wine Stopper",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Brown Cork Stack",
+    "attributes": {
+      "color": "Cork Brown"
+    }
+  },
+  {
+    "label": "Pizzaiolo",
+    "attributes": {
+      "appearance": "Adult in a flour-dusted apron, side view"
+    }
+  },
+  {
+    "label": "Oven Ledge",
+    "attributes": {
+      "color": "Iron Black"
+    }
+  },
+  {
+    "label": "Red Tomato Sauce Bowl",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Yellow Pepper Slice Plate",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "White Mozzarella Ball",
+    "attributes": {
+      "color": "Off-White"
+    }
+  },
+  {
+    "label": "Bartender",
+    "attributes": {
+      "appearance": "Adult in a black vest, side view"
+    }
+  },
+  {
+    "label": "Bar Top",
+    "attributes": {
+      "color": "Polished Black Granite"
+    }
+  },
+  {
+    "label": "Back Shelf",
+    "attributes": {
+      "color": "Mirror Glass"
+    }
+  },
+  {
+    "label": "Amber Whiskey Tumbler",
+    "attributes": {
+      "color": "Amber"
+    }
+  },
+  {
+    "label": "Green Lime Wedge",
+    "attributes": {
+      "color": "Lime Green"
+    }
+  },
+  {
+    "label": "Red Cocktail Cherry Jar",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Carpenter",
+    "attributes": {
+      "appearance": "Adult in canvas work apron, side view"
+    }
+  },
+  {
+    "label": "Workbench",
+    "attributes": {
+      "color": "Worn Pine Top"
+    }
+  },
+  {
+    "label": "Wooden Wall Shelf",
+    "attributes": {
+      "color": "Light Pine"
+    }
+  },
+  {
+    "label": "Yellow Tape Measure",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Silver Hammer",
+    "attributes": {
+      "color": "Steel Silver"
+    }
+  },
+  {
+    "label": "Brown Wood Block",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Artist",
+    "attributes": {
+      "appearance": "Adult in paint-splattered apron, side view"
+    }
+  },
+  {
+    "label": "Worktable",
+    "attributes": {
+      "color": "White Painted Wood"
+    }
+  },
+  {
+    "label": "Supply Cart",
+    "attributes": {
+      "color": "Galvanized Grey Metal"
+    }
+  },
+  {
+    "label": "Red Tube of Paint",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Blue Glass Jar of Brushes",
+    "attributes": {
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "Yellow Sponge",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Potter",
+    "attributes": {
+      "appearance": "Adult in clay-spattered apron, side view"
+    }
+  },
+  {
+    "label": "Wheel Table",
+    "attributes": {
+      "color": "Grey Concrete"
+    }
+  },
+  {
+    "label": "Drying Rack",
+    "attributes": {
+      "color": "Aged Pine"
+    }
+  },
+  {
+    "label": "Brown Clay Mug",
+    "attributes": {
+      "color": "Earth Brown"
+    }
+  },
+  {
+    "label": "White Glaze Jar",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Red Ceramic Bowl",
+    "attributes": {
+      "color": "Brick Red"
+    }
+  },
+  {
+    "label": "Electronics Technician",
+    "attributes": {
+      "appearance": "Adult in safety glasses and apron, side view"
+    }
+  },
+  {
+    "label": "Long Electronics Workbench",
+    "attributes": {
+      "color": "ESD Mat Green"
+    }
+  },
+  {
+    "label": "Tall Parts Cabinet against the Back Wall",
+    "attributes": {
+      "color": "Steel Grey"
+    }
+  },
+  {
+    "label": "Yellow Multimeter",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Black Soldering Iron",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Red Resistor Pack",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Jeweler",
+    "attributes": {
+      "appearance": "Adult in a magnifier loupe headband, side view"
+    }
+  },
+  {
+    "label": "Wide Jeweler's Workbench",
+    "attributes": {
+      "color": "Felted Black"
+    }
+  },
+  {
+    "label": "Wall-Mounted Glass Display Cabinet",
+    "attributes": {
+      "color": "Velvet Burgundy and Glass"
+    }
+  },
+  {
+    "label": "Gold Ring",
+    "attributes": {
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "Silver Brooch",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Leather Crafter",
+    "attributes": {
+      "appearance": "Adult in heavy work apron, side view"
+    }
+  },
+  {
+    "label": "Cutting Table",
+    "attributes": {
+      "color": "Cork-Topped Wood"
+    }
+  },
+  {
+    "label": "Tool Cabinet",
+    "attributes": {
+      "color": "Black Steel"
+    }
+  },
+  {
+    "label": "Brown Leather Strap",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Silver Punch Tool",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Red Wax Stick",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Bicycle Mechanic",
+    "attributes": {
+      "appearance": "Adult in shop coveralls, side view"
+    }
+  },
+  {
+    "label": "Workbench",
+    "attributes": {
+      "color": "Black Rubber Mat"
+    }
+  },
+  {
+    "label": "Parts Counter",
+    "attributes": {
+      "color": "Galvanized Grey Steel"
+    }
+  },
+  {
+    "label": "Yellow Tire Lever Set",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Silver Wrench",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Black Bicycle Pedal",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Florist",
+    "attributes": {
+      "appearance": "Adult in linen apron, side view"
+    }
+  },
+  {
+    "label": "Arranging Table",
+    "attributes": {
+      "color": "Whitewashed Wood"
+    }
+  },
+  {
+    "label": "Storage Shelf",
+    "attributes": {
+      "color": "Reclaimed Wood Brown"
+    }
+  },
+  {
+    "label": "Pink Rose Bunch",
+    "attributes": {
+      "color": "Pink"
+    }
+  },
+  {
+    "label": "Green Floral Foam Block",
+    "attributes": {
+      "color": "Foam Green"
+    }
+  },
+  {
+    "label": "Silver Floral Shears",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Tailor",
+    "attributes": {
+      "appearance": "Adult in a measuring tape around neck, side view"
+    }
+  },
+  {
+    "label": "Cutting Table",
+    "attributes": {
+      "color": "Walnut Wood"
+    }
+  },
+  {
+    "label": "Fabric Shelf",
+    "attributes": {
+      "color": "Painted White Shelving"
+    }
+  },
+  {
+    "label": "Red Pincushion",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Silver Sewing Scissors",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Yellow Measuring Tape Roll",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Blacksmith",
+    "attributes": {
+      "appearance": "Adult in heavy leather apron, side view"
+    }
+  },
+  {
+    "label": "Anvil Table",
+    "attributes": {
+      "color": "Charred Oak"
+    }
+  },
+  {
+    "label": "Tool Pegboard Bench",
+    "attributes": {
+      "color": "Iron Pegboard Black"
+    }
+  },
+  {
+    "label": "Iron Horseshoe",
+    "attributes": {
+      "color": "Dark Iron"
+    }
+  },
+  {
+    "label": "Brass Hammer",
+    "attributes": {
+      "color": "Brass"
+    }
+  },
+  {
+    "label": "Red Hot Tongs Holder",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Boutique Clerk",
+    "attributes": {
+      "appearance": "Adult in a stylish blouse, side view"
+    }
+  },
+  {
+    "label": "Checkout Counter",
+    "attributes": {
+      "color": "Polished White Marble"
+    }
+  },
+  {
+    "label": "Display Table",
+    "attributes": {
+      "color": "Glass and Brass"
+    }
+  },
+  {
+    "label": "Pink Folded Scarf",
+    "attributes": {
+      "color": "Soft Pink"
+    }
+  },
+  {
+    "label": "Gold Bangle Bracelet",
+    "attributes": {
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "Bookshop Clerk",
+    "attributes": {
+      "appearance": "Adult in a knit cardigan, side view"
+    }
+  },
+  {
+    "label": "Sales Desk",
+    "attributes": {
+      "color": "Aged Oak"
+    }
+  },
+  {
+    "label": "Feature Table",
+    "attributes": {
+      "color": "Reclaimed Pine"
+    }
+  },
+  {
+    "label": "Red Hardcover Novel",
+    "attributes": {
+      "color": "Crimson Red"
+    }
+  },
+  {
+    "label": "White Paper Receipt Pad",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Jewelry Shop Clerk",
+    "attributes": {
+      "appearance": "Adult in a tailored vest, side view"
+    }
+  },
+  {
+    "label": "Long Glass Jewelry Counter",
+    "attributes": {
+      "color": "Polished Black Glass"
+    }
+  },
+  {
+    "label": "Tall Display Pedestal in the Showroom Center",
+    "attributes": {
+      "color": "Velvet Burgundy"
+    }
+  },
+  {
+    "label": "Silver Ring Box",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Gold Pendant Card",
+    "attributes": {
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "White Pearl Earring Set",
+    "attributes": {
+      "color": "Pearl White"
+    }
+  },
+  {
+    "label": "Antique Dealer",
+    "attributes": {
+      "appearance": "Adult in a tweed vest, side view"
+    }
+  },
+  {
+    "label": "Selling Table",
+    "attributes": {
+      "color": "Aged Mahogany"
+    }
+  },
+  {
+    "label": "Curio Cabinet",
+    "attributes": {
+      "color": "Antiqued Walnut and Glass"
+    }
+  },
+  {
+    "label": "Brass Pocket Watch",
+    "attributes": {
+      "color": "Antique Brass"
+    }
+  },
+  {
+    "label": "Porcelain Figurine",
+    "attributes": {
+      "color": "White and Pink"
+    }
+  },
+  {
+    "label": "Bronze Letter Opener",
+    "attributes": {
+      "color": "Antique Bronze"
+    }
+  },
+  {
+    "label": "Florist",
+    "attributes": {
+      "appearance": "Adult in floral-print apron, side view"
+    }
+  },
+  {
+    "label": "Arrangement Table",
+    "attributes": {
+      "color": "Whitewashed Pine"
+    }
+  },
+  {
+    "label": "Cooler Top",
+    "attributes": {
+      "color": "Stainless Steel"
+    }
+  },
+  {
+    "label": "Pink Rose Bouquet",
+    "attributes": {
+      "color": "Pink"
+    }
+  },
+  {
+    "label": "Green Floral Wire Roll",
+    "attributes": {
+      "color": "Green"
+    }
+  },
+  {
+    "label": "Pharmacist",
+    "attributes": {
+      "appearance": "Adult in white pharmacy coat, side view"
+    }
+  },
+  {
+    "label": "Dispensing Counter",
+    "attributes": {
+      "color": "White Laminate"
+    }
+  },
+  {
+    "label": "Product Shelf",
+    "attributes": {
+      "color": "Metal Pharmacy Shelving"
+    }
+  },
+  {
+    "label": "White Pill Bottle",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Blue Cough Syrup Box",
+    "attributes": {
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "Red Bandage Pack",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Tech Store Clerk",
+    "attributes": {
+      "appearance": "Adult in branded polo shirt, side view"
+    }
+  },
+  {
+    "label": "Demo Table",
+    "attributes": {
+      "color": "Brushed Aluminum"
+    }
+  },
+  {
+    "label": "Checkout Counter",
+    "attributes": {
+      "color": "Glossy White"
+    }
+  },
+  {
+    "label": "Black Wireless Mouse",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "White Earbud Case",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Silver USB Drive",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Pet Store Clerk",
+    "attributes": {
+      "appearance": "Adult in a logo apron, side view"
+    }
+  },
+  {
+    "label": "Counter",
+    "attributes": {
+      "color": "Light Pine"
+    }
+  },
+  {
+    "label": "Supply Shelf",
+    "attributes": {
+      "color": "Painted Yellow"
+    }
+  },
+  {
+    "label": "Red Squeaky Toy",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Yellow Kibble Bag Sample",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Blue Collar with Tag",
+    "attributes": {
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "Gift Shop Clerk",
+    "attributes": {
+      "appearance": "Adult in a festive apron, side view"
+    }
+  },
+  {
+    "label": "Register Counter",
+    "attributes": {
+      "color": "Painted Pastel Pink"
+    }
+  },
+  {
+    "label": "Gift Display Table",
+    "attributes": {
+      "color": "Light Maple"
+    }
+  },
+  {
+    "label": "Pink Wrapped Gift Box",
+    "attributes": {
+      "color": "Pink"
+    }
+  },
+  {
+    "label": "Gold Ribbon Spool",
+    "attributes": {
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "White Greeting Card",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Bakery Clerk",
+    "attributes": {
+      "appearance": "Adult in a flour-dusted apron, side view"
+    }
+  },
+  {
+    "label": "Pastry Counter",
+    "attributes": {
+      "color": "Glass Pastry Display Top"
+    }
+  },
+  {
+    "label": "Bread Shelf",
+    "attributes": {
+      "color": "Wire Bread Rack"
+    }
+  },
+  {
+    "label": "Brown Croissant",
+    "attributes": {
+      "color": "Golden Brown"
+    }
+  },
+  {
+    "label": "Pink Frosted Donut",
+    "attributes": {
+      "color": "Pink"
+    }
+  },
+  {
+    "label": "Doctor",
+    "attributes": {
+      "appearance": "Adult in white coat, side view"
+    }
+  },
+  {
+    "label": "Supply Counter",
+    "attributes": {
+      "color": "Light Wood Veneer"
+    }
+  },
+  {
+    "label": "Writing Desk",
+    "attributes": {
+      "color": "Brushed Steel"
+    }
+  },
+  {
+    "label": "Silver Stethoscope",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Red Reflex Hammer",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Dental Hygienist",
+    "attributes": {
+      "appearance": "Adult in scrubs, side view"
+    }
+  },
+  {
+    "label": "Tray Table",
+    "attributes": {
+      "color": "Stainless Steel"
+    }
+  },
+  {
+    "label": "Side Cabinet Top",
+    "attributes": {
+      "color": "Light Mint Laminate"
+    }
+  },
+  {
+    "label": "Blue Toothbrush",
+    "attributes": {
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "White Tube of Toothpaste",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Silver Dental Mirror",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Veterinarian",
+    "attributes": {
+      "appearance": "Adult in scrubs, side view"
+    }
+  },
+  {
+    "label": "Exam Table",
+    "attributes": {
+      "color": "Stainless Steel"
+    }
+  },
+  {
+    "label": "Supply Shelf",
+    "attributes": {
+      "color": "White Painted Wood"
+    }
+  },
+  {
+    "label": "Red Pet Toy",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Blue Syringe Pack",
+    "attributes": {
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "White Bandage Roll",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Optometrist",
+    "attributes": {
+      "appearance": "Adult in white coat, side view"
+    }
+  },
+  {
+    "label": "Instrument Table",
+    "attributes": {
+      "color": "Black Instrument Counter"
+    }
+  },
+  {
+    "label": "Frame Display Shelf",
+    "attributes": {
+      "color": "White Painted Display"
+    }
+  },
+  {
+    "label": "Black Eyeglass Frame",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Silver Eyeglass Screwdriver",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "White Lens Cleaning Cloth",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Acupuncturist",
+    "attributes": {
+      "appearance": "Adult in a clinic robe, side view"
+    }
+  },
+  {
+    "label": "Preparation Table",
+    "attributes": {
+      "color": "Bamboo"
+    }
+  },
+  {
+    "label": "Herb Shelf",
+    "attributes": {
+      "color": "Aged Pine"
+    }
+  },
+  {
+    "label": "White Ceramic Bowl",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Silver Acupuncture Needle Pack",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Green Herb Pouch",
+    "attributes": {
+      "color": "Forest Green"
+    }
+  },
+  {
+    "label": "Massage Therapist",
+    "attributes": {
+      "appearance": "Adult in white spa uniform, side view"
+    }
+  },
+  {
+    "label": "Oil Station",
+    "attributes": {
+      "color": "Bamboo Top"
+    }
+  },
+  {
+    "label": "Towel Shelf",
+    "attributes": {
+      "color": "Light Pine"
+    }
+  },
+  {
+    "label": "Amber Massage Oil Bottle",
+    "attributes": {
+      "color": "Amber"
+    }
+  },
+  {
+    "label": "White Folded Towel",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Grey River Stone",
+    "attributes": {
+      "color": "Slate Grey"
+    }
+  },
+  {
+    "label": "Physical Therapist",
+    "attributes": {
+      "appearance": "Adult in athletic clothing, side view"
+    }
+  },
+  {
+    "label": "Equipment Table",
+    "attributes": {
+      "color": "Padded Vinyl Top"
+    }
+  },
+  {
+    "label": "Mat Stack",
+    "attributes": {
+      "color": "Black Foam Rack"
+    }
+  },
+  {
+    "label": "Red Resistance Band Coil",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Blue Foam Roller Block",
+    "attributes": {
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "Yellow Stress Ball",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Hair Stylist",
+    "attributes": {
+      "appearance": "Adult in styling apron, side view"
+    }
+  },
+  {
+    "label": "Styling Station",
+    "attributes": {
+      "color": "Glossy Black"
+    }
+  },
+  {
+    "label": "Product Shelf",
+    "attributes": {
+      "color": "Mirror and Chrome"
+    }
+  },
+  {
+    "label": "Black Hair Dryer",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Pink Hair Comb",
+    "attributes": {
+      "color": "Pink"
+    }
+  },
+  {
+    "label": "Silver Scissors",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Nail Technician",
+    "attributes": {
+      "appearance": "Adult in salon smock, side view"
+    }
+  },
+  {
+    "label": "Manicure Table",
+    "attributes": {
+      "color": "Glossy White Acrylic"
+    }
+  },
+  {
+    "label": "Polish Wall Shelf",
+    "attributes": {
+      "color": "Mirror Wall Shelf"
+    }
+  },
+  {
+    "label": "Red Nail Polish Bottle",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Pink Nail File",
+    "attributes": {
+      "color": "Pink"
+    }
+  },
+  {
+    "label": "Silver Cuticle Pusher",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Pharmacy Tech",
+    "attributes": {
+      "appearance": "Adult in white coat, side view"
+    }
+  },
+  {
+    "label": "Prep Counter",
+    "attributes": {
+      "color": "Stainless Steel"
+    }
+  },
+  {
+    "label": "Inventory Cabinet",
+    "attributes": {
+      "color": "Beige Pharmacy Wood"
+    }
+  },
+  {
+    "label": "White Pill Counter Tray",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Blue Inhaler Box",
+    "attributes": {
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "Yellow Prescription Label Roll",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Studio Engineer",
+    "attributes": {
+      "appearance": "Adult in headphones around neck, side view"
+    }
+  },
+  {
+    "label": "Mixing Desk",
+    "attributes": {
+      "color": "Matte Black Console"
+    }
+  },
+  {
+    "label": "Instrument Shelf",
+    "attributes": {
+      "color": "Black Steel Rack"
+    }
+  },
+  {
+    "label": "Black Studio Headphones",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Silver Microphone",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Red Compact Cable Wrap",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Photographer",
+    "attributes": {
+      "appearance": "Adult in black vest, side view"
+    }
+  },
+  {
+    "label": "Prop Table",
+    "attributes": {
+      "color": "Aged Wood"
+    }
+  },
+  {
+    "label": "Equipment Cart",
+    "attributes": {
+      "color": "Black Equipment Cart"
+    }
+  },
+  {
+    "label": "Black Camera Lens Cap",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "White Reflector Disc",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Yellow Lens Cleaning Cloth",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Performer",
+    "attributes": {
+      "appearance": "Adult in stage makeup robe, side view"
+    }
+  },
+  {
+    "label": "Vanity Counter",
+    "attributes": {
+      "color": "Glossy White"
+    }
+  },
+  {
+    "label": "Costume Wardrobe",
+    "attributes": {
+      "color": "Brass-Trimmed Walnut"
+    }
+  },
+  {
+    "label": "Pink Lipstick Tube",
+    "attributes": {
+      "color": "Pink"
+    }
+  },
+  {
+    "label": "Black Mascara Wand",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Gold Hairpin Set",
+    "attributes": {
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "Prop Master",
+    "attributes": {
+      "appearance": "Adult in utility vest, side view"
+    }
+  },
+  {
+    "label": "Prep Table",
+    "attributes": {
+      "color": "Plywood Top"
+    }
+  },
+  {
+    "label": "Prop Shelf",
+    "attributes": {
+      "color": "Black Industrial Shelving"
+    }
+  },
+  {
+    "label": "Red Plastic Cup",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Yellow Toy Pistol",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Blue Wig",
+    "attributes": {
+      "color": "Sapphire Blue"
+    }
+  },
+  {
+    "label": "Pianist",
+    "attributes": {
+      "appearance": "Adult in concert blouse, side view"
+    }
+  },
+  {
+    "label": "Music Stand Table",
+    "attributes": {
+      "color": "Matte Black Music Stand Top"
+    }
+  },
+  {
+    "label": "Cabinet",
+    "attributes": {
+      "color": "Cherry Wood"
+    }
+  },
+  {
+    "label": "Black Music Sheet Folder",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Silver Tuning Fork",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Brown Leather Page Holder",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "DJ",
+    "attributes": {
+      "appearance": "Adult in headphones around neck, side view"
+    }
+  },
+  {
+    "label": "Side Table",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Vinyl Record Cabinet",
+    "attributes": {
+      "color": "Dark Walnut"
+    }
+  },
+  {
+    "label": "Black Vinyl Record Sleeve",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Silver USB Stick",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Red Energy Drink Can",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Comedian",
+    "attributes": {
+      "appearance": "Adult in stage casual wear, side view"
+    }
+  },
+  {
+    "label": "Snack Table",
+    "attributes": {
+      "color": "Glossy White"
+    }
+  },
+  {
+    "label": "Side Counter",
+    "attributes": {
+      "color": "Light Birch"
+    }
+  },
+  {
+    "label": "Brown Bottle of Water",
+    "attributes": {
+      "color": "Brown Glass"
+    }
+  },
+  {
+    "label": "Yellow Notepad",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Black Microphone",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Game Player",
+    "attributes": {
+      "appearance": "Adult in a casual t-shirt, side view"
+    }
+  },
+  {
+    "label": "Board Game Table",
+    "attributes": {
+      "color": "Polished Walnut Game Top"
+    }
+  },
+  {
+    "label": "Trophy Shelf",
+    "attributes": {
+      "color": "Aged Oak Trophy Shelf"
+    }
+  },
+  {
+    "label": "Red Game Dice",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Black Chess Pawn",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Gold Trophy Token",
+    "attributes": {
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "Magician",
+    "attributes": {
+      "appearance": "Adult in a velvet vest, side view"
+    }
+  },
+  {
+    "label": "Prop Table",
+    "attributes": {
+      "color": "Velvet Black Tabletop"
+    }
+  },
+  {
+    "label": "Illusion Cabinet",
+    "attributes": {
+      "color": "Mirrored Mahogany"
+    }
+  },
+  {
+    "label": "Red Silk Handkerchief",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "White Foam Ball",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Silver Trick Coin",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Dance Instructor",
+    "attributes": {
+      "appearance": "Adult in athletic wear, side view"
+    }
+  },
+  {
+    "label": "Equipment Table",
+    "attributes": {
+      "color": "Brushed Aluminum"
+    }
+  },
+  {
+    "label": "Bench Ledge",
+    "attributes": {
+      "color": "Padded Vinyl Bench"
+    }
+  },
+  {
+    "label": "Pink Foam Roller",
+    "attributes": {
+      "color": "Pink"
+    }
+  },
+  {
+    "label": "Blue Water Bottle",
+    "attributes": {
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "White Towel Roll",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Hobbyist",
+    "attributes": {
+      "appearance": "Adult in casual button-down shirt, side view"
+    }
+  },
+  {
+    "label": "Hobby Table",
+    "attributes": {
+      "color": "Painted Green Tabletop"
+    }
+  },
+  {
+    "label": "Display Shelf",
+    "attributes": {
+      "color": "Glass Display Shelf"
+    }
+  },
+  {
+    "label": "Red Train Engine Model",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Black Train Car Model",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Brown Wooden Tunnel Piece",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Stamp Collector",
+    "attributes": {
+      "appearance": "Adult in cardigan with magnifying loupe, side view"
+    }
+  },
+  {
+    "label": "Sorting Desk",
+    "attributes": {
+      "color": "Felted Green"
+    }
+  },
+  {
+    "label": "Album Shelf",
+    "attributes": {
+      "color": "Aged Oak"
+    }
+  },
+  {
+    "label": "Black Stamp Tongs",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Silver Magnifier",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Red Stamp Album Page",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Painter",
+    "attributes": {
+      "appearance": "Adult with smock and brush, side view"
+    }
+  },
+  {
+    "label": "Worktable",
+    "attributes": {
+      "color": "Cork-Topped Wood"
+    }
+  },
+  {
+    "label": "Paint Cabinet",
+    "attributes": {
+      "color": "White Painted Cabinet"
+    }
+  },
+  {
+    "label": "Red Paint Pot",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Black Paint Pot",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Silver Tweezers",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Taxidermist",
+    "attributes": {
+      "appearance": "Adult in heavy apron and gloves, side view"
+    }
+  },
+  {
+    "label": "Prep Table",
+    "attributes": {
+      "color": "Stainless Steel"
+    }
+  },
+  {
+    "label": "Specimen Shelf",
+    "attributes": {
+      "color": "Aged Pine Shelving"
+    }
+  },
+  {
+    "label": "Brown Acorn",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Silver Sculpting Tool",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "White Foam Form Block",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Watchmaker",
+    "attributes": {
+      "appearance": "Adult with magnifier loupe, side view"
+    }
+  },
+  {
+    "label": "Repair Bench",
+    "attributes": {
+      "color": "Felt-Topped Wood"
+    }
+  },
+  {
+    "label": "Parts Drawer Top",
+    "attributes": {
+      "color": "Walnut Drawer Cabinet"
+    }
+  },
+  {
+    "label": "Silver Watch Crown",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Black Watch Strap Pin",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Gold Watch Gear Wheel",
+    "attributes": {
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "Aquarist",
+    "attributes": {
+      "appearance": "Adult in a casual shirt, side view"
+    }
+  },
+  {
+    "label": "Tank Stand",
+    "attributes": {
+      "color": "Black Aquarium Stand"
+    }
+  },
+  {
+    "label": "Supply Shelf",
+    "attributes": {
+      "color": "Painted White Wood"
+    }
+  },
+  {
+    "label": "Blue Fish Food Container",
+    "attributes": {
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "Green Aquarium Net",
+    "attributes": {
+      "color": "Green"
+    }
+  },
+  {
+    "label": "Yellow Water Test Strip Bottle",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Calligrapher",
+    "attributes": {
+      "appearance": "Adult in a sleeve guard, side view"
+    }
+  },
+  {
+    "label": "Writing Desk",
+    "attributes": {
+      "color": "Aged Oak"
+    }
+  },
+  {
+    "label": "Ink Shelf",
+    "attributes": {
+      "color": "Bamboo"
+    }
+  },
+  {
+    "label": "Black Ink Bottle",
+    "attributes": {
+      "color": "Glossy Black"
+    }
+  },
+  {
+    "label": "Bamboo Calligraphy Brush",
+    "attributes": {
+      "color": "Natural Bamboo"
+    }
+  },
+  {
+    "label": "Red Wax Seal Stick",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Bookbinder",
+    "attributes": {
+      "appearance": "Adult in canvas apron, side view"
+    }
+  },
+  {
+    "label": "Work Table",
+    "attributes": {
+      "color": "Linoleum-Topped Wood"
+    }
+  },
+  {
+    "label": "Paper Shelf",
+    "attributes": {
+      "color": "Painted White Shelving"
+    }
+  },
+  {
+    "label": "Brown Leather Spine Strip",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "White Bookbinding Glue Tube",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Gold Foil Tape Roll",
+    "attributes": {
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "Beekeeper",
+    "attributes": {
+      "appearance": "Adult in white beekeeper hat, side view"
+    }
+  },
+  {
+    "label": "Extraction Table",
+    "attributes": {
+      "color": "Stainless Steel"
+    }
+  },
+  {
+    "label": "Jar Shelf",
+    "attributes": {
+      "color": "Aged Pine Shelving"
+    }
+  },
+  {
+    "label": "Yellow Honey Filter Cone",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Silver Hive Tool",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Brown Wax Block",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Herbalist",
+    "attributes": {
+      "appearance": "Adult in a linen apron, side view"
+    }
+  },
+  {
+    "label": "Mixing Table",
+    "attributes": {
+      "color": "Aged Pine"
+    }
+  },
+  {
+    "label": "Herb Cabinet",
+    "attributes": {
+      "color": "Aged Oak Cabinet"
+    }
+  },
+  {
+    "label": "Green Dried Herb Pouch",
+    "attributes": {
+      "color": "Green"
+    }
+  },
+  {
+    "label": "Brown Mortar and Pestle",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Amber Glass Tincture Bottle",
+    "attributes": {
+      "color": "Amber"
+    }
+  },
+  {
+    "label": "Spaceship Crew Member",
+    "attributes": {
+      "appearance": "Adult in a navy crew jumpsuit, side view"
+    }
+  },
+  {
+    "label": "Mess Table",
+    "attributes": {
+      "color": "Matte Grey Composite"
+    }
+  },
+  {
+    "label": "Storage Locker Top",
+    "attributes": {
+      "color": "Brushed Aluminum"
+    }
+  },
+  {
+    "label": "Silver Foil Nutrition Pack",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Blue Hydration Pouch",
+    "attributes": {
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "Red Emergency Beacon Tag",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Wizard",
+    "attributes": {
+      "appearance": "Adult in deep blue robes, side view"
+    }
+  },
+  {
+    "label": "Alchemy Desk",
+    "attributes": {
+      "color": "Aged Dark Oak"
+    }
+  },
+  {
+    "label": "Potion Shelf",
+    "attributes": {
+      "color": "Reclaimed Stone Shelving"
+    }
+  },
+  {
+    "label": "Green Glowing Potion Vial",
+    "attributes": {
+      "color": "Glowing Green"
+    }
+  },
+  {
+    "label": "Brown Spell Scroll",
+    "attributes": {
+      "color": "Aged Parchment"
+    }
+  },
+  {
+    "label": "Silver Crescent Amulet",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Knight",
+    "attributes": {
+      "appearance": "Adult in chainmail and tunic, side view"
+    }
+  },
+  {
+    "label": "Wooden Table",
+    "attributes": {
+      "color": "Heavy Oak"
+    }
+  },
+  {
+    "label": "Armor Stand",
+    "attributes": {
+      "color": "Iron-Banded Wood"
+    }
+  },
+  {
+    "label": "Brass Goblet",
+    "attributes": {
+      "color": "Brass"
+    }
+  },
+  {
+    "label": "Silver Dagger Sheath",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Red Wax Seal Block",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Cyberpunk Hacker",
+    "attributes": {
+      "appearance": "Young adult in dark hoodie with neon trim, side view"
+    }
+  },
+  {
+    "label": "Tech Desk",
+    "attributes": {
+      "color": "Glossy Black with Neon Trim"
+    }
+  },
+  {
+    "label": "Server Cabinet",
+    "attributes": {
+      "color": "Black Steel Server Rack"
+    }
+  },
+  {
+    "label": "Blue Glowing USB Drive",
+    "attributes": {
+      "color": "Glowing Blue"
+    }
+  },
+  {
+    "label": "Red Energy Drink Can",
+    "attributes": {
+      "color": "Neon Red"
+    }
+  },
+  {
+    "label": "Mars Researcher",
+    "attributes": {
+      "appearance": "Adult in orange astronaut work suit, side view"
+    }
+  },
+  {
+    "label": "Work Bench",
+    "attributes": {
+      "color": "Brushed Titanium"
+    }
+  },
+  {
+    "label": "Supply Rack",
+    "attributes": {
+      "color": "Riveted Steel"
+    }
+  },
+  {
+    "label": "Red Sample Container",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Silver Tablet",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Yellow Tool Wrench",
+    "attributes": {
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Egyptian Priest",
+    "attributes": {
+      "appearance": "Adult in white linen robes, side view"
+    }
+  },
+  {
+    "label": "Wide Stone Offering Table",
+    "attributes": {
+      "color": "Painted Limestone"
+    }
+  },
+  {
+    "label": "Stone Altar at the Far Wall",
+    "attributes": {
+      "color": "Sandstone with Hieroglyphs"
+    }
+  },
+  {
+    "label": "Gold Scarab Figurine",
+    "attributes": {
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "Blue Lapis Bowl",
+    "attributes": {
+      "color": "Lapis Blue"
+    }
+  },
+  {
+    "label": "Brown Papyrus Scroll",
+    "attributes": {
+      "color": "Tan Papyrus"
+    }
+  },
+  {
+    "label": "Steampunk Engineer",
+    "attributes": {
+      "appearance": "Adult in goggles and brass-trimmed vest, side view"
+    }
+  },
+  {
+    "label": "Brass Bench",
+    "attributes": {
+      "color": "Polished Brass"
+    }
+  },
+  {
+    "label": "Gear Shelf",
+    "attributes": {
+      "color": "Wood and Brass Frame"
+    }
+  },
+  {
+    "label": "Brass Pocket Watch",
+    "attributes": {
+      "color": "Polished Brass"
+    }
+  },
+  {
+    "label": "Copper Cog Wheel",
+    "attributes": {
+      "color": "Copper"
+    }
+  },
+  {
+    "label": "Red Pressure Valve Knob",
+    "attributes": {
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Pirate Captain",
+    "attributes": {
+      "appearance": "Adult in tricorn hat and long coat, side view"
+    }
+  },
+  {
+    "label": "Map Desk",
+    "attributes": {
+      "color": "Aged Oak"
+    }
+  },
+  {
+    "label": "Treasure Chest",
+    "attributes": {
+      "color": "Iron-Banded Dark Wood"
+    }
+  },
+  {
+    "label": "Brass Compass",
+    "attributes": {
+      "color": "Antique Brass"
+    }
+  },
+  {
+    "label": "Brown Leather Map Tube",
+    "attributes": {
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Gold Doubloon Coin",
+    "attributes": {
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "Victorian Gentleman",
+    "attributes": {
+      "appearance": "Adult in a vest and pocket watch, side view"
+    }
+  },
+  {
+    "label": "Writing Desk",
+    "attributes": {
+      "color": "Polished Mahogany"
+    }
+  },
+  {
+    "label": "Curio Cabinet",
+    "attributes": {
+      "color": "Glass-Fronted Walnut"
+    }
+  },
+  {
+    "label": "Dwarven Smith",
+    "attributes": {
+      "appearance": "Stocky adult in heavy leather apron, side view"
+    }
+  },
+  {
+    "label": "Forge Table",
+    "attributes": {
+      "color": "Charred Oak"
+    }
+  },
+  {
+    "label": "Weapon Rack Bench",
+    "attributes": {
+      "color": "Iron-Banded Wood"
+    }
+  },
+  {
+    "label": "Iron Hammer",
+    "attributes": {
+      "color": "Dark Iron"
+    }
+  },
+  {
+    "label": "Brass Studded Cuff",
+    "attributes": {
+      "color": "Brass"
+    }
+  },
+  {
+    "label": "Red Hot Forging Tongs",
+    "attributes": {
+      "color": "Red Hot"
+    }
+  }
+]

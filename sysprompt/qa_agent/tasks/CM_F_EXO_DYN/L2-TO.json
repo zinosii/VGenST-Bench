@@ -1,0 +1,11 @@
+{
+  "task_id": "CM_F_EXO_DYN",
+  "category_id": "L2-TO",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which button does the agent press first?: A. The button on the left, B. The button on the right, C. Both simultaneously",
+      "answer": "A"
+    }
+  ]
+}

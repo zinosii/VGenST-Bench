@@ -1,0 +1,1194 @@
+[
+  {
+    "label": "Silver SUV",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Construction Truck",
+    "attributes": {}
+  },
+  {
+    "label": "Black Sports Car",
+    "attributes": {}
+  },
+  {
+    "label": "White Sedan",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Tanker Truck",
+    "attributes": {}
+  },
+  {
+    "label": "Red Motorcycle",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Pickup Truck",
+    "attributes": {}
+  },
+  {
+    "label": "Green Cargo Van",
+    "attributes": {}
+  },
+  {
+    "label": "Crimson Sport Motorcycle",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Minivan",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Logging Truck",
+    "attributes": {}
+  },
+  {
+    "label": "Purple Racing Motorcycle",
+    "attributes": {}
+  },
+  {
+    "label": "Beige Station Wagon",
+    "attributes": {}
+  },
+  {
+    "label": "Olive Military Transport",
+    "attributes": {}
+  },
+  {
+    "label": "Turquoise Sport Motorcycle",
+    "attributes": {}
+  },
+  {
+    "label": "Charcoal Hatchback",
+    "attributes": {}
+  },
+  {
+    "label": "Rust Orange Cement Mixer",
+    "attributes": {}
+  },
+  {
+    "label": "Lime Green Ducati Motorcycle",
+    "attributes": {}
+  },
+  {
+    "label": "Pearl White Tesla",
+    "attributes": {}
+  },
+  {
+    "label": "Dark Blue Fuel Tanker",
+    "attributes": {}
+  },
+  {
+    "label": "Cherry Red Sport Motorcycle",
+    "attributes": {}
+  },
+  {
+    "label": "Slate Jeep",
+    "attributes": {}
+  },
+  {
+    "label": "Mustard Yellow School Bus",
+    "attributes": {}
+  },
+  {
+    "label": "Electric Blue Sport Motorcycle",
+    "attributes": {}
+  },
+  {
+    "label": "Champagne Crossover",
+    "attributes": {}
+  },
+  {
+    "label": "Maroon Flatbed Truck",
+    "attributes": {}
+  },
+  {
+    "label": "Neon Green Sport Motorcycle",
+    "attributes": {}
+  },
+  {
+    "label": "Midnight Blue Coupe",
+    "attributes": {}
+  },
+  {
+    "label": "Tan Delivery Van",
+    "attributes": {}
+  },
+  {
+    "label": "Scarlet Superbike",
+    "attributes": {}
+  },
+  {
+    "label": "Red Formula Car",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Safety Car",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Prototype Racer",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Stock Car",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Pace Car",
+    "attributes": {}
+  },
+  {
+    "label": "Black Turbocharged Dragster",
+    "attributes": {}
+  },
+  {
+    "label": "White Rally Car",
+    "attributes": {}
+  },
+  {
+    "label": "Green Support Vehicle",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Sprint Car",
+    "attributes": {}
+  },
+  {
+    "label": "Pink Go-Kart",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Mechanic Cart",
+    "attributes": {}
+  },
+  {
+    "label": "Red Turbo Kart",
+    "attributes": {}
+  },
+  {
+    "label": "Black Top Fuel Dragster",
+    "attributes": {}
+  },
+  {
+    "label": "White Timing Car",
+    "attributes": {}
+  },
+  {
+    "label": "Chrome Jet Dragster",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Motocross Bike",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Quad ATV",
+    "attributes": {}
+  },
+  {
+    "label": "Red Supercross Bike",
+    "attributes": {}
+  },
+  {
+    "label": "Green Endurance Racer",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Pit Crew Cart",
+    "attributes": {}
+  },
+  {
+    "label": "Cobalt Blue Le Mans Prototype",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Track Bicycle",
+    "attributes": {}
+  },
+  {
+    "label": "White Follow Car",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Sprint Bicycle",
+    "attributes": {}
+  },
+  {
+    "label": "Red Street Racer",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Police Cruiser",
+    "attributes": {}
+  },
+  {
+    "label": "Black Nitro Muscle Car",
+    "attributes": {}
+  },
+  {
+    "label": "White Land Speed Car",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Chase Truck",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Rocket Car",
+    "attributes": {}
+  },
+  {
+    "label": "White Sailboat",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Fishing Trawler",
+    "attributes": {}
+  },
+  {
+    "label": "Red Speedboat",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Kayak",
+    "attributes": {}
+  },
+  {
+    "label": "Green Houseboat",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Jet Ski",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Catamaran",
+    "attributes": {}
+  },
+  {
+    "label": "Rust Cargo Barge",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Racing Yacht",
+    "attributes": {}
+  },
+  {
+    "label": "Teal Paddleboard",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Log Raft",
+    "attributes": {}
+  },
+  {
+    "label": "White Hydrofoil",
+    "attributes": {}
+  },
+  {
+    "label": "Navy Tugboat",
+    "attributes": {}
+  },
+  {
+    "label": "Red Container Ship",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Racing Catamaran",
+    "attributes": {}
+  },
+  {
+    "label": "Green Canal Boat",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Dredger",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Police Patrol Boat",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Rescue Dinghy",
+    "attributes": {}
+  },
+  {
+    "label": "Dark Grey Garbage Scow",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Airboat",
+    "attributes": {}
+  },
+  {
+    "label": "White Ice Breaker Boat",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Wooden Longship",
+    "attributes": {}
+  },
+  {
+    "label": "Red Hydroplane",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Canoe",
+    "attributes": {}
+  },
+  {
+    "label": "Green Pontoon Boat",
+    "attributes": {}
+  },
+  {
+    "label": "Purple Wakeboard Boat",
+    "attributes": {}
+  },
+  {
+    "label": "Cyan River Ferry",
+    "attributes": {}
+  },
+  {
+    "label": "Tan Supply Barge",
+    "attributes": {}
+  },
+  {
+    "label": "Crimson Cigarette Boat",
+    "attributes": {}
+  },
+  {
+    "label": "White Cessna Prop Plane",
+    "attributes": {}
+  },
+  {
+    "label": "Green Cargo Helicopter",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Fighter Jet",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Ultralight",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Transport Helicopter",
+    "attributes": {}
+  },
+  {
+    "label": "Red Stunt Biplane",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Glider",
+    "attributes": {}
+  },
+  {
+    "label": "Olive Military Cargo Plane",
+    "attributes": {}
+  },
+  {
+    "label": "White Concorde-style Jet",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Paraglider",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Zeppelin",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Supersonic Drone",
+    "attributes": {}
+  },
+  {
+    "label": "White Reconnaissance Drone",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Weather Balloon",
+    "attributes": {}
+  },
+  {
+    "label": "Black Stealth Fighter",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Coast Guard Seaplane",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Refueling Tanker Plane",
+    "attributes": {}
+  },
+  {
+    "label": "Red Aerobatic Jet",
+    "attributes": {}
+  },
+  {
+    "label": "Green Hang Glider",
+    "attributes": {}
+  },
+  {
+    "label": "White Cloud Seeder Plane",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Racing Drone",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Turboprop",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Vintage Biplane",
+    "attributes": {}
+  },
+  {
+    "label": "Crimson Supersonic Jet",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Police Helicopter",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Blimp",
+    "attributes": {}
+  },
+  {
+    "label": "Black Hypersonic Shuttle",
+    "attributes": {}
+  },
+  {
+    "label": "Tan Hovercraft",
+    "attributes": {}
+  },
+  {
+    "label": "Green Swamp Boat",
+    "attributes": {}
+  },
+  {
+    "label": "Red Fan-Boat Racer",
+    "attributes": {}
+  },
+  {
+    "label": "Chrome Hovercar",
+    "attributes": {}
+  },
+  {
+    "label": "Rust Cargo Walker",
+    "attributes": {}
+  },
+  {
+    "label": "Neon Blue Plasma Racer",
+    "attributes": {}
+  },
+  {
+    "label": "White Maglev Pod",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Freight Capsule",
+    "attributes": {}
+  },
+  {
+    "label": "Purple Quantum Glider",
+    "attributes": {}
+  },
+  {
+    "label": "Red Mars Buggy",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Mining Crawler",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Rocket Sled",
+    "attributes": {}
+  },
+  {
+    "label": "Cyan Neon Speeder",
+    "attributes": {}
+  },
+  {
+    "label": "Dark Green Heavy Mech",
+    "attributes": {}
+  },
+  {
+    "label": "Magenta Light Cycle",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Asteroid Shuttle",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Rock Hauler",
+    "attributes": {}
+  },
+  {
+    "label": "Hovering Jet Drone",
+    "attributes": {}
+  },
+  {
+    "label": "Olive Wasteland Truck",
+    "attributes": {}
+  },
+  {
+    "label": "Rust Red Armored Tank",
+    "attributes": {}
+  },
+  {
+    "label": "Black Stealth Interceptor",
+    "attributes": {}
+  },
+  {
+    "label": "White Lunar Rover",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Mining Drone",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Solar Sail Racer",
+    "attributes": {}
+  },
+  {
+    "label": "Holographic Data Stream Rider",
+    "attributes": {}
+  },
+  {
+    "label": "Matte Black Server Crawler",
+    "attributes": {}
+  },
+  {
+    "label": "Neon Pink Quantum Surfer",
+    "attributes": {}
+  },
+  {
+    "label": "Titanium Orbital Shuttle",
+    "attributes": {}
+  },
+  {
+    "label": "Bronze Space Freighter",
+    "attributes": {}
+  },
+  {
+    "label": "Diamond White Warp Racer",
+    "attributes": {}
+  },
+  {
+    "label": "Teal Grid Runner",
+    "attributes": {}
+  },
+  {
+    "label": "Charcoal Data Hauler",
+    "attributes": {}
+  },
+  {
+    "label": "Violet Pixel Sprinter",
+    "attributes": {}
+  },
+  {
+    "label": "Red Snowmobile",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Snow Plow",
+    "attributes": {}
+  },
+  {
+    "label": "Black Racing Snowmobile",
+    "attributes": {}
+  },
+  {
+    "label": "White Sled",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Supply Sled",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Speed Sled",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Skier",
+    "attributes": {}
+  },
+  {
+    "label": "Green Snowcat",
+    "attributes": {}
+  },
+  {
+    "label": "Red Speed Skier",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Ice Yacht",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Icebreaker Sled",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Rocket Sled",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Pack Mule",
+    "attributes": {}
+  },
+  {
+    "label": "Red Ski Racer",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Arctic Truck",
+    "attributes": {}
+  },
+  {
+    "label": "White Research Snowcat",
+    "attributes": {}
+  },
+  {
+    "label": "Black Ice Racing Car",
+    "attributes": {}
+  },
+  {
+    "label": "Red Bobsled",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Luge",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Skeleton Racer",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Snowboarder",
+    "attributes": {}
+  },
+  {
+    "label": "Green Ski Patrol",
+    "attributes": {}
+  },
+  {
+    "label": "Purple Speed Snowboarder",
+    "attributes": {}
+  },
+  {
+    "label": "White Ice Climber",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Supply Yak",
+    "attributes": {}
+  },
+  {
+    "label": "Cyan Ice Speedboat",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Iceboat",
+    "attributes": {}
+  },
+  {
+    "label": "Rust Frozen Trawler",
+    "attributes": {}
+  },
+  {
+    "label": "Neon Green Hovercraft",
+    "attributes": {}
+  },
+  {
+    "label": "Horse Rider",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Donkey",
+    "attributes": {}
+  },
+  {
+    "label": "Black Stallion",
+    "attributes": {}
+  },
+  {
+    "label": "Camel Rider",
+    "attributes": {}
+  },
+  {
+    "label": "White Ox Cart",
+    "attributes": {}
+  },
+  {
+    "label": "Chestnut Arabian Horse",
+    "attributes": {}
+  },
+  {
+    "label": "Jousting Knight",
+    "attributes": {}
+  },
+  {
+    "label": "Brown War Elephant",
+    "attributes": {}
+  },
+  {
+    "label": "Black Thoroughbred",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Chariot",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Ox-Drawn Cart",
+    "attributes": {}
+  },
+  {
+    "label": "Red Racing Chariot",
+    "attributes": {}
+  },
+  {
+    "label": "Steppe Horse Rider",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Yak",
+    "attributes": {}
+  },
+  {
+    "label": "Black Mongol Warhorse",
+    "attributes": {}
+  },
+  {
+    "label": "Trail Horse Rider",
+    "attributes": {}
+  },
+  {
+    "label": "Spotted Pack Mule",
+    "attributes": {}
+  },
+  {
+    "label": "Dark Bay Mustang",
+    "attributes": {}
+  },
+  {
+    "label": "Beach Horse Rider",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Draft Horse",
+    "attributes": {}
+  },
+  {
+    "label": "Black Friesian",
+    "attributes": {}
+  },
+  {
+    "label": "Highland Pony Rider",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Llama",
+    "attributes": {}
+  },
+  {
+    "label": "Roan Clydesdale",
+    "attributes": {}
+  },
+  {
+    "label": "Desert Horse Rider",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Pack Camel",
+    "attributes": {}
+  },
+  {
+    "label": "White Arabian Racer",
+    "attributes": {}
+  },
+  {
+    "label": "Reindeer Sled Driver",
+    "attributes": {}
+  },
+  {
+    "label": "White Polar Bear Rider",
+    "attributes": {}
+  },
+  {
+    "label": "Black Wolf Sled",
+    "attributes": {}
+  },
+  {
+    "label": "Red Track Racing Bicycle",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Race Walker",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Sprinter",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Marathon Press Motorcycle",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Jogger",
+    "attributes": {}
+  },
+  {
+    "label": "Black Elite Runner",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Beach Cruiser Bicycle",
+    "attributes": {}
+  },
+  {
+    "label": "Green Segway Rider",
+    "attributes": {}
+  },
+  {
+    "label": "Red Speed Skater",
+    "attributes": {}
+  },
+  {
+    "label": "Green Cyclist",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Tandem Bicycle",
+    "attributes": {}
+  },
+  {
+    "label": "Black Racing Cyclist",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Moped Rider",
+    "attributes": {}
+  },
+  {
+    "label": "White E-Scooter",
+    "attributes": {}
+  },
+  {
+    "label": "Red Sport Motorcycle",
+    "attributes": {}
+  },
+  {
+    "label": "Purple Kayaker",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Canoe Paddler",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Dragon Boat",
+    "attributes": {}
+  },
+  {
+    "label": "Red BMX Rider",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Mountain Biker",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Downhill Racer",
+    "attributes": {}
+  },
+  {
+    "label": "Pink Referee Electric Cart",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Referee Skater",
+    "attributes": {}
+  },
+  {
+    "label": "Black Jammer",
+    "attributes": {}
+  },
+  {
+    "label": "White Electric Scooter",
+    "attributes": {}
+  },
+  {
+    "label": "Green Electric Wheelchair",
+    "attributes": {}
+  },
+  {
+    "label": "Red E-Bike Rider",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Skateboarder",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Scooter Kid",
+    "attributes": {}
+  },
+  {
+    "label": "Black Longboarder",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Flying Carpet",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Giant Eagle",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Phoenix",
+    "attributes": {}
+  },
+  {
+    "label": "Red Volcanic Raft",
+    "attributes": {}
+  },
+  {
+    "label": "Black Obsidian Golem",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Fire Drake",
+    "attributes": {}
+  },
+  {
+    "label": "Purple Magic Carpet",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Cloud Whale",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Enchanted Broom",
+    "attributes": {}
+  },
+  {
+    "label": "Green Enchanted Airship",
+    "attributes": {}
+  },
+  {
+    "label": "Red Wyvern",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Phoenix",
+    "attributes": {}
+  },
+  {
+    "label": "Black Ghost Ship",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Merchant Galleon",
+    "attributes": {}
+  },
+  {
+    "label": "White Royal Frigate",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Horse-drawn Carriage",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Dwarf Mine Cart",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Elven Stag",
+    "attributes": {}
+  },
+  {
+    "label": "Amethyst Crystal Sled",
+    "attributes": {}
+  },
+  {
+    "label": "Jade Emerald Tortoise",
+    "attributes": {}
+  },
+  {
+    "label": "Ruby Fire Chariot",
+    "attributes": {}
+  },
+  {
+    "label": "Green Mushroom Wagon",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Treant",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Fairy Hawk",
+    "attributes": {}
+  },
+  {
+    "label": "Copper Steam Walker",
+    "attributes": {}
+  },
+  {
+    "label": "Iron Coal Locomotive",
+    "attributes": {}
+  },
+  {
+    "label": "Brass Aether Glider",
+    "attributes": {}
+  },
+  {
+    "label": "Stone Grey Dwarven Mine Cart",
+    "attributes": {}
+  },
+  {
+    "label": "Bronze War Boar",
+    "attributes": {}
+  },
+  {
+    "label": "Diamond Crystal Wyvern",
+    "attributes": {}
+  },
+  {
+    "label": "Green Freight Train",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Coal Train",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Bullet Train",
+    "attributes": {}
+  },
+  {
+    "label": "Brown River Barge",
+    "attributes": {}
+  },
+  {
+    "label": "Green Tugboat",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Conveyor Cart",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Forklift",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Automated Shuttle",
+    "attributes": {}
+  },
+  {
+    "label": "Navy Container Ship",
+    "attributes": {}
+  },
+  {
+    "label": "Rust Dry Dock Barge",
+    "attributes": {}
+  },
+  {
+    "label": "White Hydrofoil Ferry",
+    "attributes": {}
+  },
+  {
+    "label": "Yellow Mine Cart",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Ore Hauler",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Speed Shuttle",
+    "attributes": {}
+  },
+  {
+    "label": "White Wind Turbine Service Van",
+    "attributes": {}
+  },
+  {
+    "label": "Green Farm Tractor",
+    "attributes": {}
+  },
+  {
+    "label": "Red Emergency Vehicle",
+    "attributes": {}
+  },
+  {
+    "label": "Black Solar Maintenance Drone",
+    "attributes": {}
+  },
+  {
+    "label": "Grey Panel Cleaning Robot",
+    "attributes": {}
+  },
+  {
+    "label": "Gold Survey Drone",
+    "attributes": {}
+  },
+  {
+    "label": "Orange Utility Truck",
+    "attributes": {}
+  },
+  {
+    "label": "Brown Cable Reel Truck",
+    "attributes": {}
+  },
+  {
+    "label": "White Emergency Response Van",
+    "attributes": {}
+  },
+  {
+    "label": "Silver Tanker Truck",
+    "attributes": {}
+  },
+  {
+    "label": "Black Heavy Hauler",
+    "attributes": {}
+  },
+  {
+    "label": "Red Fire Engine",
+    "attributes": {}
+  },
+  {
+    "label": "Blue Pipeline Inspection Truck",
+    "attributes": {}
+  },
+  {
+    "label": "Green Utility ATV",
+    "attributes": {}
+  },
+  {
+    "label": "Red Rescue Helicopter",
+    "attributes": {}
+  }
+]

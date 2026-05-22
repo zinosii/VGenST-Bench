@@ -1,0 +1,16 @@
+{
+  "task_id": "HO_V_EXO_STA",
+  "category_id": "L2-TO",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which object becomes visible last in the video?: A. Ceramic Floor Vase, B. Remote Control, C. Potted Succulent, D. Yoga Mat Roll",
+      "answer": "C"
+    },
+    {
+      "id": "proto_2",
+      "question": "Which object becomes visible middle in the video?: A. Ceramic Floor Vase, B. Remote Control, C. Potted Succulent, D. Yoga Mat Roll",
+      "answer": "B"
+    }
+  ]
+}

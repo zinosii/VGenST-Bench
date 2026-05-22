@@ -1,0 +1,16 @@
+{
+  "task_id": "LS_E_EXO_STA",
+  "category_id": "L1-OA",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What is the color of the Clock Tower?: A. Red Brick, B. Gray Stone, C. White Marble, D. Black Iron",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "What is the rooftop shape of the Concert Hall?: A. Flat square, B. Pointed triangle, C. White dome, D. Long rectangle",
+      "answer": "C"
+    }
+  ]
+}

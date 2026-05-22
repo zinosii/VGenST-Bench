@@ -1,0 +1,2502 @@
+[
+  {
+    "label": "Red Brick Clock Tower",
+    "attributes": {
+      "color": "Red Brick",
+      "type": "Clock Tower",
+      "rooftop_shape": "Square tower top with white clock face visible from above"
+    }
+  },
+  {
+    "label": "White Domed Concert Hall",
+    "attributes": {
+      "color": "White",
+      "type": "Concert Hall",
+      "rooftop_shape": "Smooth hemispherical dome with ribbed surface",
+      "position_relative_to_L1": "NE"
+    }
+  },
+  {
+    "label": "Green Glass Skyscraper",
+    "attributes": {
+      "color": "Green Glass",
+      "type": "Skyscraper",
+      "rooftop_shape": "Tapered triangular rooftop with green-tinted glass panels"
+    }
+  },
+  {
+    "label": "Crimson Lighthouse",
+    "attributes": {
+      "color": "Crimson",
+      "type": "Lighthouse",
+      "rooftop_shape": "Circular tower top with red lantern room"
+    }
+  },
+  {
+    "label": "Silver Fish Market Hall",
+    "attributes": {
+      "color": "Silver",
+      "type": "Fish Market Hall",
+      "rooftop_shape": "Long rectangular corrugated metal roof",
+      "position_relative_to_L1": "NE"
+    }
+  },
+  {
+    "label": "Navy Blue Maritime Museum",
+    "attributes": {
+      "color": "Navy Blue",
+      "type": "Maritime Museum",
+      "rooftop_shape": "Ship-shaped rooftop with curved hull form"
+    }
+  },
+  {
+    "label": "Terracotta Cathedral",
+    "attributes": {
+      "color": "Terracotta",
+      "type": "Cathedral",
+      "rooftop_shape": "Cross-shaped nave roof with central spire"
+    }
+  },
+  {
+    "label": "Cream Town Hall",
+    "attributes": {
+      "color": "Cream",
+      "type": "Town Hall",
+      "rooftop_shape": "Rectangular roof with clock tower at corner",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Slate Grey Merchant Guild",
+    "attributes": {
+      "color": "Slate Grey",
+      "type": "Merchant Guild",
+      "rooftop_shape": "Steep gabled roof with dormer windows"
+    }
+  },
+  {
+    "label": "Cobalt Blue Investment Bank Tower",
+    "attributes": {
+      "color": "Cobalt Blue",
+      "type": "Investment Bank Tower",
+      "rooftop_shape": "Circular helipad rooftop with blue glass"
+    }
+  },
+  {
+    "label": "Gold Stock Exchange",
+    "attributes": {
+      "color": "Gold",
+      "type": "Stock Exchange",
+      "rooftop_shape": "Neoclassical pediment roof with golden dome",
+      "position_relative_to_L1": "NW"
+    }
+  },
+  {
+    "label": "Charcoal Data Center",
+    "attributes": {
+      "color": "Charcoal",
+      "type": "Data Center",
+      "rooftop_shape": "Flat black roof with rows of cooling units"
+    }
+  },
+  {
+    "label": "Cherry Red Suspension Bridge Tower",
+    "attributes": {
+      "color": "Cherry Red",
+      "type": "Suspension Bridge Tower",
+      "rooftop_shape": "Twin pylon tops with cable anchor points"
+    }
+  },
+  {
+    "label": "Copper Green City Museum",
+    "attributes": {
+      "color": "Copper Green",
+      "type": "City Museum",
+      "rooftop_shape": "Patinated copper dome with oculus",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Orange Riverside Arena",
+    "attributes": {
+      "color": "Orange",
+      "type": "Riverside Arena",
+      "rooftop_shape": "Oval open-roof stadium shape"
+    }
+  },
+  {
+    "label": "Rust Orange Grain Elevator",
+    "attributes": {
+      "color": "Rust Orange",
+      "type": "Grain Elevator",
+      "rooftop_shape": "Row of cylindrical silo tops"
+    }
+  },
+  {
+    "label": "Steel Grey Crane Gantry",
+    "attributes": {
+      "color": "Steel Grey",
+      "type": "Crane Gantry",
+      "rooftop_shape": "Long lattice beam visible from above",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Yellow Warehouse",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Warehouse",
+      "rooftop_shape": "Wide flat corrugated roof with loading bay"
+    }
+  },
+  {
+    "label": "Vermillion Pagoda Gate",
+    "attributes": {
+      "color": "Vermillion",
+      "type": "Pagoda Gate",
+      "rooftop_shape": "Multi-tiered octagonal pagoda roof with upswept eaves"
+    }
+  },
+  {
+    "label": "Jade Green Tea House",
+    "attributes": {
+      "color": "Jade Green",
+      "type": "Tea House",
+      "rooftop_shape": "Curved hip roof with ornamental ridge",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Gold Buddhist Temple",
+    "attributes": {
+      "color": "Gold",
+      "type": "Buddhist Temple",
+      "rooftop_shape": "Tiered golden spire with prayer flag masts"
+    }
+  },
+  {
+    "label": "Red Brick Library Tower",
+    "attributes": {
+      "color": "Red Brick",
+      "type": "Library Tower",
+      "rooftop_shape": "Square tower with copper weathervane"
+    }
+  },
+  {
+    "label": "White Marble Science Hall",
+    "attributes": {
+      "color": "White Marble",
+      "type": "Science Hall",
+      "rooftop_shape": "Flat modern roof with satellite dishes",
+      "position_relative_to_L1": "NW"
+    }
+  },
+  {
+    "label": "Forest Green Greenhouse",
+    "attributes": {
+      "color": "Forest Green",
+      "type": "Greenhouse",
+      "rooftop_shape": "Glass gabled conservatory roof"
+    }
+  },
+  {
+    "label": "White Control Tower",
+    "attributes": {
+      "color": "White",
+      "type": "Control Tower",
+      "rooftop_shape": "Circular glass cab on narrow column"
+    }
+  },
+  {
+    "label": "Black Terminal Building",
+    "attributes": {
+      "color": "Black",
+      "type": "Terminal Building",
+      "rooftop_shape": "Sweeping curved roof with skylights",
+      "position_relative_to_L1": "E"
+    }
+  },
+  {
+    "label": "Blue Hangar",
+    "attributes": {
+      "color": "Blue",
+      "type": "Hangar",
+      "rooftop_shape": "Massive barrel-vault roof"
+    }
+  },
+  {
+    "label": "Iron Grey Train Shed",
+    "attributes": {
+      "color": "Iron Grey",
+      "type": "Train Shed",
+      "rooftop_shape": "Grand arched glass and iron roof over platforms"
+    }
+  },
+  {
+    "label": "Sandstone Station Clock Tower",
+    "attributes": {
+      "color": "Sandstone",
+      "type": "Station Clock Tower",
+      "rooftop_shape": "Pointed spire with four clock faces",
+      "position_relative_to_L1": "SE"
+    }
+  },
+  {
+    "label": "Dark Green Signal Box",
+    "attributes": {
+      "color": "Dark Green",
+      "type": "Signal Box",
+      "rooftop_shape": "Small rectangular hip roof with antenna mast"
+    }
+  },
+  {
+    "label": "White Lighthouse",
+    "attributes": {
+      "color": "White",
+      "type": "Lighthouse",
+      "rooftop_shape": "Cylindrical tower top with glass lantern room"
+    }
+  },
+  {
+    "label": "Weathered Blue Fish Processing Plant",
+    "attributes": {
+      "color": "Weathered Blue",
+      "type": "Fish Processing Plant",
+      "rooftop_shape": "Long tin roof with smoke vents",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Red Boathouse",
+    "attributes": {
+      "color": "Red",
+      "type": "Boathouse",
+      "rooftop_shape": "A-frame wooden roof extending over water"
+    }
+  },
+  {
+    "label": "Gunmetal Submarine Pen",
+    "attributes": {
+      "color": "Gunmetal",
+      "type": "Submarine Pen",
+      "rooftop_shape": "Reinforced concrete flat roof at waterline"
+    }
+  },
+  {
+    "label": "White Command Center",
+    "attributes": {
+      "color": "White",
+      "type": "Command Center",
+      "rooftop_shape": "Radar dome cluster on flat roof",
+      "position_relative_to_L1": "NW"
+    }
+  },
+  {
+    "label": "Olive Ammunition Depot",
+    "attributes": {
+      "color": "Olive",
+      "type": "Ammunition Depot",
+      "rooftop_shape": "Earth-bermed bunker with grass-covered top"
+    }
+  },
+  {
+    "label": "Red Container Crane",
+    "attributes": {
+      "color": "Red",
+      "type": "Container Crane",
+      "rooftop_shape": "Tall gantry frame with boom arm from above"
+    }
+  },
+  {
+    "label": "Blue Port Authority Building",
+    "attributes": {
+      "color": "Blue",
+      "type": "Port Authority Building",
+      "rooftop_shape": "Modern flat roof with helipad H marking",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Orange Customs Warehouse",
+    "attributes": {
+      "color": "Orange",
+      "type": "Customs Warehouse",
+      "rooftop_shape": "Massive flat roof with truck loading bays"
+    }
+  },
+  {
+    "label": "White Cruise Terminal",
+    "attributes": {
+      "color": "White",
+      "type": "Cruise Terminal",
+      "rooftop_shape": "Wave-shaped glass canopy roof"
+    }
+  },
+  {
+    "label": "Navy Grand Hotel",
+    "attributes": {
+      "color": "Navy",
+      "type": "Grand Hotel",
+      "rooftop_shape": "Mansard roof with golden cupolas",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Turquoise Aquarium",
+    "attributes": {
+      "color": "Turquoise",
+      "type": "Aquarium",
+      "rooftop_shape": "Organic blob-shaped glass roof"
+    }
+  },
+  {
+    "label": "Red and White Striped Lighthouse",
+    "attributes": {
+      "color": "Red and White Striped",
+      "type": "Lighthouse",
+      "rooftop_shape": "Circular tower top with rotating lamp"
+    }
+  },
+  {
+    "label": "Grey Stone Keeper's Red Door Cottage",
+    "attributes": {
+      "color": "Grey Stone",
+      "type": "Keeper's Cottage",
+      "rooftop_shape": "Slate hip roof with chimney",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Dark Blue Coast Guard Station",
+    "attributes": {
+      "color": "Dark Blue",
+      "type": "Coast Guard Station",
+      "rooftop_shape": "Flat concrete roof with flag mast"
+    }
+  },
+  {
+    "label": "Teal Yacht Club",
+    "attributes": {
+      "color": "Teal",
+      "type": "Yacht Club",
+      "rooftop_shape": "Sail-shaped tensile fabric roof"
+    }
+  },
+  {
+    "label": "Coral Beachfront Restaurant",
+    "attributes": {
+      "color": "Coral",
+      "type": "Beachfront Restaurant",
+      "rooftop_shape": "Thatched circular palapa roof",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "White Resort Tower",
+    "attributes": {
+      "color": "White",
+      "type": "Resort Tower",
+      "rooftop_shape": "Stepped pyramid terrace roof with pool"
+    }
+  },
+  {
+    "label": "Rust Dry Dock Crane",
+    "attributes": {
+      "color": "Rust",
+      "type": "Dry Dock Crane",
+      "rooftop_shape": "Massive portal frame from above"
+    }
+  },
+  {
+    "label": "Blue Assembly Hall",
+    "attributes": {
+      "color": "Blue",
+      "type": "Assembly Hall",
+      "rooftop_shape": "Sawtooth industrial roof",
+      "position_relative_to_L1": "NE"
+    }
+  },
+  {
+    "label": "Yellow Paint Shop",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Paint Shop",
+      "rooftop_shape": "Long flat roof with ventilation cowls"
+    }
+  },
+  {
+    "label": "White Marine Lab",
+    "attributes": {
+      "color": "White",
+      "type": "Marine Lab",
+      "rooftop_shape": "Circular pod-shaped roof on stilts over water"
+    }
+  },
+  {
+    "label": "Turquoise Dive Center",
+    "attributes": {
+      "color": "Turquoise",
+      "type": "Dive Center",
+      "rooftop_shape": "Flat roof with decompression chamber dome",
+      "position_relative_to_L1": "SE"
+    }
+  },
+  {
+    "label": "Sand Beach Pavilion",
+    "attributes": {
+      "color": "Sand",
+      "type": "Beach Pavilion",
+      "rooftop_shape": "Octagonal thatched roof"
+    }
+  },
+  {
+    "label": "Red Fish Drying Rack Hall",
+    "attributes": {
+      "color": "Red",
+      "type": "Fish Drying Rack Hall",
+      "rooftop_shape": "Long open timber frame visible from above"
+    }
+  },
+  {
+    "label": "White Stave Church",
+    "attributes": {
+      "color": "White",
+      "type": "Stave Church",
+      "rooftop_shape": "Steep multi-tiered wooden roof with dragon finials",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Ochre Wharf Warehouse",
+    "attributes": {
+      "color": "Ochre",
+      "type": "Wharf Warehouse",
+      "rooftop_shape": "Gabled timber roof on stilts over water"
+    }
+  },
+  {
+    "label": "Silver Bird Observatory",
+    "attributes": {
+      "color": "Silver",
+      "type": "Bird Observatory",
+      "rooftop_shape": "Hexagonal glass observation roof"
+    }
+  },
+  {
+    "label": "Brown Tidal Mill",
+    "attributes": {
+      "color": "Brown",
+      "type": "Tidal Mill",
+      "rooftop_shape": "Stone building with large waterwheel visible",
+      "position_relative_to_L1": "NW"
+    }
+  },
+  {
+    "label": "Green Wetland Research Center",
+    "attributes": {
+      "color": "Green",
+      "type": "Wetland Research Center",
+      "rooftop_shape": "Green-roofed eco building blending with marsh"
+    }
+  },
+  {
+    "label": "Silver Cylindrical Storage Tank",
+    "attributes": {
+      "color": "Silver",
+      "type": "Storage Tank",
+      "rooftop_shape": "Large circular top with concentric ring pattern and central valve hub"
+    }
+  },
+  {
+    "label": "Red Striped Distillation Tower",
+    "attributes": {
+      "color": "Red Striped",
+      "type": "Distillation Tower",
+      "rooftop_shape": "Narrow circular top with protruding pipe clusters and steam vents",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Dark Gray Cooling Tower",
+    "attributes": {
+      "color": "Dark Gray",
+      "type": "Cooling Tower",
+      "rooftop_shape": "Wide hyperbolic ring opening with visible interior steam cavity"
+    }
+  },
+  {
+    "label": "White Concrete Cooling Tower",
+    "attributes": {
+      "color": "White Concrete",
+      "type": "Cooling Tower",
+      "rooftop_shape": "Massive circular opening with thin hyperbolic rim and rising steam"
+    }
+  },
+  {
+    "label": "Red Turbine Hall",
+    "attributes": {
+      "color": "Red",
+      "type": "Turbine Hall",
+      "rooftop_shape": "Long rectangular roof with parallel ventilation ridges and skylights",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Brown Coal Storage Dome",
+    "attributes": {
+      "color": "Brown",
+      "type": "Coal Storage Dome",
+      "rooftop_shape": "Geodesic dome roof with triangular panel pattern and central hatch"
+    }
+  },
+  {
+    "label": "Rust Red Roundhouse",
+    "attributes": {
+      "color": "Rust Red",
+      "type": "Roundhouse",
+      "rooftop_shape": "Semi-circular roof with radiating spoke pattern and central turntable opening"
+    }
+  },
+  {
+    "label": "Cream Arched Train Shed",
+    "attributes": {
+      "color": "Cream",
+      "type": "Train Shed",
+      "rooftop_shape": "Long barrel-vaulted glass roof with iron rib framework visible from above",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Dark Green Signal Tower",
+    "attributes": {
+      "color": "Dark Green",
+      "type": "Signal Tower",
+      "rooftop_shape": "Small square tower top with antenna mast and observation window ring"
+    }
+  },
+  {
+    "label": "Concrete Dam Crest",
+    "attributes": {
+      "color": "Concrete Gray",
+      "type": "Dam Structure",
+      "rooftop_shape": "Long curved linear crest with evenly spaced buttress marks and walkway"
+    }
+  },
+  {
+    "label": "Blue Intake Tower",
+    "attributes": {
+      "color": "Blue",
+      "type": "Intake Tower",
+      "rooftop_shape": "Circular tower top with radial grate pattern and central shaft opening",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "White Spillway Control House",
+    "attributes": {
+      "color": "White",
+      "type": "Control House",
+      "rooftop_shape": "Rectangular flat roof with array of control valve housings and railing"
+    }
+  },
+  {
+    "label": "Orange Cylindrical Ore Silo",
+    "attributes": {
+      "color": "Orange",
+      "type": "Ore Silo",
+      "rooftop_shape": "Circular flat top with central hatch"
+    }
+  },
+  {
+    "label": "Gray Ore Processing Shed",
+    "attributes": {
+      "color": "Gray Corrugated",
+      "type": "Processing Shed",
+      "rooftop_shape": "Long corrugated rectangular roof with conveyor belt entry slots",
+      "position_relative_to_L1": "E"
+    }
+  },
+  {
+    "label": "Yellow Haul Truck Garage",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Truck Garage",
+      "rooftop_shape": "Wide flat rectangular roof with multiple roll-up door outlines visible"
+    }
+  },
+  {
+    "label": "White Wind Turbine Nacelle",
+    "attributes": {
+      "color": "White",
+      "type": "Wind Turbine",
+      "rooftop_shape": "Compact oval nacelle top with three blade roots radiating outward"
+    }
+  },
+  {
+    "label": "Red Substation Building",
+    "attributes": {
+      "color": "Red",
+      "type": "Substation",
+      "rooftop_shape": "Square flat roof surrounded by transformer yard with grid-pattern conductors",
+      "position_relative_to_L1": "E"
+    }
+  },
+  {
+    "label": "Blue Maintenance Hangar",
+    "attributes": {
+      "color": "Blue",
+      "type": "Maintenance Hangar",
+      "rooftop_shape": "Large arched Quonset-hut roof with sliding door track line"
+    }
+  },
+  {
+    "label": "White Circular Helipad",
+    "attributes": {
+      "color": "White",
+      "type": "Helipad",
+      "rooftop_shape": "Circular white concrete pad with bold letter H painted in center"
+    }
+  },
+  {
+    "label": "Dark Blue Inverter Station",
+    "attributes": {
+      "color": "Dark Blue",
+      "type": "Inverter Station",
+      "rooftop_shape": "Rectangular flat roof with rooftop cable trays and cooling units",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "White Control Center",
+    "attributes": {
+      "color": "White",
+      "type": "Control Center",
+      "rooftop_shape": "L-shaped flat roof with satellite dish and rooftop monitoring equipment"
+    }
+  },
+  {
+    "label": "Gray Toll Plaza Canopy",
+    "attributes": {
+      "color": "Gray",
+      "type": "Toll Plaza",
+      "rooftop_shape": "Wide rectangular canopy roof with lane-divider stripe pattern below"
+    }
+  },
+  {
+    "label": "Blue Highway Patrol Station",
+    "attributes": {
+      "color": "Blue",
+      "type": "Patrol Station",
+      "rooftop_shape": "Square flat roof with rooftop radio antenna cluster and helipad circle",
+      "position_relative_to_L1": "W"
+    }
+  },
+  {
+    "label": "Green Rest Area Pavilion",
+    "attributes": {
+      "color": "Green",
+      "type": "Rest Area Pavilion",
+      "rooftop_shape": "Hexagonal pavilion roof with radiating beam pattern and skylight center"
+    }
+  },
+  {
+    "label": "Concrete Circular Clarifier",
+    "attributes": {
+      "color": "Concrete Gray",
+      "type": "Clarifier Tank",
+      "rooftop_shape": "Large open circular basin with rotating scraper arm visible from above"
+    }
+  },
+  {
+    "label": "Green Biogas Digester Dome",
+    "attributes": {
+      "color": "Green",
+      "type": "Digester Dome",
+      "rooftop_shape": "Smooth spherical dome with gas collection pipe at apex",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Brown Administration Building",
+    "attributes": {
+      "color": "Brown Brick",
+      "type": "Administration Building",
+      "rooftop_shape": "Rectangular flat roof with rooftop HVAC units and stairwell housing"
+    }
+  },
+  {
+    "label": "Dark Red Blast Furnace Top",
+    "attributes": {
+      "color": "Dark Red",
+      "type": "Blast Furnace",
+      "rooftop_shape": "Circular furnace crown with charging bell and gas uptake pipes"
+    }
+  },
+  {
+    "label": "Gray Rolling Mill Roof",
+    "attributes": {
+      "color": "Gray",
+      "type": "Rolling Mill",
+      "rooftop_shape": "Extremely long rectangular sawtooth roof with north-facing clerestory windows",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Orange Casting Hall",
+    "attributes": {
+      "color": "Orange",
+      "type": "Casting Hall",
+      "rooftop_shape": "Wide rectangular roof with heat-extraction vents and overhead crane rail slots"
+    }
+  },
+  {
+    "label": "Brown Log Visitor Center",
+    "attributes": {
+      "color": "Brown Log",
+      "type": "Visitor Center",
+      "rooftop_shape": "Cross-shaped shingled roof with central stone chimney stack"
+    }
+  },
+  {
+    "label": "Green Ranger Station",
+    "attributes": {
+      "color": "Forest Green",
+      "type": "Ranger Station",
+      "rooftop_shape": "A-frame peaked roof with flagpole base and solar panel strip",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Stone Observation Tower",
+    "attributes": {
+      "color": "Natural Stone",
+      "type": "Observation Tower",
+      "rooftop_shape": "Circular stone parapet top with crenellation pattern and telescope mount"
+    }
+  },
+  {
+    "label": "Red Cedar Boathouse",
+    "attributes": {
+      "color": "Red Cedar",
+      "type": "Boathouse",
+      "rooftop_shape": "Rectangular gabled roof extending over water with dock outline below"
+    }
+  },
+  {
+    "label": "White Canvas Pavilion",
+    "attributes": {
+      "color": "White Canvas",
+      "type": "Pavilion",
+      "rooftop_shape": "Octagonal tensile fabric roof with central support peak and guy-wire anchors",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Dark Brown Shower Block",
+    "attributes": {
+      "color": "Dark Brown",
+      "type": "Shower Block",
+      "rooftop_shape": "Rectangular flat roof with rooftop water tank and vent pipe array"
+    }
+  },
+  {
+    "label": "Timber Chalet Lodge",
+    "attributes": {
+      "color": "Dark Timber",
+      "type": "Chalet Lodge",
+      "rooftop_shape": "Steep A-frame roof with wide overhanging eaves and central dormer window"
+    }
+  },
+  {
+    "label": "White Ski Lift Station",
+    "attributes": {
+      "color": "White",
+      "type": "Ski Lift Station",
+      "rooftop_shape": "Flat rectangular platform roof with cable wheel housing and departure ramp",
+      "position_relative_to_L1": "NE"
+    }
+  },
+  {
+    "label": "Stone Spa Bathhouse",
+    "attributes": {
+      "color": "Natural Stone",
+      "type": "Spa Bathhouse",
+      "rooftop_shape": "Oval domed roof with steam vents and circular skylight ring"
+    }
+  },
+  {
+    "label": "Terracotta Wine Cellar",
+    "attributes": {
+      "color": "Terracotta",
+      "type": "Wine Cellar",
+      "rooftop_shape": "Barrel-vaulted roof with rows of small dormer ventilation windows"
+    }
+  },
+  {
+    "label": "Cream Tasting Pavilion",
+    "attributes": {
+      "color": "Cream",
+      "type": "Tasting Pavilion",
+      "rooftop_shape": "Circular open-air roof with radial timber beam pattern and central cupola",
+      "position_relative_to_L1": "SE"
+    }
+  },
+  {
+    "label": "Gray Stone Fermentation Hall",
+    "attributes": {
+      "color": "Gray Stone",
+      "type": "Fermentation Hall",
+      "rooftop_shape": "Long rectangular slate roof with evenly spaced chimney-like exhaust vents"
+    }
+  },
+  {
+    "label": "Thatched Safari Lodge",
+    "attributes": {
+      "color": "Golden Thatch",
+      "type": "Safari Lodge",
+      "rooftop_shape": "Circular thatched roof with conical peak and overhanging grass fringe"
+    }
+  },
+  {
+    "label": "Blue Observation Blind",
+    "attributes": {
+      "color": "Blue",
+      "type": "Observation Blind",
+      "rooftop_shape": "Low rectangular camouflaged roof with narrow slit openings along edges",
+      "position_relative_to_L1": "NW"
+    }
+  },
+  {
+    "label": "White Veterinary Clinic",
+    "attributes": {
+      "color": "White",
+      "type": "Veterinary Clinic",
+      "rooftop_shape": "T-shaped flat roof with rooftop water tank and red cross marking"
+    }
+  },
+  {
+    "label": "Glass Victorian Greenhouse",
+    "attributes": {
+      "color": "Clear Glass",
+      "type": "Greenhouse",
+      "rooftop_shape": "Ornate ridge-and-furrow glass roof with decorative iron cresting along peak"
+    }
+  },
+  {
+    "label": "Dark Green Orchid Conservatory",
+    "attributes": {
+      "color": "Dark Green",
+      "type": "Orchid Conservatory",
+      "rooftop_shape": "Geodesic dome roof with hexagonal glass panel tessellation",
+      "position_relative_to_L1": "NW"
+    }
+  },
+  {
+    "label": "Sandstone Herbarium Building",
+    "attributes": {
+      "color": "Sandstone",
+      "type": "Herbarium",
+      "rooftop_shape": "Rectangular hip roof with central courtyard void and rooftop garden beds"
+    }
+  },
+  {
+    "label": "Red Circular Observation Deck",
+    "attributes": {
+      "color": "Red",
+      "type": "Observation Deck",
+      "rooftop_shape": "Circular flat deck with central compass rose marking"
+    }
+  },
+  {
+    "label": "Wooden Suspension Bridge Tower",
+    "attributes": {
+      "color": "Weathered Wood",
+      "type": "Bridge Tower",
+      "rooftop_shape": "Square timber tower top with cable anchor points at four corners",
+      "position_relative_to_L1": "E"
+    }
+  },
+  {
+    "label": "Adobe River Station",
+    "attributes": {
+      "color": "Adobe Tan",
+      "type": "River Station",
+      "rooftop_shape": "Rectangular flat adobe roof with ladder access hatch and rain gutters"
+    }
+  },
+  {
+    "label": "Elevated Boardwalk Shelter",
+    "attributes": {
+      "color": "Cedar Brown",
+      "type": "Boardwalk Shelter",
+      "rooftop_shape": "Rectangular peaked roof on stilts with surrounding boardwalk grid visible"
+    }
+  },
+  {
+    "label": "Red Reed Research Station",
+    "attributes": {
+      "color": "Red",
+      "type": "Research Station",
+      "rooftop_shape": "Rectangular flat roof with weather instruments and antenna mast cluster",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Blue Bird Hide",
+    "attributes": {
+      "color": "Muted Blue",
+      "type": "Bird Hide",
+      "rooftop_shape": "Long narrow rectangular roof with camouflaged observation slit running lengthwise"
+    }
+  },
+  {
+    "label": "Red Timber Farmhouse",
+    "attributes": {
+      "color": "Red Timber",
+      "type": "Farmhouse",
+      "rooftop_shape": "Steep gabled roof with wide overhanging eaves and central brick chimney"
+    }
+  },
+  {
+    "label": "White Village Chapel",
+    "attributes": {
+      "color": "White",
+      "type": "Village Chapel",
+      "rooftop_shape": "Rectangular roof with pointed steeple and small cross finial at peak",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Gray Stone Dairy Barn",
+    "attributes": {
+      "color": "Gray Stone",
+      "type": "Dairy Barn",
+      "rooftop_shape": "Large gambrel roof with hay loft door outline and ventilation cupola"
+    }
+  },
+  {
+    "label": "Driftwood Trailhead Pavilion",
+    "attributes": {
+      "color": "Weathered Driftwood",
+      "type": "Trailhead Pavilion",
+      "rooftop_shape": "Irregular polygonal roof with woven driftwood beam pattern and open center"
+    }
+  },
+  {
+    "label": "White Lighthouse Tower",
+    "attributes": {
+      "color": "White",
+      "type": "Lighthouse",
+      "rooftop_shape": "Circular gallery deck with lantern room dome and railing ring visible",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Green Coastal Ranger Post",
+    "attributes": {
+      "color": "Forest Green",
+      "type": "Ranger Post",
+      "rooftop_shape": "Small square hip roof with flagpole mount and solar panel strip"
+    }
+  },
+  {
+    "label": "Sandstone Minaret Tower",
+    "attributes": {
+      "color": "Sandstone",
+      "type": "Minaret Tower",
+      "rooftop_shape": "Tall square base tapering to a pointed octagonal spire"
+    }
+  },
+  {
+    "label": "Blue-Tiled Bathhouse",
+    "attributes": {
+      "color": "Blue-Tiled",
+      "type": "Bathhouse",
+      "rooftop_shape": "Rectangular roof with central oval skylight ringed by turquoise tiles",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Mudbrick Caravanserai",
+    "attributes": {
+      "color": "Mudbrick",
+      "type": "Caravanserai",
+      "rooftop_shape": "Large square courtyard enclosure with thick mudbrick parapets"
+    }
+  },
+  {
+    "label": "Terracotta Visitor Center",
+    "attributes": {
+      "color": "Terracotta",
+      "type": "Visitor Center",
+      "rooftop_shape": "Wide hexagonal roof with reddish clay tiles and central ventilation cupola"
+    }
+  },
+  {
+    "label": "Blue Lookout Shelter",
+    "attributes": {
+      "color": "Blue",
+      "type": "Lookout Shelter",
+      "rooftop_shape": "Flat angular canopy with cantilevered steel beams extending over cliff edge",
+      "position_relative_to_L1": "E"
+    }
+  },
+  {
+    "label": "Ochre Geology Museum",
+    "attributes": {
+      "color": "Ochre",
+      "type": "Geology Museum",
+      "rooftop_shape": "Long rectangular roof with sawtooth skylights in warm ochre finish"
+    }
+  },
+  {
+    "label": "Tan Adobe Kiva",
+    "attributes": {
+      "color": "Tan Adobe",
+      "type": "Kiva",
+      "rooftop_shape": "Circular sunken roof with a small square hatch opening at center"
+    }
+  },
+  {
+    "label": "Dark Green Granary",
+    "attributes": {
+      "color": "Dark Green",
+      "type": "Granary",
+      "rooftop_shape": "Cylindrical flat-topped roof with concentric banding",
+      "position_relative_to_L1": "SW"
+    }
+  },
+  {
+    "label": "Whitewashed Mission Church",
+    "attributes": {
+      "color": "Whitewashed",
+      "type": "Mission Church",
+      "rooftop_shape": "Twin bell-tower rectangles flanking a stepped parapet facade"
+    }
+  },
+  {
+    "label": "Golden Sandstone Watchtower",
+    "attributes": {
+      "color": "Golden Sandstone",
+      "type": "Watchtower",
+      "rooftop_shape": "Tall square tower top with crenellated battlements and corner turrets"
+    }
+  },
+  {
+    "label": "Dark Basalt Gate House",
+    "attributes": {
+      "color": "Dark Basalt",
+      "type": "Gate House",
+      "rooftop_shape": "Rectangular fortified roof with twin flanking drum towers",
+      "position_relative_to_L1": "NW"
+    }
+  },
+  {
+    "label": "Ivory Limestone Barracks",
+    "attributes": {
+      "color": "Ivory Limestone",
+      "type": "Barracks",
+      "rooftop_shape": "Long narrow pitched roof with evenly spaced dormer windows"
+    }
+  },
+  {
+    "label": "Brown Fieldstone Excavation Shelter",
+    "attributes": {
+      "color": "Brown Fieldstone",
+      "type": "Excavation Shelter",
+      "rooftop_shape": "Wide A-frame canvas canopy stretched over steel ribs"
+    }
+  },
+  {
+    "label": "White Canvas Research Tent",
+    "attributes": {
+      "color": "White Canvas",
+      "type": "Research Tent",
+      "rooftop_shape": "Peaked rectangular tent roof with guy-wire anchors visible",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Grey Concrete Artifact Vault",
+    "attributes": {
+      "color": "Grey Concrete",
+      "type": "Artifact Vault",
+      "rooftop_shape": "Flat reinforced concrete slab roof with roof-access hatch"
+    }
+  },
+  {
+    "label": "Silver Reflective Lab Module",
+    "attributes": {
+      "color": "Silver Reflective",
+      "type": "Lab Module",
+      "rooftop_shape": "Domed cylindrical pod with mirror-finish panels"
+    }
+  },
+  {
+    "label": "Red Weather Dome",
+    "attributes": {
+      "color": "Red",
+      "type": "Weather Dome",
+      "rooftop_shape": "Triangulated geodesic half-sphere with hexagonal panel pattern",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Matte Grey Communications Tower",
+    "attributes": {
+      "color": "Matte Grey",
+      "type": "Communications Tower",
+      "rooftop_shape": "Narrow square platform topped with dish antenna array"
+    }
+  },
+  {
+    "label": "Adobe-Red General Store",
+    "attributes": {
+      "color": "Adobe-Red",
+      "type": "General Store",
+      "rooftop_shape": "Flat parapet roof with a false wooden western-style facade"
+    }
+  },
+  {
+    "label": "Dusty Yellow Water Tower",
+    "attributes": {
+      "color": "Dusty Yellow",
+      "type": "Water Tower",
+      "rooftop_shape": "Elevated circular tank with conical lid on lattice steel legs",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Weathered Timber Barn",
+    "attributes": {
+      "color": "Weathered Timber",
+      "type": "Barn",
+      "rooftop_shape": "Gambrel roof with rusted corrugated metal sheeting"
+    }
+  },
+  {
+    "label": "White Astronomical Dome",
+    "attributes": {
+      "color": "White",
+      "type": "Astronomical Dome",
+      "rooftop_shape": "Large hemispherical dome with retractable slit opening"
+    }
+  },
+  {
+    "label": "Black Control Building",
+    "attributes": {
+      "color": "Black",
+      "type": "Control Building",
+      "rooftop_shape": "Flat rectangular roof studded with satellite uplink dishes",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Copper-Clad Solar Telescope",
+    "attributes": {
+      "color": "Copper-Clad",
+      "type": "Solar Telescope",
+      "rooftop_shape": "Tall cylindrical tower with rotating turret cap"
+    }
+  },
+  {
+    "label": "Honey Sandstone Bell Tower",
+    "attributes": {
+      "color": "Honey Sandstone",
+      "type": "Bell Tower",
+      "rooftop_shape": "Square tower crowned with an open belfry and pyramidal stone cap"
+    }
+  },
+  {
+    "label": "Dark Slate Cloister Hall",
+    "attributes": {
+      "color": "Dark Slate",
+      "type": "Cloister Hall",
+      "rooftop_shape": "Rectangular roof surrounding an open courtyard garden",
+      "position_relative_to_L1": "NE"
+    }
+  },
+  {
+    "label": "Cream Limestone Chapel",
+    "attributes": {
+      "color": "Cream Limestone",
+      "type": "Chapel",
+      "rooftop_shape": "Cross-shaped roof plan with a small central lantern dome"
+    }
+  },
+  {
+    "label": "Corrugated Steel Dig Shelter",
+    "attributes": {
+      "color": "Corrugated Steel",
+      "type": "Dig Shelter",
+      "rooftop_shape": "Arched Quonset-hut profile with open ends"
+    }
+  },
+  {
+    "label": "Olive Drab Field Lab",
+    "attributes": {
+      "color": "Olive Drab",
+      "type": "Field Lab",
+      "rooftop_shape": "Flat-roofed modular container with rooftop solar panels",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Pale Concrete Specimen Warehouse",
+    "attributes": {
+      "color": "Pale Concrete",
+      "type": "Specimen Warehouse",
+      "rooftop_shape": "Large flat warehouse roof with roll-up door outlines visible"
+    }
+  },
+  {
+    "label": "Grey Stone Keep Tower",
+    "attributes": {
+      "color": "Grey Stone",
+      "type": "Keep Tower",
+      "rooftop_shape": "Massive square tower top with corner turrets and central flagpole"
+    }
+  },
+  {
+    "label": "Red-Roofed Great Hall",
+    "attributes": {
+      "color": "Red-Roofed",
+      "type": "Great Hall",
+      "rooftop_shape": "Steeply pitched gable roof with red clay tiles and chimney stacks",
+      "position_relative_to_L1": "NW"
+    }
+  },
+  {
+    "label": "Dark Slate Gatehouse",
+    "attributes": {
+      "color": "Dark Slate",
+      "type": "Gatehouse",
+      "rooftop_shape": "Twin round drum towers flanking a pointed-arch passageway roof"
+    }
+  },
+  {
+    "label": "White Marble Senate House",
+    "attributes": {
+      "color": "White Marble",
+      "type": "Senate House",
+      "rooftop_shape": "Broad rectangular pediment roof with classical triangular tympanum"
+    }
+  },
+  {
+    "label": "Red Tiled Basilica",
+    "attributes": {
+      "color": "Red Tiled",
+      "type": "Basilica",
+      "rooftop_shape": "Long nave roof with clerestory ridge and apse semicircle at one end",
+      "position_relative_to_L1": "NW"
+    }
+  },
+  {
+    "label": "Bronze-Domed Temple of Jupiter",
+    "attributes": {
+      "color": "Bronze-Domed",
+      "type": "Temple of Jupiter",
+      "rooftop_shape": "Circular colonnaded footprint with a large patinated bronze dome"
+    }
+  },
+  {
+    "label": "Golden Sandstone Pylon Gate",
+    "attributes": {
+      "color": "Golden Sandstone",
+      "type": "Pylon Gate",
+      "rooftop_shape": "Trapezoidal flat-topped twin towers with battered walls"
+    }
+  },
+  {
+    "label": "Blue Hypostyle Hall",
+    "attributes": {
+      "color": "Blue",
+      "type": "Hypostyle Hall",
+      "rooftop_shape": "Massive flat roof supported by a grid of column capitals visible from above",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Black Granite Obelisk Shrine",
+    "attributes": {
+      "color": "Black Granite",
+      "type": "Obelisk Shrine",
+      "rooftop_shape": "Small square enclosure surrounding a pointed pyramidion tip"
+    }
+  },
+  {
+    "label": "Vermilion Pagoda Tower",
+    "attributes": {
+      "color": "Vermilion",
+      "type": "Pagoda Tower",
+      "rooftop_shape": "Five-tiered stacked eaves with upturned corners and central bronze finial"
+    }
+  },
+  {
+    "label": "White Main Hall",
+    "attributes": {
+      "color": "White",
+      "type": "Main Hall",
+      "rooftop_shape": "Sweeping irimoya hip-and-gable roof with white ceramic tile shingles",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Moss-Green Tea Pavilion",
+    "attributes": {
+      "color": "Moss-Green",
+      "type": "Tea Pavilion",
+      "rooftop_shape": "Low hipped thatched roof with deep eave overhangs over a tiny footprint"
+    }
+  },
+  {
+    "label": "White Marble Parthenon",
+    "attributes": {
+      "color": "White Marble",
+      "type": "Parthenon",
+      "rooftop_shape": "Rectangular peristyle colonnade footprint with low-pitched pediment roof"
+    }
+  },
+  {
+    "label": "Dark Bronze Erechtheion",
+    "attributes": {
+      "color": "Dark Bronze",
+      "type": "Erechtheion",
+      "rooftop_shape": "Asymmetric L-shaped roof with projecting porch of caryatid columns",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Limestone Propylaea Gateway",
+    "attributes": {
+      "color": "Limestone",
+      "type": "Propylaea Gateway",
+      "rooftop_shape": "Wide stepped entrance with twin flanking wing roofs"
+    }
+  },
+  {
+    "label": "Dark Stone Cathedral",
+    "attributes": {
+      "color": "Dark Stone",
+      "type": "Cathedral",
+      "rooftop_shape": "Cruciform roof plan with twin pointed spires and flying buttress outlines"
+    }
+  },
+  {
+    "label": "Copper-Green Chapter House",
+    "attributes": {
+      "color": "Copper-Green",
+      "type": "Chapter House",
+      "rooftop_shape": "Octagonal roof with radiating rib vaults converging on a central boss",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Slate-Grey Bishop Palace",
+    "attributes": {
+      "color": "Slate-Grey",
+      "type": "Bishop Palace",
+      "rooftop_shape": "U-shaped courtyard roof with steep mansard sections and dormer rows"
+    }
+  },
+  {
+    "label": "Mossy Stone Temple Pyramid",
+    "attributes": {
+      "color": "Mossy Stone",
+      "type": "Temple Pyramid",
+      "rooftop_shape": "Stepped square pyramid with a flat-topped temple platform"
+    }
+  },
+  {
+    "label": "Coral-Red Ball Court",
+    "attributes": {
+      "color": "Coral-Red",
+      "type": "Ball Court",
+      "rooftop_shape": "Long narrow I-shaped court with sloped side walls visible from above",
+      "position_relative_to_L1": "NE"
+    }
+  },
+  {
+    "label": "Jade-Stucco Observatory Tower",
+    "attributes": {
+      "color": "Jade-Stucco",
+      "type": "Observatory Tower",
+      "rooftop_shape": "Circular multi-tiered tower with spiral ramp and domed top"
+    }
+  },
+  {
+    "label": "White Columned Mansion",
+    "attributes": {
+      "color": "White Columned",
+      "type": "Mansion",
+      "rooftop_shape": "Symmetrical rectangular hip roof with central cupola and wraparound porch outline"
+    }
+  },
+  {
+    "label": "Brick-Red Tobacco Barn",
+    "attributes": {
+      "color": "Brick-Red",
+      "type": "Tobacco Barn",
+      "rooftop_shape": "Tall narrow gable roof with ventilation slat rows along the ridge",
+      "position_relative_to_L1": "E"
+    }
+  },
+  {
+    "label": "Weathered Grey Slave Quarters",
+    "attributes": {
+      "color": "Weathered Grey",
+      "type": "Slave Quarters",
+      "rooftop_shape": "Row of small identical pitched-roof cabins in a linear arrangement"
+    }
+  },
+  {
+    "label": "Turquoise-Domed Madrasa",
+    "attributes": {
+      "color": "Turquoise-Domed",
+      "type": "Madrasa",
+      "rooftop_shape": "Large ribbed turquoise dome flanked by four slender minarets"
+    }
+  },
+  {
+    "label": "Crimson Square Tower",
+    "attributes": {
+      "color": "Crimson Red",
+      "type": "Square Tower",
+      "rooftop_shape": "Single solid square crimson red-tiled flat roof",
+      "position_relative_to_L1": "W"
+    }
+  },
+  {
+    "label": "Indigo-Tiled Hammam",
+    "attributes": {
+      "color": "Indigo-Tiled",
+      "type": "Hammam",
+      "rooftop_shape": "Cluster of small domes with star-shaped light openings on each"
+    }
+  },
+  {
+    "label": "Timber-Dark Longhouse",
+    "attributes": {
+      "color": "Timber-Dark",
+      "type": "Longhouse",
+      "rooftop_shape": "Long oval footprint with steeply curved ridge and turf-covered roof"
+    }
+  },
+  {
+    "label": "White Round Watchtower",
+    "attributes": {
+      "color": "White Stone",
+      "type": "Round Watchtower",
+      "rooftop_shape": "Single circular white-stone tower with conical thatched roof cap",
+      "position_relative_to_L1": "W"
+    }
+  },
+  {
+    "label": "Stone-Ring Great Hall",
+    "attributes": {
+      "color": "Stone-Ring",
+      "type": "Great Hall",
+      "rooftop_shape": "Massive rectangular turf roof with central smoke-hole opening and stone foundation outline"
+    }
+  },
+  {
+    "label": "Gray Steel Control Tower",
+    "attributes": {
+      "color": "Gray Steel",
+      "type": "Control Tower",
+      "rooftop_shape": "Flat rectangular rooftop with radar dome and antenna arrays"
+    }
+  },
+  {
+    "label": "Olive Green Hangar Bay",
+    "attributes": {
+      "color": "Olive Green",
+      "type": "Hangar Bay",
+      "rooftop_shape": "Long curved Quonset-hut roof with olive drab surface",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Camouflage Bunker Complex",
+    "attributes": {
+      "color": "Camouflage",
+      "type": "Bunker Complex",
+      "rooftop_shape": "Low hexagonal reinforced concrete rooftop with blast vents"
+    }
+  },
+  {
+    "label": "White Admiral Command Center",
+    "attributes": {
+      "color": "White",
+      "type": "Command Center",
+      "rooftop_shape": "Flat white rooftop with communication masts and satellite dishes"
+    }
+  },
+  {
+    "label": "Dark Green Dry Dock Shed",
+    "attributes": {
+      "color": "Dark Green",
+      "type": "Dry Dock Shed",
+      "rooftop_shape": "Massive arched corrugated roof spanning the dock basin",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Red Brick Ammunition Depot",
+    "attributes": {
+      "color": "Red Brick",
+      "type": "Ammunition Depot",
+      "rooftop_shape": "Reinforced rectangular rooftop with blast-proof hatches"
+    }
+  },
+  {
+    "label": "White Marble Capitol Dome",
+    "attributes": {
+      "color": "White Marble",
+      "type": "Capitol Building",
+      "rooftop_shape": "Grand white hemispherical dome with gilded lantern on top"
+    }
+  },
+  {
+    "label": "Dark Bronze Supreme Court",
+    "attributes": {
+      "color": "Dark Bronze",
+      "type": "Supreme Court",
+      "rooftop_shape": "Wide rectangular rooftop with neoclassical pediment outline",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Gray Granite Senate Hall",
+    "attributes": {
+      "color": "Gray Granite",
+      "type": "Senate Hall",
+      "rooftop_shape": "Flat rectangular rooftop with columned portico shadow visible"
+    }
+  },
+  {
+    "label": "Cream Stucco Main Embassy",
+    "attributes": {
+      "color": "Cream Stucco",
+      "type": "Main Embassy",
+      "rooftop_shape": "Flat rooftop with national flag pole and security cameras"
+    }
+  },
+  {
+    "label": "Cobalt Blue Round Cupola",
+    "attributes": {
+      "color": "Cobalt Blue",
+      "type": "Round Cupola",
+      "rooftop_shape": "Single solid circular cobalt blue domed roof",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Red Tile Diplomatic Residence",
+    "attributes": {
+      "color": "Red Tile",
+      "type": "Diplomatic Residence",
+      "rooftop_shape": "Mediterranean red clay tile hip roof with courtyard"
+    }
+  },
+  {
+    "label": "Limestone Pentagon Building",
+    "attributes": {
+      "color": "Limestone",
+      "type": "Pentagon Building",
+      "rooftop_shape": "Massive pentagonal rooftop with central courtyard void"
+    }
+  },
+  {
+    "label": "Dark Blue Atrium Briefing Center",
+    "attributes": {
+      "color": "Dark Blue",
+      "type": "Briefing Center",
+      "rooftop_shape": "Rectangular paneled rooftop with skylight grid",
+      "position_relative_to_L1": "E"
+    }
+  },
+  {
+    "label": "Concrete Gray Parking Structure",
+    "attributes": {
+      "color": "Concrete Gray",
+      "type": "Parking Structure",
+      "rooftop_shape": "Multi-level flat concrete rooftop with lane markings"
+    }
+  },
+  {
+    "label": "White Radar Dome Station",
+    "attributes": {
+      "color": "White",
+      "type": "Radar Dome",
+      "rooftop_shape": "Large white geodesic radome sphere sitting on flat base"
+    }
+  },
+  {
+    "label": "Black Launch Silo Cap",
+    "attributes": {
+      "color": "Black",
+      "type": "Launch Silo",
+      "rooftop_shape": "Circular reinforced cap with blast door seams",
+      "position_relative_to_L1": "E"
+    }
+  },
+  {
+    "label": "Olive Command Bunker",
+    "attributes": {
+      "color": "Olive",
+      "type": "Command Bunker",
+      "rooftop_shape": "Earth-covered rectangular mound with concealed ventilation shafts"
+    }
+  },
+  {
+    "label": "Tan Canvas Mess Hall",
+    "attributes": {
+      "color": "Tan",
+      "type": "Mess Hall",
+      "rooftop_shape": "Long rectangular canvas tent roof with ridgeline pole"
+    }
+  },
+  {
+    "label": "Military Green Barracks Block",
+    "attributes": {
+      "color": "Military Green",
+      "type": "Barracks Block",
+      "rooftop_shape": "Flat corrugated metal roof in military green with numbered markings",
+      "position_relative_to_L1": "W"
+    }
+  },
+  {
+    "label": "Brown Timber Obstacle Tower",
+    "attributes": {
+      "color": "Brown Timber",
+      "type": "Obstacle Tower",
+      "rooftop_shape": "Square wooden platform top with rope rigging anchors"
+    }
+  },
+  {
+    "label": "Red-and-White Lighthouse Tower",
+    "attributes": {
+      "color": "Red-and-White",
+      "type": "Lighthouse",
+      "rooftop_shape": "Circular gallery platform with red lantern room dome"
+    }
+  },
+  {
+    "label": "Navy Blue Boat House",
+    "attributes": {
+      "color": "Navy Blue",
+      "type": "Boat House",
+      "rooftop_shape": "Wide gabled roof with boat crane track running along ridge",
+      "position_relative_to_L1": "W"
+    }
+  },
+  {
+    "label": "Yellow Signal Station",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Signal Station",
+      "rooftop_shape": "Flat rooftop with signal mast and weather instruments"
+    }
+  },
+  {
+    "label": "Red-White Striped Guard Post",
+    "attributes": {
+      "color": "Red-White Striped",
+      "type": "Guard Post",
+      "rooftop_shape": "Small flat rooftop with red-white chevron markings"
+    }
+  },
+  {
+    "label": "Gray Immigration Hall",
+    "attributes": {
+      "color": "Gray",
+      "type": "Immigration Hall",
+      "rooftop_shape": "Long rectangular flat roof with skylights in rows",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Brown Customs Warehouse",
+    "attributes": {
+      "color": "Brown",
+      "type": "Customs Warehouse",
+      "rooftop_shape": "Wide corrugated metal sawtooth roof for loading bays"
+    }
+  },
+  {
+    "label": "Concrete Gray Submarine Pen",
+    "attributes": {
+      "color": "Concrete Gray",
+      "type": "Submarine Pen",
+      "rooftop_shape": "Massive reinforced concrete arch roof over water channel"
+    }
+  },
+  {
+    "label": "Steel Blue Torpedo Workshop",
+    "attributes": {
+      "color": "Steel Blue",
+      "type": "Torpedo Workshop",
+      "rooftop_shape": "Flat industrial rooftop with overhead crane rail visible",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Dark Gray Sonar Array Building",
+    "attributes": {
+      "color": "Dark Gray",
+      "type": "Sonar Building",
+      "rooftop_shape": "Rectangular rooftop with circular hydrophone calibration pool"
+    }
+  },
+  {
+    "label": "Moss-Covered Stone Pyramid",
+    "attributes": {
+      "color": "Moss-Covered Stone",
+      "type": "Stone Pyramid",
+      "rooftop_shape": "Stepped pyramid apex with weathered sacrificial altar platform"
+    }
+  },
+  {
+    "label": "Red Sandstone Column Hall",
+    "attributes": {
+      "color": "Red Sandstone",
+      "type": "Column Hall",
+      "rooftop_shape": "Collapsed rectangular roof with broken columns poking through jungle canopy",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Obsidian Black Ritual Platform",
+    "attributes": {
+      "color": "Obsidian Black",
+      "type": "Ritual Platform",
+      "rooftop_shape": "Circular dark obsidian platform with carved serpent border"
+    }
+  },
+  {
+    "label": "Black Lava Stone Watchtower",
+    "attributes": {
+      "color": "Black Lava",
+      "type": "Watchtower",
+      "rooftop_shape": "Circular basalt stone tower top with smoke-stained rim"
+    }
+  },
+  {
+    "label": "Golden Thatch Longhouse",
+    "attributes": {
+      "color": "Golden Thatch",
+      "type": "Longhouse",
+      "rooftop_shape": "Elongated oval thatched palm-leaf roof with smoke hole",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Red Clay Forge Hut",
+    "attributes": {
+      "color": "Red Clay",
+      "type": "Forge Hut",
+      "rooftop_shape": "Round clay dome with chimney vent blackened by soot"
+    }
+  },
+  {
+    "label": "Silver Canopy Observatory",
+    "attributes": {
+      "color": "Silver",
+      "type": "Observatory",
+      "rooftop_shape": "Elevated circular platform with retractable weather dome"
+    }
+  },
+  {
+    "label": "Forest Green Lab Module",
+    "attributes": {
+      "color": "Forest Green",
+      "type": "Lab Module",
+      "rooftop_shape": "Rectangular prefab roof with solar panel array and vent fans",
+      "position_relative_to_L1": "NE"
+    }
+  },
+  {
+    "label": "Natural Wood Canopy Walkway Hub",
+    "attributes": {
+      "color": "Natural Wood",
+      "type": "Walkway Hub",
+      "rooftop_shape": "Octagonal wooden platform with rope bridge anchors at each side"
+    }
+  },
+  {
+    "label": "White Colonial Manor House",
+    "attributes": {
+      "color": "White Colonial",
+      "type": "Manor House",
+      "rooftop_shape": "Wide hip roof with widow's walk railing and dormer windows"
+    }
+  },
+  {
+    "label": "Barn Red Processing Mill",
+    "attributes": {
+      "color": "Barn Red",
+      "type": "Processing Mill",
+      "rooftop_shape": "Large gambrel roof with ventilation cupola on ridge",
+      "position_relative_to_L1": "E"
+    }
+  },
+  {
+    "label": "Copper Green Sugar Refinery",
+    "attributes": {
+      "color": "Copper Green",
+      "type": "Sugar Refinery",
+      "rooftop_shape": "Industrial flat roof with tall copper chimney stack"
+    }
+  },
+  {
+    "label": "Faded Blue Stilted Fish Market",
+    "attributes": {
+      "color": "Faded Blue",
+      "type": "Fish Market",
+      "rooftop_shape": "Corrugated tin roof on stilts with drying rack frames visible"
+    }
+  },
+  {
+    "label": "Weathered Wood Dock Master Hut",
+    "attributes": {
+      "color": "Weathered Wood",
+      "type": "Dock Master Hut",
+      "rooftop_shape": "Small square palm-thatch roof perched over water on wooden piles",
+      "position_relative_to_L1": "NW"
+    }
+  },
+  {
+    "label": "Turquoise Net Repair Shed",
+    "attributes": {
+      "color": "Turquoise",
+      "type": "Net Repair Shed",
+      "rooftop_shape": "Open-sided lean-to roof with fishing net draped over frame"
+    }
+  },
+  {
+    "label": "White-and-Thatch Overwater Resort Lobby",
+    "attributes": {
+      "color": "White-and-Thatch",
+      "type": "Resort Lobby",
+      "rooftop_shape": "Thatched conical roof over circular overwater platform"
+    }
+  },
+  {
+    "label": "Aqua Infinity Pool Pavilion",
+    "attributes": {
+      "color": "Aqua",
+      "type": "Pool Pavilion",
+      "rooftop_shape": "Rectangular glass-bottom rooftop reflecting turquoise water",
+      "position_relative_to_L1": "W"
+    }
+  },
+  {
+    "label": "Bright Orange Triangular Beach Cabana",
+    "attributes": {
+      "color": "Bright Orange",
+      "type": "Triangular Beach Cabana",
+      "rooftop_shape": "Single solid equilateral triangular bright orange fabric roof"
+    }
+  },
+  {
+    "label": "Terracotta Circular Tea Silo",
+    "attributes": {
+      "color": "Terracotta",
+      "type": "Tea Silo",
+      "rooftop_shape": "Circular flat top with central hatch"
+    }
+  },
+  {
+    "label": "Gray Stone Tea Factory",
+    "attributes": {
+      "color": "Gray Stone",
+      "type": "Tea Factory",
+      "rooftop_shape": "Wide rectangular slate roof with twin chimneys",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Dark Wood Hillside Pagoda",
+    "attributes": {
+      "color": "Dark Wood",
+      "type": "Pagoda",
+      "rooftop_shape": "Multi-tiered octagonal pagoda roof with upswept eaves"
+    }
+  },
+  {
+    "label": "Slate Gray Circular Helipad",
+    "attributes": {
+      "color": "Slate Gray",
+      "type": "Helipad",
+      "rooftop_shape": "Circular flat pad with bold white letter H painted in center"
+    }
+  },
+  {
+    "label": "Aged Copper Mill House",
+    "attributes": {
+      "color": "Aged Copper",
+      "type": "Mill House",
+      "rooftop_shape": "Steep A-frame roof with waterwheel axle protruding from side",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Fieldstone Bridge Gatehouse",
+    "attributes": {
+      "color": "Fieldstone",
+      "type": "Bridge Gatehouse",
+      "rooftop_shape": "Twin-towered square rooftops flanking arched bridge span"
+    }
+  },
+  {
+    "label": "Pastel Pink Art Deco Hotel",
+    "attributes": {
+      "color": "Pastel Pink",
+      "type": "Art Deco Hotel",
+      "rooftop_shape": "Stepped-back flat roof with pink neon trim outline visible from above"
+    }
+  },
+  {
+    "label": "Red Lifeguard Headquarters",
+    "attributes": {
+      "color": "Red",
+      "type": "Lifeguard HQ",
+      "rooftop_shape": "Flat rooftop with observation tower and flag mast",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Turquoise Seafood Market",
+    "attributes": {
+      "color": "Turquoise",
+      "type": "Seafood Market",
+      "rooftop_shape": "Barrel-vault corrugated roof with open market stalls beneath"
+    }
+  },
+  {
+    "label": "Golden Stupa Shrine",
+    "attributes": {
+      "color": "Golden",
+      "type": "Stupa Shrine",
+      "rooftop_shape": "Conical golden spire rising from square tiered base"
+    }
+  },
+  {
+    "label": "Crimson Red Square Pagoda",
+    "attributes": {
+      "color": "Crimson Red",
+      "type": "Square Pagoda",
+      "rooftop_shape": "Single solid square crimson red-tiled flat roof",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Jade Green Round Pavilion",
+    "attributes": {
+      "color": "Jade Green",
+      "type": "Round Pavilion",
+      "rooftop_shape": "Single circular jade green domed roof"
+    }
+  },
+  {
+    "label": "Timber Brown Ski Lodge",
+    "attributes": {
+      "color": "Timber Brown",
+      "type": "Ski Lodge",
+      "rooftop_shape": "A-frame pitched roof with exposed timber beams and snow accumulation"
+    }
+  },
+  {
+    "label": "Silver Steel Gondola Terminal",
+    "attributes": {
+      "color": "Silver Steel",
+      "type": "Gondola Terminal",
+      "rooftop_shape": "Flat steel platform with cable wheel housing visible from above",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Red and White Mountain Rescue Station",
+    "attributes": {
+      "color": "Red and White",
+      "type": "Mountain Rescue Station",
+      "rooftop_shape": "Cross-marked flat roof with helipad circle and red border"
+    }
+  },
+  {
+    "label": "White Insulated Main Research Lab",
+    "attributes": {
+      "color": "White Insulated",
+      "type": "Main Research Lab",
+      "rooftop_shape": "Rectangular white roof with satellite dishes and antenna arrays"
+    }
+  },
+  {
+    "label": "Orange Metallic Ice Core Storage Facility",
+    "attributes": {
+      "color": "Orange Metallic",
+      "type": "Ice Core Storage Facility",
+      "rooftop_shape": "Barrel-vaulted corrugated roof with orange thermal panels",
+      "position_relative_to_L1": "E"
+    }
+  },
+  {
+    "label": "Blue Steel Glacier Monitoring Tower",
+    "attributes": {
+      "color": "Blue Steel",
+      "type": "Glacier Monitoring Tower",
+      "rooftop_shape": "Octagonal observation platform with radome sensor dome on top"
+    }
+  },
+  {
+    "label": "Dark Wood Lakeside Tavern",
+    "attributes": {
+      "color": "Dark Wood",
+      "type": "Lakeside Tavern",
+      "rooftop_shape": "Steep gabled roof with wooden shingles and central stone chimney"
+    }
+  },
+  {
+    "label": "Snow White Ice Fishing Hut Cluster",
+    "attributes": {
+      "color": "Snow White",
+      "type": "Ice Fishing Hut Cluster",
+      "rooftop_shape": "Cluster of small square flat roofs dusted with snow",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Slate Gray Village Elder Hall",
+    "attributes": {
+      "color": "Slate Gray",
+      "type": "Village Elder Hall",
+      "rooftop_shape": "Long rectangular thatched roof with smoke hole at center"
+    }
+  },
+  {
+    "label": "Olive Green Supply Depot",
+    "attributes": {
+      "color": "Olive Green",
+      "type": "Supply Depot",
+      "rooftop_shape": "Flat reinforced roof with cargo netting and supply crates visible"
+    }
+  },
+  {
+    "label": "Red Canvas Communications Tent",
+    "attributes": {
+      "color": "Red Canvas",
+      "type": "Communications Tent",
+      "rooftop_shape": "Conical tent peak with radio mast protruding from center",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Arctic White Weather Station",
+    "attributes": {
+      "color": "Arctic White",
+      "type": "Weather Station",
+      "rooftop_shape": "Circular roof with rotating wind vane and anemometer cluster"
+    }
+  },
+  {
+    "label": "Translucent Blue Main Ice Hall",
+    "attributes": {
+      "color": "Translucent Blue",
+      "type": "Main Ice Hall",
+      "rooftop_shape": "Curved translucent ice dome refracting pale blue light"
+    }
+  },
+  {
+    "label": "Emerald Green Ice Chapel",
+    "attributes": {
+      "color": "Emerald Green",
+      "type": "Ice Chapel",
+      "rooftop_shape": "Pointed crystalline spire roof with geometric ice facets",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Warm Amber Heated Lounge Pavilion",
+    "attributes": {
+      "color": "Warm Amber",
+      "type": "Heated Lounge Pavilion",
+      "rooftop_shape": "Flat amber-lit glass roof with warm glow visible from above"
+    }
+  },
+  {
+    "label": "Red Painted Wood Fisherman's Boathouse",
+    "attributes": {
+      "color": "Red Painted Wood",
+      "type": "Fisherman's Boathouse",
+      "rooftop_shape": "Traditional steep-pitched red wooden roof with white trim"
+    }
+  },
+  {
+    "label": "Dark Green Turf Turf-Roofed Cottage",
+    "attributes": {
+      "color": "Dark Green Turf",
+      "type": "Turf-Roofed Cottage",
+      "rooftop_shape": "Grass-covered sod roof blending into hillside terrain",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Stone Gray Viking Heritage Hall",
+    "attributes": {
+      "color": "Stone Gray",
+      "type": "Viking Heritage Hall",
+      "rooftop_shape": "Long narrow ridge roof with carved dragon finials at both ends"
+    }
+  },
+  {
+    "label": "Bright Orange Main Habitat Module",
+    "attributes": {
+      "color": "Bright Orange",
+      "type": "Main Habitat Module",
+      "rooftop_shape": "Geodesic dome roof with triangular panel segments in orange"
+    }
+  },
+  {
+    "label": "White Insulated Medical Bay",
+    "attributes": {
+      "color": "White Insulated",
+      "type": "Medical Bay",
+      "rooftop_shape": "Flat white roof with red cross marking and ventilation units",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Dark Blue Aurora Observatory",
+    "attributes": {
+      "color": "Dark Blue",
+      "type": "Aurora Observatory",
+      "rooftop_shape": "Retractable slit dome roof with dark blue anti-glare coating"
+    }
+  },
+  {
+    "label": "Safety Yellow Control Center",
+    "attributes": {
+      "color": "Safety Yellow",
+      "type": "Control Center",
+      "rooftop_shape": "Flat reinforced roof with yellow hazard striping and radar dish"
+    }
+  },
+  {
+    "label": "Concrete Gray Explosive Storage Bunker",
+    "attributes": {
+      "color": "Concrete Gray",
+      "type": "Explosive Storage Bunker",
+      "rooftop_shape": "Low-profile concrete bunker roof with blast-resistant hatch",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Red Warning Avalanche Trigger Tower",
+    "attributes": {
+      "color": "Red Warning",
+      "type": "Avalanche Trigger Tower",
+      "rooftop_shape": "Small square platform top with red warning beacon and launcher"
+    }
+  },
+  {
+    "label": "Cedar Brown Octagonal Gazebo",
+    "attributes": {
+      "color": "Cedar Brown",
+      "type": "Gazebo",
+      "rooftop_shape": "Octagonal flat roof with central flagpole"
+    }
+  },
+  {
+    "label": "Sky Blue Round Lodge",
+    "attributes": {
+      "color": "Sky Blue",
+      "type": "Round Lodge",
+      "rooftop_shape": "Single circular sky blue tin roof",
+      "position_relative_to_L1": "E"
+    }
+  },
+  {
+    "label": "Bright Yellow Square Cabin",
+    "attributes": {
+      "color": "Bright Yellow",
+      "type": "Square Cabin",
+      "rooftop_shape": "Single solid square bright yellow flat roof"
+    }
+  },
+  {
+    "label": "Rust Orange Ore Processing Plant",
+    "attributes": {
+      "color": "Rust Orange",
+      "type": "Ore Processing Plant",
+      "rooftop_shape": "Large flat industrial roof with conveyor belt housings and vents"
+    }
+  },
+  {
+    "label": "Steel Gray Equipment Garage",
+    "attributes": {
+      "color": "Steel Gray",
+      "type": "Equipment Garage",
+      "rooftop_shape": "Quonset hut curved roof with steel ribbing and snow melt system",
+      "position_relative_to_L1": "E"
+    }
+  },
+  {
+    "label": "Dark Iron Mine Shaft Head Frame",
+    "attributes": {
+      "color": "Dark Iron",
+      "type": "Mine Shaft Head Frame",
+      "rooftop_shape": "Open lattice tower top with pulley wheel visible from above"
+    }
+  },
+  {
+    "label": "Red Oxide Habitation Dome Alpha",
+    "attributes": {
+      "color": "Red Oxide",
+      "type": "Habitation Dome Alpha",
+      "rooftop_shape": "Pressurized hemispherical dome with red oxide dust coating"
+    }
+  },
+  {
+    "label": "Solar Gold Solar Array Hub",
+    "attributes": {
+      "color": "Solar Gold",
+      "type": "Solar Array Hub",
+      "rooftop_shape": "Hexagonal roof covered in golden photovoltaic panel segments",
+      "position_relative_to_L1": "NW"
+    }
+  },
+  {
+    "label": "Transparent Biodome Greenhouse",
+    "attributes": {
+      "color": "Transparent",
+      "type": "Biodome Greenhouse",
+      "rooftop_shape": "Transparent geodesic dome revealing green vegetation inside"
+    }
+  },
+  {
+    "label": "Neon Pink Nightclub Tower",
+    "attributes": {
+      "color": "Neon Pink",
+      "type": "Nightclub Tower",
+      "rooftop_shape": "Flat rooftop with glowing neon pink signage and holographic projectors"
+    }
+  },
+  {
+    "label": "Chrome Silver Corporate Megaspire",
+    "attributes": {
+      "color": "Chrome Silver",
+      "type": "Corporate Megaspire",
+      "rooftop_shape": "Sleek tapered chrome spire top with blinking red aviation lights",
+      "position_relative_to_L1": "SW"
+    }
+  },
+  {
+    "label": "Dark Purple Hacker Den Complex",
+    "attributes": {
+      "color": "Dark Purple",
+      "type": "Hacker Den Complex",
+      "rooftop_shape": "Irregular rooftop covered in dark purple solar mesh and antenna farms"
+    }
+  },
+  {
+    "label": "Titanium White Central Command Hub",
+    "attributes": {
+      "color": "Titanium White",
+      "type": "Central Command Hub",
+      "rooftop_shape": "Circular hub roof with docking port rings and navigation lights"
+    }
+  },
+  {
+    "label": "Bright Red Square Hangar",
+    "attributes": {
+      "color": "Bright Red",
+      "type": "Square Hangar",
+      "rooftop_shape": "Single solid square bright red metal roof",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Neon Purple Triangular Antenna Array",
+    "attributes": {
+      "color": "Neon Purple",
+      "type": "Triangular Antenna Array",
+      "rooftop_shape": "Single solid equilateral triangular neon purple panel"
+    }
+  },
+  {
+    "label": "Cloud White Sky Palace",
+    "attributes": {
+      "color": "Cloud White",
+      "type": "Sky Palace",
+      "rooftop_shape": "Ornate circular rooftop with cloud-white marble and golden trim"
+    }
+  },
+  {
+    "label": "Crystal Blue Levitation Engine Tower",
+    "attributes": {
+      "color": "Crystal Blue",
+      "type": "Levitation Engine Tower",
+      "rooftop_shape": "Glowing blue crystal spire emitting upward energy beam",
+      "position_relative_to_L1": "N"
+    }
+  },
+  {
+    "label": "Jade Green Hanging Garden Platform",
+    "attributes": {
+      "color": "Jade Green",
+      "type": "Hanging Garden Platform",
+      "rooftop_shape": "Terraced green platform with cascading vine edges visible from above"
+    }
+  },
+  {
+    "label": "Living Green Great Tree Throne Hall",
+    "attributes": {
+      "color": "Living Green",
+      "type": "Great Tree Throne Hall",
+      "rooftop_shape": "Massive canopy roof of interwoven living branches and golden leaves"
+    }
+  },
+  {
+    "label": "Sapphire Blue Square Tower",
+    "attributes": {
+      "color": "Sapphire Blue",
+      "type": "Square Tower",
+      "rooftop_shape": "Single solid square sapphire blue crystal roof",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Crimson Red Triangular Spire",
+    "attributes": {
+      "color": "Crimson Red",
+      "type": "Triangular Spire",
+      "rooftop_shape": "Single solid equilateral triangular crimson red roof"
+    }
+  },
+  {
+    "label": "Dark Granite Great Forge Hall",
+    "attributes": {
+      "color": "Dark Granite",
+      "type": "Great Forge Hall",
+      "rooftop_shape": "Massive rectangular roof with multiple forge chimney stacks belching smoke"
+    }
+  },
+  {
+    "label": "Brass Armory Vault",
+    "attributes": {
+      "color": "Brass",
+      "type": "Armory Vault",
+      "rooftop_shape": "Heavy riveted dome roof with central locking mechanism visible",
+      "position_relative_to_L1": "S"
+    }
+  },
+  {
+    "label": "Copper Green Treasury Spire",
+    "attributes": {
+      "color": "Copper Green",
+      "type": "Treasury Spire",
+      "rooftop_shape": "Patinated copper conical spire roof with rune-etched surface bands"
+    }
+  },
+  {
+    "label": "Brass Gold Grand Clockwork Tower",
+    "attributes": {
+      "color": "Brass Gold",
+      "type": "Grand Clockwork Tower",
+      "rooftop_shape": "Enormous brass clock face roof with spinning gear mechanisms visible"
+    }
+  },
+  {
+    "label": "Sooty Black Coal Power Station",
+    "attributes": {
+      "color": "Sooty Black",
+      "type": "Coal Power Station",
+      "rooftop_shape": "Blackened industrial roof with towering smokestacks and steam vents",
+      "position_relative_to_L1": "NE"
+    }
+  },
+  {
+    "label": "Copper Patina Airship Mooring Spire",
+    "attributes": {
+      "color": "Copper Patina",
+      "type": "Airship Mooring Spire",
+      "rooftop_shape": "Tall conical mooring mast top with copper patina and docking clamps"
+    }
+  },
+  {
+    "label": "Aqua Blue Central Habitat Dome",
+    "attributes": {
+      "color": "Aqua Blue",
+      "type": "Central Habitat Dome",
+      "rooftop_shape": "Large transparent aqua dome showing interior atrium from above"
+    }
+  },
+  {
+    "label": "Coral Pink Marine Biology Lab",
+    "attributes": {
+      "color": "Coral Pink",
+      "type": "Marine Biology Lab",
+      "rooftop_shape": "Rounded coral-textured roof with specimen collection ports",
+      "position_relative_to_L1": "E"
+    }
+  },
+  {
+    "label": "Deep Teal Pressure Control Tower",
+    "attributes": {
+      "color": "Deep Teal",
+      "type": "Pressure Control Tower",
+      "rooftop_shape": "Cylindrical roof with deep teal pressure gauges and valve wheels"
+    }
+  },
+  {
+    "label": "Amethyst Purple Crystal Throne Chamber",
+    "attributes": {
+      "color": "Amethyst Purple",
+      "type": "Crystal Throne Chamber",
+      "rooftop_shape": "Massive natural amethyst crystal cluster formation as roof"
+    }
+  },
+  {
+    "label": "Sapphire Blue Healing Springs Pavilion",
+    "attributes": {
+      "color": "Sapphire Blue",
+      "type": "Healing Springs Pavilion",
+      "rooftop_shape": "Smooth sapphire dome with internal blue luminescence",
+      "position_relative_to_L1": "NW"
+    }
+  },
+  {
+    "label": "Emerald Green Gem Cutter's Workshop",
+    "attributes": {
+      "color": "Emerald Green",
+      "type": "Gem Cutter's Workshop",
+      "rooftop_shape": "Faceted emerald-shaped roof with precise geometric cuts"
+    }
+  },
+  {
+    "label": "Rusted Metal Fortified Command Bunker",
+    "attributes": {
+      "color": "Rusted Metal",
+      "type": "Fortified Command Bunker",
+      "rooftop_shape": "Reinforced rusted metal roof with sandbag perimeter and watchtower"
+    }
+  },
+  {
+    "label": "Yellow Salvage Workshop",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Salvage Workshop",
+      "rooftop_shape": "Patchwork roof of mismatched metal sheets and tarpaulins",
+      "position_relative_to_L1": "W"
+    }
+  },
+  {
+    "label": "Faded Military Green Guard Tower",
+    "attributes": {
+      "color": "Faded Military Green",
+      "type": "Guard Tower",
+      "rooftop_shape": "Small square platform with faded military green paint and mounted searchlight"
+    }
+  }
+]

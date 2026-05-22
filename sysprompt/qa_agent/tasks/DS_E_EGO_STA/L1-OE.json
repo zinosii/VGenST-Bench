@@ -1,0 +1,16 @@
+{
+  "task_id": "DS_E_EGO_STA",
+  "category_id": "L1-OE",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which destination text appears on the sign?: A. Restrooms, B. Gates A1-A20, C. Departure Lounge, D. Arrivals Hall",
+      "answer": "B"
+    },
+    {
+      "id": "proto_2",
+      "question": "Which destination text does NOT appear on the sign?: A. Gates A1-A20, B. Customs & Baggage, C. Restrooms",
+      "answer": "C"
+    }
+  ]
+}

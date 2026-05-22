@@ -1,0 +1,2002 @@
+[
+  {
+    "label": "Polished Walnut Coffee Table",
+    "attributes": {
+      "color": "Dark Brown"
+    }
+  },
+  {
+    "label": "Tall Lidless Wooden Storage Box",
+    "attributes": {
+      "material": "Opaque Wood",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Smooth Red Glass Marbles",
+    "attributes": {
+      "appearance": "All identical — smooth, round, vivid red",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "White Quartz Kitchen Island Counter",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Tall Stainless Steel Canister",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Yellow Lemons",
+    "attributes": {
+      "appearance": "All identical — oval, bright yellow",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Light Maple Bedside Nightstand",
+    "attributes": {
+      "color": "Light Maple"
+    }
+  },
+  {
+    "label": "Tall Brown Leather Jewelry Box",
+    "attributes": {
+      "material": "Opaque Leather",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Silver Coins",
+    "attributes": {
+      "appearance": "All identical — flat, round, silver",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "White Marble Bathroom Vanity Counter",
+    "attributes": {
+      "color": "White Marble"
+    }
+  },
+  {
+    "label": "Tall White Ceramic Jar",
+    "attributes": {
+      "material": "Opaque Ceramic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Pink Soap Balls",
+    "attributes": {
+      "appearance": "All identical — round, smooth, pink",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "White Laminate Laundry Folding Table",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Tall Gray Fabric Storage Bin",
+    "attributes": {
+      "material": "Opaque Fabric",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Blue Dryer Balls",
+    "attributes": {
+      "appearance": "All identical — round, blue rubber",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Dark Cherry Wood Dining Table",
+    "attributes": {
+      "color": "Dark Cherry"
+    }
+  },
+  {
+    "label": "Tall Black Lacquer Bread Box",
+    "attributes": {
+      "material": "Opaque Lacquer",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Brown Bread Rolls",
+    "attributes": {
+      "appearance": "All identical — round, brown, crusty",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Walnut Office Desk",
+    "attributes": {
+      "color": "Walnut Brown"
+    }
+  },
+  {
+    "label": "Tall Black Metal Pen Cup",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Green Rubber Erasers",
+    "attributes": {
+      "appearance": "All identical — rectangular, green",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Gray Steel Garage Workbench",
+    "attributes": {
+      "color": "Gray Steel"
+    }
+  },
+  {
+    "label": "Tall Red Metal Toolbox",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Silver Hex Bolts",
+    "attributes": {
+      "appearance": "All identical — hexagonal, silver steel",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Teak Wood Slatted Patio Table",
+    "attributes": {
+      "color": "Natural Teak"
+    }
+  },
+  {
+    "label": "Tall Terracotta Flower Pot",
+    "attributes": {
+      "material": "Opaque Ceramic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Brown Pine Cones",
+    "attributes": {
+      "appearance": "All identical — small, brown, conical",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Vintage Wooden Attic Desk",
+    "attributes": {
+      "color": "Weathered Wood"
+    }
+  },
+  {
+    "label": "Tall Tin Biscuit Box",
+    "attributes": {
+      "material": "Opaque Tin",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Old Brass Buttons",
+    "attributes": {
+      "appearance": "All identical — round, brass, flat",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Round Marble Cafe Table",
+    "attributes": {
+      "color": "White Marble"
+    }
+  },
+  {
+    "label": "Tall Red Ceramic Coffee Canister",
+    "attributes": {
+      "material": "Opaque Ceramic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small White Sugar Cubes",
+    "attributes": {
+      "appearance": "All identical — cubic, white",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Glossy Black Restaurant Booth Table",
+    "attributes": {
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Tall Black Ceramic Condiment Caddy",
+    "attributes": {
+      "material": "Opaque Ceramic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Red Ketchup Packets",
+    "attributes": {
+      "appearance": "All identical — flat, red, rectangular",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Wooden Library Reading Desk",
+    "attributes": {
+      "color": "Warm Oak"
+    }
+  },
+  {
+    "label": "Tall Brown Cardboard Pencil Box",
+    "attributes": {
+      "material": "Opaque Cardboard",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Blue Rubber Erasers",
+    "attributes": {
+      "appearance": "All identical — rectangular, blue",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Beige Classroom Student Desk",
+    "attributes": {
+      "color": "Beige"
+    }
+  },
+  {
+    "label": "Tall White Plastic Supply Box",
+    "attributes": {
+      "material": "Opaque Plastic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Yellow Pencil Stubs",
+    "attributes": {
+      "appearance": "All identical — short, yellow, cylindrical",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Gray Speckled Retail Counter",
+    "attributes": {
+      "color": "Gray"
+    }
+  },
+  {
+    "label": "Tall Black Cash Register Tray",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Gold Coins",
+    "attributes": {
+      "appearance": "All identical — round, flat, gold",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Marble Hotel Reception Desk",
+    "attributes": {
+      "color": "Cream Marble"
+    }
+  },
+  {
+    "label": "Tall Brass Key Box",
+    "attributes": {
+      "material": "Opaque Brass",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small White Key Cards",
+    "attributes": {
+      "appearance": "All identical — flat, white, rectangular",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Dark Wood Bar Counter",
+    "attributes": {
+      "color": "Dark Mahogany"
+    }
+  },
+  {
+    "label": "Tall Copper Ice Bucket",
+    "attributes": {
+      "material": "Opaque Copper",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Red Cherries",
+    "attributes": {
+      "appearance": "All identical — round, red, glossy",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "White Hospital Tray Table",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Tall White Plastic Medicine Cup",
+    "attributes": {
+      "material": "Opaque Plastic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Orange Pill Capsules",
+    "attributes": {
+      "appearance": "All identical — oval, orange",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Weathered Wood Picnic Table",
+    "attributes": {
+      "color": "Natural Wood"
+    }
+  },
+  {
+    "label": "Tall Woven Straw Basket",
+    "attributes": {
+      "material": "Opaque Woven Straw",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Green Apples",
+    "attributes": {
+      "appearance": "All identical — round, green, glossy",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Polished Museum Information Desk",
+    "attributes": {
+      "color": "Gray Stone"
+    }
+  },
+  {
+    "label": "Tall Black Velvet Display Box",
+    "attributes": {
+      "material": "Opaque Velvet",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Gold Medallions",
+    "attributes": {
+      "appearance": "All identical — round, flat, gold",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Gray Epoxy Resin Lab Bench",
+    "attributes": {
+      "color": "Gray"
+    }
+  },
+  {
+    "label": "Tall White Specimen Jar",
+    "attributes": {
+      "material": "Opaque Ceramic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Blue Glass Beads",
+    "attributes": {
+      "appearance": "All identical — round, blue, smooth",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Paint-Stained Art Studio Table",
+    "attributes": {
+      "color": "White Splattered"
+    }
+  },
+  {
+    "label": "Tall Red Metal Paint Can",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Wooden Cubes",
+    "attributes": {
+      "appearance": "All identical — cubic, natural wood",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Stainless Steel Kitchen Prep Station",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Tall White Ceramic Mixing Bowl",
+    "attributes": {
+      "material": "Opaque Ceramic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Red Cherry Tomatoes",
+    "attributes": {
+      "appearance": "All identical — round, red, glossy",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Gray Steel Mechanic Workbench",
+    "attributes": {
+      "color": "Gray Steel"
+    }
+  },
+  {
+    "label": "Tall Green Metal Ammo Box",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Silver Steel Washers",
+    "attributes": {
+      "appearance": "All identical — flat ring, silver",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Wooden Architect Sample Table",
+    "attributes": {
+      "color": "Light Oak"
+    }
+  },
+  {
+    "label": "Tall Brown Leather Pencil Case",
+    "attributes": {
+      "material": "Opaque Leather",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small White Marble Tiles",
+    "attributes": {
+      "appearance": "All identical — square, flat, white",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Sturdy Tailor Cutting Table",
+    "attributes": {
+      "color": "Natural Linen"
+    }
+  },
+  {
+    "label": "Tall Wicker Sewing Basket",
+    "attributes": {
+      "material": "Opaque Wicker",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Red Thread Spools",
+    "attributes": {
+      "appearance": "All identical — cylindrical, red",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Navy Velvet Jeweler Tray",
+    "attributes": {
+      "color": "Navy Blue"
+    }
+  },
+  {
+    "label": "Tall Black Suede Ring Box",
+    "attributes": {
+      "material": "Opaque Suede",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Clear Crystal Beads",
+    "attributes": {
+      "appearance": "All identical — round, clear, faceted",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Rustic Greenhouse Potting Bench",
+    "attributes": {
+      "color": "Weathered Green"
+    }
+  },
+  {
+    "label": "Tall Terracotta Plant Pot",
+    "attributes": {
+      "material": "Opaque Terracotta",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Brown Seed Pods",
+    "attributes": {
+      "appearance": "All identical — oval, brown",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Industrial Factory Table",
+    "attributes": {
+      "color": "Bare Steel"
+    }
+  },
+  {
+    "label": "Tall Gray Metal Parts Bin",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Black Rubber Grommets",
+    "attributes": {
+      "appearance": "All identical — ring-shaped, black",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Solid Oak Woodworking Bench",
+    "attributes": {
+      "color": "Natural Oak"
+    }
+  },
+  {
+    "label": "Tall Pine Wood Box",
+    "attributes": {
+      "material": "Opaque Wood",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Brass Wood Screws",
+    "attributes": {
+      "appearance": "All identical — golden, screw-shaped",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Brushed Steel Spaceship Mess Table",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Tall Titanium Food Container",
+    "attributes": {
+      "material": "Opaque Titanium",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Silver Nutrition Capsules",
+    "attributes": {
+      "appearance": "All identical — capsule, silver",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Matte Black Cyberpunk Neon Desk",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Tall Chrome Data Canister",
+    "attributes": {
+      "material": "Opaque Chrome",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Cyan Data Chips",
+    "attributes": {
+      "appearance": "All identical — rectangular, cyan, flat",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Brushed Aluminum Mars Colony Table",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Tall White Sample Container",
+    "attributes": {
+      "material": "Opaque Plastic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Red Rock Specimens",
+    "attributes": {
+      "appearance": "All identical — irregular, red",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Neon-Lit Cantina Bar Counter",
+    "attributes": {
+      "color": "Dark Purple"
+    }
+  },
+  {
+    "label": "Tall Iridescent Metal Cup",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Gold Alien Coins",
+    "attributes": {
+      "appearance": "All identical — round, gold, inscribed",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Glass-Top Holographic Briefing Table",
+    "attributes": {
+      "color": "Transparent Edge"
+    }
+  },
+  {
+    "label": "Tall Matte Black Mission Box",
+    "attributes": {
+      "material": "Opaque Composite",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Silver Badge Tokens",
+    "attributes": {
+      "appearance": "All identical — round, silver, flat",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Green Anti-Static Workshop Mat",
+    "attributes": {
+      "color": "Green"
+    }
+  },
+  {
+    "label": "Tall ESD-Safe Black Bin",
+    "attributes": {
+      "material": "Opaque Plastic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Copper Servo Motors",
+    "attributes": {
+      "appearance": "All identical — cylindrical, copper",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Chrome Intergalactic Diner Table",
+    "attributes": {
+      "color": "Chrome"
+    }
+  },
+  {
+    "label": "Tall Red Retro Milkshake Cup",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Pink Cosmic Candy Puffs",
+    "attributes": {
+      "appearance": "All identical — round, pink, fluffy",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Brass Steampunk Airship Desk",
+    "attributes": {
+      "color": "Aged Brass"
+    }
+  },
+  {
+    "label": "Tall Leather Gear Case",
+    "attributes": {
+      "material": "Opaque Leather",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Brass Cog Wheels",
+    "attributes": {
+      "appearance": "All identical — gear-shaped, brass",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Rusted Metal Scavenger Table",
+    "attributes": {
+      "color": "Rusted Brown"
+    }
+  },
+  {
+    "label": "Tall Dented Tin Can",
+    "attributes": {
+      "material": "Opaque Tin",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Gray Spent Shell Casings",
+    "attributes": {
+      "appearance": "All identical — cylindrical, gray",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Polished Chrome Time Traveler Bench",
+    "attributes": {
+      "color": "Chrome"
+    }
+  },
+  {
+    "label": "Tall Matte Black Time Capsule Box",
+    "attributes": {
+      "material": "Opaque Crystal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Blue Temporal Flux Gems",
+    "attributes": {
+      "appearance": "All identical — round, blue, glowing",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Dark Wood Wizard Alchemy Desk",
+    "attributes": {
+      "color": "Dark Stained"
+    }
+  },
+  {
+    "label": "Tall Copper Cauldron Pot",
+    "attributes": {
+      "material": "Opaque Iron",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Purple Amethyst Crystals",
+    "attributes": {
+      "appearance": "All identical — faceted, purple",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Rough-Hewn Oak Tavern Table",
+    "attributes": {
+      "color": "Rough Oak"
+    }
+  },
+  {
+    "label": "Tall Wooden Ale Tankard",
+    "attributes": {
+      "material": "Opaque Wood",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Brown Wooden Dice",
+    "attributes": {
+      "appearance": "All identical — cubic, brown, carved",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Barnacle-Encrusted Pirate Map Desk",
+    "attributes": {
+      "color": "Weathered Driftwood"
+    }
+  },
+  {
+    "label": "Tall Leather Treasure Chest",
+    "attributes": {
+      "material": "Opaque Leather",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Gold Doubloon Coins",
+    "attributes": {
+      "appearance": "All identical — round, gold",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Sandstone Egyptian Scribe Table",
+    "attributes": {
+      "color": "Sandy Beige"
+    }
+  },
+  {
+    "label": "Tall Clay Canopic Jar",
+    "attributes": {
+      "material": "Opaque Clay",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Turquoise Scarab Beads",
+    "attributes": {
+      "appearance": "All identical — oval, turquoise",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Mossy Tree Stump Table",
+    "attributes": {
+      "color": "Moss Green"
+    }
+  },
+  {
+    "label": "Tall Hollow Log Container",
+    "attributes": {
+      "material": "Opaque Bark",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Pink Rose Quartz Pebbles",
+    "attributes": {
+      "appearance": "All identical — round, pink, smooth",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Dark Gothic Vampire Dining Table",
+    "attributes": {
+      "color": "Ebony Black"
+    }
+  },
+  {
+    "label": "Tall Black Onyx Goblet",
+    "attributes": {
+      "material": "Opaque Stone",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Crimson Glass Marbles",
+    "attributes": {
+      "appearance": "All identical — round, crimson, glossy",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Heavy Stone Dwarven Forge Bench",
+    "attributes": {
+      "color": "Dark Gray Stone"
+    }
+  },
+  {
+    "label": "Tall Cast Iron Crucible",
+    "attributes": {
+      "material": "Opaque Iron",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Orange Ember Coal Chunks",
+    "attributes": {
+      "appearance": "All identical — irregular, orange-red",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Mahogany Victorian Detective Desk",
+    "attributes": {
+      "color": "Rich Mahogany"
+    }
+  },
+  {
+    "label": "Tall Brass Evidence Box",
+    "attributes": {
+      "material": "Opaque Brass",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Brown Tobacco Pipe Stems",
+    "attributes": {
+      "appearance": "All identical — cylindrical, brown",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Pine Fairy Tale Cottage Table",
+    "attributes": {
+      "color": "Honey Pine"
+    }
+  },
+  {
+    "label": "Tall Ceramic Cookie Jar",
+    "attributes": {
+      "material": "Opaque Ceramic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Red Strawberries",
+    "attributes": {
+      "appearance": "All identical — round, red, leafy top",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Weathered Old West Saloon Table",
+    "attributes": {
+      "color": "Scarred Wood"
+    }
+  },
+  {
+    "label": "Tall Tin Spittoon Cup",
+    "attributes": {
+      "material": "Opaque Tin",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Red Clay Poker Chips",
+    "attributes": {
+      "appearance": "All identical — flat, round, red",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Laminate Train Dining Car Table",
+    "attributes": {
+      "color": "Beige Laminate"
+    }
+  },
+  {
+    "label": "Tall White Porcelain Sugar Bowl",
+    "attributes": {
+      "material": "Opaque Porcelain",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Brown Sugar Cubes",
+    "attributes": {
+      "appearance": "All identical — cubic, brown",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Glass Airport Lounge Coffee Table",
+    "attributes": {
+      "color": "Smoked Glass"
+    }
+  },
+  {
+    "label": "Tall Black Leather Travel Pouch",
+    "attributes": {
+      "material": "Opaque Leather",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Blue Boarding Pass Tokens",
+    "attributes": {
+      "appearance": "All identical — flat, blue, rectangular",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Compact RV Kitchen Counter",
+    "attributes": {
+      "color": "White Laminate"
+    }
+  },
+  {
+    "label": "Tall Stainless Steel Canister",
+    "attributes": {
+      "material": "Opaque Steel",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Green Lime Wedges",
+    "attributes": {
+      "appearance": "All identical — wedge, green",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Teak Yacht Sun Deck Table",
+    "attributes": {
+      "color": "Golden Teak"
+    }
+  },
+  {
+    "label": "Tall White Canvas Bucket",
+    "attributes": {
+      "material": "Opaque Canvas",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Gold Sunscreen Tubes",
+    "attributes": {
+      "appearance": "All identical — cylindrical, gold",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Gray Steel Submarine Dining Table",
+    "attributes": {
+      "color": "Battleship Gray"
+    }
+  },
+  {
+    "label": "Tall Olive Drab Mess Kit Box",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Silver Dog Tag Discs",
+    "attributes": {
+      "appearance": "All identical — oval, silver, flat",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Polished Vintage Train Cabin Table",
+    "attributes": {
+      "color": "Dark Walnut"
+    }
+  },
+  {
+    "label": "Tall Brown Leather Hatbox",
+    "attributes": {
+      "material": "Opaque Leather",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Red Vintage Train Tickets",
+    "attributes": {
+      "appearance": "All identical — rectangular, red, paper",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Stainless Steel Ferry Snack Bar Counter",
+    "attributes": {
+      "color": "Stainless Steel"
+    }
+  },
+  {
+    "label": "Tall White Paper Snack Bag",
+    "attributes": {
+      "material": "Opaque Paper",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Yellow Wrapped Candies",
+    "attributes": {
+      "appearance": "All identical — round, yellow wrapped",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Brushed Metal Space Station Table",
+    "attributes": {
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Tall White Equipment Pouch",
+    "attributes": {
+      "material": "Opaque Fabric",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Orange Dosimeter Badges",
+    "attributes": {
+      "appearance": "All identical — rectangular, orange, clipped",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Folding Tour Bus Table",
+    "attributes": {
+      "color": "Gray Plastic"
+    }
+  },
+  {
+    "label": "Tall Black Fabric Organizer Bag",
+    "attributes": {
+      "material": "Opaque Fabric",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Red Backstage Wristbands",
+    "attributes": {
+      "appearance": "All identical — flat loop, red",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Steel-Frame Captain Desk",
+    "attributes": {
+      "color": "Charcoal Steel"
+    }
+  },
+  {
+    "label": "Tall Brass Navigation Box",
+    "attributes": {
+      "material": "Opaque Brass",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Red Signal Whistles",
+    "attributes": {
+      "appearance": "All identical — cylindrical, red, metal",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Weathered Beachside Table",
+    "attributes": {
+      "color": "Bleached Driftwood"
+    }
+  },
+  {
+    "label": "Tall Woven Palm Basket",
+    "attributes": {
+      "material": "Opaque Woven Palm",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small White Seashells",
+    "attributes": {
+      "appearance": "All identical — spiral, white",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Canvas Jungle Basecamp Table",
+    "attributes": {
+      "color": "Olive Canvas"
+    }
+  },
+  {
+    "label": "Tall Green Ammo Can",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Orange Compass Tokens",
+    "attributes": {
+      "appearance": "All identical — round, orange, flat",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Dusty Desert Dig Sorting Table",
+    "attributes": {
+      "color": "Sandy Tan"
+    }
+  },
+  {
+    "label": "Tall Wooden Storage Box",
+    "attributes": {
+      "material": "Opaque Canvas",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Stone Pebbles",
+    "attributes": {
+      "appearance": "All identical — flat, brown, irregular",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Pine Snowy Cabin Table",
+    "attributes": {
+      "color": "Snow-Dusted Pine"
+    }
+  },
+  {
+    "label": "Tall Red Wool Mitten Basket",
+    "attributes": {
+      "material": "Opaque Wool",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Silver Hand Warmer Packets",
+    "attributes": {
+      "appearance": "All identical — flat, silver, rectangular",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Aluminum Mountain Basecamp Bench",
+    "attributes": {
+      "color": "Raw Aluminum"
+    }
+  },
+  {
+    "label": "Tall Yellow Dry Bag",
+    "attributes": {
+      "material": "Opaque Nylon",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Gray Carabiner Clips",
+    "attributes": {
+      "appearance": "All identical — D-shaped, gray, metal",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Weathered Lakeside Tackle Station",
+    "attributes": {
+      "color": "Aged Cedar"
+    }
+  },
+  {
+    "label": "Tall Green Tackle Box",
+    "attributes": {
+      "material": "Opaque Plastic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Red Fishing Bobbers",
+    "attributes": {
+      "appearance": "All identical — round, red, plastic",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Canvas Safari Table",
+    "attributes": {
+      "color": "Khaki Canvas"
+    }
+  },
+  {
+    "label": "Tall Brown Metal Tin",
+    "attributes": {
+      "material": "Opaque Leather",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Walnuts",
+    "attributes": {
+      "appearance": "All identical — cylindrical, yellow",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Rocky Cave Explorer Ledge",
+    "attributes": {
+      "color": "Gray Granite"
+    }
+  },
+  {
+    "label": "Tall Black Equipment Pouch",
+    "attributes": {
+      "material": "Opaque Nylon",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small White Chalk Pieces",
+    "attributes": {
+      "appearance": "All identical — cylindrical, white, dusty",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Mossy Botanical Garden Bench",
+    "attributes": {
+      "color": "Weathered Wood"
+    }
+  },
+  {
+    "label": "Tall Terracotta Seed Pot",
+    "attributes": {
+      "material": "Opaque Terracotta",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Purple Seed Packets",
+    "attributes": {
+      "appearance": "All identical — flat, purple, paper",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Rustic Summer Camp Log Table",
+    "attributes": {
+      "color": "Rough Bark"
+    }
+  },
+  {
+    "label": "Tall Tin Camp Cup",
+    "attributes": {
+      "material": "Opaque Tin",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small White Marshmallows",
+    "attributes": {
+      "appearance": "All identical — cylindrical, white, soft",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Fabric Knitting Table",
+    "attributes": {
+      "color": "Cream Linen"
+    }
+  },
+  {
+    "label": "Tall Wicker Yarn Basket",
+    "attributes": {
+      "material": "Opaque Wicker",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Blue Yarn Balls",
+    "attributes": {
+      "appearance": "All identical — round, blue, woolen",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Black Darkroom Counter",
+    "attributes": {
+      "color": "Matte Black"
+    }
+  },
+  {
+    "label": "Tall Black Film Canister",
+    "attributes": {
+      "material": "Opaque Plastic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Silver Film Developing Clips",
+    "attributes": {
+      "appearance": "All identical — flat, silver, metal",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Sleek Music Producer Desk",
+    "attributes": {
+      "color": "Glossy Black"
+    }
+  },
+  {
+    "label": "Tall Black Equipment Case",
+    "attributes": {
+      "material": "Opaque Plastic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Yellow Guitar Picks",
+    "attributes": {
+      "appearance": "All identical — triangular, yellow, flat",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "White Diorama Building Desk",
+    "attributes": {
+      "color": "White"
+    }
+  },
+  {
+    "label": "Tall Clear-Lid Removed Parts Box",
+    "attributes": {
+      "material": "Opaque Plastic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Green Miniature Trees",
+    "attributes": {
+      "appearance": "All identical — small, green, tree-shaped",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Green Cutting Mat Scrapbook Table",
+    "attributes": {
+      "color": "Green Grid"
+    }
+  },
+  {
+    "label": "Tall White Cardboard Box",
+    "attributes": {
+      "material": "Opaque Tin",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Wooden Buttons",
+    "attributes": {
+      "appearance": "All identical — star-shaped, gold, flat",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Gray Ham Radio Desk",
+    "attributes": {
+      "color": "Gray Composite"
+    }
+  },
+  {
+    "label": "Tall Black Antenna Parts Box",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Orange AA Batteries",
+    "attributes": {
+      "appearance": "All identical — cylindrical, orange",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Deep Green Coin Collector Table",
+    "attributes": {
+      "color": "Forest Green Velvet"
+    }
+  },
+  {
+    "label": "Tall Brown Coin Folio Box",
+    "attributes": {
+      "material": "Opaque Leather",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Silver Ancient Coins",
+    "attributes": {
+      "appearance": "All identical — round, silver, flat",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "White Lacquer Vanity Station",
+    "attributes": {
+      "color": "White Lacquer"
+    }
+  },
+  {
+    "label": "Tall Pink Cosmetic Box",
+    "attributes": {
+      "material": "Opaque Plastic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small White Cotton Balls",
+    "attributes": {
+      "appearance": "All identical — cylindrical, red, capped",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Dark Watchmaker Repair Desk",
+    "attributes": {
+      "color": "Dark Walnut"
+    }
+  },
+  {
+    "label": "Tall Black Watch Parts Box",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Gold Watch Gear Wheels",
+    "attributes": {
+      "appearance": "All identical — gear-shaped, gold, tiny",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Terracotta Indoor Plant Station",
+    "attributes": {
+      "color": "Terracotta"
+    }
+  },
+  {
+    "label": "Tall Green Ceramic Planter",
+    "attributes": {
+      "material": "Opaque Ceramic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Brown Peat Moss Cubes",
+    "attributes": {
+      "appearance": "All identical — cubic, brown, compressed",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Wooden Gym Locker Room Bench",
+    "attributes": {
+      "color": "Light Pine"
+    }
+  },
+  {
+    "label": "Tall Blue Gym Bag",
+    "attributes": {
+      "material": "Opaque Nylon",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small White Protein Bar Wrappers",
+    "attributes": {
+      "appearance": "All identical — rectangular, white, wrapped",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Green Tennis Courtside Bench",
+    "attributes": {
+      "color": "Forest Green Metal"
+    }
+  },
+  {
+    "label": "Tall Yellow Ball Hopper",
+    "attributes": {
+      "material": "Opaque Plastic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Yellow Tennis Balls",
+    "attributes": {
+      "appearance": "All identical — round, yellow, fuzzy",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Dark Wood Golf Clubhouse Counter",
+    "attributes": {
+      "color": "Dark Mahogany"
+    }
+  },
+  {
+    "label": "Tall Brown Leather Ball Bag",
+    "attributes": {
+      "material": "Opaque Leather",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small White Golf Balls",
+    "attributes": {
+      "appearance": "All identical — round, white, dimpled",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Rustic Ski Lodge Table",
+    "attributes": {
+      "color": "Rustic Pine"
+    }
+  },
+  {
+    "label": "Tall Wool Knit Basket",
+    "attributes": {
+      "material": "Opaque Wool",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Orange Hot Cocoa Packets",
+    "attributes": {
+      "appearance": "All identical — flat, orange, paper",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Polished Basketball Scorer Table",
+    "attributes": {
+      "color": "Glossy Maple"
+    }
+  },
+  {
+    "label": "Tall Black Equipment Bin",
+    "attributes": {
+      "material": "Opaque Plastic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Orange Referee Whistles",
+    "attributes": {
+      "appearance": "All identical — cylindrical, orange, metal",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Smooth Bowling Score Desk",
+    "attributes": {
+      "color": "Beige Laminate"
+    }
+  },
+  {
+    "label": "Tall Black Shoe Organizer Box",
+    "attributes": {
+      "material": "Opaque Cardboard",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Red Bowling Pin Erasers",
+    "attributes": {
+      "appearance": "All identical — pin-shaped, red",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Dark Mahogany Billiard Side Table",
+    "attributes": {
+      "color": "Dark Mahogany"
+    }
+  },
+  {
+    "label": "Tall Wooden Storage Box",
+    "attributes": {
+      "material": "Opaque Felt",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small White Ping-Pong Balls",
+    "attributes": {
+      "appearance": "All identical — cubic, blue, dusty",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Bamboo Yoga Studio Reception Desk",
+    "attributes": {
+      "color": "Natural Bamboo"
+    }
+  },
+  {
+    "label": "Tall White Ceramic Incense Box",
+    "attributes": {
+      "material": "Opaque Ceramic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Purple Lavender Sachets",
+    "attributes": {
+      "appearance": "All identical — flat pouch, purple",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Concrete Boxing Gym Equipment Desk",
+    "attributes": {
+      "color": "Raw Concrete"
+    }
+  },
+  {
+    "label": "Tall Red Canvas Equipment Bag",
+    "attributes": {
+      "material": "Opaque Canvas",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small White Hand Wraps Rolls",
+    "attributes": {
+      "appearance": "All identical — cylindrical, white, rolled",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Weathered Surfer Shack Counter",
+    "attributes": {
+      "color": "Bleached Wood"
+    }
+  },
+  {
+    "label": "Tall Wooden Crate",
+    "attributes": {
+      "material": "Opaque Plastic",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Seashells",
+    "attributes": {
+      "appearance": "All identical — rectangular, yellow, waxy",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Ivory Wedding Guestbook Table",
+    "attributes": {
+      "color": "Ivory Satin"
+    }
+  },
+  {
+    "label": "Tall White Storage Box",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Pink Hard Candies",
+    "attributes": {
+      "appearance": "All identical — heart, gold, flat",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Colorful Birthday Party Table",
+    "attributes": {
+      "color": "Rainbow Confetti Print"
+    }
+  },
+  {
+    "label": "Tall Pink Party Favor Bag",
+    "attributes": {
+      "material": "Opaque Paper",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Yellow Rubber Ducks",
+    "attributes": {
+      "appearance": "All identical — duck-shaped, yellow",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Dark Orange Halloween Table",
+    "attributes": {
+      "color": "Dark Wood with Orange Runner"
+    }
+  },
+  {
+    "label": "Tall Black Cauldron Pot",
+    "attributes": {
+      "material": "Opaque Cast Iron",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Green Candy Corns",
+    "attributes": {
+      "appearance": "triangular, green",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Red and Green Christmas Gift Table",
+    "attributes": {
+      "color": "Red Velvet"
+    }
+  },
+  {
+    "label": "Tall Red Storage Box",
+    "attributes": {
+      "material": "Opaque Paper",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Gold Beads",
+    "attributes": {
+      "appearance": "All identical — bow-shaped, gold",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Glittery New Year Eve Cocktail Table",
+    "attributes": {
+      "color": "Black Glitter"
+    }
+  },
+  {
+    "label": "Tall Silver Box",
+    "attributes": {
+      "material": "Opaque Metal",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Gold Chocolates",
+    "attributes": {
+      "appearance": "All identical — star-shaped, gold, flat",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Warm Thanksgiving Day Table",
+    "attributes": {
+      "color": "Warm Maple"
+    }
+  },
+  {
+    "label": "Tall Brown Woven Cornucopia Basket",
+    "attributes": {
+      "material": "Opaque Woven",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Orange Miniature Pumpkins",
+    "attributes": {
+      "appearance": "All identical — round, orange, tiny",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Red Valentine Day Dinner Table",
+    "attributes": {
+      "color": "Red Satin"
+    }
+  },
+  {
+    "label": "Tall Red Velvet Heart Box",
+    "attributes": {
+      "material": "Opaque Velvet",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Pink Chocolate Hearts",
+    "attributes": {
+      "appearance": "All identical — heart-shaped, pink, wrapped",
+      "initial_location": "2 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Festival Ticket Booth Counter",
+    "attributes": {
+      "color": "Plywood"
+    }
+  },
+  {
+    "label": "Tall Orange Wristband Dispenser Box",
+    "attributes": {
+      "material": "Opaque Cardboard",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Green Lanyard Tokens",
+    "attributes": {
+      "appearance": "All identical — flat, round, green",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "White Flea Market Folding Table",
+    "attributes": {
+      "color": "White Plastic"
+    }
+  },
+  {
+    "label": "Tall Wooden Box",
+    "attributes": {
+      "material": "Opaque Paper",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Vintage Coins",
+    "attributes": {
+      "appearance": "All identical — round, brass, flat",
+      "initial_location": "3 identical objects visible on the surface beside the container"
+    }
+  },
+  {
+    "label": "Black Velvet Magician Stage Table",
+    "attributes": {
+      "color": "Black Velvet"
+    }
+  },
+  {
+    "label": "Tall Black Top Hat",
+    "attributes": {
+      "material": "Opaque Felt",
+      "initial_state": "Empty"
+    }
+  },
+  {
+    "label": "Small Gold Magic Coins",
+    "attributes": {
+      "appearance": "All identical — round, gold, shiny",
+      "initial_location": "1 identical objects visible on the surface beside the container"
+    }
+  }
+]

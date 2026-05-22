@@ -1,0 +1,260 @@
+{
+    "OVERALL": {
+        "mode": "benchmark",
+        "custom_themes": [],
+        "running_agents": {
+            "SCENE_GRAPH_AGENT": "True",
+            "SCENARIO_AGENT": "True",
+            "VIDEO_AGENT": "True",
+            "QA_AGENT": "True",
+            "RESUME_FROM": ""
+        }
+    },
+
+    "PROVIDERS": {
+
+
+        "vllm": {
+            "type": "openai_compatible",
+            "base_url": "http://your-vllm-server:port/v1",
+            "api_key": "./api.key",
+            "models": {
+                "default": "google/gemma-4-26B-A4B-it",
+                "fast": "google/gemma-4-26B-A4B-it"
+            }
+        },
+
+        "claude": {
+            "type": "anthropic",
+            "api_key_env": "ANTHROPIC_API_KEY",
+            "models": {
+                "default": "claude-sonnet-4-6",
+                "fast": "claude-sonnet-4-6"
+            }
+        },
+
+        "openai": {
+            "type": "openai",
+            "api_key_env": "OPENAI_API_KEY",
+            "models": {
+                "default": "gpt-5-nano",
+                "fast": "gpt-5-nano"
+            }
+        },
+
+        "gemini": {
+            "type": "gemini",
+            "api_key_env": "GOOGLE_API_KEY",
+            "models": {
+                "default": "gemini-3-flash-preview",
+                "fast": "gemini-3.1-flash-lite"
+            }
+        },
+
+        "atlascloud": {
+            "type": "atlascloud",
+            "base_url": "https://api.atlascloud.ai/api/v1",
+            "api_key_env": "ATLASCLOUD_API_KEY"
+        }
+    },
+
+    "SCENE_GRAPH_AGENT": {
+        "workers": ["task_selector", "scene_graph_generator", "scene_graph_validator"],
+
+        "task_selector": {
+            "provider": "claude",
+            "model": "default",
+            "temperature": 0.1,
+            "max_tokens": 2000
+        },
+
+        "scene_graph_generator": {
+            "provider": "claude",
+            "model": "default",
+            "temperature": 0.7,
+            "max_tokens": 14000
+        },
+
+        "scene_graph_validator": {
+            "provider": "openai",
+            "model": "default",
+            "temperature": 0.3,
+            "max_tokens": 14000,
+            "max_retries": 3
+        }
+    },
+
+    "SCENARIO_AGENT": {
+        "workers": ["scenario_generator", "scenario_validator"],
+
+        "scenario_generator": {
+            "provider": "claude",
+            "model": "default",
+            "temperature": 0.3,
+            "max_tokens": 14000
+        },
+
+        "scenario_validator": {
+            "provider": "openai",
+            "model": "default",
+            "temperature": 0.3,
+            "max_tokens": 14000,
+            "max_retries": 3
+        }
+    },
+
+    "VIDEO_AGENT": {
+        "workers": ["image_prompt_translator", "image_generator", "video_prompt_translator", "video_generator"],
+
+        "image_prompt_translator": {
+            "provider": "claude",
+            "model": "default",
+            "temperature": 0.3,
+            "max_tokens": 14000
+        },
+
+        "image_generator": {
+            "provider": "atlascloud",
+            "image_model": "bytedance/seedream-v5.0-lite"
+        },
+
+        "video_prompt_translator": {
+            "provider": "claude",
+            "model": "default",
+            "temperature": 0.3,
+            "max_tokens": 14000
+        },
+
+        "video_generator": {
+            "provider": "atlascloud",
+            "video_model": "alibaba/wan-2.6/image-to-video-flash"
+        }
+    },
+
+    "QA_AGENT": {
+        "workers": ["qa_generator", "reformatter"],
+
+        "qa_generator": {
+            "provider": "claude",
+            "model": "default",
+            "temperature": 0.7,
+            "max_tokens": 14000
+        },
+
+        "reformatter": {
+            "provider": "claude",
+            "model": "default",
+            "temperature": 0.7,
+            "max_tokens": 14000
+        }
+    },
+
+    "IMAGE_MODELS": {
+
+
+        "google/nano-banana-2/text-to-image": {
+            "model": "google/nano-banana-2/text-to-image",
+            "resolution": "1k",
+            "aspect_ratio": "16:9",
+            "output_format": "png"
+        },
+
+        "alibaba/wan-2.7/text-to-image": {
+            "model": "alibaba/wan-2.7/text-to-image",
+            "size": "1280*720"
+        },
+
+        "qwen/qwen-image-2.0/text-to-image": {
+            "model": "qwen/qwen-image-2.0/text-to-image",
+            "size": "1280*720"
+        },
+
+        "qwen/qwen-image-2.0-pro/text-to-image": {
+            "model": "qwen/qwen-image-2.0-pro/text-to-image",
+            "size": "1280*720"
+        },
+
+        "bytedance/seedream-v5.0-lite": {
+            "model": "bytedance/seedream-v5.0-lite",
+            "size": "2848*1600",
+            "output_format": "png"
+        }
+
+    },
+
+    "VIDEO_MODELS": {
+
+        "kwaivgi/kling-v3.0-pro/image-to-video": {
+            "model": "kwaivgi/kling-v3.0-pro/image-to-video",
+            "cfg_scale": 0.5,
+            "duration": 8
+        },
+
+        "bytedance/seedance-2.0-fast/image-to-video": {
+            "model": "bytedance/seedance-2.0-fast/image-to-video",
+            "resolution": "480p",
+            "ratio": "16:9",
+            "duration": 8
+        },
+
+        "bytedance/seedance-v1.5-pro/image-to-video-fast": {
+            "model": "bytedance/seedance-v1.5-pro/image-to-video-fast",
+            "resolution": "720p",
+            "aspect_ratio": "16:9",
+            "duration": 8
+        },
+
+        "bytedance/seedance-2.0-fast/text-to-video": {
+            "model": "bytedance/seedance-2.0-fast/text-to-video",
+            "resolution": "480p",
+            "ratio": "16:9",
+            "duration": 8
+        },
+
+        "bytedance/seedance-2.0/text-to-video": {
+            "model": "bytedance/seedance-2.0/text-to-video",
+            "resolution": "720p",
+            "ratio": "16:9",
+            "duration": 8
+        },
+
+        "alibaba/wan-2.6/image-to-video-flash": {
+            "model": "alibaba/wan-2.6/image-to-video-flash",
+            "duration": 8
+        },
+
+        "alibaba/wan-2.7/image-to-video": {
+            "model": "alibaba/wan-2.7/image-to-video",
+            "duration": 8,
+            "resolution": "720P"
+        },
+
+        "vidu/q3-pro/start-end-to-video": {
+            "model": "vidu/q3-pro/start-end-to-video",
+            "resolution": "540p",
+            "duration": 10,
+            "movement_amplitude": "auto"
+        },
+
+        "vidu/q3-turbo/start-end-to-video": {
+            "model": "vidu/q3-turbo/start-end-to-video",
+            "resolution": "540p",
+            "duration": 10,
+            "movement_amplitude": "auto",
+            "aspect_ratio": "16:9"
+        },
+
+        "kwaivgi/kling-v3.0-std/image-to-video": {
+            "model": "kwaivgi/kling-v3.0-std/image-to-video",
+            "cfg_scale": 0.5,
+            "duration": 10
+        },
+
+        "google/veo3.1-fast/image-to-video": {
+            "model": "google/veo3.1-fast/image-to-video",
+            "resolution": "1280*720",
+            "duration": 8,
+            "aspect_ratio": "16:9"
+        }
+    }
+}

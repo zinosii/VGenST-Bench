@@ -1,0 +1,11 @@
+{
+  "task_id": "VI_V_EXO_DYN",
+  "category_id": "L2-AR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What action does the agent located in top perform in the video?: A. Walks from one position to another, B. Stands completely still, C. Picks up an item, D. Exits the frame",
+      "answer": "B"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "CI_F_EXO_STA",
+  "category_id": "L3-CR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If the Red Pillar Candle in Wide Cream Ceramic Crate had been replaced by a Blue Pillar Candle, how many shared object types would the two containers have?: A. 0, B. 1, C. 2, D. 3",
+      "answer": "C"
+    }
+  ]
+}

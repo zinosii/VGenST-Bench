@@ -1,0 +1,11 @@
+{
+  "task_id": "RV_E_EGO_DYN",
+  "category_id": "L2-CM",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How does the camera move throughout the video?: A. Moves forward at a constant speed, B. Accelerates and decelerates repeatedly, C. Stays completely stationary, D. Changes lanes from right to left",
+      "answer": "A"
+    }
+  ]
+}

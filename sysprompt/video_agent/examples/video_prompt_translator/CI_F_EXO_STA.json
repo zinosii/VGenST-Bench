@@ -1,0 +1,8 @@
+[
+    {
+        "prompt": "Continuing from the anchor frame. Static scene  -  no objects move at any point. Only the camera moves. Phase 1 : Camera immediately zooms in directly overhead the left container. The left container fills the entire frame — the right container is completely out of frame. Looking straight down into the crate, all three objects inside are fully visible and individually distinguishable: a Red Pillar Candle, a Wooden Picture Frame, and a Silver Fork. Phase 2 : Camera smoothly transitions overhead the right container. The left container is now completely off-screen. Looking straight down into the basket, all three objects inside are fully visible: a Green Glass Tealight Holder, a Silver TV Remote Control, and a Brown Leather Keychain. None of these objects match anything seen in the left container. Do not render any text, captions, subtitles, or overlays in the video."
+    },
+    {
+        "prompt": "Continuing from the anchor frame. Static scene  -  no objects move at any point. Only the camera moves. Phase 1 : Camera immediately zooms in directly overhead the left container. The left container fills the entire frame — the right container is completely out of frame. Looking straight down into the bin, all three objects inside are fully visible and individually distinguishable: a Silver Garlic Press, a Yellow Lemon, and a White Ceramic Salt Cellar. Phase 2 : Camera smoothly transitions overhead the right container. The left container is now completely off-screen. Looking straight down into the pot, all three objects inside are fully visible: a Brown Wooden Spice Lid, a Yellow Lemon (identical to Phase 1), and a Green Rubber Bottle Cap. Do not render any text, captions, subtitles, or overlays in the video."
+    }
+]

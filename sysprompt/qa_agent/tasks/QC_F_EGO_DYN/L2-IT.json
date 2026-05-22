@@ -1,0 +1,16 @@
+{
+  "task_id": "QC_F_EGO_DYN",
+  "category_id": "L2-IT",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Suppose the container was empty at the start of the video — at the end of the video, are the items inside the container the same physical objects that were on the surface at the start?: A. Yes, they are the same items, B. No, they are different items, C. Some are the same and some are different",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "Suppose the container was empty at the start of the video — at the end of the video, are the items on the surface same physical objects that were on the surface at the start?: A. Yes, they are the same items, B. No, they are different items, C. Some are the same and some are different",
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "BT_E_EXO_DYN",
+  "category_id": "L2-AR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What action does the Blue Sedan Car perform during the video?: A. Continues driving without stopping, B. Comes to a complete stop, C. Turns around and drives backward, D. Waits and resumes driving after a short pause",
+      "answer": "B"
+    },
+    {
+      "id": "proto_2",
+      "question": "What event causes the Blue Sedan Car to react?: A. The Parked Green SUV on the side of the road, B. The Child entering the path, C. It reacts itself without any external event",
+      "answer": "B"
+    }
+  ]
+}

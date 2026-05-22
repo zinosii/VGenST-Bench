@@ -1,0 +1,11 @@
+{
+  "task_id": "DE_V_EGO_STA",
+  "category_id": "L1-OE",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "Which object appears in the video?: A. Large Abstract Canvas Painting, B. Grand Marble Statue, C. Ornate Wooden Bookshelf, D. Crystal Chandelier",
+      "answer": "A"
+    }
+  ]
+}

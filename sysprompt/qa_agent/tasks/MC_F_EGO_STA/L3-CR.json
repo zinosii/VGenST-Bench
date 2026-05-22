@@ -1,0 +1,16 @@
+{
+  "task_id": "MC_F_EGO_STA",
+  "category_id": "L3-CR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If the left and right containers had been swapped in position, where would the container holding Milk be located?: A. Left, B. Center, C. Right",
+      "answer": "B"
+    },
+    {
+      "id": "proto_2",
+      "question": "If the container holding Milk and the container holding Coffee had been swapped in position, what content would the center container hold in the end?: A. Coffee, B. Milk, C. Empty, D. Tea",
+      "answer": "A"
+    }
+  ]
+}

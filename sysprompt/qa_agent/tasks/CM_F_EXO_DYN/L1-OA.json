@@ -1,0 +1,11 @@
+{
+  "task_id": "CM_F_EXO_DYN",
+  "category_id": "L1-OA",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What is the appearance of the agent?: A. Human officer in uniform, B. Humanoid robot with metallic body, C. Alien creature with tentacles, D. Cloaked figure with hidden face",
+      "answer": "A"
+    }
+  ]
+}

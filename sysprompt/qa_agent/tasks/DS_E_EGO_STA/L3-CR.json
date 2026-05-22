@@ -1,0 +1,16 @@
+{
+  "task_id": "DS_E_EGO_STA",
+  "category_id": "L3-CR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If the camera had turned left at the sign instead of going straight, which destination would the agent be heading toward?: A. Gates A1-A20, B. Customs & Baggage, C. Restrooms, D. Seed Bank Access",
+      "answer": "B"
+    },
+    {
+      "id": "proto_2",
+      "question": "If the arrow for 'Gates A1-A20' had pointed left instead of straight, which destination would the agent be heading toward?: A. Gates A1-A20, B. Customs & Baggage, C. Restrooms, D. Could not determine",
+      "answer": "D"
+    }
+  ]
+}

@@ -1,0 +1,4910 @@
+[
+  {
+    "label": "Rustic Oak Coffee Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Cream Ceramic Crate (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Cream"
+    }
+  },
+  {
+    "label": "Red Pillar Candle",
+    "attributes": {
+      "color": "Deep red",
+      "type": "Pillar candle"
+    }
+  },
+  {
+    "label": "Wooden Picture Frame",
+    "attributes": {
+      "color": "Light brown",
+      "type": "Picture frame"
+    }
+  },
+  {
+    "label": "Silver Fork",
+    "attributes": {
+      "color": "Silver",
+      "type": "Fork"
+    }
+  },
+  {
+    "label": "Wide Round Natural Wicker Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Natural"
+    }
+  },
+  {
+    "label": "Green Glass Tealight Holder",
+    "attributes": {
+      "color": "Translucent green",
+      "type": "Glass tealight holder"
+    }
+  },
+  {
+    "label": "Silver TV Remote Control",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Remote control"
+    }
+  },
+  {
+    "label": "Brown Leather Keychain",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Leather keychain"
+    }
+  },
+  {
+    "label": "White Marble Kitchen Island Counter",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Matte Black Metal Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Silver Garlic Press",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Garlic press"
+    }
+  },
+  {
+    "label": "Yellow Lemon",
+    "attributes": {
+      "color": "Bright yellow",
+      "type": "Lemon"
+    }
+  },
+  {
+    "label": "White Ceramic Salt Cellar",
+    "attributes": {
+      "color": "White",
+      "type": "Salt cellar"
+    }
+  },
+  {
+    "label": "Wide Deep Terracotta Flower Pot (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Terracotta"
+    }
+  },
+  {
+    "label": "Brown Wooden Spice Lid",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Wooden spice lid"
+    }
+  },
+  {
+    "label": "Green Rubber Bottle Cap",
+    "attributes": {
+      "color": "Olive green",
+      "type": "Rubber bottle cap"
+    }
+  },
+  {
+    "label": "Light Oak Bedside Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Woven Willow Bread Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Willow Beige"
+    }
+  },
+  {
+    "label": "Blue Glass Marble",
+    "attributes": {
+      "color": "Blue",
+      "type": "Glass marble"
+    }
+  },
+  {
+    "label": "White Button",
+    "attributes": {
+      "color": "White",
+      "type": "Button"
+    }
+  },
+  {
+    "label": "Cork Bottle Stopper",
+    "attributes": {
+      "color": "Tan beige",
+      "type": "Cork stopper"
+    }
+  },
+  {
+    "label": "Wide Dark Glazed Ceramic Storage Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Brown Wooden Bead",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Wooden bead"
+    }
+  },
+  {
+    "label": "White Marble Bathroom Vanity Counter",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Round White Ceramic Organizer Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Pink Bar of Soap",
+    "attributes": {
+      "color": "Light pink",
+      "type": "Bar of soap"
+    }
+  },
+  {
+    "label": "Silver Bobby Pin",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Bobby pin"
+    }
+  },
+  {
+    "label": "Red Lip Balm Tube",
+    "attributes": {
+      "color": "Red",
+      "type": "Lip balm tube"
+    }
+  },
+  {
+    "label": "Wide Rectangular Bamboo Tray Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Bamboo Tan"
+    }
+  },
+  {
+    "label": "White Laminate Laundry Room Folding Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Blue Plastic Laundry Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "Yellow Clothespin",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Clothespin"
+    }
+  },
+  {
+    "label": "White Dryer Sheet",
+    "attributes": {
+      "color": "White",
+      "type": "Dryer sheet"
+    }
+  },
+  {
+    "label": "Orange Laundry Scoop",
+    "attributes": {
+      "color": "Orange",
+      "type": "Laundry scoop"
+    }
+  },
+  {
+    "label": "Wide Rectangular Wicker Storage Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Natural Wicker"
+    }
+  },
+  {
+    "label": "Green Safety Pin",
+    "attributes": {
+      "color": "Green",
+      "type": "Safety pin"
+    }
+  },
+  {
+    "label": "Red Fabric Softener Pod",
+    "attributes": {
+      "color": "Red",
+      "type": "Fabric softener pod"
+    }
+  },
+  {
+    "label": "Black Elastic Hair Tie",
+    "attributes": {
+      "color": "Black",
+      "type": "Elastic hair tie"
+    }
+  },
+  {
+    "label": "Dark Walnut Dining Room Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Round Ceramic Serving Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Red Apple",
+    "attributes": {
+      "color": "Red",
+      "type": "Apple"
+    }
+  },
+  {
+    "label": "White Ceramic Salt Shaker",
+    "attributes": {
+      "color": "White",
+      "type": "Salt shaker"
+    }
+  },
+  {
+    "label": "Silver Dinner Fork",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Dinner fork"
+    }
+  },
+  {
+    "label": "Wide Square Wooden Bread Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Wood Brown"
+    }
+  },
+  {
+    "label": "Yellow Napkin Ring",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Napkin ring"
+    }
+  },
+  {
+    "label": "Brown Wooden Pepper Grinder",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Pepper grinder"
+    }
+  },
+  {
+    "label": "Black Lacquer Home Office Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Matte Black Ceramic Desk Crate (open-top, no lid, opaque)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Blue Ballpoint Pen",
+    "attributes": {
+      "color": "Blue",
+      "type": "Ballpoint pen"
+    }
+  },
+  {
+    "label": "Yellow Sticky Note Pad",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Sticky note pad"
+    }
+  },
+  {
+    "label": "Silver Paper Clip",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Paper clip"
+    }
+  },
+  {
+    "label": "Wide Round Ceramic Pencil Cup (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Red USB Drive",
+    "attributes": {
+      "color": "Red",
+      "type": "USB drive"
+    }
+  },
+  {
+    "label": "Solid Pine Wood Garage Workbench",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Grey Metal Tool Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Grey"
+    }
+  },
+  {
+    "label": "Silver Hex Nut",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Hex nut"
+    }
+  },
+  {
+    "label": "Yellow Pencil",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Pencil"
+    }
+  },
+  {
+    "label": "Red Utility Knife",
+    "attributes": {
+      "color": "Red",
+      "type": "Utility knife"
+    }
+  },
+  {
+    "label": "Wide Brown Cardboard Parts Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Slate Grey Stone Outdoor Patio Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Terracotta Flower Pot (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Terracotta"
+    }
+  },
+  {
+    "label": "Green Pine Cone",
+    "attributes": {
+      "color": "Green",
+      "type": "Pine cone"
+    }
+  },
+  {
+    "label": "Brown Acorn",
+    "attributes": {
+      "color": "Brown",
+      "type": "Acorn"
+    }
+  },
+  {
+    "label": "Orange Smooth River Stone",
+    "attributes": {
+      "color": "Orange",
+      "type": "Smooth river stone"
+    }
+  },
+  {
+    "label": "Wide Round Metal Garden Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Metallic Grey"
+    }
+  },
+  {
+    "label": "White Seashell",
+    "attributes": {
+      "color": "White",
+      "type": "Seashell"
+    }
+  },
+  {
+    "label": "Yellow Dried Flower",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Dried flower"
+    }
+  },
+  {
+    "label": "Red Ladybug Figurine",
+    "attributes": {
+      "color": "Red",
+      "type": "Ladybug figurine"
+    }
+  },
+  {
+    "label": "Dusty Plywood Attic Storage Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Brown Cardboard Storage Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "White Porcelain Figurine",
+    "attributes": {
+      "color": "White",
+      "type": "Porcelain figurine"
+    }
+  },
+  {
+    "label": "Black Cassette Tape",
+    "attributes": {
+      "color": "Black",
+      "type": "Cassette tape"
+    }
+  },
+  {
+    "label": "Gold Pocket Watch",
+    "attributes": {
+      "color": "Gold",
+      "type": "Pocket watch"
+    }
+  },
+  {
+    "label": "Wide Rectangular Wooden Crate (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Wood Brown"
+    }
+  },
+  {
+    "label": "Brown Glass Inkwell",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Glass inkwell"
+    }
+  },
+  {
+    "label": "Purple Velvet Coin Purse",
+    "attributes": {
+      "color": "Purple",
+      "type": "Velvet coin purse"
+    }
+  },
+  {
+    "label": "Round Marble-Top Cafe Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide White Ceramic Sugar Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Brown Sugar Cube",
+    "attributes": {
+      "color": "Brown",
+      "type": "Sugar cube"
+    }
+  },
+  {
+    "label": "Silver Teaspoon",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Teaspoon"
+    }
+  },
+  {
+    "label": "Green Mint Leaf",
+    "attributes": {
+      "color": "Green",
+      "type": "Mint leaf"
+    }
+  },
+  {
+    "label": "Wide Round Wicker Bread Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Natural Wicker"
+    }
+  },
+  {
+    "label": "Yellow Lemon Wedge",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Lemon wedge"
+    }
+  },
+  {
+    "label": "Dark Laminate Restaurant Booth Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Round Stainless Steel Condiment Holder (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Steel Silver"
+    }
+  },
+  {
+    "label": "Red Ketchup Packet",
+    "attributes": {
+      "color": "Red",
+      "type": "Ketchup packet"
+    }
+  },
+  {
+    "label": "White Sugar Packet",
+    "attributes": {
+      "color": "White",
+      "type": "Sugar packet"
+    }
+  },
+  {
+    "label": "Yellow Mustard Packet",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Mustard packet"
+    }
+  },
+  {
+    "label": "Wide Rectangular Black Plastic Menu Holder (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Dark Cherry Wood Library Reading Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Green Felt-Lined Wooden Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Green"
+    }
+  },
+  {
+    "label": "Blue Rubber Eraser",
+    "attributes": {
+      "color": "Blue",
+      "type": "Rubber eraser"
+    }
+  },
+  {
+    "label": "Brass Bookend",
+    "attributes": {
+      "color": "Brass gold",
+      "type": "Bookend"
+    }
+  },
+  {
+    "label": "Red Ribbon Bookmark",
+    "attributes": {
+      "color": "Red",
+      "type": "Ribbon bookmark"
+    }
+  },
+  {
+    "label": "Deep Dark Brown Ceramic Pot (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Dark Brown"
+    }
+  },
+  {
+    "label": "Green Pencil Sharpener",
+    "attributes": {
+      "color": "Green",
+      "type": "Pencil sharpener"
+    }
+  },
+  {
+    "label": "Silver Staple Remover",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Staple remover"
+    }
+  },
+  {
+    "label": "White Rubber Index Tab",
+    "attributes": {
+      "color": "White",
+      "type": "Rubber index tab"
+    }
+  },
+  {
+    "label": "Beige Laminate Classroom Student Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Navy Blue Plastic Storage Box (open-top, no lid, opaque)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Navy Blue"
+    }
+  },
+  {
+    "label": "Orange Glue Stick",
+    "attributes": {
+      "color": "Orange",
+      "type": "Glue stick"
+    }
+  },
+  {
+    "label": "Pink Eraser",
+    "attributes": {
+      "color": "Pink",
+      "type": "Eraser"
+    }
+  },
+  {
+    "label": "Wide Round Ceramic Pencil Cup (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Blue Highlighter",
+    "attributes": {
+      "color": "Blue",
+      "type": "Highlighter"
+    }
+  },
+  {
+    "label": "Yellow Ruler",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Ruler"
+    }
+  },
+  {
+    "label": "Black Rubber-Lined Retail Checkout Counter",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Black Plastic Impulse Buy Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Red Mint Candy",
+    "attributes": {
+      "color": "Red",
+      "type": "Mint candy"
+    }
+  },
+  {
+    "label": "Silver Pen",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Pen"
+    }
+  },
+  {
+    "label": "Green Loyalty Card",
+    "attributes": {
+      "color": "Green",
+      "type": "Loyalty card"
+    }
+  },
+  {
+    "label": "Deep Black Plastic Storage Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Yellow Price Tag",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Price tag"
+    }
+  },
+  {
+    "label": "Polished Granite Hotel Reception Desk Counter",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Brushed Gold Metal Desk Organizer (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "Black Hotel Room Key Card",
+    "attributes": {
+      "color": "Black",
+      "type": "Hotel room key card"
+    }
+  },
+  {
+    "label": "Gold Bell",
+    "attributes": {
+      "color": "Gold",
+      "type": "Bell"
+    }
+  },
+  {
+    "label": "White Mints Dish",
+    "attributes": {
+      "color": "White",
+      "type": "Mints dish"
+    }
+  },
+  {
+    "label": "Deep Navy Blue Fabric Storage Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Navy Blue"
+    }
+  },
+  {
+    "label": "Dark Mahogany Bar Counter",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Stainless Steel Bar Speed Rack (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Steel Silver"
+    }
+  },
+  {
+    "label": "Green Lime Wedge",
+    "attributes": {
+      "color": "Green",
+      "type": "Lime wedge"
+    }
+  },
+  {
+    "label": "Red Cherry",
+    "attributes": {
+      "color": "Red",
+      "type": "Cherry"
+    }
+  },
+  {
+    "label": "Silver Cocktail Strainer",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Cocktail strainer"
+    }
+  },
+  {
+    "label": "Wide Round Black Ceramic Condiment Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "White Cocktail Napkin",
+    "attributes": {
+      "color": "White",
+      "type": "Cocktail napkin"
+    }
+  },
+  {
+    "label": "Orange Peel Twist",
+    "attributes": {
+      "color": "Orange",
+      "type": "Orange peel twist"
+    }
+  },
+  {
+    "label": "Yellow Lemon Slice",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Lemon slice"
+    }
+  },
+  {
+    "label": "White Plastic Hospital Room Over-Bed Tray Table",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Beige Plastic Medical Caddy (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Beige"
+    }
+  },
+  {
+    "label": "Blue Disposable Glove",
+    "attributes": {
+      "color": "Blue",
+      "type": "Disposable glove"
+    }
+  },
+  {
+    "label": "White Gauze Pad",
+    "attributes": {
+      "color": "White",
+      "type": "Gauze pad"
+    }
+  },
+  {
+    "label": "Orange Pill Bottle Cap",
+    "attributes": {
+      "color": "Orange",
+      "type": "Pill bottle cap"
+    }
+  },
+  {
+    "label": "Deep Olive Green Canvas Supply Pouch (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Green"
+    }
+  },
+  {
+    "label": "Yellow Tongue Depressor",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Tongue depressor"
+    }
+  },
+  {
+    "label": "Red Medical Tape Roll",
+    "attributes": {
+      "color": "Red",
+      "type": "Medical tape roll"
+    }
+  },
+  {
+    "label": "Weathered Pine Wood Park Picnic Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Natural Wicker Picnic Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Natural"
+    }
+  },
+  {
+    "label": "Red Checkered Napkin",
+    "attributes": {
+      "color": "Red and white",
+      "type": "Checkered napkin"
+    }
+  },
+  {
+    "label": "Yellow Banana",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Banana"
+    }
+  },
+  {
+    "label": "Green Water Bottle",
+    "attributes": {
+      "color": "Green",
+      "type": "Water bottle"
+    }
+  },
+  {
+    "label": "Wide Round Metal Cooler Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Metallic Grey"
+    }
+  },
+  {
+    "label": "Brown Wooden Chopsticks",
+    "attributes": {
+      "color": "Brown",
+      "type": "Wooden chopsticks"
+    }
+  },
+  {
+    "label": "Light Ash Wood Museum Information Desk Counter",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Matte Black Wooden Document Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Blue Museum Map Pamphlet",
+    "attributes": {
+      "color": "Blue",
+      "type": "Museum map pamphlet"
+    }
+  },
+  {
+    "label": "Gold Admission Ticket",
+    "attributes": {
+      "color": "Gold",
+      "type": "Admission ticket"
+    }
+  },
+  {
+    "label": "White Name Badge",
+    "attributes": {
+      "color": "White",
+      "type": "Name badge"
+    }
+  },
+  {
+    "label": "Deep Round Ceramic Pen and Pencil Holder (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Black Epoxy-Resin Laboratory Workbench",
+    "attributes": {}
+  },
+  {
+    "label": "Wide White Porcelain Reagent Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Clear Glass Vial",
+    "attributes": {
+      "color": "Transparent clear",
+      "type": "Glass vial"
+    }
+  },
+  {
+    "label": "Blue Plastic Pipette",
+    "attributes": {
+      "color": "Royal blue",
+      "type": "Plastic pipette"
+    }
+  },
+  {
+    "label": "Orange Rubber Stopper",
+    "attributes": {
+      "color": "Bright orange",
+      "type": "Rubber stopper"
+    }
+  },
+  {
+    "label": "Wide Stainless Steel Specimen Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Steel Silver"
+    }
+  },
+  {
+    "label": "Yellow Sticky Label Roll",
+    "attributes": {
+      "color": "Canary yellow",
+      "type": "Sticky label roll"
+    }
+  },
+  {
+    "label": "Silver Metal Scalpel",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Scalpel"
+    }
+  },
+  {
+    "label": "Red Marker Pen",
+    "attributes": {
+      "color": "Bright red",
+      "type": "Marker pen"
+    }
+  },
+  {
+    "label": "Worn Wooden Art Studio Worktable",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Terracotta Ceramic Crock (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Terracotta"
+    }
+  },
+  {
+    "label": "Red Tube of Acrylic Paint",
+    "attributes": {
+      "color": "Bright red",
+      "type": "Acrylic paint tube"
+    }
+  },
+  {
+    "label": "Round Natural Bristle Brush",
+    "attributes": {
+      "color": "Light tan",
+      "type": "Round bristle brush"
+    }
+  },
+  {
+    "label": "Black Charcoal Stick",
+    "attributes": {
+      "color": "Matte black",
+      "type": "Charcoal stick"
+    }
+  },
+  {
+    "label": "Wide Square Galvanized Metal Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Galvanized Grey"
+    }
+  },
+  {
+    "label": "Yellow Kneaded Eraser",
+    "attributes": {
+      "color": "Pale yellow",
+      "type": "Kneaded eraser"
+    }
+  },
+  {
+    "label": "Purple Palette Knife",
+    "attributes": {
+      "color": "Purple handle",
+      "type": "Palette knife"
+    }
+  },
+  {
+    "label": "Stainless Steel Professional Kitchen Prep Station",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Round Stainless Steel Mixing Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Steel Silver"
+    }
+  },
+  {
+    "label": "Red Cherry Tomato",
+    "attributes": {
+      "color": "Bright red",
+      "type": "Cherry tomato"
+    }
+  },
+  {
+    "label": "Yellow Lemon Wedge",
+    "attributes": {
+      "color": "Bright yellow",
+      "type": "Lemon wedge"
+    }
+  },
+  {
+    "label": "Green Jalapeño Pepper",
+    "attributes": {
+      "color": "Bright green",
+      "type": "Jalapeño pepper"
+    }
+  },
+  {
+    "label": "Wide Rectangular White Ceramic Prep Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Purple Shallot",
+    "attributes": {
+      "color": "Pale purple",
+      "type": "Shallot"
+    }
+  },
+  {
+    "label": "Heavy-Duty Steel Auto Mechanic Shop Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Red Metal Parts Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Silver Hex Bolt",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Hex bolt"
+    }
+  },
+  {
+    "label": "Black Rubber O-Ring",
+    "attributes": {
+      "color": "Matte black",
+      "type": "Rubber O-ring"
+    }
+  },
+  {
+    "label": "Yellow Spark Plug",
+    "attributes": {
+      "color": "Yellow ceramic body",
+      "type": "Spark plug"
+    }
+  },
+  {
+    "label": "Wide Deep Grey Plastic Parts Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Grey"
+    }
+  },
+  {
+    "label": "Large White Drafting Table Surface",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Cream Cardboard Sample Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Cream"
+    }
+  },
+  {
+    "label": "Beige Concrete Tile Sample",
+    "attributes": {
+      "color": "Pale beige",
+      "type": "Concrete tile sample"
+    }
+  },
+  {
+    "label": "Walnut Wood Veneer Chip",
+    "attributes": {
+      "color": "Medium walnut brown",
+      "type": "Wood veneer chip"
+    }
+  },
+  {
+    "label": "Silver Aluminum Extrusion Strip",
+    "attributes": {
+      "color": "Brushed silver",
+      "type": "Aluminum extrusion strip"
+    }
+  },
+  {
+    "label": "Deep Grey Corrugated Cardboard Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Grey"
+    }
+  },
+  {
+    "label": "White Marble Tile Sample",
+    "attributes": {
+      "color": "Crisp white with grey veins",
+      "type": "Marble tile sample"
+    }
+  },
+  {
+    "label": "Black Rubber Gasket",
+    "attributes": {
+      "color": "Matte black",
+      "type": "Rubber gasket"
+    }
+  },
+  {
+    "label": "Terracotta Brick Fragment",
+    "attributes": {
+      "color": "Terracotta orange-red",
+      "type": "Brick fragment"
+    }
+  },
+  {
+    "label": "Wide Padded Tailor's Cutting Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Wicker Sewing Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Natural Wicker"
+    }
+  },
+  {
+    "label": "Silver Thimble",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Thimble"
+    }
+  },
+  {
+    "label": "Red Tomato Pincushion",
+    "attributes": {
+      "color": "Bright red",
+      "type": "Tomato pincushion"
+    }
+  },
+  {
+    "label": "Blue Tailor's Chalk Block",
+    "attributes": {
+      "color": "Sky blue",
+      "type": "Tailor's chalk block"
+    }
+  },
+  {
+    "label": "Wide Square Wooden Notions Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Wood Brown"
+    }
+  },
+  {
+    "label": "Yellow Tape Measure",
+    "attributes": {
+      "color": "Yellow with black markings",
+      "type": "Tape measure"
+    }
+  },
+  {
+    "label": "White Seam Ripper",
+    "attributes": {
+      "color": "White handle",
+      "type": "Seam ripper"
+    }
+  },
+  {
+    "label": "Polished Hardwood Jeweler's Workbench",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Black Velvet Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Gold Ring Blank",
+    "attributes": {
+      "color": "Warm gold",
+      "type": "Ring blank"
+    }
+  },
+  {
+    "label": "Round Blue Sapphire Gemstone",
+    "attributes": {
+      "color": "Deep royal blue",
+      "type": "Sapphire gemstone"
+    }
+  },
+  {
+    "label": "Silver Bezel Cup",
+    "attributes": {
+      "color": "Sterling silver",
+      "type": "Bezel cup"
+    }
+  },
+  {
+    "label": "Wide Round Ceramic Gem Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Red Ruby Cabochon",
+    "attributes": {
+      "color": "Deep crimson red",
+      "type": "Ruby cabochon"
+    }
+  },
+  {
+    "label": "Weathered Cedar Greenhouse Potting Bench",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Terracotta Seedling Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Terracotta"
+    }
+  },
+  {
+    "label": "Brown Peat Pellet",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Peat pellet"
+    }
+  },
+  {
+    "label": "Green Moss Ball",
+    "attributes": {
+      "color": "Vivid green",
+      "type": "Moss ball"
+    }
+  },
+  {
+    "label": "White Seed Packet",
+    "attributes": {
+      "color": "White paper",
+      "type": "Seed packet"
+    }
+  },
+  {
+    "label": "Wide Galvanized Metal Planting Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Galvanized Grey"
+    }
+  },
+  {
+    "label": "Heavy Industrial Steel Factory Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Yellow Plastic Industrial Parts Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Yellow"
+    }
+  },
+  {
+    "label": "Silver Steel Rivet",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Steel rivet"
+    }
+  },
+  {
+    "label": "Black Rubber Grommet",
+    "attributes": {
+      "color": "Matte black",
+      "type": "Rubber grommet"
+    }
+  },
+  {
+    "label": "Orange Safety Cap",
+    "attributes": {
+      "color": "Safety orange",
+      "type": "Safety cap"
+    }
+  },
+  {
+    "label": "Wide Blue Corrugated Metal Parts Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "Red Nylon Zip Tie",
+    "attributes": {
+      "color": "Bright red",
+      "type": "Nylon zip tie"
+    }
+  },
+  {
+    "label": "Green Circuit Board Chip",
+    "attributes": {
+      "color": "Green PCB",
+      "type": "Circuit board chip"
+    }
+  },
+  {
+    "label": "Brass Compression Fitting",
+    "attributes": {
+      "color": "Golden brass",
+      "type": "Compression fitting"
+    }
+  },
+  {
+    "label": "Solid Oak Carpenter's Woodworking Bench",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Wooden Hardware Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Wood Brown"
+    }
+  },
+  {
+    "label": "Golden Brass Wood Screw",
+    "attributes": {
+      "color": "Golden brass",
+      "type": "Wood screw"
+    }
+  },
+  {
+    "label": "Brown Wooden Dowel Pin",
+    "attributes": {
+      "color": "Natural light brown",
+      "type": "Wooden dowel pin"
+    }
+  },
+  {
+    "label": "Grey Pencil Stub",
+    "attributes": {
+      "color": "Grey graphite",
+      "type": "Carpenter's pencil stub"
+    }
+  },
+  {
+    "label": "Deep Metal Chip Bucket with Grip-Texture Base (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Metallic Grey"
+    }
+  },
+  {
+    "label": "Black Sandpaper Square",
+    "attributes": {
+      "color": "Dark grey-black",
+      "type": "Sandpaper square"
+    }
+  },
+  {
+    "label": "Red Stanley Blade",
+    "attributes": {
+      "color": "Bright red handle",
+      "type": "Stanley blade"
+    }
+  },
+  {
+    "label": "White Brushed Composite Spaceship Mess Hall Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Rounded White Polymer Food Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Silver Foil Nutrition Pack",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Foil nutrition pack"
+    }
+  },
+  {
+    "label": "Blue Electrolyte Capsule",
+    "attributes": {
+      "color": "Electric blue",
+      "type": "Electrolyte capsule"
+    }
+  },
+  {
+    "label": "Green Algae Protein Bar",
+    "attributes": {
+      "color": "Matte green",
+      "type": "Algae protein bar"
+    }
+  },
+  {
+    "label": "Wide Hexagonal Grey Titanium Mess Kit Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Grey"
+    }
+  },
+  {
+    "label": "Orange Vitamin D Patch",
+    "attributes": {
+      "color": "Bright orange",
+      "type": "Vitamin D patch"
+    }
+  },
+  {
+    "label": "Black Carbon-Fiber Cyberpunk Hacker's Neon Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Neon-Rimmed Black Plastic Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Cyan Data Chip",
+    "attributes": {
+      "color": "Neon cyan",
+      "type": "Data chip"
+    }
+  },
+  {
+    "label": "Purple Holographic Keycard",
+    "attributes": {
+      "color": "Holographic purple",
+      "type": "Holographic keycard"
+    }
+  },
+  {
+    "label": "Green Neural Interface Plug",
+    "attributes": {
+      "color": "Neon green",
+      "type": "Neural interface plug"
+    }
+  },
+  {
+    "label": "Deep Dark Grey Brushed Metal Component Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Dark Grey"
+    }
+  },
+  {
+    "label": "Rust-Proof Aluminium Mars Colony Research Station Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Flat White Pressurized Sample Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Red Mars Regolith Sample Vial",
+    "attributes": {
+      "color": "Dusty red-orange",
+      "type": "Regolith sample vial"
+    }
+  },
+  {
+    "label": "Grey Titanium Drill Bit",
+    "attributes": {
+      "color": "Metallic grey",
+      "type": "Titanium drill bit"
+    }
+  },
+  {
+    "label": "Yellow Radiation Dosimeter Badge",
+    "attributes": {
+      "color": "Bright yellow",
+      "type": "Radiation dosimeter badge"
+    }
+  },
+  {
+    "label": "Wide Deep Orange Ceramic Geological Sample Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Orange"
+    }
+  },
+  {
+    "label": "Blue Atmospheric Pressure Sensor",
+    "attributes": {
+      "color": "Deep blue",
+      "type": "Atmospheric pressure sensor"
+    }
+  },
+  {
+    "label": "Green Hydroponic Seed Capsule",
+    "attributes": {
+      "color": "Bright green",
+      "type": "Hydroponic seed capsule"
+    }
+  },
+  {
+    "label": "Silver Oxygen Micro-Tank",
+    "attributes": {
+      "color": "Polished silver",
+      "type": "Oxygen micro-tank"
+    }
+  },
+  {
+    "label": "Glowing Resin-Top Sci-Fi Cantina Bar Counter",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Matte Purple Ceramic Serving Bowl (open-top, no lid, opaque)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Purple"
+    }
+  },
+  {
+    "label": "Teal Bioluminescent Shot Glass",
+    "attributes": {
+      "color": "Glowing teal",
+      "type": "Bioluminescent shot glass"
+    }
+  },
+  {
+    "label": "Gold Alien Coin",
+    "attributes": {
+      "color": "Antique gold",
+      "type": "Alien coin"
+    }
+  },
+  {
+    "label": "Orange Dehydrated Meteor Fruit",
+    "attributes": {
+      "color": "Vivid orange",
+      "type": "Dehydrated meteor fruit"
+    }
+  },
+  {
+    "label": "Wide Matte Black Alloy Condiment Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Pink Nebula Rock Candy",
+    "attributes": {
+      "color": "Pale pink",
+      "type": "Nebula rock candy"
+    }
+  },
+  {
+    "label": "Red Plasma Stirrer",
+    "attributes": {
+      "color": "Glowing red",
+      "type": "Plasma stirrer"
+    }
+  },
+  {
+    "label": "Transparent Glass Holographic Briefing Room Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Matte White Ceramic Briefing Tray (open-top, no lid, opaque)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Blue Holographic Data Disc",
+    "attributes": {
+      "color": "Translucent blue",
+      "type": "Holographic data disc"
+    }
+  },
+  {
+    "label": "White Tactical Stylus",
+    "attributes": {
+      "color": "Matte white",
+      "type": "Tactical stylus"
+    }
+  },
+  {
+    "label": "Silver Mission Badge",
+    "attributes": {
+      "color": "Polished silver",
+      "type": "Mission badge"
+    }
+  },
+  {
+    "label": "Wide Dark Navy Ceramic Command Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Navy"
+    }
+  },
+  {
+    "label": "Red Emergency Override Key",
+    "attributes": {
+      "color": "Alert red",
+      "type": "Emergency override key"
+    }
+  },
+  {
+    "label": "Anti-Static Grey Polymer Android Repair Workshop Bench",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Anti-Static Black ESD Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Copper Servo Motor",
+    "attributes": {
+      "color": "Copper-brown",
+      "type": "Servo motor"
+    }
+  },
+  {
+    "label": "White Synthetic Skin Patch",
+    "attributes": {
+      "color": "Pale white",
+      "type": "Synthetic skin patch"
+    }
+  },
+  {
+    "label": "Blue Optical Sensor Lens",
+    "attributes": {
+      "color": "Glassy deep blue",
+      "type": "Optical sensor lens"
+    }
+  },
+  {
+    "label": "Deep Brushed Aluminium Parts Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Speckled Starfield-Pattern Laminate Intergalactic Diner Booth Table",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Red Enamel Retro Diner Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Pink Cosmic Cotton Candy Puff",
+    "attributes": {
+      "color": "Vivid pink",
+      "type": "Cotton candy puff"
+    }
+  },
+  {
+    "label": "Silver Cryo-Straw",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Cryo-straw"
+    }
+  },
+  {
+    "label": "Yellow Star-Shaped Wafer",
+    "attributes": {
+      "color": "Golden yellow",
+      "type": "Star-shaped wafer"
+    }
+  },
+  {
+    "label": "Deep Purple Ceramic Alien Condiment Jar (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Purple"
+    }
+  },
+  {
+    "label": "Blue Nebula Salt Crystal",
+    "attributes": {
+      "color": "Deep blue",
+      "type": "Nebula salt crystal"
+    }
+  },
+  {
+    "label": "Green Asteroid Mint",
+    "attributes": {
+      "color": "Bright green",
+      "type": "Asteroid mint"
+    }
+  },
+  {
+    "label": "Red Plasma Ketchup Packet",
+    "attributes": {
+      "color": "Bright red",
+      "type": "Plasma ketchup packet"
+    }
+  },
+  {
+    "label": "Riveted Mahogany and Brass Steampunk Airship Captain's Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Brass Gear-Trimmed Open Crate (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Brass"
+    }
+  },
+  {
+    "label": "Brass Pocket Compass",
+    "attributes": {
+      "color": "Antique brass",
+      "type": "Pocket compass"
+    }
+  },
+  {
+    "label": "Brown Leather Navigation Log",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Leather navigation log"
+    }
+  },
+  {
+    "label": "Amber Glass Aether Vial",
+    "attributes": {
+      "color": "Amber glass",
+      "type": "Aether vial"
+    }
+  },
+  {
+    "label": "Wide Copper-Riveted Wooden Navigational Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Copper"
+    }
+  },
+  {
+    "label": "Silver Wind-Up Key",
+    "attributes": {
+      "color": "Tarnished silver",
+      "type": "Wind-up key"
+    }
+  },
+  {
+    "label": "Red Wax Seal Stamp",
+    "attributes": {
+      "color": "Red wax, brass handle",
+      "type": "Wax seal stamp"
+    }
+  },
+  {
+    "label": "Scrap-Welded Corrugated Metal Post-Apocalyptic Scavenger's Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Rusted Tin Can Scrap Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Tin Grey"
+    }
+  },
+  {
+    "label": "Brown Worn Leather Pouch",
+    "attributes": {
+      "color": "Cracked brown",
+      "type": "Worn leather pouch"
+    }
+  },
+  {
+    "label": "Yellow Radiation Warning Tag",
+    "attributes": {
+      "color": "Faded yellow",
+      "type": "Radiation warning tag"
+    }
+  },
+  {
+    "label": "Grey Spent Shell Casing",
+    "attributes": {
+      "color": "Dull grey",
+      "type": "Shell casing"
+    }
+  },
+  {
+    "label": "Wide Dented Galvanized Scrap Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Galvanized Grey"
+    }
+  },
+  {
+    "label": "Red Broken Lighter",
+    "attributes": {
+      "color": "Faded red",
+      "type": "Broken lighter"
+    }
+  },
+  {
+    "label": "Anachronistic Mixed-Era Time Traveler's Workbench",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Ornate Victorian Wooden Curiosity Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Wood Brown"
+    }
+  },
+  {
+    "label": "Gold Pocket Watch",
+    "attributes": {
+      "color": "Antique gold",
+      "type": "Pocket watch"
+    }
+  },
+  {
+    "label": "Blue Temporal Flux Crystal",
+    "attributes": {
+      "color": "Glowing deep blue",
+      "type": "Temporal flux crystal"
+    }
+  },
+  {
+    "label": "Green Chronograph Fob",
+    "attributes": {
+      "color": "Patinated green",
+      "type": "Chronograph fob"
+    }
+  },
+  {
+    "label": "Wide Futuristic Chrome Time-Capsule Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Chrome Silver"
+    }
+  },
+  {
+    "label": "Dark Mahogany Alchemy Desk with Arcane Carvings",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Blackened Iron Cauldron (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Cobalt Blue Glass Vial",
+    "attributes": {
+      "color": "Cobalt blue",
+      "type": "Glass vial"
+    }
+  },
+  {
+    "label": "Grey Polished Moonstone",
+    "attributes": {
+      "color": "Pale grey",
+      "type": "Gemstone"
+    }
+  },
+  {
+    "label": "Brown Dried Mushroom Cap",
+    "attributes": {
+      "color": "Earthy brown",
+      "type": "Dried mushroom"
+    }
+  },
+  {
+    "label": "Wide Rough-Hewn Wooden Crate with Carved Runes (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Wood Brown"
+    }
+  },
+  {
+    "label": "Purple Amethyst Crystal",
+    "attributes": {
+      "color": "Deep purple",
+      "type": "Crystal"
+    }
+  },
+  {
+    "label": "Red Wax Seal Stamp",
+    "attributes": {
+      "color": "Dark red",
+      "type": "Wax seal stamp"
+    }
+  },
+  {
+    "label": "Yellow Sulfur Chunk",
+    "attributes": {
+      "color": "Pale yellow",
+      "type": "Mineral chunk"
+    }
+  },
+  {
+    "label": "Rough-Hewn Oak Tavern Table with Ale Stains",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Woven Straw Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Straw Tan"
+    }
+  },
+  {
+    "label": "Brown Wooden Dice",
+    "attributes": {
+      "color": "Warm brown",
+      "type": "Wooden dice"
+    }
+  },
+  {
+    "label": "Silver Coin",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Coin"
+    }
+  },
+  {
+    "label": "Cream Bone Button",
+    "attributes": {
+      "color": "Cream white",
+      "type": "Bone button"
+    }
+  },
+  {
+    "label": "Wide Dark Glazed Terracotta Crock (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Terracotta"
+    }
+  },
+  {
+    "label": "Red Wax Candle Stub",
+    "attributes": {
+      "color": "Dark red",
+      "type": "Candle stub"
+    }
+  },
+  {
+    "label": "Black Iron Key",
+    "attributes": {
+      "color": "Matte black",
+      "type": "Iron key"
+    }
+  },
+  {
+    "label": "Weathered Teak Ship Captain's Map Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Barnacle-Encrusted Wooden Crate (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Wood Brown"
+    }
+  },
+  {
+    "label": "Brass Compass",
+    "attributes": {
+      "color": "Polished brass",
+      "type": "Compass"
+    }
+  },
+  {
+    "label": "Gold Doubloon Coin",
+    "attributes": {
+      "color": "Shiny gold",
+      "type": "Coin"
+    }
+  },
+  {
+    "label": "Brown Cork Stopper",
+    "attributes": {
+      "color": "Tan brown",
+      "type": "Cork stopper"
+    }
+  },
+  {
+    "label": "Wide Deep Tarred Canvas Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Canvas Tan"
+    }
+  },
+  {
+    "label": "Red Sealing Wax Stick",
+    "attributes": {
+      "color": "Deep red",
+      "type": "Sealing wax stick"
+    }
+  },
+  {
+    "label": "Flat Limestone Scribe's Writing Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Fired Clay Bowl with Hieroglyph Markings (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Clay Brown"
+    }
+  },
+  {
+    "label": "Black Reed Pen",
+    "attributes": {
+      "color": "Dark black",
+      "type": "Reed pen"
+    }
+  },
+  {
+    "label": "Turquoise Faience Scarab Amulet",
+    "attributes": {
+      "color": "Turquoise blue",
+      "type": "Scarab amulet"
+    }
+  },
+  {
+    "label": "White Alabaster Ink Cake",
+    "attributes": {
+      "color": "Off-white",
+      "type": "Ink cake"
+    }
+  },
+  {
+    "label": "Wide Deep Woven Papyrus Reed Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Papyrus Tan"
+    }
+  },
+  {
+    "label": "Mossy Flat-Cut Tree Stump Table in Enchanted Forest",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Hollowed-Out Walnut Shell Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Walnut Brown"
+    }
+  },
+  {
+    "label": "Green Emerald Beetle",
+    "attributes": {
+      "color": "Emerald green",
+      "type": "Tiny lantern"
+    }
+  },
+  {
+    "label": "Pink Rose Quartz Pebble",
+    "attributes": {
+      "color": "Pale pink",
+      "type": "Quartz pebble"
+    }
+  },
+  {
+    "label": "Spotted Red Toadstool Cap",
+    "attributes": {
+      "color": "Bright red with white spots",
+      "type": "Mushroom cap"
+    }
+  },
+  {
+    "label": "Deep Rough Birch Bark Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Birch White"
+    }
+  },
+  {
+    "label": "Blue Forget-Me-Not Dried Flower",
+    "attributes": {
+      "color": "Sky blue",
+      "type": "Dried flower"
+    }
+  },
+  {
+    "label": "Brown Pine Cone",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Pine cone"
+    }
+  },
+  {
+    "label": "Amber Resin Drop",
+    "attributes": {
+      "color": "Golden amber",
+      "type": "Resin drop"
+    }
+  },
+  {
+    "label": "Long Black Obsidian Gothic Castle Dining Table",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Dark Wrought-Iron Cauldron (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Dark Iron"
+    }
+  },
+  {
+    "label": "Crimson Red Ruby Ring",
+    "attributes": {
+      "color": "Crimson red",
+      "type": "Glass vial"
+    }
+  },
+  {
+    "label": "Black Onyx Ring",
+    "attributes": {
+      "color": "Matte black",
+      "type": "Ring"
+    }
+  },
+  {
+    "label": "White Bone Skull Miniature",
+    "attributes": {
+      "color": "Ivory white",
+      "type": "Skull miniature"
+    }
+  },
+  {
+    "label": "Deep Pewter Chalice Goblet (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Pewter Grey"
+    }
+  },
+  {
+    "label": "Silver Bat-Wing Pendant",
+    "attributes": {
+      "color": "Tarnished silver",
+      "type": "Pendant"
+    }
+  },
+  {
+    "label": "Purple Dried Nightshade Berry",
+    "attributes": {
+      "color": "Deep purple",
+      "type": "Dried berry"
+    }
+  },
+  {
+    "label": "Heavy Granite Dwarven Forge Workbench",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Blackened Iron Ore Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Grey Iron Ingot",
+    "attributes": {
+      "color": "Metallic grey",
+      "type": "Metal ingot"
+    }
+  },
+  {
+    "label": "Orange Ember Coal Chunk",
+    "attributes": {
+      "color": "Glowing orange",
+      "type": "Coal chunk"
+    }
+  },
+  {
+    "label": "Brown Leather Anvil Strap",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Leather strap"
+    }
+  },
+  {
+    "label": "Wide Wide-Mouthed Stone Mortar Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Stone Grey"
+    }
+  },
+  {
+    "label": "Silver Steel Rivet",
+    "attributes": {
+      "color": "Polished silver",
+      "type": "Steel rivet"
+    }
+  },
+  {
+    "label": "Cluttered Dark Walnut Victorian Writing Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Open-Top Leather Letter Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Leather Brown"
+    }
+  },
+  {
+    "label": "Silver Magnifying Glass",
+    "attributes": {
+      "color": "Polished silver",
+      "type": "Magnifying glass"
+    }
+  },
+  {
+    "label": "Brown Tobacco Pipe",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Tobacco pipe"
+    }
+  },
+  {
+    "label": "Deep Brass-Rimmed Wooden Evidence Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Wood Brown"
+    }
+  },
+  {
+    "label": "Whitewashed Wooden Cottage Kitchen Table with Flower Carvings",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Round Blue-and-White Glazed Ceramic Crock (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Red Strawberry",
+    "attributes": {
+      "color": "Bright red",
+      "type": "Strawberry"
+    }
+  },
+  {
+    "label": "Yellow Honeycomb Piece",
+    "attributes": {
+      "color": "Golden yellow",
+      "type": "Honeycomb"
+    }
+  },
+  {
+    "label": "Pink Rose Petal Bundle",
+    "attributes": {
+      "color": "Soft pink",
+      "type": "Dried rose petals"
+    }
+  },
+  {
+    "label": "Wide Deep Woven Willow Bread Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Willow Beige"
+    }
+  },
+  {
+    "label": "Purple Lavender Sprig",
+    "attributes": {
+      "color": "Soft purple",
+      "type": "Lavender sprig"
+    }
+  },
+  {
+    "label": "Brown Walnut Shell",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Walnut shell"
+    }
+  },
+  {
+    "label": "White Porcelain Thimble",
+    "attributes": {
+      "color": "White",
+      "type": "Thimble"
+    }
+  },
+  {
+    "label": "Worn Green Felt-Top Saloon Card Table",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Tin Spittoon Cup (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Tin Grey"
+    }
+  },
+  {
+    "label": "Red Clay Poker Chip",
+    "attributes": {
+      "color": "Brick red",
+      "type": "Poker chip"
+    }
+  },
+  {
+    "label": "Gold Sheriff's Star Badge",
+    "attributes": {
+      "color": "Burnished gold",
+      "type": "Badge"
+    }
+  },
+  {
+    "label": "Ivory Domino Tile",
+    "attributes": {
+      "color": "Ivory white",
+      "type": "Domino tile"
+    }
+  },
+  {
+    "label": "Deep Battered Leather Saddlebag Pouch (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Leather Brown"
+    }
+  },
+  {
+    "label": "Brown Tobacco Pouch",
+    "attributes": {
+      "color": "Tan brown",
+      "type": "Tobacco pouch"
+    }
+  },
+  {
+    "label": "Silver Bullet Casing",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Bullet casing"
+    }
+  },
+  {
+    "label": "Polished Mahogany Passenger Train Dining Car Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep White Porcelain Bread Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Silver Sugar Cube Tong",
+    "attributes": {
+      "color": "Polished silver",
+      "type": "Sugar tong"
+    }
+  },
+  {
+    "label": "White Cloth Napkin Ring",
+    "attributes": {
+      "color": "White",
+      "type": "Napkin ring"
+    }
+  },
+  {
+    "label": "Orange Marmalade Jar",
+    "attributes": {
+      "color": "Amber orange",
+      "type": "Small jar"
+    }
+  },
+  {
+    "label": "Wide Deep Wicker Picnic Basket Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Natural Wicker"
+    }
+  },
+  {
+    "label": "Brown Leather Ticket Holder",
+    "attributes": {
+      "color": "Tan brown",
+      "type": "Ticket holder"
+    }
+  },
+  {
+    "label": "Modern Tempered Glass Airport Lounge Coffee Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Brushed Aluminium Magazine Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Blue Boarding Pass",
+    "attributes": {
+      "color": "Blue and white",
+      "type": "Boarding pass"
+    }
+  },
+  {
+    "label": "Silver USB Charging Cable",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Charging cable"
+    }
+  },
+  {
+    "label": "Black Wireless Earbud Case",
+    "attributes": {
+      "color": "Matte black",
+      "type": "Earbud case"
+    }
+  },
+  {
+    "label": "Wide Deep Grey Fabric Storage Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Grey"
+    }
+  },
+  {
+    "label": "Compact Laminate RV Motorhome Kitchen Counter",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Stainless Steel Kitchen Pot (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Steel Silver"
+    }
+  },
+  {
+    "label": "Green Travel-Size Dish Soap Bottle",
+    "attributes": {
+      "color": "Lime green",
+      "type": "Soap bottle"
+    }
+  },
+  {
+    "label": "Yellow Sponge",
+    "attributes": {
+      "color": "Bright yellow",
+      "type": "Sponge"
+    }
+  },
+  {
+    "label": "Orange Silicone Spatula",
+    "attributes": {
+      "color": "Burnt orange",
+      "type": "Spatula"
+    }
+  },
+  {
+    "label": "Wide Deep Woven Plastic Storage Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Grey"
+    }
+  },
+  {
+    "label": "Brown Paper Coffee Filter",
+    "attributes": {
+      "color": "Tan brown",
+      "type": "Coffee filter"
+    }
+  },
+  {
+    "label": "White Plastic Measuring Cup",
+    "attributes": {
+      "color": "White",
+      "type": "Measuring cup"
+    }
+  },
+  {
+    "label": "Red Travel Ketchup Packet",
+    "attributes": {
+      "color": "Bright red",
+      "type": "Condiment packet"
+    }
+  },
+  {
+    "label": "Teak-Topped Luxury Yacht Sun Deck Table",
+    "attributes": {}
+  },
+  {
+    "label": "Deep White Ceramic Storage Jar (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Gold Sunscreen Tube",
+    "attributes": {
+      "color": "Metallic gold",
+      "type": "Sunscreen tube"
+    }
+  },
+  {
+    "label": "Navy Blue Aviator Sunglasses",
+    "attributes": {
+      "color": "Navy blue",
+      "type": "Sunglasses"
+    }
+  },
+  {
+    "label": "Coral Pink Lip Balm Stick",
+    "attributes": {
+      "color": "Coral pink",
+      "type": "Lip balm stick"
+    }
+  },
+  {
+    "label": "Deep Polished Stainless Steel Ice Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Steel Silver"
+    }
+  },
+  {
+    "label": "White Rolled Towel",
+    "attributes": {
+      "color": "Crisp white",
+      "type": "Rolled towel"
+    }
+  },
+  {
+    "label": "Turquoise Yacht Key Fob",
+    "attributes": {
+      "color": "Turquoise",
+      "type": "Key fob"
+    }
+  },
+  {
+    "label": "Bolted Steel Submarine Crew Mess Hall Dining Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Olive Drab Metal Mess Kit Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Olive"
+    }
+  },
+  {
+    "label": "Grey Metal Compass",
+    "attributes": {
+      "color": "Gunmetal grey",
+      "type": "Compass"
+    }
+  },
+  {
+    "label": "Green Waterproof Matchbox",
+    "attributes": {
+      "color": "Olive green",
+      "type": "Matchbox"
+    }
+  },
+  {
+    "label": "Brown Leather Dog Tag",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Dog tag"
+    }
+  },
+  {
+    "label": "Wide Deep Riveted Aluminium Storage Tin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Silver"
+    }
+  },
+  {
+    "label": "Black Rubber O-Ring Seal",
+    "attributes": {
+      "color": "Matte black",
+      "type": "O-ring seal"
+    }
+  },
+  {
+    "label": "Fold-Down Walnut Veneer Vintage Train Cabin Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Brass-Edged Velvet Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Brass"
+    }
+  },
+  {
+    "label": "Red Vintage Train Ticket",
+    "attributes": {
+      "color": "Deep red",
+      "type": "Train ticket"
+    }
+  },
+  {
+    "label": "Gold Pocket Watch on Chain",
+    "attributes": {
+      "color": "Antique gold",
+      "type": "Pocket watch"
+    }
+  },
+  {
+    "label": "Brown Leather Travel Journal",
+    "attributes": {
+      "color": "Cognac brown",
+      "type": "Travel journal"
+    }
+  },
+  {
+    "label": "Wide Deep Burgundy Leather Satchel Pocket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Burgundy"
+    }
+  },
+  {
+    "label": "Laminated Formica Ferry Boat Snack Bar Counter",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep White Plastic Counter Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Yellow Bag of Potato Crisps",
+    "attributes": {
+      "color": "Bright yellow",
+      "type": "Snack bag"
+    }
+  },
+  {
+    "label": "Blue Paper Coffee Cup",
+    "attributes": {
+      "color": "Navy blue",
+      "type": "Paper cup"
+    }
+  },
+  {
+    "label": "Red Sauce Sachet",
+    "attributes": {
+      "color": "Bright red",
+      "type": "Condiment sachet"
+    }
+  },
+  {
+    "label": "Wide Deep Red Painted Metal Snack Basket (open-top, no lid, opaque)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Green Mint Chewing Gum Pack",
+    "attributes": {
+      "color": "Spearmint green",
+      "type": "Gum pack"
+    }
+  },
+  {
+    "label": "Brown Wrapped Chocolate Bar",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Chocolate bar"
+    }
+  },
+  {
+    "label": "Orange Wrapped Cheese Cracker",
+    "attributes": {
+      "color": "Orange",
+      "type": "Cracker package"
+    }
+  },
+  {
+    "label": "White Composite Space Station Observation Deck Table with Velcro Strips",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Gray Painted Metal Equipment Tray (open-top, no lid, opaque)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Grey"
+    }
+  },
+  {
+    "label": "Silver Astronaut Pen",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Space pen"
+    }
+  },
+  {
+    "label": "Blue Velcro Cable Tie",
+    "attributes": {
+      "color": "Bright blue",
+      "type": "Velcro cable tie"
+    }
+  },
+  {
+    "label": "Orange Radiation Dosimeter Badge",
+    "attributes": {
+      "color": "Neon orange",
+      "type": "Dosimeter badge"
+    }
+  },
+  {
+    "label": "Wide Deep Matte Grey Modular Storage Pod (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Grey"
+    }
+  },
+  {
+    "label": "White Freeze-Dried Food Packet",
+    "attributes": {
+      "color": "White",
+      "type": "Food packet"
+    }
+  },
+  {
+    "label": "Yellow Microfiber Cloth Wipe",
+    "attributes": {
+      "color": "Pale yellow",
+      "type": "Microfiber cloth"
+    }
+  },
+  {
+    "label": "Compact Laminate Tour Bus Fold-out Tray Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Black Painted Tin Organizer Tray (open-top, no lid, opaque)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Black Guitar Pick",
+    "attributes": {
+      "color": "Matte black",
+      "type": "Guitar pick"
+    }
+  },
+  {
+    "label": "Yellow Foam Ear Plug Pair",
+    "attributes": {
+      "color": "Neon yellow",
+      "type": "Ear plugs"
+    }
+  },
+  {
+    "label": "Red Backstage Pass Wristband",
+    "attributes": {
+      "color": "Bright red",
+      "type": "Wristband"
+    }
+  },
+  {
+    "label": "Wide Deep Worn Cardboard Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Cardboard Brown"
+    }
+  },
+  {
+    "label": "Blue Sharpie Marker",
+    "attributes": {
+      "color": "Cobalt blue",
+      "type": "Marker pen"
+    }
+  },
+  {
+    "label": "Heavy Steel-Framed Cargo Ship Captain's Navigation Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Galvanised Steel Document Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Steel Silver"
+    }
+  },
+  {
+    "label": "Navy Blue Ship's Log Book",
+    "attributes": {
+      "color": "Dark navy blue",
+      "type": "Log book"
+    }
+  },
+  {
+    "label": "Brass Nautical Divider Compass",
+    "attributes": {
+      "color": "Polished brass",
+      "type": "Divider compass"
+    }
+  },
+  {
+    "label": "Red Signal Whistle",
+    "attributes": {
+      "color": "Bright red",
+      "type": "Signal whistle"
+    }
+  },
+  {
+    "label": "Wide Deep Tarred Rope-Wrapped Wooden Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Wood Brown"
+    }
+  },
+  {
+    "label": "Weathered Driftwood Beachside Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Round Woven Seagrass Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Seagrass Beige"
+    }
+  },
+  {
+    "label": "Orange Starfish",
+    "attributes": {
+      "color": "Bright orange",
+      "type": "Starfish"
+    }
+  },
+  {
+    "label": "White Sunscreen Tube",
+    "attributes": {
+      "color": "White",
+      "type": "Sunscreen tube"
+    }
+  },
+  {
+    "label": "Turquoise Flip-Flop Keychain",
+    "attributes": {
+      "color": "Turquoise",
+      "type": "Flip-flop keychain"
+    }
+  },
+  {
+    "label": "Wide Terracotta Clay Pot (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Terracotta"
+    }
+  },
+  {
+    "label": "Pink Seashell",
+    "attributes": {
+      "color": "Pale pink",
+      "type": "Seashell"
+    }
+  },
+  {
+    "label": "Yellow Beach Ball",
+    "attributes": {
+      "color": "Bright yellow",
+      "type": "Miniature beach ball"
+    }
+  },
+  {
+    "label": "Blue Waterproof Pouch",
+    "attributes": {
+      "color": "Navy blue",
+      "type": "Waterproof pouch"
+    }
+  },
+  {
+    "label": "Olive Green Aluminum Folding Camp Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Dark Green Metal Ammo Can (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Dark Green"
+    }
+  },
+  {
+    "label": "Red Pocket Knife",
+    "attributes": {
+      "color": "Red",
+      "type": "Pocket knife"
+    }
+  },
+  {
+    "label": "Tan Mosquito Repellent Spray",
+    "attributes": {
+      "color": "Tan",
+      "type": "Mosquito repellent spray"
+    }
+  },
+  {
+    "label": "Orange Compass",
+    "attributes": {
+      "color": "Bright orange",
+      "type": "Compass"
+    }
+  },
+  {
+    "label": "Wide Brown Wicker Field Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Black Folding Spork",
+    "attributes": {
+      "color": "Matte black",
+      "type": "Folding spork"
+    }
+  },
+  {
+    "label": "Yellow Waterproof Matchbox",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Waterproof matchbox"
+    }
+  },
+  {
+    "label": "Sandy Plywood Portable Dig Sorting Table",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Tan Cardboard Sorting Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Tan"
+    }
+  },
+  {
+    "label": "Brown Ceramic Pottery Shard",
+    "attributes": {
+      "color": "Earthy brown",
+      "type": "Pottery shard"
+    }
+  },
+  {
+    "label": "Silver Archaeological Brush",
+    "attributes": {
+      "color": "Silver and tan",
+      "type": "Archaeological brush"
+    }
+  },
+  {
+    "label": "Green Glass Bead",
+    "attributes": {
+      "color": "Jade green",
+      "type": "Glass bead"
+    }
+  },
+  {
+    "label": "Deep Olive Canvas Field Satchel (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Olive"
+    }
+  },
+  {
+    "label": "White Bone Fragment",
+    "attributes": {
+      "color": "Off-white",
+      "type": "Bone fragment"
+    }
+  },
+  {
+    "label": "Snow-Dusted Rustic Pine Outdoor Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Red Galvanized Metal Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Tan Wool Mitten",
+    "attributes": {
+      "color": "Tan",
+      "type": "Wool mitten"
+    }
+  },
+  {
+    "label": "Silver Hand Warmer Packet",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Hand warmer packet"
+    }
+  },
+  {
+    "label": "Red Pine Cone",
+    "attributes": {
+      "color": "Reddish brown",
+      "type": "Pine cone"
+    }
+  },
+  {
+    "label": "Wide Dark Blue Ceramic Crock (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Dark Blue"
+    }
+  },
+  {
+    "label": "Heavy-Duty Steel Mountain Basecamp Workbench",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Olive Drab Canvas Gear Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Olive"
+    }
+  },
+  {
+    "label": "Gray Carabiner Clip",
+    "attributes": {
+      "color": "Gunmetal gray",
+      "type": "Carabiner clip"
+    }
+  },
+  {
+    "label": "Blue Nylon Webbing Sling",
+    "attributes": {
+      "color": "Royal blue",
+      "type": "Nylon webbing sling"
+    }
+  },
+  {
+    "label": "Black Headlamp",
+    "attributes": {
+      "color": "Matte black",
+      "type": "Headlamp"
+    }
+  },
+  {
+    "label": "Wide Brown Waxed Canvas Tool Crate (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Red Energy Bar Wrapper",
+    "attributes": {
+      "color": "Red",
+      "type": "Energy bar wrapper"
+    }
+  },
+  {
+    "label": "Silver Altitude Gauge",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Altitude gauge"
+    }
+  },
+  {
+    "label": "Yellow Waterproof Tape Roll",
+    "attributes": {
+      "color": "Bright yellow",
+      "type": "Waterproof tape roll"
+    }
+  },
+  {
+    "label": "Weathered Cedar Lakeside Tackle Prep Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Gray Plastic Tackle Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Grey"
+    }
+  },
+  {
+    "label": "Red Apple",
+    "attributes": {
+      "color": "Bright Red",
+      "type": "Apple"
+    }
+  },
+  {
+    "label": "Yellow Banana",
+    "attributes": {
+      "color": "Bright Yellow",
+      "type": "Banana"
+    }
+  },
+  {
+    "label": "Blue Water Bottle",
+    "attributes": {
+      "color": "Sky Blue",
+      "type": "Water Bottle"
+    }
+  },
+  {
+    "label": "Wide Brown Wooden Bait Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "White Towel",
+    "attributes": {
+      "color": "White",
+      "type": "Towel"
+    }
+  },
+  {
+    "label": "Brown Sandwich",
+    "attributes": {
+      "color": "Toasted Brown",
+      "type": "Sandwich"
+    }
+  },
+  {
+    "label": "Khaki Canvas-Covered Safari Camp Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Tan Wicker Safari Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Tan"
+    }
+  },
+  {
+    "label": "Brown Leather Field Journal",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Leather field journal"
+    }
+  },
+  {
+    "label": "Olive Green Binocular Case",
+    "attributes": {
+      "color": "Olive green",
+      "type": "Binocular case"
+    }
+  },
+  {
+    "label": "Yellow Insect Repellent Spray",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Insect repellent spray"
+    }
+  },
+  {
+    "label": "Wide Terracotta Ceramic Safari Crock (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Terracotta"
+    }
+  },
+  {
+    "label": "Gray Folding Map",
+    "attributes": {
+      "color": "Gray",
+      "type": "Folding map"
+    }
+  },
+  {
+    "label": "Flat Gray Limestone Rock Ledge",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Black Rubber Waterproof Gear Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Yellow Caving Helmet",
+    "attributes": {
+      "color": "Bright yellow",
+      "type": "Caving helmet"
+    }
+  },
+  {
+    "label": "White Chalk Bag",
+    "attributes": {
+      "color": "White",
+      "type": "Chalk bag"
+    }
+  },
+  {
+    "label": "Red Rappelling Descender",
+    "attributes": {
+      "color": "Red",
+      "type": "Rappelling descender"
+    }
+  },
+  {
+    "label": "Wide Dark Gray Metal Mess Kit (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Dark Gray"
+    }
+  },
+  {
+    "label": "Mossy Teak Botanical Garden Bench",
+    "attributes": {}
+  },
+  {
+    "label": "Purple Seed Packet",
+    "attributes": {
+      "color": "Purple",
+      "type": "Seed packet"
+    }
+  },
+  {
+    "label": "Green Pruning Shears",
+    "attributes": {
+      "color": "Forest green",
+      "type": "Pruning shears"
+    }
+  },
+  {
+    "label": "Brown Wooden Plant Label Stake",
+    "attributes": {
+      "color": "Light brown",
+      "type": "Plant label stake"
+    }
+  },
+  {
+    "label": "Wide White Glazed Ceramic Planter (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Red Botanical Specimen Tag",
+    "attributes": {
+      "color": "Red",
+      "type": "Botanical specimen tag"
+    }
+  },
+  {
+    "label": "Yellow Dried Wildflower Bunch",
+    "attributes": {
+      "color": "Pale yellow",
+      "type": "Dried wildflower bunch"
+    }
+  },
+  {
+    "label": "Blue Watering Dropper",
+    "attributes": {
+      "color": "Sky blue",
+      "type": "Watering dropper"
+    }
+  },
+  {
+    "label": "Rough-Hewn Log Slice Firepit Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Galvanized Steel Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Steel Silver"
+    }
+  },
+  {
+    "label": "White Marshmallow Bag",
+    "attributes": {
+      "color": "White",
+      "type": "Marshmallow bag"
+    }
+  },
+  {
+    "label": "Brown Roasting Stick",
+    "attributes": {
+      "color": "Natural brown",
+      "type": "Roasting stick"
+    }
+  },
+  {
+    "label": "Red Pocket Flashlight",
+    "attributes": {
+      "color": "Red",
+      "type": "Pocket flashlight"
+    }
+  },
+  {
+    "label": "Wide Dark Green Enamel Camp Pot (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Dark Green"
+    }
+  },
+  {
+    "label": "Orange Bug Spray Can",
+    "attributes": {
+      "color": "Orange",
+      "type": "Bug spray can"
+    }
+  },
+  {
+    "label": "Tan Folded Paper Map",
+    "attributes": {
+      "color": "Tan",
+      "type": "Folded paper map"
+    }
+  },
+  {
+    "label": "Light Pine Knitting and Sewing Craft Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Round Wicker Sewing Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Natural Wicker"
+    }
+  },
+  {
+    "label": "Blue Ball of Yarn",
+    "attributes": {
+      "color": "Sky blue",
+      "type": "Ball of yarn"
+    }
+  },
+  {
+    "label": "Silver Sewing Thimble",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Sewing thimble"
+    }
+  },
+  {
+    "label": "Red Pincushion",
+    "attributes": {
+      "color": "Red",
+      "type": "Pincushion"
+    }
+  },
+  {
+    "label": "Wide Matte Black Ceramic Pencil Crock (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Green Measuring Tape",
+    "attributes": {
+      "color": "Lime green",
+      "type": "Measuring tape"
+    }
+  },
+  {
+    "label": "Black Laminate Photography Darkroom Counter",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Black Plastic Film Development Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Black 35mm Film Canister",
+    "attributes": {
+      "color": "Matte black",
+      "type": "35mm film canister"
+    }
+  },
+  {
+    "label": "Red Darkroom Safe Light Bulb",
+    "attributes": {
+      "color": "Deep red",
+      "type": "Darkroom safe light bulb"
+    }
+  },
+  {
+    "label": "Silver Film Developing Thermometer",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Film developing thermometer"
+    }
+  },
+  {
+    "label": "Wide Gray Rubber Darkroom Chemical Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Grey"
+    }
+  },
+  {
+    "label": "Dark Walnut Music Producer's Studio Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Matte Black Ceramic Desk Organizer (open-top, no lid, opaque)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Black USB Flash Drive",
+    "attributes": {
+      "color": "Matte black",
+      "type": "USB flash drive"
+    }
+  },
+  {
+    "label": "Silver 3.5mm Audio Cable",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "3.5mm audio cable"
+    }
+  },
+  {
+    "label": "Yellow Guitar Pick",
+    "attributes": {
+      "color": "Bright yellow",
+      "type": "Guitar pick"
+    }
+  },
+  {
+    "label": "Wide Brown Leather Desktop Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Red Studio Headphone Adapter",
+    "attributes": {
+      "color": "Red",
+      "type": "Studio headphone adapter"
+    }
+  },
+  {
+    "label": "Green MIDI Cable Clip",
+    "attributes": {
+      "color": "Lime green",
+      "type": "MIDI cable clip"
+    }
+  },
+  {
+    "label": "White Foam Earbud Tip",
+    "attributes": {
+      "color": "White",
+      "type": "Foam earbud tip"
+    }
+  },
+  {
+    "label": "White-Topped Miniature Diorama Building Craft Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Deep White Plastic Hobby Parts Bin (open-top, no lid, opaque)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Green Miniature Tree Armature",
+    "attributes": {
+      "color": "Forest green",
+      "type": "Miniature tree armature"
+    }
+  },
+  {
+    "label": "Gray Miniature Cobblestone Tile",
+    "attributes": {
+      "color": "Gray",
+      "type": "Miniature cobblestone tile"
+    }
+  },
+  {
+    "label": "Brown Hobby Glue Bottle",
+    "attributes": {
+      "color": "Brown",
+      "type": "Hobby glue bottle"
+    }
+  },
+  {
+    "label": "Deep Wooden Diorama Supply Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Wood Brown"
+    }
+  },
+  {
+    "label": "Red Miniature Lamppost",
+    "attributes": {
+      "color": "Red",
+      "type": "Miniature lamppost"
+    }
+  },
+  {
+    "label": "Tan Fine Sand Pouch",
+    "attributes": {
+      "color": "Tan",
+      "type": "Fine sand pouch"
+    }
+  },
+  {
+    "label": "Light Birch Scrapbooking and Origami Craft Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Pink Floral Fabric Craft Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Pink"
+    }
+  },
+  {
+    "label": "Purple Origami Paper Square",
+    "attributes": {
+      "color": "Purple",
+      "type": "Origami paper square"
+    }
+  },
+  {
+    "label": "Gold Adhesive Star Sticker Sheet",
+    "attributes": {
+      "color": "Metallic gold",
+      "type": "Adhesive star sticker sheet"
+    }
+  },
+  {
+    "label": "Red Mini Glue Stick",
+    "attributes": {
+      "color": "Red",
+      "type": "Mini glue stick"
+    }
+  },
+  {
+    "label": "Wide White Ceramic Utensil Crock (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Blue Craft Scissors",
+    "attributes": {
+      "color": "Blue",
+      "type": "Craft scissors"
+    }
+  },
+  {
+    "label": "Dark Gray Metal Ham Radio Operator's Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Black Plastic Electronic Parts Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Silver BNC Antenna Connector",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "BNC antenna connector"
+    }
+  },
+  {
+    "label": "Orange AA Battery",
+    "attributes": {
+      "color": "Orange",
+      "type": "AA battery"
+    }
+  },
+  {
+    "label": "Green Circuit Board Chip",
+    "attributes": {
+      "color": "Green",
+      "type": "Circuit board chip"
+    }
+  },
+  {
+    "label": "Wide Brown Wooden Component Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Dark Navy Velvet-Padded Coin Collector's Display Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Mahogany Wooden Coin Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Mahogany"
+    }
+  },
+  {
+    "label": "Gold Coin",
+    "attributes": {
+      "color": "Bright Gold",
+      "type": "Coin"
+    }
+  },
+  {
+    "label": "Silver Watch",
+    "attributes": {
+      "color": "Silver",
+      "type": "Watch"
+    }
+  },
+  {
+    "label": "Red Pen",
+    "attributes": {
+      "color": "Red",
+      "type": "Pen"
+    }
+  },
+  {
+    "label": "Wide Black Velvet-Lined Jewelry Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Brown Leather Wallet",
+    "attributes": {
+      "color": "Brown",
+      "type": "Leather Wallet"
+    }
+  },
+  {
+    "label": "White Envelope",
+    "attributes": {
+      "color": "White",
+      "type": "Envelope"
+    }
+  },
+  {
+    "label": "Black Eyeglasses",
+    "attributes": {
+      "color": "Black",
+      "type": "Eyeglasses"
+    }
+  },
+  {
+    "label": "White Marble-Top Makeup Artist's Vanity Station",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Rose Gold Metal Makeup Caddy (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Rose Gold"
+    }
+  },
+  {
+    "label": "Pink Blush Brush",
+    "attributes": {
+      "color": "Pink",
+      "type": "Blush brush"
+    }
+  },
+  {
+    "label": "Red Lipstick Tube",
+    "attributes": {
+      "color": "Red",
+      "type": "Lipstick tube"
+    }
+  },
+  {
+    "label": "Gold Eyeliner Pencil",
+    "attributes": {
+      "color": "Metallic gold casing",
+      "type": "Eyeliner pencil"
+    }
+  },
+  {
+    "label": "Deep White Ceramic Vanity Cup (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Black Mascara Wand",
+    "attributes": {
+      "color": "Matte black",
+      "type": "Mascara wand"
+    }
+  },
+  {
+    "label": "Purple Eyeshadow Palette",
+    "attributes": {
+      "color": "Purple",
+      "type": "Eyeshadow palette"
+    }
+  },
+  {
+    "label": "Green Leather-Padded Watchmaker's Repair Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Deep Brass Parts Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Brass"
+    }
+  },
+  {
+    "label": "Silver Watch Crown Stem",
+    "attributes": {
+      "color": "Metallic silver",
+      "type": "Watch crown stem"
+    }
+  },
+  {
+    "label": "Gold Watch Gear Wheel",
+    "attributes": {
+      "color": "Gold",
+      "type": "Watch gear wheel"
+    }
+  },
+  {
+    "label": "Black Watch Spring Coil",
+    "attributes": {
+      "color": "Matte black",
+      "type": "Watch spring coil"
+    }
+  },
+  {
+    "label": "Wide Dark Walnut Wooden Tool Crock (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Walnut Brown"
+    }
+  },
+  {
+    "label": "Red Watch Strap Pin",
+    "attributes": {
+      "color": "Red",
+      "type": "Watch strap pin"
+    }
+  },
+  {
+    "label": "Soil-Stained Potting Bench with Wooden Slat Top",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Terracotta Ceramic Repotting Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Terracotta"
+    }
+  },
+  {
+    "label": "Green Plastic Trowel",
+    "attributes": {
+      "color": "Forest green",
+      "type": "Plastic trowel"
+    }
+  },
+  {
+    "label": "Brown Peat Moss Cube",
+    "attributes": {
+      "color": "Dark brown",
+      "type": "Peat moss cube"
+    }
+  },
+  {
+    "label": "White Calcium Pellet Sachet",
+    "attributes": {
+      "color": "White",
+      "type": "Calcium pellet sachet"
+    }
+  },
+  {
+    "label": "Wide Gray Galvanized Metal Planter (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Grey"
+    }
+  },
+  {
+    "label": "Wooden Gym Locker Room Bench",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Grey Metal Gym Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Grey"
+    }
+  },
+  {
+    "label": "Blue Sports Water Bottle",
+    "attributes": {
+      "color": "Blue",
+      "type": "Sports water bottle"
+    }
+  },
+  {
+    "label": "White Cotton Sweat Towel",
+    "attributes": {
+      "color": "White",
+      "type": "Cotton towel"
+    }
+  },
+  {
+    "label": "Black Combination Padlock",
+    "attributes": {
+      "color": "Black",
+      "type": "Combination padlock"
+    }
+  },
+  {
+    "label": "Wide Brown Wicker Laundry Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Red Foam Resistance Band",
+    "attributes": {
+      "color": "Red",
+      "type": "Foam resistance band"
+    }
+  },
+  {
+    "label": "Yellow Protein Bar Wrapper",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Protein bar wrapper"
+    }
+  },
+  {
+    "label": "Green Silicone Wristband",
+    "attributes": {
+      "color": "Green",
+      "type": "Silicone wristband"
+    }
+  },
+  {
+    "label": "Painted Courtside Player Bench",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Green Canvas Drawstring Bag (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Green"
+    }
+  },
+  {
+    "label": "Yellow Tennis Ball",
+    "attributes": {
+      "color": "Bright yellow",
+      "type": "Tennis ball"
+    }
+  },
+  {
+    "label": "White Sweatband",
+    "attributes": {
+      "color": "White",
+      "type": "Sweatband"
+    }
+  },
+  {
+    "label": "Wide White Ceramic Crate (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Black Overgrip Tape Roll",
+    "attributes": {
+      "color": "Black",
+      "type": "Overgrip tape roll"
+    }
+  },
+  {
+    "label": "Orange Energy Gel Packet",
+    "attributes": {
+      "color": "Orange",
+      "type": "Energy gel packet"
+    }
+  },
+  {
+    "label": "Polished Dark Wood Bar Counter",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Tan Leather Valet Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Tan"
+    }
+  },
+  {
+    "label": "White Golf Ball",
+    "attributes": {
+      "color": "White",
+      "type": "Golf ball"
+    }
+  },
+  {
+    "label": "Golden Golf Ball Marker",
+    "attributes": {
+      "color": "Gold",
+      "type": "Golf ball marker"
+    }
+  },
+  {
+    "label": "Green Scorecard",
+    "attributes": {
+      "color": "Green",
+      "type": "Scorecard"
+    }
+  },
+  {
+    "label": "Deep Dark Brown Wooden Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Dark Brown"
+    }
+  },
+  {
+    "label": "Silver Cocktail Stirrer",
+    "attributes": {
+      "color": "Silver",
+      "type": "Cocktail stirrer"
+    }
+  },
+  {
+    "label": "Rustic Pine Wood Lodge Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Red Enamel Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Brown Wool Mitten",
+    "attributes": {
+      "color": "Brown",
+      "type": "Wool mitten"
+    }
+  },
+  {
+    "label": "White Ski Pass Card",
+    "attributes": {
+      "color": "White",
+      "type": "Ski pass card"
+    }
+  },
+  {
+    "label": "Orange Hot Cocoa Packet",
+    "attributes": {
+      "color": "Orange",
+      "type": "Hot cocoa packet"
+    }
+  },
+  {
+    "label": "Wide Grey Wicker Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Grey"
+    }
+  },
+  {
+    "label": "Long Folding Scorer's Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Orange Plastic Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Orange"
+    }
+  },
+  {
+    "label": "Black Referee Whistle",
+    "attributes": {
+      "color": "Black",
+      "type": "Referee whistle"
+    }
+  },
+  {
+    "label": "Yellow Shot Clock Remote",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Shot clock remote"
+    }
+  },
+  {
+    "label": "Red Penalty Flag",
+    "attributes": {
+      "color": "Red",
+      "type": "Penalty flag"
+    }
+  },
+  {
+    "label": "Wide Navy Blue Canvas Tray (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Navy Blue"
+    }
+  },
+  {
+    "label": "Green Dry-Erase Marker",
+    "attributes": {
+      "color": "Green",
+      "type": "Dry-erase marker"
+    }
+  },
+  {
+    "label": "White Score Clipboard",
+    "attributes": {
+      "color": "White",
+      "type": "Score clipboard"
+    }
+  },
+  {
+    "label": "Silver Stopwatch",
+    "attributes": {
+      "color": "Silver",
+      "type": "Stopwatch"
+    }
+  },
+  {
+    "label": "Laminate Bowling Alley Score Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Black Plastic Scoring Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Red Bowling Pin Eraser",
+    "attributes": {
+      "color": "Red",
+      "type": "Bowling pin eraser"
+    }
+  },
+  {
+    "label": "Yellow Rental Shoe Token",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Rental shoe token"
+    }
+  },
+  {
+    "label": "Deep Beige Ceramic Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Beige"
+    }
+  },
+  {
+    "label": "White Score Sheet",
+    "attributes": {
+      "color": "White",
+      "type": "Score sheet"
+    }
+  },
+  {
+    "label": "Green Hand Sanitizer Bottle",
+    "attributes": {
+      "color": "Green",
+      "type": "Hand sanitizer bottle"
+    }
+  },
+  {
+    "label": "Dark Mahogany Corner Side Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Green Felt-Lined Wooden Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Green"
+    }
+  },
+  {
+    "label": "White Cue Ball",
+    "attributes": {
+      "color": "White",
+      "type": "Cue ball"
+    }
+  },
+  {
+    "label": "Blue Pool Chalk Cube",
+    "attributes": {
+      "color": "Blue",
+      "type": "Pool chalk cube"
+    }
+  },
+  {
+    "label": "Black Eight Ball",
+    "attributes": {
+      "color": "Black",
+      "type": "Eight ball"
+    }
+  },
+  {
+    "label": "Wide Burgundy Ceramic Pot (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Burgundy"
+    }
+  },
+  {
+    "label": "Silver Coin",
+    "attributes": {
+      "color": "Silver",
+      "type": "Coin"
+    }
+  },
+  {
+    "label": "Bamboo Reception Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Natural Rattan Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Natural"
+    }
+  },
+  {
+    "label": "Purple Lavender Sachet",
+    "attributes": {
+      "color": "Purple",
+      "type": "Lavender sachet"
+    }
+  },
+  {
+    "label": "Green Jade Roller",
+    "attributes": {
+      "color": "Green",
+      "type": "Jade roller"
+    }
+  },
+  {
+    "label": "White Tea Light Candle",
+    "attributes": {
+      "color": "White",
+      "type": "Tea light candle"
+    }
+  },
+  {
+    "label": "Steel-Framed Equipment Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Black Metal Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "Red Mouth Guard Case",
+    "attributes": {
+      "color": "Red",
+      "type": "Mouth guard case"
+    }
+  },
+  {
+    "label": "White Hand Wraps Roll",
+    "attributes": {
+      "color": "White",
+      "type": "Hand wraps roll"
+    }
+  },
+  {
+    "label": "Blue Jump Rope Handle",
+    "attributes": {
+      "color": "Blue",
+      "type": "Jump rope handle"
+    }
+  },
+  {
+    "label": "Wide Brown Cardboard Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Brown"
+    }
+  },
+  {
+    "label": "Yellow Resistance Band",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Resistance band"
+    }
+  },
+  {
+    "label": "Grey Training Timer",
+    "attributes": {
+      "color": "Grey",
+      "type": "Training timer"
+    }
+  },
+  {
+    "label": "Orange Rosin Bag",
+    "attributes": {
+      "color": "Orange",
+      "type": "Rosin bag"
+    }
+  },
+  {
+    "label": "Weathered Driftwood Beach Shack Counter",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Turquoise Painted Wooden Crate (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Turquoise"
+    }
+  },
+  {
+    "label": "White Zinc Sunscreen Stick",
+    "attributes": {
+      "color": "White",
+      "type": "Zinc sunscreen stick"
+    }
+  },
+  {
+    "label": "Yellow Surf Wax Bar",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Surf wax bar"
+    }
+  },
+  {
+    "label": "Blue Waterproof Camera",
+    "attributes": {
+      "color": "Blue",
+      "type": "Waterproof camera"
+    }
+  },
+  {
+    "label": "Wide Rope-Handled Wicker Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Natural Wicker"
+    }
+  },
+  {
+    "label": "Orange Coral Keychain",
+    "attributes": {
+      "color": "Orange",
+      "type": "Coral keychain"
+    }
+  },
+  {
+    "label": "Green Aloe Vera Gel Tube",
+    "attributes": {
+      "color": "Green",
+      "type": "Aloe vera gel tube"
+    }
+  },
+  {
+    "label": "Draped White Linen Wedding Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide White Ceramic Trinket Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Silver Calligraphy Pen",
+    "attributes": {
+      "color": "Silver",
+      "type": "Calligraphy pen"
+    }
+  },
+  {
+    "label": "Ivory Dried Rose Petal",
+    "attributes": {
+      "color": "Ivory",
+      "type": "Dried rose petal"
+    }
+  },
+  {
+    "label": "Gold Heart-Shaped Charm",
+    "attributes": {
+      "color": "Gold",
+      "type": "Heart-shaped charm"
+    }
+  },
+  {
+    "label": "Wide Blush Pink Wicker Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Blush Pink"
+    }
+  },
+  {
+    "label": "White Ribbon Bow",
+    "attributes": {
+      "color": "White",
+      "type": "Ribbon bow"
+    }
+  },
+  {
+    "label": "Colorful Plastic Birthday Party Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Red Plastic Party Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Pink Striped Party Hat",
+    "attributes": {
+      "color": "Pink",
+      "type": "Party hat"
+    }
+  },
+  {
+    "label": "Yellow Rubber Duck",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Rubber duck"
+    }
+  },
+  {
+    "label": "Blue Balloon",
+    "attributes": {
+      "color": "Blue",
+      "type": "Balloon"
+    }
+  },
+  {
+    "label": "Wide Purple Wicker Gift Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Purple"
+    }
+  },
+  {
+    "label": "Black Fabric-Draped Halloween Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Orange Jack-O-Lantern Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Orange"
+    }
+  },
+  {
+    "label": "Black Plastic Spider",
+    "attributes": {
+      "color": "Black",
+      "type": "Plastic spider"
+    }
+  },
+  {
+    "label": "Purple Witch Hat Miniature",
+    "attributes": {
+      "color": "Purple",
+      "type": "Witch hat miniature"
+    }
+  },
+  {
+    "label": "Orange Candy Corn",
+    "attributes": {
+      "color": "Orange",
+      "type": "Candy corn"
+    }
+  },
+  {
+    "label": "Wide Dark Grey Cauldron Crate (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Dark Grey"
+    }
+  },
+  {
+    "label": "White Glow-in-Dark Ghost Figure",
+    "attributes": {
+      "color": "White",
+      "type": "Ghost figure"
+    }
+  },
+  {
+    "label": "Green Rubber Frog",
+    "attributes": {
+      "color": "Green",
+      "type": "Rubber frog"
+    }
+  },
+  {
+    "label": "Red Candy Apple",
+    "attributes": {
+      "color": "Red",
+      "type": "Candy apple"
+    }
+  },
+  {
+    "label": "Pine Wood Gift Wrapping Desk",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Red Plaid Cardboard Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Gold Ribbon Spool",
+    "attributes": {
+      "color": "Gold",
+      "type": "Ribbon spool"
+    }
+  },
+  {
+    "label": "Red Gift Tag",
+    "attributes": {
+      "color": "Red",
+      "type": "Gift tag"
+    }
+  },
+  {
+    "label": "Silver Scotch Tape Dispenser",
+    "attributes": {
+      "color": "Silver",
+      "type": "Scotch tape dispenser"
+    }
+  },
+  {
+    "label": "Wide Green Wicker Christmas Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Green"
+    }
+  },
+  {
+    "label": "White Snowflake Sticker Sheet",
+    "attributes": {
+      "color": "White",
+      "type": "Snowflake sticker sheet"
+    }
+  },
+  {
+    "label": "Green Holly Sprig",
+    "attributes": {
+      "color": "Green",
+      "type": "Holly sprig"
+    }
+  },
+  {
+    "label": "Marble Top Cocktail Table",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Gold Metallic Ice Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Gold"
+    }
+  },
+  {
+    "label": "Silver Party Popper",
+    "attributes": {
+      "color": "Silver",
+      "type": "Party popper"
+    }
+  },
+  {
+    "label": "Black Top Hat Ornament",
+    "attributes": {
+      "color": "Black",
+      "type": "Top hat ornament"
+    }
+  },
+  {
+    "label": "Gold Confetti Star",
+    "attributes": {
+      "color": "Gold",
+      "type": "Confetti star"
+    }
+  },
+  {
+    "label": "Deep Black Lacquer Wooden Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "White Champagne Bottle Miniature",
+    "attributes": {
+      "color": "White",
+      "type": "Champagne bottle miniature"
+    }
+  },
+  {
+    "label": "Dark Walnut Thanksgiving Dining Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Terracotta Ceramic Serving Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Terracotta"
+    }
+  },
+  {
+    "label": "Orange Miniature Pumpkin",
+    "attributes": {
+      "color": "Orange",
+      "type": "Miniature pumpkin"
+    }
+  },
+  {
+    "label": "Brown Pine Cone",
+    "attributes": {
+      "color": "Brown",
+      "type": "Pine cone"
+    }
+  },
+  {
+    "label": "Yellow Dried Corn Cob",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Dried corn cob"
+    }
+  },
+  {
+    "label": "Wide Natural Wicker Cornucopia Basket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Natural"
+    }
+  },
+  {
+    "label": "Red Linen Draped Romantic Dinner Table",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Rose-Pink Ceramic Heart Bowl (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Pink"
+    }
+  },
+  {
+    "label": "Red Rose Bud",
+    "attributes": {
+      "color": "Red",
+      "type": "Rose bud"
+    }
+  },
+  {
+    "label": "Silver Ring Box",
+    "attributes": {
+      "color": "Silver",
+      "type": "Ring box"
+    }
+  },
+  {
+    "label": "Pink Heart Chocolate",
+    "attributes": {
+      "color": "Pink",
+      "type": "Heart chocolate"
+    }
+  },
+  {
+    "label": "Deep White Lacquer Wooden Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "White"
+    }
+  },
+  {
+    "label": "Gold Heart-Shaped Locket",
+    "attributes": {
+      "color": "Gold",
+      "type": "Heart-shaped locket"
+    }
+  },
+  {
+    "label": "Purple Lavender Sprig",
+    "attributes": {
+      "color": "Purple",
+      "type": "Lavender sprig"
+    }
+  },
+  {
+    "label": "White Love Note Card",
+    "attributes": {
+      "color": "White",
+      "type": "Love note card"
+    }
+  },
+  {
+    "label": "Painted Plywood Festival Ticket Booth Counter",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Blue Plastic Organizer Bin (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Blue"
+    }
+  },
+  {
+    "label": "Orange Wristband Roll",
+    "attributes": {
+      "color": "Orange",
+      "type": "Wristband roll"
+    }
+  },
+  {
+    "label": "Black Rubber Stamp",
+    "attributes": {
+      "color": "Black",
+      "type": "Rubber stamp"
+    }
+  },
+  {
+    "label": "Yellow Highlighter Pen",
+    "attributes": {
+      "color": "Yellow",
+      "type": "Highlighter pen"
+    }
+  },
+  {
+    "label": "Deep Red Cardboard Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Red"
+    }
+  },
+  {
+    "label": "Green Lanyard",
+    "attributes": {
+      "color": "Green",
+      "type": "Lanyard"
+    }
+  },
+  {
+    "label": "Purple Event Badge",
+    "attributes": {
+      "color": "Purple",
+      "type": "Event badge"
+    }
+  },
+  {
+    "label": "Plastic Folding Vendor Table with Cloth Cover",
+    "attributes": {}
+  },
+  {
+    "label": "Deep Wooden Fruit Bucket (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Wood Brown"
+    }
+  },
+  {
+    "label": "Brass Pocket Watch",
+    "attributes": {
+      "color": "Brass",
+      "type": "Pocket watch"
+    }
+  },
+  {
+    "label": "Turquoise Glass Bead Necklace",
+    "attributes": {
+      "color": "Turquoise",
+      "type": "Glass bead necklace"
+    }
+  },
+  {
+    "label": "Brown Leather Coin Purse",
+    "attributes": {
+      "color": "Brown",
+      "type": "Leather coin purse"
+    }
+  },
+  {
+    "label": "Deep Tin Metal Container (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Tin Grey"
+    }
+  },
+  {
+    "label": "Red Enamel Brooch",
+    "attributes": {
+      "color": "Red",
+      "type": "Enamel brooch"
+    }
+  },
+  {
+    "label": "Velvet-Draped Magician's Stage Prop Table",
+    "attributes": {}
+  },
+  {
+    "label": "Wide Black Lacquered Wooden Box (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 1",
+      "color": "Black"
+    }
+  },
+  {
+    "label": "White Silk Handkerchief",
+    "attributes": {
+      "color": "White",
+      "type": "Silk handkerchief"
+    }
+  },
+  {
+    "label": "Red Sponge Ball",
+    "attributes": {
+      "color": "Red",
+      "type": "Sponge ball"
+    }
+  },
+  {
+    "label": "Gold Magic Coin",
+    "attributes": {
+      "color": "Gold",
+      "type": "Magic coin"
+    }
+  },
+  {
+    "label": "Wide Purple Velvet Lined Crate (open-top, no lid)",
+    "attributes": {
+      "revealed_in": "Phase 2",
+      "color": "Purple"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+
+{
+  "task_id": "DE_V_EGO_STA",
+  "category_id": "L3-PT",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "At the final position, in which direction (using clock positions where 12 o'clock is straight ahead) is the starting point located?: A. 12 o'clock (directly ahead), B. 4-5 o'clock (back-right), C. 7-8 o'clock (back-left), D. 6 o'clock (directly behind)",
+      "answer": "B"
+    }
+  ]
+}

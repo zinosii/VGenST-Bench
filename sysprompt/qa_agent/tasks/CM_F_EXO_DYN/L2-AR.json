@@ -1,0 +1,21 @@
+{
+  "task_id": "CM_F_EXO_DYN",
+  "category_id": "L2-AR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What action does the agent perform in the video?: A. Walks around the console, B. Presses buttons on the console, C. Turns dials on the console, D. Types on a keyboard",
+      "answer": "B"
+    },
+    {
+      "id": "proto_2",
+      "question": "What happens to the pillar on the left after the button on the left is pressed?: A. It illuminates and extends upward, B. It remains completely still, C. It falls over, D. It disappears from view",
+      "answer": "A"
+    },
+    {
+      "id": "proto_3",
+      "question": "What happens to the pillar on the right after the button on the right is pressed?: A. It illuminates and extends upward, B. It remains completely still, C. It falls over, D. It disappears from view",
+      "answer": "A"
+    }
+  ]
+}

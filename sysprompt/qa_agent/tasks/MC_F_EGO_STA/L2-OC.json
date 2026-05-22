@@ -1,0 +1,16 @@
+{
+  "task_id": "MC_F_EGO_STA",
+  "category_id": "L2-OC",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How many containers appear on the surface?: A. 1, B. 2, C. 3, D. 4",
+      "answer": "C"
+    },
+    {
+      "id": "proto_2",
+      "question": "How many containers are empty?: A. 0, B. 1, C. 2, D. 3",
+      "answer": "B"
+    }
+  ]
+}

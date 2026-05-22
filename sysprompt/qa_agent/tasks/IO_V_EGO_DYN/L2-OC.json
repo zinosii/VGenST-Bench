@@ -1,0 +1,21 @@
+{
+  "task_id": "IO_V_EGO_DYN",
+  "category_id": "L2-OC",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How many objects are initially placed on the Coffee Table?: A. 1, B. 2, C. 3, D. 4",
+      "answer": "C"
+    },
+    {
+      "id": "proto_2",
+      "question": "How many objects does the agent pick up and move?: A. 0, B. 1, C. 2, D. 3",
+      "answer": "B"
+    },
+    {
+      "id": "proto_3",
+      "question": "How many objects remain on the Coffee Table at the end of the video?: A. 0, B. 1, C. 2, D. 3",
+      "answer": "C"
+    }
+  ]
+}

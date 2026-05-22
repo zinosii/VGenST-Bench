@@ -1,0 +1,11 @@
+{
+  "task_id": "CI_F_EXO_STA",
+  "category_id": "L2-CM",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How does the camera move throughout the video?: A. It stays fixed at side view, B. It alternates between side view and overhead peeks on each container, C. It rotates 360 degrees around the table, D. It zooms in and out on a single container",
+      "answer": "B"
+    }
+  ]
+}

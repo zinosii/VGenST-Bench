@@ -1,0 +1,16 @@
+{
+  "task_id": "LS_E_EXO_STA",
+  "category_id": "L3-CR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If the camera had flown South instead of North, in which compass direction would the third structure (the final close-up landmark) be located relative to the Camera?: A. North, B. East, C. South, D. West",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "If Concert Hall had appeared to the Southwest of the Clock Tower instead of where it actually appeared, what would be the position of the Skyscraper relative to the Concert Hall?: A. North, B. South, C. Northwest, D. Northeast",
+      "answer": "A"
+    }
+  ]
+}

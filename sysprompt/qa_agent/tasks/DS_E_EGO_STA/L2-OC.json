@@ -1,0 +1,11 @@
+{
+  "task_id": "DS_E_EGO_STA",
+  "category_id": "L2-OC",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How many destination entries are listed on the sign?: A. 1, B. 2, C. 3, D. 4",
+      "answer": "B"
+    }
+  ]
+}

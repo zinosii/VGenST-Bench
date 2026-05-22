@@ -1,0 +1,16 @@
+{
+  "task_id": "LS_E_EXO_STA",
+  "category_id": "L3-PT",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If you were standing on the rooftop of the Clock Tower, in which direction would you look to see the Concert Hall?: A. North, B. South, C. West, D. Southwest",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "If you were standing on the rooftop of the Skyscraper, in which direction Clock Tower and Conert Hall loacted?: A. North, B. South, C. Northwest, D. Northeast",
+      "answer": "B"
+    }
+  ]
+}

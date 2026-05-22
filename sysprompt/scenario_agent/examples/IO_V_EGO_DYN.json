@@ -1,0 +1,20 @@
+[
+    {
+        "reasoning_goal": "The viewer must identify that the Red Ceramic Coffee Mug at the Left position was the single object the Casual Resident picked up and moved to the Side Shelf. The Hardcover Blue Novel (Center) and the Green Apple (Right) remained completely stationary on the Coffee Table throughout the video and must be excluded as distractors.",
+        "timeline": {
+            "(Phase 1 — Establishment)": "Stationary first-person view from a fixed eye-level observer position. The Coffee Table is centered in the foreground, holding three distinct objects in a row: a Red Ceramic Coffee Mug on the Left, a Hardcover Blue Novel in the Center, and a Green Apple on the Right. The Side Shelf is also clearly visible elsewhere in the frame. No agent is present yet; the room is completely still.",
+            "(Phase 2 — Agent Entry)": "The Casual Resident enters the frame from the Left side and walks toward the Coffee Table. The camera remains completely fixed; only the agent moves. All three objects on the Coffee Table remain stationary.",
+            "(Phase 3 — Pick-up)": "The Casual Resident reaches the Coffee Table and picks up the Red Ceramic Coffee Mug from the Left position. The Hardcover Blue Novel (Center) and the Green Apple (Right) are completely undisturbed at their original positions. The pick-up motion is clearly visible with no occlusion of the Red Ceramic Coffee Mug at the moment of contact.",
+            "(Phase 4 — Transport & Place)": "The Casual Resident carries the Red Ceramic Coffee Mug from the Coffee Table to the Side Shelf and places it down clearly visible on its surface. The other two objects on the Coffee Table remain exactly where they were. The camera holds steady on the final state."
+        }
+    },
+    {
+        "reasoning_goal": "The viewer must identify that the Yellow Hardcover Book at the Center position was the single object the Apartment Resident picked up and moved to the Bookshelf. The Black Glass Vase (Left) and the White Pillar Candle (Right) remained completely stationary on the Console Table throughout the video and must be excluded as distractors.",
+        "timeline": {
+            "(Phase 1 — Establishment)": "Stationary first-person view from a fixed eye-level observer position. The Console Table is centered in the foreground, holding three distinct objects in a row: a Black Glass Vase on the Left, a Yellow Hardcover Book in the Center, and a White Pillar Candle on the Right. The Bookshelf is also clearly visible elsewhere in the frame. No agent is present yet; the room is completely still.",
+            "(Phase 2 — Agent Entry)": "The Apartment Resident enters the frame from the Left side and walks toward the Console Table. The camera remains completely fixed; only the agent moves. All three objects on the Console Table remain stationary.",
+            "(Phase 3 — Pick-up)": "The Apartment Resident reaches the Console Table and picks up the Yellow Hardcover Book from the Center position. The Black Glass Vase (Left) and the White Pillar Candle (Right) are completely undisturbed at their original positions. The pick-up motion is clearly visible with no occlusion of the Yellow Hardcover Book at the moment of contact.",
+            "(Phase 4 — Transport & Place)": "The Apartment Resident carries the Yellow Hardcover Book from the Console Table to the Bookshelf and places it down clearly visible on its surface. The other two objects on the Console Table remain exactly where they were. The camera holds steady on the final state."
+        }
+    }
+]

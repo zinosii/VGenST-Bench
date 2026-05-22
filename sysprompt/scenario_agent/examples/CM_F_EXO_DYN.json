@@ -1,0 +1,19 @@
+[
+    {
+        "reasoning_goal": "The viewer must visually confirm that pressing the Left Command Button activates the Left Status Pillar and pressing the Right Command Button activates the Right Status Pillar, establishing a fully functional 1-to-1 causal mapping for both pairs.",
+        "timeline": {
+            "(Phase 1 — Setup)": "Fixed front-facing Exo view at a slightly elevated angle (~30-45 degrees) shows the Starship Pilot standing behind the Main Control Console with hands at rest, not touching any triggers. The Left and Right Command Buttons (background) are unlit, and the Left and Right Status Pillars (foreground) are dark and retracted. All objects are clearly visible and stationary, matching the First Frame Specification exactly.",
+            "(Phase 2 — Action 1)": "The Agent reaches out and presses the Left Command Button (Trigger 1); immediately and synchronously, the Left Status Pillar (Effector 1) illuminates with red light and extends upwards. The Agent retracts their hand to the rest position and pauses briefly to ensure clear separation.",
+            "(Phase 3 — Action 2)": "Then, the Agent presses the Right Command Button (Trigger 2); immediately and synchronously, the Right Status Pillar (Effector 2) illuminates with blue light and extends upwards. The camera remains fixed throughout, keeping all interactions fully in frame. The Agent's hands return to the rest position behind the console. Both Status Pillars remain illuminated and extended (Left Red, Right Blue), providing clear visual confirmation of the final state. The camera holds steady on this static final composition until the video ends."
+        }
+    },
+    {
+        "reasoning_goal": "The viewer must observe the agent pressing the left red switch with no resulting effect, followed by pressing the right blue switch which causes the right prism to spin and light up, thereby deducing that only the right trigger is functional.",
+        "timeline": {
+            "(Phase 1 — Setup)": "Fixed front-facing Exo view at a slightly elevated angle (~30-45 degrees) shows the Cybernetic Hacker standing behind the Matte Black Tech Desk with hands at rest (not touching triggers). Both the Dull Red Switch (background left) and Glowing Blue Switch (background right) are clearly visible, aligned with the Inactive Prism (foreground left) and Active Prism (foreground right). All objects are in their initial inactive state; lighting is stable with no movement.",
+            "(Phase 2 — Action 1)": "Agent reaches out and presses the Dull Red Switch (Trigger 1); the Inactive Prism (Effector 1) remains ABSOLUTELY STATIC with zero light change or movement (Inert Constraint). Agent retracts hand and pauses briefly.",
+            "(Phase 3 — Action 2)": "Agent then presses the Glowing Blue Switch (Trigger 2); the Active Prism (Effector 2) immediately spins and emits bright neon light. Agent holds the interaction briefly then retracts hand, keeping the camera fixed throughout. Camera remains fixed on the scene. The Active Prism (Effector 2) continues spinning and glowing brightly on the right, while the Inactive Prism (Effector 1) remains dark and stationary on the left. Agent's hands return to rest position behind the desk, providing clear visual confirmation of the causal mapping."
+        }
+    }
+
+]

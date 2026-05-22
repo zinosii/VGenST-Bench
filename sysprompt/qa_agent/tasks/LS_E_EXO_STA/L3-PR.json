@@ -1,0 +1,11 @@
+{
+  "task_id": "LS_E_EXO_STA",
+  "category_id": "L3-PR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If the camera continues moving in the same direction beyond the final position, in which compass direction would the Clock Tower be located relative to the Camera?: A. North, B. East, C. South, D. West",
+      "answer": "C"
+    }
+  ]
+}

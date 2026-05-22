@@ -1,0 +1,16 @@
+{
+  "task_id": "DS_E_EGO_STA",
+  "category_id": "L1-OA",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What direction does the arrow next to 'Gates A1-A20' point?: A. Straight, B. Left, C. Right, D. Backwards",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "What direction does the arrow next to 'Customs & Baggage' point?: A. Straight, B. Left, C. Right, D. Backwards",
+      "answer": "B"
+    }
+  ]
+}

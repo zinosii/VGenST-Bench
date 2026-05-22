@@ -1,0 +1,11 @@
+{
+  "task_id": "DS_E_EGO_STA",
+  "category_id": "L2-CM",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How does the camera move throughout the video?: A. It walks straight forward, B. It walks forward then turns left, C. It walks forward then turns right, D. It stays fixed in place",
+      "answer": "A"
+    }
+  ]
+}

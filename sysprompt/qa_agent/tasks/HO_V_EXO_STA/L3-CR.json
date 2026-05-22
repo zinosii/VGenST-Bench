@@ -1,0 +1,11 @@
+{
+  "task_id": "HO_V_EXO_STA",
+  "category_id": "L3-CR",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "If the Potted Succulent and the Ceramic Floor Vase had swapped positions, what is the height ranking of the objects from lowest to highest?: A. Ceramic Floor Vase, Remote Control, Potted Succulent, B. Remote Control, Ceramic Floor Vase, Potted Succulent, C. Potted Succulent, Remote Control, Ceramic Floor Vase, D. Ceramic Floor Vase, Potted Succulent, Remote Control",
+      "answer": "C"
+    }
+  ]
+}

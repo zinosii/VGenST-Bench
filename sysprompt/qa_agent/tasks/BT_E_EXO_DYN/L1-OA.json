@@ -1,0 +1,11 @@
+{
+  "task_id": "BT_E_EXO_DYN",
+  "category_id": "L1-OA",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What is the color of the moving Sedan Car?: A. Red, B. White, C. Blue, D. Yellow",
+      "answer": "C"
+    }
+  ]
+}

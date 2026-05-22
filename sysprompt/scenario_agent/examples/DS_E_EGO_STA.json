@@ -1,0 +1,18 @@
+[
+    {
+        "reasoning_goal": "The viewer must determine that the agent is heading toward 'Gates A1-A20' by observing the agent walks Straight, matching the Straight arrow on the sign for that destination.",
+        "timeline": {
+            "(Setup)": "Static eye-level first-person view from the far end of the International Airport Main Concourse. The directional sign is visible ahead in the distance, hanging from ceiling center. No camera or object motion yet — this frame establishes the environmental scale and starting position.",
+            "(Event)": "Camera begins a smooth, steady forward walk toward the sign. As the camera approaches, the sign text becomes legible: 'Gates A1-A20' with a Straight arrow and 'Customs & Baggage' with a Left arrow. The camera passes directly underneath the sign and continues walking in the Straight direction.",
+            "(Result)": "Camera continues moving steadily in the Straight direction. The sign is now behind and out of frame. The agent's heading matches the Straight arrow for 'Gates A1-A20'. All objects remain completely stationary; only the camera moves until the video ends."
+        }
+    },
+    {
+        "reasoning_goal": "The viewer must determine that the agent is heading toward a destination NOT indicated on the sign by observing the agent walks Straight, which does not match either arrow on the sign.",
+        "timeline": {
+            "(Setup)": "Static eye-level first-person view from the far end of the Ancient Temple Labyrinth. The directional sign is visible ahead in the distance, hanging from temple ceiling by stone brackets. No camera or object motion yet — this frame establishes the environmental scale and starting position.",
+            "(Event)": "Camera begins a smooth, steady forward walk toward the sign. As the camera approaches, the sign text becomes legible: 'Sanctum of Wisdom' with a Right arrow and 'Royal Armory' with a Left arrow. The camera passes directly underneath the sign and continues walking in the Straight direction.",
+            "(Result)": "Camera continues moving steadily in the Straight direction. The sign is now behind and out of frame. The agent's Straight heading does not match either arrow on the sign — the destination is not indicated on the sign. All objects remain completely stationary; only the camera moves until the video ends."
+        }
+    }
+]

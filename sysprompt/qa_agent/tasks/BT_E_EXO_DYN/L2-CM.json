@@ -1,0 +1,11 @@
+{
+  "task_id": "BT_E_EXO_DYN",
+  "category_id": "L2-CM",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How does the camera move throughout the video?: A. Stays completely fixed in one position, B. Tracks the agent from a high angle behind it, C. Rotates around the car in a circle, D. Zooms in and out repeatedly",
+      "answer": "B"
+    }
+  ]
+}

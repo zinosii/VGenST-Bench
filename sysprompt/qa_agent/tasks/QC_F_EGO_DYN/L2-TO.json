@@ -1,0 +1,11 @@
+{
+  "task_id": "QC_F_EGO_DYN",
+  "category_id": "L2-TO",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "In what order does the hand perform the actions?: A. ADD, ADD, B. ADD, REMOVE, ADD, ADD, C. REMOVE, ADD, ADD, ADD, D. ADD, ADD, ADD, REMOVE",
+      "answer": "A"
+    }
+  ]
+}

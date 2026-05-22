@@ -1,0 +1,11 @@
+{
+  "task_id": "BT_E_EXO_DYN",
+  "category_id": "L3-PT",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "From the perspective of an observer standing on the opposite side of the path, facing the moving agent, from which side does the trigger appear?: A. Left, B. Right, C. Front",
+      "answer": "B"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "DE_V_EGO_STA",
+  "category_id": "L1-OA",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "What are the dominant colors of the Canvas Painting?: A. Bold Red and Black, B. Pastel Pink and White, C. Forest Green and Gold, D. Deep Purple and Orange",
+      "answer": "A"
+    },
+    {
+      "id": "proto_2",
+      "question": "What are the dominant colors of the Geometric Sculpture?: A. Matte Bronze and Copper, B. Polished Silver and Blue, C. Warm Brown and Beige, D. Neon Yellow and Pink",
+      "answer": "B"
+    }
+  ]
+}

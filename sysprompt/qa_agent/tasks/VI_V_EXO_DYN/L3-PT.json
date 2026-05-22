@@ -1,0 +1,11 @@
+{
+  "task_id": "VI_V_EXO_DYN",
+  "category_id": "L3-PT",
+  "prototypes": [
+    {
+      "id": "proto_1",
+      "question": "How did the visibility of the Bank Robber from the Security Guard's perspective change between the initial and final views?: A. Occluded to Visible, B. Visible to Occluded, C. Always visible, D. Always occluded",
+      "answer": "B"
+    }
+  ]
+}

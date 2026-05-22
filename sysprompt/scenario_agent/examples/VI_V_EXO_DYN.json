@@ -1,0 +1,26 @@
+[
+    {
+        "reasoning_goal": "Viewers must determine that the Security Guard sees the Bank Robber as Visible initially, and after the Bank Robber moves around the Large Safety Deposit Cabinet, the visibility status changes to Occluded.",
+        "timeline": {
+            "(Phase 1 — Initial State)": "Bird's-eye view of the Bank Vault Room with Large Safety Deposit Cabinet. The Large Safety Deposit Cabinet sits at the center of the scene. The Security Guard (Uniformed guard in dark blue) is at 9 o'clock. The Bank Robber (Man in black ski mask) is at 12 o'clock. From the Security Guard's perspective, the diagonal line of sight bypasses the Large Safety Deposit Cabinet — the Security Guard CAN see the Bank Robber.",
+            "(Phase 2 — Movement)": "The Bank Robber moves from 12 o'clock to 3 o'clock. The Security Guard stays still.",
+            "(Phase 3 — Final Hold)": "The Large Safety Deposit Cabinet remains at the center. The Security Guard is now at 9 o'clock. The Bank Robber is now at 3 o'clock. From the Security Guard's perspective, the direct line of sight is blocked by the Large Safety Deposit Cabinet — the Security Guard CANNOT see the Bank Robber."
+        }
+    },
+    {
+        "reasoning_goal": "Viewers must determine that the Museum Guard sees the Museum Visitor as Occluded initially, and after the Museum Visitor moves around the Massive Marble Pillar, the visibility status changes to Visible.",
+        "timeline": {
+            "(Phase 1 — Initial State)": "Bird's-eye view of the Museum Exhibition Hall with Massive Marble Pillar. The Massive Marble Pillar sits at the center of the scene. The Museum Guard (Guard in maroon blazer) is at 9 o'clock. The Museum Visitor (Woman in yellow dress) is at 3 o'clock. From the Museum Guard's perspective, the direct line of sight is blocked by the Massive Marble Pillar — the Museum Guard CANNOT see the Museum Visitor.",
+            "(Phase 2 — Movement)": "The Museum Visitor moves from 3 o'clock to 6 o'clock. The Museum Guard stays still.",
+            "(Phase 3 — Final Hold)": "The Massive Marble Pillar remains at the center. The Museum Guard is now at 9 o'clock. The Museum Visitor is now at 6 o'clock. From the Museum Guard's perspective, the diagonal line of sight bypasses the Massive Marble Pillar — the Museum Guard CAN see the Museum Visitor."
+        }
+    },
+    {
+        "reasoning_goal": "Viewers must determine that the Casino Security sees the Card Counter as Visible initially, and after the Casino Security moves around the Tall Slot Machine Bank, the visibility status changes to Occluded.",
+        "timeline": {
+            "(Phase 1 — Initial State)": "Bird's-eye view of the Casino Floor with Tall Slot Machine Bank. The Tall Slot Machine Bank sits at the center of the scene. The Casino Security (Guard in black suit with earpiece) is at 9 o'clock. The Card Counter (Man in red polo shirt) is at 12 o'clock. From the Casino Security's perspective, the diagonal line of sight bypasses the Tall Slot Machine Bank — the Casino Security CAN see the Card Counter.",
+            "(Phase 2 — Movement)": "The Casino Security moves from 9 o'clock to 6 o'clock. The Card Counter stays still.",
+            "(Phase 3 — Final Hold)": "The Tall Slot Machine Bank remains at the center. The Casino Security is now at 6 o'clock. The Card Counter is now at 12 o'clock. From the Casino Security's perspective, the direct line of sight is blocked by the Tall Slot Machine Bank — the Casino Security CANNOT see the Card Counter."
+        }
+    }
+]
